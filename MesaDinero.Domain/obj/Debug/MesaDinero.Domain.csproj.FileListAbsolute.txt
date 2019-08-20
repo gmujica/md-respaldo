@@ -1,0 +1,264 @@
+C:\ITSecure\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll
+C:\ITSecure\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.pdb
+C:\ITSecure\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.dll
+C:\ITSecure\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.pdb
+C:\ITSecure\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.csprojResolveAssemblyReference.cache
+C:\ITSecure\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll.config
+C:\ITSecure\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.dll
+C:\ITSecure\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\ITSecure\MesaDinero\MesaDinero.Domain\bin\Debug\JWT.dll
+C:\ITSecure\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.dll
+C:\ITSecure\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.dll
+C:\ITSecure\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.dll
+C:\ITSecure\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.pdb
+C:\ITSecure\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.xml
+C:\ITSecure\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\ITSecure\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.xml
+C:\ITSecure\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll.config
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.pdb
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Domain\bin\Debug\JWT.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.pdb
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.pdb
+G:\Proyecto Mesa de Dinero\Versiones\25-03-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll.config
+G:\Proyecto Mesa de Dinero\Versiones\25-03-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-03-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.pdb
+G:\Proyecto Mesa de Dinero\Versiones\25-03-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-03-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-03-2019\MesaDinero\MesaDinero.Domain\bin\Debug\JWT.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-03-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-03-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-03-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-03-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.pdb
+G:\Proyecto Mesa de Dinero\Versiones\25-03-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-03-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-03-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-03-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-03-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.csprojResolveAssemblyReference.cache
+G:\Proyecto Mesa de Dinero\Versiones\25-03-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-03-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.pdb
+D:\GIT\Proyectos\MesaDinero\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll.config
+D:\GIT\Proyectos\MesaDinero\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll
+D:\GIT\Proyectos\MesaDinero\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.pdb
+D:\GIT\Proyectos\MesaDinero\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.dll
+D:\GIT\Proyectos\MesaDinero\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\GIT\Proyectos\MesaDinero\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\JWT.dll
+D:\GIT\Proyectos\MesaDinero\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.dll
+D:\GIT\Proyectos\MesaDinero\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.dll
+D:\GIT\Proyectos\MesaDinero\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.dll
+D:\GIT\Proyectos\MesaDinero\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.pdb
+D:\GIT\Proyectos\MesaDinero\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.xml
+D:\GIT\Proyectos\MesaDinero\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\GIT\Proyectos\MesaDinero\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.xml
+D:\GIT\Proyectos\MesaDinero\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.xml
+D:\GIT\Proyectos\MesaDinero\lmd\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.csprojResolveAssemblyReference.cache
+D:\GIT\Proyectos\MesaDinero\lmd\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.dll
+D:\GIT\Proyectos\MesaDinero\lmd\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.pdb
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll.config
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.pdb
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\JWT.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.pdb
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.csprojResolveAssemblyReference.cache
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.pdb
+D:\GIT\Proyectos\MesaDinero_final\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll.config
+D:\GIT\Proyectos\MesaDinero_final\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll
+D:\GIT\Proyectos\MesaDinero_final\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.pdb
+D:\GIT\Proyectos\MesaDinero_final\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.dll
+D:\GIT\Proyectos\MesaDinero_final\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\GIT\Proyectos\MesaDinero_final\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\JWT.dll
+D:\GIT\Proyectos\MesaDinero_final\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.dll
+D:\GIT\Proyectos\MesaDinero_final\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.dll
+D:\GIT\Proyectos\MesaDinero_final\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.dll
+D:\GIT\Proyectos\MesaDinero_final\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.pdb
+D:\GIT\Proyectos\MesaDinero_final\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.xml
+D:\GIT\Proyectos\MesaDinero_final\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\GIT\Proyectos\MesaDinero_final\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.xml
+D:\GIT\Proyectos\MesaDinero_final\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.xml
+D:\GIT\Proyectos\MesaDinero_final\lmd\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.csprojResolveAssemblyReference.cache
+D:\GIT\Proyectos\MesaDinero_final\lmd\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.dll
+D:\GIT\Proyectos\MesaDinero_final\lmd\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.pdb
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll.config
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.pdb
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\JWT.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.pdb
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.csprojResolveAssemblyReference.cache
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.pdb
+D:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll.config
+D:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll
+D:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.pdb
+D:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.dll
+D:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\JWT.dll
+D:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.dll
+D:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.dll
+D:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.dll
+D:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.pdb
+D:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.xml
+D:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.xml
+D:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.xml
+D:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.csprojResolveAssemblyReference.cache
+D:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.dll
+D:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.pdb
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll.config
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.pdb
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\JWT.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.pdb
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.csprojResolveAssemblyReference.cache
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.pdb
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\27-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll.config
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\27-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\27-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.pdb
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\27-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.dll
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\27-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\27-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\JWT.dll
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\27-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.dll
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\27-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.dll
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\27-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.dll
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\27-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.pdb
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\27-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.dll.config
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\27-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.xml
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\27-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\27-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.xml
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\27-04-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.xml
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\27-04-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.csprojAssemblyReference.cache
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\27-04-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.csproj.CoreCompileInputs.cache
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\27-04-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.csproj.CopyComplete
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\27-04-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.dll
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\27-04-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.pdb
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\12-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll.config
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\12-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\12-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.pdb
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\12-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.dll
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\12-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\12-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\JWT.dll
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\12-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.dll
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\12-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.dll
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\12-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.dll
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\12-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.pdb
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\12-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.dll.config
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\12-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.xml
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\12-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\12-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.xml
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\12-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.xml
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\12-06-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.csprojAssemblyReference.cache
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\12-06-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.csproj.CoreCompileInputs.cache
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\12-06-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.csproj.CopyComplete
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\12-06-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.dll
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\12-06-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.pdb
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll.config
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.pdb
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\JWT.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.pdb
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.pdb
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\19-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll.config
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\19-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\19-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.pdb
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\19-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.dll
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\19-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\19-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\JWT.dll
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\19-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.dll
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\19-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.dll
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\19-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.dll
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\19-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.pdb
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\19-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.dll.config
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\19-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.xml
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\19-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\19-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.xml
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\19-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.xml
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\19-06-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.csprojAssemblyReference.cache
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\19-06-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.csproj.CoreCompileInputs.cache
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\19-06-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.csproj.CopyComplete
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\19-06-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.dll
+D:\LENGUAJES DE PROGRAMACION\MVC C# KnockoutJS\19-06-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.pdb
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll.config
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.pdb
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\JWT.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.pdb
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.csprojResolveAssemblyReference.cache
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.pdb
+G:\Proyecto Mesa de Dinero\Versiones\22-07-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll.config
+G:\Proyecto Mesa de Dinero\Versiones\22-07-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-07-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Domain.pdb
+G:\Proyecto Mesa de Dinero\Versiones\22-07-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-07-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-07-2019\MesaDinero\MesaDinero.Domain\bin\Debug\JWT.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-07-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-07-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-07-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-07-2019\MesaDinero\MesaDinero.Domain\bin\Debug\MesaDinero.Data.pdb
+G:\Proyecto Mesa de Dinero\Versiones\22-07-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-07-2019\MesaDinero\MesaDinero.Domain\bin\Debug\EntityFramework.SqlServer.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-07-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Newtonsoft.Json.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-07-2019\MesaDinero\MesaDinero.Domain\bin\Debug\Twilio.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-07-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.csprojResolveAssemblyReference.cache
+G:\Proyecto Mesa de Dinero\Versiones\22-07-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-07-2019\MesaDinero\MesaDinero.Domain\obj\Debug\MesaDinero.Domain.pdb

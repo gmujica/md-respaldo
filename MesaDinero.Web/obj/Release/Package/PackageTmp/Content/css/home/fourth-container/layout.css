@@ -1,0 +1,104 @@
+fourth-container {
+	border-bottom: 1px solid #c3c3c3;
+}
+fourth-container > .meta-content {
+	width: 100%;
+	height: 100%;
+	background-color: #f1f1f1;
+	display: grid;
+	grid-template-columns: 1fr 70% 1fr;
+	grid-template-rows: 13.661% 24% repeat(5, 1fr) 12.158%;
+	grid-template-areas:
+		". . ."
+		". logo ."
+		". text-1 ."
+		". text-2 ."
+		". text-3 ."
+		". text-4 ."
+		". btn-1 ."
+		". . .";
+}
+fourth-container .dev-border {
+	border: 1px dotted #000;
+}
+fourth-container > .meta-content > .logo {
+	grid-area: logo;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+fourth-container > .meta-content > .logo > * {
+	background-position-x: center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
+fourth-container > .meta-content > .logo > .fc-logo-1 {
+	background-position: center;
+	background-size: 80%;
+	background-image: url('../../images/fourth-container/fc-logo-1.svg');
+}
+fourth-container > .meta-content > .logo > .fc-logo-2 {
+	background-image: url('../../images/fourth-container/logo.svg');
+}
+fourth-container > .meta-content > .logo > .fc-logo-3 {
+	background-position: center;
+	background-size: 80%;
+	background-image: url('../../images/fourth-container/fc-logo-3.svg');
+}
+fourth-container > .meta-content .text {
+	text-align: center;
+	font-size: 1.55vw;
+	color: #4d4d4d;
+	align-self: center;
+}
+fourth-container > .meta-content > .text-1 {
+	grid-area: text-1;
+	font-size: 2.1vw;
+	color: #000;
+	font-family: 'Helvetica Neue Roman';
+}
+fourth-container > .meta-content > .text-2 {
+	grid-area: text-2;
+}
+fourth-container > .meta-content > .text-3 {
+	grid-area: text-3;
+}
+fourth-container > .meta-content > .text-4 {
+	grid-area: text-4;
+	color: var(--font-blue);
+}
+fourth-container > .meta-content > .btn-1 {
+	grid-area: btn-1;
+	place-self: end center;
+   /* border: 2px solid var(--btn-blue);*/
+    border-radius: .5vw;
+	padding: 1vh 2.5vw 1vh 2.5vw;
+	background-color: var(--btn-blue);
+}
+
+fourth-container > .meta-content > .btn-1 > span {
+	font-family: 'Helvetica Neue Roman';
+    font-size: 1.5vw;
+    color: #fff;
+}
+
+/**/
+fourth-container > .meta-content > .btn-1-l {
+	grid-area: btn-1;
+	place-self: end center;
+   /* border: 2px solid var(--btn-blue);*/
+    border-radius: .5vw;
+	padding: 1vh 2.5vw 1vh 2.5vw;
+	background-color: var(--btn-blue);
+	cursor: pointer;
+}
+
+fourth-container > .meta-content > .btn-1-l > span {
+	font-family: 'Helvetica Neue Roman';
+    font-size: 1.5vw;
+    color: #fff;
+}
+
+fourth-container > .meta-content > .btn-1-l:hover {
+	background-color: #236a94;
+}
+

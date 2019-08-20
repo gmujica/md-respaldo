@@ -1,0 +1,67 @@
+/*Bank List*/
+bank-list {
+	width: 100%;
+	height: 100%;
+}
+.bank-list {
+	width: 100%;
+	height: auto;
+	overflow-y: auto;
+	max-height: 177px;
+}
+.bank-list .bank-list-item {
+	display: grid;
+	column-gap: .5vw;
+	grid-template-columns: 10% 20% 15% repeat(2, 1fr) 3vw;
+	padding-bottom: 1vh;
+	border-bottom: 1px solid #f1f1f1;
+	margin-bottom: 2.5vh;
+	animation: appear-item .5s 1;
+}
+.bank-list .list-col-title {
+	font-size: .7em;
+	color: #666666;
+	padding: 1vh 1vw 1vh 1vw;
+	margin-bottom: 1vh;
+}
+.bank-list .list-col:not(.trash) .list-col-item {
+	color: var(--btn-blue);
+	font-size: .9em;
+	padding: 1vh 1vw 1vh 1vw;
+	font-family: 'Helvetica Neue Roman';
+}
+.bank-list .list-col.trash {
+	display: grid;
+	justify-content: center;
+}
+.bank-list .list-col.trash .list-col-item {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 2.7vh;
+	background-image: url('../../../images/icons/trash-alt-regular.svg');
+	height: 100%;
+	width: 2.7vh;
+	cursor: pointer;
+}
+.bank-list .list-col.bank-icon .list-col-item {
+	background-repeat: no-repeat;
+	background-position: 1vw, center;
+	background-size: 50%;
+	height: 35%;
+}
+.bank-list .list-col.bank-icon.bcp .list-col-item {
+	background-image: url('../../../images/icons/bcp-color.svg');
+}
+.bank-list .list-col.bank-icon.interbank .list-col-item {
+	background-image: url('../../../images/icons/interbank-color.svg');
+}
+.bank-list .list-col.bank-icon.banbif .list-col-item {
+	background-image: url('../../../images/icons/banbif-color.svg');
+}
+.bank-list .list-col.bank-icon.scotiabank .list-col-item {
+	background-image: url('../../../images/icons/scotiabank-color.svg');
+}
+@keyframes appear-item {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}

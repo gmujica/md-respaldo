@@ -1,0 +1,1287 @@
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll.config
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.pdb
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\EntityFramework.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\EPPlus.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Owin.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\System.Web.Http.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\WebGrease.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Twilio.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\JWT.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.pdb
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.pdb
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\EPPlus.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.pdb
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\System.Web.Http.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\EntityFramework.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\Twilio.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\es\System.Web.Helpers.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\es\System.Web.Mvc.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\es\System.Web.Optimization.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\es\System.Web.Razor.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\es\System.Net.Http.Formatting.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.WebHost.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.SqlServer.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Google.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.pdb
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll.config
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.pdb
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\EntityFramework.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\EPPlus.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Owin.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\System.Web.Http.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\WebGrease.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Twilio.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\JWT.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.pdb
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.pdb
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\EPPlus.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.pdb
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\System.Web.Http.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\EntityFramework.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\Twilio.xml
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\es\System.Web.Helpers.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\es\System.Web.Mvc.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\es\System.Web.Optimization.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\es\System.Web.Razor.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\es\System.Net.Http.Formatting.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.WebHost.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.SqlServer.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Google.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.dll
+D:\PROYECTOS\2019\LDM\fuentes\2019_03_07\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.pdb
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll.config
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.pdb
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\EPPlus.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Web.Infrastructure.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\WebGrease.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Twilio.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\JWT.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.pdb
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.pdb
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\EPPlus.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.pdb
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\Twilio.xml
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Helpers.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Mvc.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Optimization.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Razor.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Deployment.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Razor.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\es\System.Net.Http.Formatting.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.WebHost.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.SqlServer.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Google.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.csprojResolveAssemblyReference.cache
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.dll
+G:\Proyecto Mesa de Dinero\Versiones\03-04-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.pdb
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll.config
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.pdb
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\EntityFramework.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\EPPlus.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Web.Infrastructure.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Owin.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.Http.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\WebGrease.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Twilio.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\JWT.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.pdb
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.pdb
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\EPPlus.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.pdb
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.Http.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\EntityFramework.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\Twilio.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\es\System.Web.Helpers.resources.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\es\System.Web.Mvc.resources.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\es\System.Web.Optimization.resources.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\es\System.Web.Razor.resources.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.resources.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Deployment.resources.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Razor.resources.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\es\System.Net.Http.Formatting.resources.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.resources.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.WebHost.resources.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.resources.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.SqlServer.resources.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.resources.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.resources.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Google.resources.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.csprojResolveAssemblyReference.cache
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.pdb
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll.config
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.pdb
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\EntityFramework.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\EPPlus.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Web.Infrastructure.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Owin.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.Http.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\WebGrease.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Twilio.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\JWT.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.pdb
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.pdb
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\EPPlus.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.pdb
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.Http.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\EntityFramework.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\Twilio.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\es\System.Web.Helpers.resources.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\es\System.Web.Mvc.resources.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\es\System.Web.Optimization.resources.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\es\System.Web.Razor.resources.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.resources.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Deployment.resources.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Razor.resources.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\es\System.Net.Http.Formatting.resources.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.resources.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.WebHost.resources.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.resources.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.SqlServer.resources.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.resources.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.resources.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Google.resources.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.csprojResolveAssemblyReference.cache
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.pdb
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll.config
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.pdb
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\EPPlus.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Web.Infrastructure.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\WebGrease.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Twilio.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\JWT.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.pdb
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.pdb
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\EPPlus.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.pdb
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\Twilio.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Helpers.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Mvc.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Optimization.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Razor.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Deployment.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Razor.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\es\System.Net.Http.Formatting.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.WebHost.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.SqlServer.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Google.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.csprojResolveAssemblyReference.cache
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.pdb
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll.config
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.pdb
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\EPPlus.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Web.Infrastructure.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\WebGrease.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Twilio.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\JWT.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.pdb
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.pdb
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\EPPlus.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.pdb
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\Twilio.xml
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Helpers.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Mvc.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Optimization.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Razor.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Deployment.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Razor.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Net.Http.Formatting.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.WebHost.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.SqlServer.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Google.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.csprojResolveAssemblyReference.cache
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.dll
+G:\Proyecto Mesa de Dinero\Versiones\08-05-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.pdb
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll.config
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.pdb
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\EPPlus.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Web.Infrastructure.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\WebGrease.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Twilio.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\JWT.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.pdb
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.pdb
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\EPPlus.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.pdb
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\Twilio.xml
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Helpers.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Mvc.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Optimization.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Razor.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Deployment.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Razor.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Net.Http.Formatting.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.WebHost.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.SqlServer.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Google.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.csprojResolveAssemblyReference.cache
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.dll
+G:\Proyecto Mesa de Dinero\Versiones\10-05-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.pdb
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll.config
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.pdb
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\EPPlus.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Web.Infrastructure.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\WebGrease.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Twilio.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\JWT.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.pdb
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.pdb
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\EPPlus.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.pdb
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\Twilio.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Helpers.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Mvc.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Optimization.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Razor.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Deployment.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Razor.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Net.Http.Formatting.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.WebHost.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.SqlServer.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Google.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.pdb
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.csprojResolveAssemblyReference.cache
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll.config
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.pdb
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\EPPlus.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Web.Infrastructure.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\WebGrease.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Twilio.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\JWT.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.pdb
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.pdb
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\EPPlus.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.pdb
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\Twilio.xml
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Helpers.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Mvc.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Optimization.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Razor.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Deployment.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Razor.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Net.Http.Formatting.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.WebHost.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.SqlServer.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Google.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.dll
+G:\Proyecto Mesa de Dinero\Versiones\22-05-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.pdb
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.csprojResolveAssemblyReference.cache
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll.config
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.pdb
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\EPPlus.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Web.Infrastructure.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\WebGrease.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Twilio.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\JWT.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.pdb
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.pdb
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\EPPlus.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.pdb
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\Twilio.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Helpers.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Mvc.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Optimization.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Razor.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Deployment.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Razor.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Net.Http.Formatting.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.WebHost.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.SqlServer.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Google.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.csprojResolveAssemblyReference.cache
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.pdb
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll.config
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.pdb
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\EPPlus.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Web.Infrastructure.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\WebGrease.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Twilio.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\JWT.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.pdb
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.pdb
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\EPPlus.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.pdb
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\Twilio.xml
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Helpers.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Mvc.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Optimization.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Razor.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Deployment.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Razor.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Net.Http.Formatting.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.WebHost.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.SqlServer.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Google.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.csprojResolveAssemblyReference.cache
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.dll
+G:\Proyecto Mesa de Dinero\Versiones\17-06-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.pdb
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll.config
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.pdb
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\EPPlus.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Owin.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\WebGrease.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Twilio.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\JWT.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.pdb
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.pdb
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\EPPlus.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.pdb
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\Twilio.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Helpers.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Mvc.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Optimization.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Razor.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Net.Http.Formatting.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.WebHost.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.SqlServer.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Google.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.pdb
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll.config
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Web.pdb
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\EPPlus.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Web.Infrastructure.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Owin.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\WebGrease.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Twilio.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\JWT.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Data.pdb
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\MesaDinero.Domain.pdb
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\EPPlus.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Newtonsoft.Json.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Helpers.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Mvc.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Optimization.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Razor.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Deployment.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.WebPages.Razor.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Antlr3.Runtime.pdb
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\System.Net.Http.Formatting.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\System.Web.Http.WebHost.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\EntityFramework.SqlServer.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Core.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Facebook.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Cookies.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.OAuth.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Google.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.Twitter.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\Twilio.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Helpers.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Mvc.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Optimization.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Razor.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Deployment.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.WebPages.Razor.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Net.Http.Formatting.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\es\System.Web.Http.WebHost.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\es\EntityFramework.SqlServer.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Google.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.csprojResolveAssemblyReference.cache
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Web\obj\Release\MesaDinero.Web.pdb

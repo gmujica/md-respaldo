@@ -1,0 +1,483 @@
+﻿
+
+<!-- General -->
+
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/special-counter/special-counter.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/round-button/round-button.css">
+
+<!---                      
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/special-counter/special-counter.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/round-button/round-button.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/registration/register-container/layout.css">
+
+<link rel="stylesheet" type="text/css" href="~/Content/css/registration/person-registration/layout.css">
+
+<link rel="stylesheet" type="text/css" href="~/Content/css/containers/auction_confirmation_box_layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/containers/basic_container_layout.css">
+  -->
+
+<link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/custom-checkbox.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/auction/auction-box/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/horizontal-progress-bar.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/fancy-input.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/user-area-adjustments.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/effects.css"  />
+
+
+
+<link rel="stylesheet" type="text/css" href="~/Content/css/registration/company-registration/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/containers/dashboard_base_layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/registration/bank-registration/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/dashboard-container/bank-form/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/dashboard-container/bank-list/layout.css">
+
+<link href="~/Content/css/ficha-datos.css" rel="stylesheet" />
+
+<link href="~/Content/css/popup.css" rel="stylesheet" />
+
+
+<script src="~/Content/js/select_menu_option.js"></script>
+<script src="~/Content/js/fancy_input_effect.js"></script>
+<script src="~/Content/js/custom_checkbox_effect.js"></script>
+<script src="~/Content/js/close_popup.js"></script>
+<script src="~/Content/js/add_form_effect.js"></script>
+<script src="~/Content/js/remove_bank_account.js"></script>
+<script src="~/Content/js/custom_bank_select.js"></script>
+<style>
+    .dashboard-container-content > .user-area .user-area-content.ex {
+        place-items: center;
+    }
+
+    .user-area {
+        grid-template-columns: 175px 1fr 135px !important;
+    }
+
+    .dashboard-container-content > .user-area .user-area-content .user-area-pipe {
+        justify-self: stretch;
+        align-self: stretch;
+    }
+
+    .remove-form {
+        background-image: url('../content/css/images/icons/trash-alt-regular.svg') !important;
+        width: 14px;
+        height: 14px;
+    }
+</style>
+<!--
+<style>
+    .user-area {
+        grid-template-columns: 175px 1fr 135px !important;
+    }
+
+    .dashboard-container-content > .user-area .bars-icon {
+        background-size: 20%;
+    }
+
+    .horizontal-progress-bar-content > div .little-circle {
+        height: 9px;
+        width: 9px;
+        top: -4.5px;
+        left: 50%;
+    }
+
+    .auction-box-container {
+        width: 900px;
+        display: grid;
+        grid-template-columns: minmax(250px, 1.1fr) minmax(270px, 1.1fr);
+    }
+
+    .expandible-thingy-container {
+        height: 30px;
+    }
+
+    .auction-box-container exchanger-input .label {
+        font-size: 13px;
+    }
+
+    exchanger-input > div:not(.dropdown-menu) {
+        border-radius: 6px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .auction-box-container exchanger-input > div {
+        grid-template-columns: .1fr auto minmax(40px, .5fr) minmax(auto, 120px) !important;
+    }
+
+    .auction-box-container exchanger-input .flags {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        height: 59px;
+    }
+
+    .auction-box-container .partners-list > div {
+        padding: 1.5vh 2vw 1.5vh 2vw !important;
+    }
+
+    .auction-box-container .echange-box-buttons.center {
+        height: 50px;
+    }
+
+    .auction-box-container .input-container {
+        margin-bottom: 25px;
+    }
+
+    .auction-box-container .exchange-box-title {
+        margin-bottom: 8vh;
+        margin-top: 0;
+        top: 0;
+    }
+
+    .auction-box-container exchanger-input input {
+        font-size: 20px;
+        display: block;
+        max-width: 160px;
+    }
+
+    .auction-box-container special-counter {
+        width: 70%;
+        margin: auto;
+    }
+
+    .auction-box-container .partners-list > div div:last-child {
+        text-align: center;
+    }
+
+    exchanger-input.selected {
+        border-color: var(--font-blue);
+    }
+
+    .auction-box-container .partners-list > div {
+        grid-template-columns: auto auto auto;
+    }
+    /*Subasta 2*/
+    .auction-box-container special-counter {
+        margin-bottom: 6vh;
+    }
+
+    .expandible-thingy-container.active {
+        height: 12vh;
+    }
+
+        .expandible-thingy-container.active .exchange-info > div > div:first-child {
+            color: #00baff;
+            font-family: "Helvetica Neue Roman";
+        }
+
+    .auction-box-container .partners-list > div.active {
+        color: #00baff;
+    }
+
+    .auction-box-container .partners-list > div div {
+        font-size: 13px;
+    }
+
+    .expandible-thingy-container.active .exchange-info > div > div,
+    .you-saved.active {
+        color: var(--btn-blue);
+    }
+    /*Subasta 3*/
+    .custom-select-box .icon {
+        background-position-x: right;
+    }
+
+    .auction-confirmation-container .select-area {
+        width: 498px;
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 3px;
+    }
+
+        .auction-confirmation-container .select-area .s-label {
+            grid-row: 1 / 2;
+            color: var(--btn-blue);
+            justify-self: left;
+            font-size: 13px;
+        }
+
+        .auction-confirmation-container .select-area .custom-select-box {
+            grid-row: 2 / 3;
+        }
+
+    .auction-confirmation-container .block-text,
+    .auction-confirmation-container .exchange-board,
+    .auction-confirmation-container .select-area {
+        width: 535px;
+    }
+
+    div.custom-select-box {
+        grid-template-columns: 1fr 20px;
+    }
+
+    .auction-confirmation-container .exchange-board > div:last-child {
+        border-left: 1px solid #b3b3b3;
+    }
+
+    .auction-confirmation-container .exchange-board > div:first-child {
+        border-right: 1px solid #b3b3b3;
+    }
+
+    .auction-confirmation-container .exchange-board {
+        border: 1px solid #b3b3b3;
+    }
+
+        .auction-confirmation-container .exchange-board .rate {
+            font-size: 16px;
+        }
+
+    .bank-form .btn.blue-bordered {
+        height: 100%;
+        width: 100%;
+        justify-self: start;
+        align-self: center;
+    }
+
+        .bank-form .btn.blue-bordered * {
+            font-size: .8em;
+        }
+
+    .bank-form > .sub-title {
+        border-bottom: none !important;
+        background: none;
+        margin-bottom: 40px;
+    }
+
+    .d-label {
+        position: absolute;
+        font-size: 1.1vw;
+        top: -1.3em;
+        left: 2vh;
+        z-index: 1;
+        color: var(--btn-blue);
+    }
+
+    div.custom-select-box li, .custom-select-value {
+        padding-left: 15px;
+    }
+
+    .custom-select-box[value],
+    .custom-select-box.show-options {
+        border-color: var(--font-blue);
+    }
+
+    .fake-placeholder {
+        color: var(--btn-blue) !important;
+    }
+
+    .select-area .custom-select-box.custom-select {
+        font-size: 13px;
+    }
+
+    base-input.selected > div {
+        border: 1px solid var(--font-blue);
+    }
+</style>
+-->
+
+<!--<style>
+    .dashboard-container-content > .user-area .user-area-content.ex {
+        place-items: center;
+    }
+
+    .dashboard-container-content > .user-area .user-area-content .user-area-pipe {
+        justify-self: stretch;
+        align-self: stretch;
+    }
+
+    .user-area {
+        grid-template-columns: 175px 1fr 135px !important;
+    }
+
+    .coloreGris {
+        color: #b3b3b3 !important;
+    }
+
+    .deshabilitarDiv {
+        pointer-events: none;
+    }
+</style>-->
+
+
+
+<div class="content-area" style="grid-template-columns: auto;background-color: #fff;" id="datos_empresa">
+    <div class="register-auction-body register-container" >
+        <div class="main-header-container" >
+            <div class="main-title">Modificar mis datos Empresa</div>
+        </div>
+        <div class="company-block" data-bind="with:$root.empresa">
+            <div class="company-block-content">
+                <div class="new-form">
+                    <fancy-input placeholder="Número RUC">
+                        <div class="fancy-input-content">
+                            <div class="fake-placeholder">Número RUC</div>
+                            <input value="" maxlength="11" data-bind="value:$data.ruc" type="text" disabled>
+                        </div>
+                    </fancy-input>
+                    <fancy-input placeholder="Nombre">
+                        <div class="fancy-input-content">
+                            <div class="fake-placeholder">Nombre</div>
+                            <input value="" maxlength="150" data-bind="value:$data.nombre" type="text" disabled>
+                        </div>
+                    </fancy-input>
+                    <div class="custom-select-wrap">
+                        <select class="custom-select" data-bind="options:$root.lstActividadEconomica,optionsValue:'value',optionsText:'text',optionsCaption:'Actividad Económica',value:$data.actividadEconomica"></select>
+                    </div>
+                    <div class="custom-select-wrap">
+                        <select class="custom-select" data-bind="options:$root.lstOrigenFondos,optionsValue:'value',optionsText:'text',optionsCaption:'Origen de fondos',value:$data.origenFondos"></select>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+        <div class="company-block"  data-bind="with:$root.representanteLegal">
+            <div class="sub-title">Datos del Representante Legal:</div>
+            <div class="company-block-content">
+                <div class="new-form">
+                    <h4 class="sub-title accionista_k_sub_title">Representante Legal</h4>
+                    <div class="nada"></div>
+                    <select class="custom-select" data-bind="options:$root.lstTipoDocumentoPersona,optionsText:'text',optionsValue:'value',optionsCaption:'Tipo de Documento',value:tipoDocumento"></select>
+                    <fancy-input placeholder="N° de Documento">
+                        <div class="fancy-input-content">
+                            <div class="fake-placeholder">N° de Documento</div>
+                            <input data-bind="value:$data.nroDocumento" maxlength="20" type="text" >
+                        </div>
+                    </fancy-input>
+                    <fancy-input placeholder="Nombres">
+                        <div class="fancy-input-content">
+                            <div class="fake-placeholder">Nombres</div>
+                            <input data-bind="value:$data.nombres" maxlength="200" type="text" disabled>
+                        </div>
+                    </fancy-input>
+                    <fancy-input placeholder="Apellido Paterno">
+                        <div class="fancy-input-content">
+                            <div class="fake-placeholder">Apellido Paterno</div>
+                            <input data-bind="value:$data.apePaterno" maxlength="200" type="text" disabled>
+                        </div>
+                    </fancy-input>
+                    <fancy-input placeholder="Apellido Materno">
+                        <div class="fancy-input-content">
+                            <div class="fake-placeholder">Apellido Materno</div>
+                            <input data-bind="value:$data.apeMaterno" maxlength="200" type="text" disabled>
+                        </div>
+                    </fancy-input>
+                    <fancy-input id="person-reg-email" placeholder="E-mail">
+                        <div class="fancy-input-content">
+                            <div class="fake-placeholder">E-mail</div>
+                            <input data-bind="value:$data.email" maxlength="50" type="text">
+                        </div>
+                    </fancy-input>
+                    <div class="btn-round"></div>
+                    <div class="nada"></div>
+                    <div class="remove-form" data-bind="click:$root.removePersonaLegal"></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="company-block">
+            <div class="sub-title">Datos de los accionistas (+ del 25%):</div>
+            <div class="company-block-content">
+
+                <!-- ko foreach:lstAccionistas-->
+                <!-- ko if: $data.estado() == 1  -->
+                <div class="new-form">
+
+                    <h4 class="sub-title accionista_k_sub_title" data-bind="text: 'Accionista N°' + ($index() + 1)"></h4>
+                    <div class="nada"></div>
+
+                    @Html.Partial("_PersonaDatosAccionista")
+
+                    <div class="nada"></div>
+                    <div class="remove-form" data-bind="click:$data.removeAccionista"></div>
+
+                </div>
+                <!-- /ko -->
+                <!-- /ko -->
+                <!-- ko if: lstAccionistas().length <= 3 -->
+               
+                <div class="add-row-btn" data-bind="click:$root.addAccionista">
+                    <div class="btn-text">+ Adicionar</div>
+                </div>
+                <!-- /ko -->
+            </div>
+        </div>
+
+        <div class="company-block">
+            <div class="sub-title">Persona Autorizada</div>
+            <div class="company-block-content">
+              
+                <!-- ko foreach:lstAutorizadas-->
+                <!-- ko if: $data.estado() == 1  -->
+                <div class="new-form">
+
+                    <h4 class="sub-title accionista_k_sub_title" data-bind="text: 'Persona Autorizada N°' + ($index() + 1)"></h4>
+                    <div class="nada"></div>
+
+                    @Html.Partial("_PersonaAutorizada")
+
+                    <div class="nada"></div>
+                    <div class="remove-form" data-bind="click:$data.removeAutorizadas"></div>
+
+                </div>
+                <!-- /ko -->
+                <!-- /ko -->
+            
+                <div class="add-row-btn" data-bind="click:$root.addAutorizadas">
+                    <div class="btn-text">+ Adicionar</div>
+                </div>
+            
+
+
+            </div>
+
+        </div>
+
+        <div class="company-block">
+
+          @*  <div class="fancy-input-content">
+                <div class="btn-center">
+                    <div class="company-btn">
+                        <div class="btn regular" data-bind="click:$root.init">
+                            <span class="btn-text">Cancelar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>*@
+
+
+            <!-- ko if:$root.modoEdicion() == 1  -->
+            <div class="fancy-input-content">
+                <div class="btn-center">
+                    <div class="company-btn">
+                        <div class="btn regular" data-bind="click:$root.modificarEmpresa">
+                            <span class="btn-text">Iniciar Verificacion</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /ko -->
+
+        </div>
+
+
+    </div>
+
+    <div class="register-auction-content">
+        <div class="register-auction-body register-container">
+         
+        </div>
+
+    </div>
+
+</div>
+
+@section Scripts {
+    <!---->
+
+    <script src="~/Content/js/close_popup.js"></script>
+    <script src="~/Scripts/juery-mask/inputmask.js"></script>
+    <script src="~/Scripts/juery-mask/jquery.inputmask.js"></script>
+    <script src="~/Content/js/cliente/ModificarEmpresa.js"></script>
+
+}
+

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MesaDinero.Web", "MesaDinero.Web\MesaDinero.Web.csproj", "{E65F65AB-95EF-4C51-B96E-F603AAA03D28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MesaDinero.Data", "MesaDinero.Data\MesaDinero.Data.csproj", "{695C7699-34B3-4321-AD15-21AE44BFC4FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MesaDinero.Domain", "MesaDinero.Domain\MesaDinero.Domain.csproj", "{1A1EC5F9-B664-429D-9B95-9A34162F32FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MesaDinero.Admin", "MesaDinero.Admin\MesaDinero.Admin.csproj", "{A5A3B50E-38F8-4A9A-9248-F7FFE2CE280A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E65F65AB-95EF-4C51-B96E-F603AAA03D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E65F65AB-95EF-4C51-B96E-F603AAA03D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E65F65AB-95EF-4C51-B96E-F603AAA03D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E65F65AB-95EF-4C51-B96E-F603AAA03D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{695C7699-34B3-4321-AD15-21AE44BFC4FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{695C7699-34B3-4321-AD15-21AE44BFC4FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{695C7699-34B3-4321-AD15-21AE44BFC4FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{695C7699-34B3-4321-AD15-21AE44BFC4FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1EC5F9-B664-429D-9B95-9A34162F32FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1EC5F9-B664-429D-9B95-9A34162F32FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1EC5F9-B664-429D-9B95-9A34162F32FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1EC5F9-B664-429D-9B95-9A34162F32FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5A3B50E-38F8-4A9A-9248-F7FFE2CE280A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5A3B50E-38F8-4A9A-9248-F7FFE2CE280A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5A3B50E-38F8-4A9A-9248-F7FFE2CE280A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5A3B50E-38F8-4A9A-9248-F7FFE2CE280A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,70 @@
+﻿<div class="menu-area">
+
+    @{
+        List<MesaDinero.Domain.Model.MenuAccess> lstMenu = new List<MesaDinero.Domain.Model.MenuAccess>();
+
+        lstMenu = (ViewBag.MenuData as List<MesaDinero.Domain.Model.MenuAccess>);
+
+    }
+
+    <ul class="menu_k" id="menu_k">
+        @foreach (var menu in lstMenu.Where(x => x.ParentMenuId == 0).ToList())
+        {
+
+            if (lstMenu.Any(x => x.ParentMenuId == menu.MenuId))
+            {
+                <li class="menu_option_multiple">
+                    <a class="firts-level menu_mult" onclick="toogleSubMenu('submenu_@menu.MenuId')">
+                        <i class="@menu.Icon"></i>
+                        <span>@menu.Nombre</span>
+                    </a>
+                    <ul class="submenu" id="submenu_@menu.MenuId">
+                        @foreach (var sm in lstMenu.Where(x => x.ParentMenuId == menu.MenuId).ToList())
+                        {
+                            <li class="submenu_option">
+                             
+                                <a href="@sm._routeUrl" id="m_@sm.MenuId">
+                                    @*<i class="@sm.Icon">o</i>*@
+                                    <span> @sm.Nombre </span>
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </li>
+
+            }
+            else
+            {
+                <li class="menu_option_simple">
+                    <a href="@menu." class="firts-level">
+                        <i class="@menu.Icon"></i>
+                        <span>@menu.Nombre</span>
+                    </a>
+                </li>
+
+            }
+        }
+    </ul>
+
+
+    @*<div class="menu-area-option active">
+            <span class="menu-area-option-icon icon-1"></span>
+            <div class="menu-area-option-text">Mis Subastas</div>
+        </div>
+
+        <div class="menu-area-option " onclick="redirectTo('@Url.Action("index","inicio")')">
+            <span class="menu-area-option-icon icon-2"></span>
+            <div class="menu-area-option-text">Mis Operaciones</div>
+        </div>
+
+        <div class="menu-area-option " onclick="redirectTo('@Url.Action("cuentasbancarias", "cliente")')">
+            <span class="menu-area-option-icon icon-3"></span>
+            <div class="menu-area-option-text">Mis cuentas de Banco</div>
+        </div>
+
+        <div class="menu-area-option ">
+            <span class="menu-area-option-icon icon-4"></span>
+            <div class="menu-area-option-text">Legal</div>
+        </div>*@
+</div>
+

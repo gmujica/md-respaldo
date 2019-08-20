@@ -1,0 +1,152 @@
+﻿@model MesaDinero.Domain.Model.RegistroResponse
+
+<link href="~/Content/css/registration/company-registration/layout.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/round-button/round-button.css">
+<dashboard-basic-container>
+    <div >
+        
+        <div class="content-area" style="grid-template-columns: auto;background-color: #fff;">
+            <person-registration>
+                <div class="register-auction-content">
+                    <div class="register-auction-body register-container">
+                        <div class="main-header-container">
+                            <div class="main-title">Empecemos por enviarnos tus datos de tu Empresa</div>
+                            <div class="main-parragraph">
+                                Este proceso es rápido y por única vez, para cumplir con la normativa de
+                                concocer al cliente regulado por la Unidad de Inteligencia Financiera UIF - SBS.
+                            </div>
+                        </div>
+
+                        <div class="company-block">
+                            <div class="company-block-content">
+                                <div class="new-form" data-bind="with:$root.empresa">
+                                    <fancy-input id="person-reg-document" placeholder="Número RUC"><div class="fancy-input-content"><div class="fake-placeholder">Número RUC</div><input @if (!Model.editar) { <text> disabled </text>    } value="" type="text" data-bind="value:ruc" disabled></div></fancy-input>
+                                    <fancy-input id="person-reg-name" placeholder="Nombre"><div class="fancy-input-content"><div class="fake-placeholder">Nombre</div><input @if (!Model.editar) { <text> disabled </text>    } type="text" data-bind="value:nombre"></div></fancy-input>
+
+                                    <fancy-input id="person-reg-document" placeholder="Actividad Económica">
+                                        <div class="fancy-input-content">
+                                            <div class="fake-placeholder">Actividad Económica</div>
+                                            <select class="custom-select" @if (!Model.editar) { <text> disabled </text>    } data-bind="options:$root.lstActividadEconomica,optionsValue:'value',optionsText:'text',optionsCaption:'--Seleccionar--',value:$data.actividadEconomica"></select>
+                                        </div>
+                                    </fancy-input>
+
+                                    <fancy-input id="person-reg-document" placeholder="Origen de fondos">
+                                        <div class="fancy-input-content">
+                                            <div class="fake-placeholder">Origen de fondos</div>
+                                            <select @if (!Model.editar) { <text> disabled </text>   }  class="custom-select" data-bind="options:$root.lstOrigenFondos,optionsValue:'value',optionsText:'text',optionsCaption:'--Seleccionar--',value:$data.origenFondos"></select>
+                                        </div>
+                                    </fancy-input>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="text-align: -webkit-center; padding: 1em;">
+                            <input type="file" class="file-upload" accept=".png, .jpg, .jpeg, .pdf" style="display: none;" id="file" @if (!Model.editar) { <text> disabled </text>      } />
+                            <round-button class="btn-round document" text-content="Ad. Ficha RUC" onclick="document.getElementById('file').click();">
+                                <div class="round-button-content" style="width: 200px;">
+                                    <div class="btn-icon"></div>
+                                    <div class="btn-text">Ad. Ficha RUC</div>
+                                </div>
+                            </round-button>
+                            <!-- ko if:$root.rucDescargar() !=""  -->
+
+                            <a style="color:#004484;margin-top:5px;" data-bind="attr: { 'href': '@Url.Action("Descargar", "Registro")?ruc=' + rucDescargar() }" target="_blank">
+
+                                <span data-bind="text:$root.rucDescargar"></span>
+                            </a>
+                            <!-- /ko -->
+                        </div>
+
+                        <div class="company-block">
+                            <div class="sub-title">Ubicación :</div>
+                            <div class="company-block-content">
+                                <div data-bind="with:$root.empresa">
+
+
+                                    <fancy-input id="person-reg-document" placeholder="">
+                                        <div class="fancy-input-content">
+                                            <div class="fake-placeholder">País</div>
+                                            <select @if (!Model.editar) { <text> disabled </text>    } class="custom-select k-choseen" id="combo_pais" data-bind="options:$root.lstPaises,optionsText:'text',optionsValue:'value',optionsCaption:'--Seleccionar--',value:$data.pais"></select>
+                                        </div>
+                                    </fancy-input>
+
+
+                                    <fancy-input id="person-reg-document" placeholder="">
+                                        <div class="fancy-input-content">
+                                            <div class="fake-placeholder">Departamento</div>
+                                            <select @if (!Model.editar) { <text> disabled </text>    } class="custom-select k-choseen" id="combo_departamento" data-bind="options:$data.lstaDepartamento,optionsText:'text',optionsValue:'value',optionsCaption:'--Seleccionar--',value:$data.departamento"></select>
+                                        </div>
+                                    </fancy-input>
+
+                                    <fancy-input id="person-reg-document" placeholder="">
+                                        <div class="fancy-input-content">
+                                            <div class="fake-placeholder">Provincia</div>
+                                            <select @if (!Model.editar) { <text> disabled </text>    } class="custom-select k-choseen" id="combo_provincia" data-bind="options:$data.lstProvincia,optionsText:'text',optionsValue:'value',optionsCaption:'--Seleccionar--',value:$data.provincia"></select>
+                                        </div>
+                                    </fancy-input>
+
+                                    <fancy-input id="person-reg-document" placeholder="">
+                                        <div class="fancy-input-content">
+                                            <div class="fake-placeholder">Distrito</div>
+                                            <select @if (!Model.editar) { <text> disabled </text>    } class="custom-select k-choseen" id="combo_deistrito" data-bind="options:$data.lstDistrito,optionsText:'text',optionsValue:'value',optionsCaption:'--Seleccionar--',value:$data.distrito"></select>
+                                        </div>
+                                    </fancy-input>
+
+                                    <fancy-input id="person-reg-address" placeholder="Dirección"><div class="fancy-input-content"><div class="fake-placeholder">Dirección</div><input value="" @if (!Model.editar) { <text> disabled </text>    } type="text" data-bind="value:$data.direccion"></div></fancy-input>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="company-block">
+                            <div class="sub-title">Datos del Representante Legal:</div>
+                            <div class="company-block-content">
+                                <div data-bind="with:$root.representanteLegal">
+                                    @Html.Partial("_PersonaDatosSimplePartial","")
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="company-block">
+                            <div class="sub-title">Datos de los accionistas (+ del 25%):</div>
+                            <div class="company-block-content">
+                                <!-- ko foreach:lstAccionistas-->
+                                <div class="new-form">
+                                    <h4 class="sub-title accionista_k_sub_title" data-bind="text: 'Accionista N°' + ($index() + 1)"></h4>
+                                    <div class="nada"></div>
+                                    @Html.Partial("_PersonaDatosSimplePartialAccionista", "")
+                                    @*Html.Partial("_PersonaDatosSimplePartial", "")*@
+                                    <div class="nada"></div>
+                                    @if (Model.editar)
+                                    {
+                                    <div class="remove-form" data-bind="click:$data.removeAccionista"></div>     
+                                    }
+                                   
+                                </div>
+                                <!-- /ko -->
+                                @if (Model.editar) { 
+                                <!-- ko if:lstAccionistas().length <= 3 -->
+                                <div class="add-row-btn" data-bind="click:$root.addAccionista">
+                                    <div class="btn-text">+ Adicionar</div>
+                                </div>
+                                <!-- /ko -->
+                                }
+                            </div>
+                        </div>
+                        @if(Model.editar)
+                        {
+                            <div class="btn-center" data-bind="click:$root.saveDatosBancarios">
+                            <div class="company-btn">
+                                <div class="btn regular">
+                                    <span class="btn-text">Continuar</span>
+                                </div>
+                            </div>
+                        </div>
+                        }
+                        
+
+                    </div>
+                </div>
+            </person-registration>
+        </div>
+     </div>
+</dashboard-basic-container>

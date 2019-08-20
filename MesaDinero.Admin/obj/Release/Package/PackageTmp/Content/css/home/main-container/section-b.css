@@ -1,0 +1,67 @@
+meta-section-b {
+	position: relative;
+}
+meta-section-b  > div {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: grid;
+	position: absolute;
+	grid-template-rows: 1fr 6% 1fr .4fr 1fr .4fr 1fr;
+	grid-template-columns: 15% 1fr 6% 1fr 15%;
+	grid-template-areas:
+		". title title title ."
+		". . . . ."
+		"combo1 combo1 combo1 combo1 combo1"
+		". . . . ."
+		"combo2 combo2 combo2 combo2 combo2"
+		". . . . ."
+		"btn1 btn1 . btn2 btn2";
+}
+meta-section-b  > div > * {
+	color: #fff;
+}
+.title {
+	grid-area: title;
+	font-size: 2vw;
+	font-family: 'Helvetica Neue Roman';
+	place-self: start center;
+}
+.combo1 {
+	grid-area: combo1;
+}
+.combo2 {
+	grid-area: combo2;
+}
+.combo2 .icon {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto 45%;
+	background-image: url('../../images/icons/lock.svg');
+}
+.btn1 {
+	grid-area: btn1;
+	align-self: end;
+	border-radius: .3vw;
+	padding: 1.7vh 0 1.7vh 0;
+	background-color: var(--btn-blue);
+}
+.btn2 {
+	grid-area: btn2;
+	align-self: end;
+	border-radius: .3vw;
+	padding: 1.7vh 0 1.7vh 0;
+	background-color: var(--main-orange);
+}
+.sect-b-btn {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr;
+}
+.sect-b-btn > span {
+	place-self: center center;
+	font-family: 'Helvetica Neue Roman';
+	font-size: 1.5vw;
+	color: #fff;
+}

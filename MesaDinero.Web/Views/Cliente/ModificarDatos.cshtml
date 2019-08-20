@@ -1,0 +1,38 @@
+﻿@model MesaDinero.Domain.Model.ModificaionClienteResponse
+
+@{
+
+    ViewBag.Title = "Mis Datos";
+}
+
+@section Styles {
+    <link rel="stylesheet" type="text/css" href="~/Content/css/components/special-counter/special-counter.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/registration/register-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/registration/person-registration/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/containers/auction_confirmation_box_layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/containers/complex_container_layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/custom-checkbox.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/fancy-input.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/user-area-adjustments.css">
+    <link href="~/Content/css/chosen/chosen.min.css" rel="stylesheet" />
+}
+
+
+@if (Model.tipoCliente == 1)
+{
+    <link rel="stylesheet" type="text/css" href="~/Content/css/registration/person-registration/layout.css">
+    @Html.Partial("_EditPersonaDAtosPartial",Model);
+    
+    @section Scripts {
+    <script src="~/Content/js/cliente/ModificarDatos_persona.js"></script>
+  
+    }
+}
+else
+{
+    @*@Html.Partial("_EmpresaDatosPartial", Model);*@
+    
+}
+
+

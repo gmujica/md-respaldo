@@ -1,0 +1,49 @@
+﻿@{    Layout = null;    }
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>La Mesa de Dinero | @ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width">
+    <!-- General -->
+
+    <link rel="stylesheet" type="text/css" href="~/Content/css/general.css">
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <!-- Formas -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/form-base-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/components/form-base-container/base-input/layout.css">
+    <!-- Registración - Base -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/components/special-counter/special-counter.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/registration/register-container/layout.css">
+    <!-- Containers -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/containers/auction_confirmation_box_layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/containers/basic_container_layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/containers/complex_container_layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/containers/dashboard_base_layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/toastr.css">
+</head>
+<body>
+    <div class="loading-spiner-holder" style="display:none;"></div>
+    @RenderBody()
+
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/chosen.jquery.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/knockout-3.4.0.js"></script>
+    <script src="~/Scripts/knockout.validation.js"></script>
+    <script src="~/Content/js/global.js"></script>
+    <script src="~/Content/js/app.js"></script>
+    <script src="~/Content/js/toastr.js"></script>
+    <script type="text/javascript">
+        var urlApp = '@Url.Content("~")';
+        var urlApi = '@Url.Content("~")' + "api/";
+        toastr.options = { "progressBar": false, "positionClass": "toast-bottom-right", "closeButton": true, "showMethod": "slideDown" }
+        function redirectTo(url) {
+            window.location.href = url;
+        }
+    </script>
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>
+

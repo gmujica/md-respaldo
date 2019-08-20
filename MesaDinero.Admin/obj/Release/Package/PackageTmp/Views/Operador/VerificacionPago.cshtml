@@ -1,0 +1,211 @@
+﻿@{
+
+}
+<link rel="stylesheet" type="text/css" href="~/Content/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/form-base-container/base-input/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/custom-checkbox.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/auction/auction-box/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/horizontal-progress-bar.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/dashboard-container/bank-form/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/dashboard-container/bank-list/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/router/treasury_layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/user-area-adjustments.css">
+
+
+
+<!-- Containers PopUp -->
+@*<link rel="stylesheet" type="text/css" href="~/Content/css/containers/basic_container_layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/containers/complex_container_layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/containers/dashboard_base_layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/registration/verification-container/layout.css">*@
+
+<link rel="stylesheet" type="text/css" href="~/Content/css/popup.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/containers/auction_confirmation_box_layout.css">
+
+<style>
+    .popup-content {
+        width: 650px;
+    }
+
+    .main-title {
+        text-align: center;
+        max-width: 100vw;
+    }
+
+    .auction-confirmation-container .select-area {
+        width: 498px;
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 3px;
+    }
+
+        .auction-confirmation-container .select-area .s-label {
+            grid-row: 1 / 2;
+            color: var(--btn-blue);
+            justify-self: left;
+            font-size: 13px;
+        }
+
+        .auction-confirmation-container .select-area .custom-select-box {
+            grid-row: 2 / 3;
+        }
+
+    .auction-confirmation-container .block-text,
+    .auction-confirmation-container .exchange-board,
+    .auction-confirmation-container .select-area {
+        width: 535px;
+    }
+
+    .select-area div.custom-select-box > .custom-select-icon {
+        background: none !important;
+    }
+
+    .auction-confirmation-container .select-area {
+        margin: 0 auto 5vh auto;
+    }
+
+    .select-area .custom-select-box.custom-select {
+        font-size: 13px;
+    }
+</style>
+
+<!--Instruccion de Pago-->
+@Html.Partial("_InstruccionPago")
+<!---->
+
+
+<div class="content-area">
+    <div class="complex-dashboard-content">
+        @*<div class="dashboard-tabs" style="grid-template-columns: 1fr 1fr 1fr 1fr 1fr;">
+
+            <div><a href="@Url.Action("OperacionesConfirmadas", "Operador")">Operaciones Confirmadas</a></div>
+            <div class="active"><a href="@Url.Action("VerificacionPago", "Operador")">Verificación de Pago</a></div>
+            <div><a href="@Url.Action("GenerarPagos", "Operador")">Generar Pagos</a></div>
+            <div><a href="@Url.Action("Index", "APartners")">Adjudicación Partners</a></div>
+        </div>*@
+        <div class="list-container">
+            <div class="operations operations-g">
+                <div class="main-header-container">
+                    <div class="main-title">Verificacion de Pago</div>
+                    <div class="main-parragraph" data-bind="text:$root.fechaSistema">
+
+                        @*<span data-bind="text:$root.fechaSistema"></span>*@
+                    </div>
+                </div>
+            </div>
+            <div class="treasury treasury-b">
+                <dashboard-list>
+                    <div style="text-align: center;" data-bind="with:$root.lstVerificarPagos">
+
+                        <table class="k-table k-thover k-trow-pointer">
+                            <thead class="k-thead">
+                                <tr class="k-throw">
+                                    <th>
+                                        <label class="k-content-radio">
+                                            <input type="checkbox" id="idcheckgeneral" data-bind="event:{change :$root.checkearAll}" />
+                                            <div class="k-radioButtom-icon"></div>
+                                        </label>
+                                    </th>
+                                    <th>ID Transacción&nbsp;</th>
+                                    <th>Fecha Conf.&nbsp;</th>
+                                    <th>Hora.</th>
+                                    <th>Tipo Operación.</th>
+                                    <th>Cliente</th>
+                                    <th>Acción&nbsp;</th>
+                                    <th>Moneda&nbsp;</th>
+                                    <th>Monto</th>
+                                    <th>B. Origen</th>
+                                    <th>Cuentas Origen</th>
+                                    <th>ID Conf</th>
+                                    @*<th>Validación LMD</th>*@
+                                    @*<th>Val. Fideicomiso</th>*@
+                                </tr>
+
+                            </thead>
+                            <tbody class="k-tbody" data-bind="foreach:$data.datasource">
+                                <tr data-bind="event:{dblclick :$root.openModal}">
+                                    <td style="width:30px;">
+
+                                        <label class="k-content-radio">
+                                            <input type="checkbox" name="acepto_terminos" data-bind="checked:$data.checkPago" />
+                                            <div class="k-radioButtom-icon"></div>
+                                        </label>
+
+                                    </td>
+                                    <td><span data-bind="text:$data.formatoTransaccion"></span></td>
+
+                                    <td><span data-bind="text:$data.fechaShort"></span></td>
+                                    <td><span data-bind="text:$data.hora"></span></td>
+                                    <td><span data-bind="text:$data.tipoOperacion"></span></td>
+                                    <td><span data-bind="text:$data.usuario"></span></td>
+                                    <td><span data-bind="text:$data.accion"></span></td>
+                                    <td><span data-bind="text:$data.tipoMoneda"></span></td>
+                                    <td><span data-bind="text:$data.monto"></span></td>
+                                    <td><span data-bind="text:$data.bancoOrigen"></span></td>
+                                    <td><span data-bind="text:$data.cuentaOrigen"></span></td>
+                                    <td><span data-bind="text:$data.nroOperacionPago" style="margin-left:4px"></span></td>
+                                
+                                </tr>
+                            </tbody>
+                        </table>
+                        @Html.Partial("_Pagination")
+
+                        @*<div class="headers" style="grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;">
+                                <div class="header-i empty"></div>
+                                <div class="header-i normal">ID Transacción</div>
+                                <div class="header-i normal">Fecha Conf.</div>
+                                <div class="header-i normal">Hora.</div>
+                                <div class="header-i normal">Tipo Operación.</div>
+                                <div class="header-i normal">Cliente</div>
+                                <div class="header-i normal">Acción</div>
+                                <div class="header-i normal">Moneda</div>
+                                <div class="header-i normal">Monto</div>
+                                <div class="header-i normal">B. Origen</div>
+                                <div class="header-i normal">Cuentas Origen</div>
+                                <div class="header-i normal">ID Conf</div>
+                            </div>
+                            <div class="items">
+                                <div style="grid-template-columns: repeat(12, 1fr)" class="list-i">
+                                    <div class="other">
+                                        <custom-checkbox class="chx-1" text-content="void">
+                                            <div class="custom-checkbox-content inactive">
+                                                <div class="custom-checkbox-icon"></div>
+                                                <div class="custom-checkbox-text">void</div>
+                                            </div>
+                                        </custom-checkbox>
+                                    </div>
+                                    <div class="normal">xxx</div>
+                                    <div class="normal">xxx</div>
+                                    <div class="normal">xxx</div>
+                                    <div class="normal">xxx</div>
+                                    <div class="normal">xxx</div>
+                                    <div class="normal">xxx</div>
+                                    <div class="normal">xxx</div>
+                                    <div class="normal">xxx</div>
+                                    <div class="normal">xxx</div>
+                                    <div class="normal">-</div>
+                                    <div class="normal">-</div>
+                                </div>
+
+                            </div>*@
+                    </div>
+                </dashboard-list>
+                <div class="button-row">
+
+                    <div class="btn regular" data-bind="click:$root.verificarOperacion"><span class="btn-text">Verificado</span></div>
+                    <div class="btn blue-bordered" data-bind="click:$root.observarOperacion"><span class="btn-text">No Encontrado</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+
+    <!--Modal-->
+    <script src="~/Content/js/select_menu_option.js"></script>
+    <script src="~/Content/js/close_popup.js"></script>
+    <!---->
+    <script src="~/Content/js/app/OperacionVerificar.js"></script>
+}

@@ -1,0 +1,45 @@
+main-container {
+	background-color: var(--main-blue);
+	background-image: url('../../images/icons/background-24.svg');
+	background-size: cover;
+	background-position-x: right;
+	background-position-y: bottom;
+	background-repeat: no-repeat;
+	display: block;
+}
+main-container > .meta-content {
+	height: 100%;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 8.32% 13.103% 3% 18.891% 10% 32.409% 8.32%;
+	grid-template-rows: 12.220% 5.982% 50.893% 8.875% 7.692% 9.911% 2.2%;
+	grid-template-areas:
+		". logo . options options options ."
+		". . . . . . ."
+		". sect-a sect-a sect-a . sect-b ."
+		". sect-a sect-a sect-a . . ."
+		". . . . . . ."
+		". footer footer footer footer footer ."
+		". . . . . . .";
+}
+main-container > .meta-content > * {
+	place-self: stretch stretch;
+}
+.logo {
+	grid-area: logo;
+}
+.options {
+	grid-area: options;
+}
+.sect-a {
+	grid-area: sect-a;
+}
+.sect-b {
+	grid-area: sect-b;
+}
+.footer {
+	grid-area: footer;
+}
+.dev-border {
+	border: 1px dotted white;
+}

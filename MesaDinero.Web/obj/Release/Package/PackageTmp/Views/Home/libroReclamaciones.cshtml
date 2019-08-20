@@ -1,0 +1,348 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/general.css">
+    <!-- 1ra Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/logo.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/options.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/section-a.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/section-b.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/exchanger-input.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/footer.css">
+    <!-- 2da Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/second-container/layout.css">
+    <!-- 3ra Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/third-container/layout.css">
+    <!-- 4ra Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/fourth-container/layout.css">
+    <!-- 5ta Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/fifth-container/layout.css">
+    <!-- 6ta Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/sixth-container/layout.css">
+    <!-- 7ma Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/seventh-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/seventh-container/contact-area.css">
+    <!--Extra container-->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/extra-container/layout.css">
+    <!-- 8va Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/eighth-container/layout.css">
+    <!-- 9na Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/ninth-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/ninth-container/footer-menu.css">
+    <!--Quienes Somos-->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/quienes-somos/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/corfid/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/user-area-adjustments.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/auction/auction-box/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/terminos/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/fancy-input.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/custom-checkbox.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/registration/person-registration/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/ficha-datos.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/effects.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/libro-reclamaciones/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/app.css" />
+    <!-- custom select 1 (exchange soles) -->
+    <script src="~/Content/js/custom_select.js"></script>
+    <script src="~/Content/js/fancy_input_effect.js"></script>
+    <script src="~/Content/js/custom_checkbox_effect.js"></script>
+    <style>
+        /*.btn-enviar {
+                background-color: #e2932b !important;
+                color: #fff;
+                justify-self: center;
+                align-self: center;
+                width: 300px;
+                height: 45px;
+            }*/
+
+        a { 
+            text-decoration: none;
+        }
+
+        #a1 {
+            color:#585858;
+        }
+
+        li{
+            list-style:none;
+        }
+    </style>
+</head>
+<body>
+    <main-container id="corfid">
+        <div class="meta-content">
+            <meta-logo class="logo">
+                <div class="logo-content" id="clickeable" onclick="location.href = '@Url.Action("","Home")';" style="cursor:pointer;"></div>
+            </meta-logo>
+            <meta-options class="options">
+                <div class="opt-1"><span><a href="@Url.Action("quienesSomos","Home")">Quienes Somos</a></span></div>
+                <div class="opt-2"><span><a href="@Url.Action("empresas","Home")">Empresas</a></span></div>
+                <div class="opt-3"><span>Instituciones Registradas</span></div>
+                <div class="opt-4"><span><a href="@Url.Action("ayuda","Home")">Ayuda</a></span></div>
+                <div class="opt-5"><span>Contacto</span></div>
+                <div class="opt-6 sign-in sign-in-menu">
+                    <span>Iniciar Sesión</span>
+                    <ul class="sub-menu-login">
+                        <li><a href="@Url.Action("","Acceso")">Como Cliente</a></li>
+                        <li><a href="@System.Configuration.ConfigurationManager.AppSettings["HostAdmin"]">Intranet</a> </li>
+                    </ul>
+                </div>
+                <div class="opt-7 sign-up"><span><a href="@Url.Action("","Registro")">Registrarse</a></span></div>
+            </meta-options>
+        </div>
+    </main-container>
+    <div class="terminos">
+        <div id="title" class="title">Libro de Reclamaciones</div>
+        <person-registration>
+            <div class="register-auction-content">
+                <div class="register-auction-body register-container">
+                    <div class="main-header-container"></div>
+                    <div class="sub-title-normal"><strong>Es cliente?</strong></div>
+                    <div class="reclamaciones-block">
+                        <div class="checkbox-row">
+                            <custom-checkbox text-content="Sí">
+                                <div class="custom-checkbox-content inactive">
+                                    <div class="custom-checkbox-icon"></div>
+                                    <div class="custom-checkbox-text">Sí</div>
+                                </div>
+                            </custom-checkbox>
+                            <custom-checkbox text-content="No">
+                                <div class="custom-checkbox-content inactive">
+                                    <div class="custom-checkbox-icon"></div>
+                                    <div class="custom-checkbox-text">No</div>
+                                </div>
+                            </custom-checkbox>
+                        </div>
+                        <fancy-input id="person-reg-lastname" class="selected" placeholder="Apellido Paterno">
+                            <div class="fancy-input-content">
+                                <div class="fake-placeholder">Apellido Paterno</div>
+                                <input type="text">
+                            </div>
+                        </fancy-input>
+                        <fancy-input id="person-reg-lastname2" class="selected" placeholder="Apellido Materno">
+                            <div class="fancy-input-content">
+                                <div class="fake-placeholder">Apellido Materno</div>
+                                <input type="text">
+                            </div>
+                        </fancy-input>
+                        <fancy-input id="person-reg-name" class="selected" placeholder="Nombres">
+                            <div class="fancy-input-content">
+                                <div class="fake-placeholder">Nombres</div>
+                                <input type="text">
+                            </div>
+                        </fancy-input>
+                        <fancy-input id="person-reg-email" class="selected" placeholder="E-mail">
+                            <div class="fancy-input-content">
+                                <div class="fake-placeholder">E-mail</div>
+                                <input type="text">
+                            </div>
+                        </fancy-input>
+                    </div>
+                    <div class="sub-title-normal"><strong>Tipo de Documento</strong></div>
+                    <div class="reclamaciones-block">
+                        <div class="checkbox-row">
+                            <custom-checkbox text-content="Sí">
+                                <div class="custom-checkbox-content inactive">
+                                    <div class="custom-checkbox-icon"></div>
+                                    <div class="custom-checkbox-text">DNI</div>
+                                </div>
+                            </custom-checkbox>
+                            <custom-checkbox text-content="No">
+                                <div class="custom-checkbox-content inactive">
+                                    <div class="custom-checkbox-icon"></div>
+                                    <div class="custom-checkbox-text">Carné Ext</div>
+                                </div>
+                            </custom-checkbox>
+                        </div>
+                        <fancy-input id="person-reg-document" class="selected" placeholder="N° de Documento">
+                            <div class="fancy-input-content">
+                                <div class="fake-placeholder">N° de Documento</div>
+                                <input type="text">
+                            </div>
+                        </fancy-input>
+                        <fancy-input id="person-reg-birthdate" placeholder="Fecha de Nacimiento (DD/MM/AA)">
+                            <div class="fancy-input-content">
+                                <div class="fake-placeholder">Teléfono Celular</div>
+                                <input type="text">
+                            </div>
+                        </fancy-input>
+                        <fancy-input id="person-reg-address" class="selected" placeholder="Dirección">
+                            <div class="fancy-input-content">
+                                <div class="fake-placeholder">Dirección</div>
+                                <input type="text">
+                            </div>
+                        </fancy-input>
+                        <div class="custom-select-container">
+                            <div class="d-label">Seleccione Distrito</div>
+                            <select id="person-reg-district" class="custom-select">
+                                <option class="custom-option" value="" disabled="" selected="">Distrito</option>
+                            </select>
+                        </div>
+                        <div class="custom-select-container">
+                            <div class="d-label">Seleccione Provincia</div>
+                            <select id="person-reg-city" class="custom-select">
+                                <option class="custom-option" value="" disabled="" selected="">Provincia</option>
+                            </select>
+                        </div>
+                        <div class="custom-select-container">
+                            <div class="d-label">Seleccione Departamento</div>
+                            <select id="person-reg-state" class="custom-select">
+                                <option class="custom-option" value="" disabled="" selected="">Departamento</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="sub-title-normal"><strong>Qué desea ingresar?</strong></div>
+                    <div class="reclamaciones-block">
+                        <div class="checkbox-row">
+                            <custom-checkbox text-content="Reclamo">
+                                <div class="custom-checkbox-content inactive">
+                                    <div class="custom-checkbox-icon"></div>
+                                    <div class="custom-checkbox-text">Reclamo</div>
+                                </div>
+                            </custom-checkbox>
+                            <custom-checkbox text-content="Queja">
+                                <div class="custom-checkbox-content inactive">
+                                    <div class="custom-checkbox-icon"></div>
+                                    <div class="custom-checkbox-text">Queja</div>
+                                </div>
+                            </custom-checkbox>
+                            <custom-checkbox text-content="Consulta">
+                                <div class="custom-checkbox-content inactive">
+                                    <div class="custom-checkbox-icon"></div>
+                                    <div class="custom-checkbox-text">Consulta</div>
+                                </div>
+                            </custom-checkbox>
+                        </div>
+                        <div class="custom-select-container">
+                            <div class="d-label">Ingrese fecha de incidencia</div>
+                            <div class="input-row">
+                                <select id="inc-dia" class="custom-select">
+                                    <option class="custom-option" value="" disabled="" selected="">Día</option>
+                                </select>
+                                <select id="inc-mes" class="custom-select">
+                                    <option class="custom-option" value="" disabled="" selected="">Mes</option>
+                                </select>
+                                <select id="inc-year" class="custom-select">
+                                    <option class="custom-option" value="" disabled="" selected="">Año</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-title-normal"><strong>Servicio o Producto</strong></div>
+                    <div class="reclamaciones-block">
+                        <div class="checkbox-row">
+                            <custom-checkbox text-content="Cambio de divisa">
+                                <div class="custom-checkbox-content inactive">
+                                    <div class="custom-checkbox-icon"></div>
+                                    <div class="custom-checkbox-text">Cambio de divisa</div>
+                                </div>
+                            </custom-checkbox>
+                        </div>
+                        <div class="custom-select-container">
+                            <div class="d-label">Seleccione Motivo</div>
+                            <select id="motivo" class="custom-select">
+                                <option class="custom-option" value="" disabled="" selected="">Motivo</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="reclamaciones-block block-2">
+                        <div class="observations">
+                            <div class="observations-title"><strong>Agregar un mensaje:</strong></div>
+                            <div class="observations-textarea">
+                                <textarea rows="6" cols="62" spellcheck="true" style="z-index: auto; position: relative; line-height: normal; font-size: 13.3333px; transition: none 0s ease 0s; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);"></textarea>
+                            </div>
+                        </div>
+                        <div class="some-text">
+                            <div class="text">En caso considere adjuntar documentos, pora favor remitirlos en físico a nuestra oficina o al correo <span style="color: black;">atencionalusuario@lamesadedinero.com.pe</span></div>
+                            <div class="text">En caso de ser un reclamo o queja, el usuario al momento de enviar esta información acepta los siguientes terminos:</div>
+                            <div class="text quote">Manifiesta su conformidad con el contenido de la presente. Autoriza a La Mesa de Dinero. a brindar la presente información al Instituto Nacional de Defensa de la Competencia y de la Propiedad Intelectual (INDECOPI), en caso sea requerida por éste último.</div>
+                            <custom-checkbox text-content="long text">
+                                <div class="custom-checkbox-content inactive">
+                                    <div class="custom-checkbox-icon"></div>
+                                    <div class="custom-checkbox-text">Autorizo la recopilación y tratamiento de mis datos personales, puede revisar la política de recopilacion de datos personales <a>aquí</a></div>
+                                </div>
+                            </custom-checkbox>
+                        </div>
+                        <div class="button-row">
+                            <div class="btn regular"><span class="btn-text">Enviar Mensaje</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </person-registration>
+    </div>
+    <ninth-container>
+        <div class="meta-content">
+            <footer-menu class="menu">
+                <div class="footer-menu-content">
+                    <div class="text-title">Mapa del Sitio</div>
+                    <div class="text-title">Servicio al Cliente</div>
+                    <div class="text-title">Mi Cuenta</div>
+                    <div class="text-title">Libro de Reclamación</div>
+                    <div class="submenu">
+                        <div>
+                            <span class="disk"></span>
+                            <div><span class="text-footer">Nosotros</span></div>
+                        </div>
+                        <div>
+                            <span class="disk"></span>
+
+                            <div><span class="text-footer"><a id="a1" href="@Url.Action("corfid", "Home")">Instituciones Registradas</a></span></div>
+
+                        </div>
+                        <div>
+                            <span class="disk"></span>
+                            <div><span class="text-footer"><a href="@Url.Action("empresas","Home")">Empresas</a></span></div>
+                        </div>
+                    </div>
+                    <div class="submenu">
+                        <div>
+                            <span class="disk"></span>
+                            <div><span class="text-footer">Contáctenos</span></div>
+                        </div>
+                        <div>
+                            <span class="disk"></span>
+                            <div><span class="text-footer"><a id="a1" href="@Url.Action("ayuda","Home")">Ayuda</a></span></div>
+                        </div>
+                        <div>
+                            <span class="disk"></span>
+                            <div><span class="text-footer"><a id="a1" href="@Url.Action("terminos","Home")" >Términos y Condiciones</a></span></div>
+                        </div>
+                        <div>
+                            <span class="disk"></span>
+                            <div><span class="text-footer"><a hid="a1" ref="@Url.Action("privacidad","Home")" >Política de Privacidad</a></span></div>
+                        </div>
+                    </div>
+                    <div class="submenu">
+                        <div>
+                            <span class="disk"></span>
+                            <div><span class="text-footer"><a id="a1" href="@Url.Action("","Acceso")">Iniciar Sesión</a></span></div>
+                        </div>
+                        <div>
+                            <span class="disk"></span>
+                            <div><span class="text-footer"><a id="a1" href="@Url.Action("","Registro")">Registrarme</a></span></div>
+                        </div>
+                    </div>
+                    <div class="book" id="clickeable" onclick="location.href = '@Url.Action("libroReclamaciones","Home")';" style="cursor:pointer;"></div>
+                </div>
+            </footer-menu>
+            <div class="logo"></div>
+            <div class="rights">
+                <!-- <p>LA MESA DE DINERO tiene todos los derechos en la empresa SOFIDIG S.A. ruc 20602578756, inscrito en registros públicos con número de partida electrónica 13972637.</p> -->
+                <p>© 2018 LA MESA DE DINERO. Todos los derechos Reservados</p>
+            </div>
+        </div>
+    </ninth-container>
+</body>
+</html>
+

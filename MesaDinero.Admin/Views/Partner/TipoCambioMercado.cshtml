@@ -1,0 +1,146 @@
+﻿@{
+    ViewBag.Title = "Tipo Cambio Mercado";
+}
+
+@section Styles{
+
+    <!-- Subasta -->
+    <link rel="stylesheet" type="text/css" href="~/Content/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/css/components/form-base-container/base-input/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/custom-checkbox.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/auction/auction-box/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/horizontal-progress-bar.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/fancy-input.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/components/dashboard-container/bank-form/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/components/dashboard-container/dashboard-list/list.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/components/dashboard-container/bank-list/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/router/partner_layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/user-area-adjustments.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/mi-oferta.css">
+
+    <link rel="stylesheet" type="text/css" href="~/Content/css/popup.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/containers/auction_confirmation_box_layout.css">
+
+    <!---->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/ficha-datos.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/popup.css">
+    @*<link href="~/Content/css/router/partner_layout.css" rel="stylesheet" />*@
+
+
+<link href="~/Content/css/router/partner_layout.css" rel="stylesheet" />
+}
+
+
+<div class="complex-dashboard-content">
+    @*<div class="dashboard-tabs" style="grid-template-columns: 1fr 1fr 1fr 2fr;">
+       
+        
+        <div>Operaciones Confirmadas</div>
+        <div class="active">Cargar Tipo de Cambio</div>
+        <div>Precios Spot</div>
+        <div>Precios Partners</div>
+    </div>*@
+    <div class="list-container">
+        <div class="operations operations-g">
+            <div class="main-header-container">
+                <div class="main-title">Cargar Tipo de Cambio Mercado</div>
+
+                @*<span data-bind="text:$root.fechaSistema"></span>*@
+            </div>
+        </div>
+    </div>
+    <div class="list-container">
+        <div class="partner partner-b">
+            <div class="grid-content">
+                @*<div class="custom-select-wrap" style="width:200px;height:30px">
+                    <select class="custom-select" data-bind="value:$data.tipoEmpresa">
+                        <option class="custom-option" value="" selected="">Tipo de Empresa</option>
+                        <option class="custom-option" value="LMD">LMD</option>
+                        <option class="custom-option" value="Canal">Canal</option>
+                        <option class="custom-option" value="Fideicomiso">Fideicomiso</option>
+                        <option class="custom-option" value="Parnert">Parnert</option>
+                    </select>
+                </div>*@
+
+                <div class="fancy-input-content">
+                    <div class="fake-placeholder">Banco</div>
+
+                    <select id="combo_Bancos" class="custom-select" data-bind="value:$root.banco" style="width:200px;height:30px">
+                        <option value="">Seleccione Banco</option>
+                        <!-- ko foreach:$root.lstBancos -->
+                        @*attr:{'src':$data.logo}*@
+                        <option data-bind="value:$data.codigo,text:$data.nombre,attr:{'data-img':$data.icon}"></option>
+                        <!-- /ko -->
+                    </select>
+                </div>
+
+                <div class="update-tables">
+                    <i style="font-size:16px;" class="back-icon"></i>
+                    <span><a style="text-decoration:none;font-family: 'Helvetica Neue Roman'; color: var(--font-blue);font-size:16px;" class=" link" href="@Url.Action("TipoCambioMercado","Partner")">Restaurar Listado</a></span>
+                </div>
+            </div>	
+            <div class="table-responsive">
+                <table class="k-table k-thover k-trow-pointer">
+                    <thead class="k-thead">
+                        <tr class="k-throw">
+                            <th>Logo</th>
+                            <th>Nombre</th>
+                            <th>Rango</th>
+                            <th>Monto Mínimo</th>
+                            <th>Monto Máximo</th>
+                            <th>Moneda</th>
+                            <th>TC. Compra</th>
+                            <th>TC. Venta</th>
+                            <th>Spread</th>
+                        </tr>
+                    </thead>
+                    <tbody class="k-tbody" data-bind="foreach:$root.lstTiposCambio">
+                        <tr>
+                            <td><img width="50" data-bind="attr:{'src':$data.logo}" /></td>
+                            <td><span data-bind="text:$data.proveedor"></span></td>
+                            <td>
+                                <span data-bind="text:$data.rango"></span>
+                            </td>
+                            <td>
+                                <span data-bind="text:$data.montoMinimo"></span>
+                            </td>
+                            <td>
+                                <span data-bind="text:$data.montoMaximo"></span>
+                            </td>
+                            <td>
+                                <span data-bind="text:$data.moneda"></span>
+                            </td>
+                            <td>
+                                <span data-bind="text:$data.tcCompra"></span>
+                            </td>
+                            <td>
+                                <span data-bind="text:$data.tcVenta"></span>
+                            </td>
+                            <td>
+                                <span data-bind="text:$data.spread"></span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br />
+            <br />
+            <div class="button-row">
+                <div class="btn regular btn-guardar-tcg" data-bind="click:$root.save"><span style="font-size:12px;" class="btn-text">Guardar</span></div>
+                <div class="btn outline-blue" data-bind="click:$root.openFileExplorer"><span style="font-size:12px;" class="btn-text">Carga Masiva</span></div>
+                <div class="btn outline-blue"><a style="text-decoration:none;font-size:12px;" href="~/Content/Plantillas/Excel/Plantilla_TipoCambioMercado_Partner.xlsx" target="_blank" class="btn-text" ><img src="~/Content/images/icon_excel.png" height="15" /> Descargar Plantilla Tipo de Cambio</a></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<input id="file" type="file" style="display:none" accept=".xlsx" />
+
+@section Scripts {
+    <script src="~/Content/js/app/MercadoPartner.js"></script>
+}
+
+
+

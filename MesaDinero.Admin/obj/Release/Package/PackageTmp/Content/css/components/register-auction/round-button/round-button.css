@@ -1,0 +1,31 @@
+round-button .round-button-content {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	align-items: center;
+	column-gap: .5vw;
+	cursor: pointer;
+}
+round-button .btn-icon {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 30%;
+	height: 6vh;
+	width: 6vh;
+	border-radius: 50%;
+	background-color: #f1f1f1;
+	box-shadow: 0px 2px 1vh 0px rgba(2,2,2,0.2)
+}
+round-button .btn-text {
+	font-size: 1vw;
+	font-family: 'Helvetica Neue Roman';
+	color: var(--main-blue);
+}
+round-button.add .btn-icon {
+	background-image: url('./icons/plus-solid.svg');
+}
+round-button.add-logo .btn-icon {
+	background-image: url('./icons/image-regular.svg');
+}
+round-button.document .btn-icon {
+	background-image: url('./icons/file-alt-regular.svg');
+}

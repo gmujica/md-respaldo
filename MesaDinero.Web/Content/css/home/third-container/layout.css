@@ -1,0 +1,164 @@
+third-container > .meta-content {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 8% 6.5% 8% 46% 11.4% 12% 1fr;
+	grid-template-areas:
+		"."
+		"area-1"
+		"."
+		"area-2"
+		"."
+		"area-3"
+		".";
+}
+third-container > .meta-content > .triangle {
+	position: absolute;
+	top: 100%;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fff;
+}
+third-container .dev-border {
+	border-color: #000;
+}
+third-container > .meta-content > * {
+	place-self: stretch center;
+}
+.area-1{
+	grid-area: area-1;
+	width: 50%
+}
+.area-2{
+	grid-area: area-2;
+	width: 62%;
+}
+.area-3{
+	grid-area: area-3;
+	width: 40%;
+}
+/*First Area Settings*/
+.area-1, .area-3 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+.area-1 > div {
+	align-self: center;
+	justify-self: center;
+}
+.area-1 > .text-title {
+	font-family: 'Helvetica Neue Roman';
+	font-size: 2.1vw;
+	color: #000;
+	align-self: start;
+}
+.area-1 > .text-content {
+	color: var(--font-blue);
+	font-size: 1.65vw;
+	align-self: end;
+}
+/*Second area Settings*/
+.area-2 {
+	display: grid;
+	grid-template-columns: .8fr .2fr 4fr;
+	grid-template-rows: 1fr .5fr 1fr .5fr 1fr;
+	grid-template-areas:
+		"icon-1 icon-4 text-1"
+		". icon-4 ."
+		"icon-2 icon-4 text-2"
+		". icon-4 ."
+		"icon-3 icon-4 text-3";
+}
+.area-2 > .icon {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.area-2 > .icon-type-1 {
+	background-size: 80%;
+	background-position: 0 0;
+}
+.area-2 > .icon-1 {
+	grid-area: icon-1;
+	background-image: url('../../images/third-container/icon-1.svg');
+}
+.area-2 > .icon-2 {
+	grid-area: icon-2;
+	background-image: url('../../images/third-container/icon-2.svg');
+}
+.area-2 > .icon-3 {
+	grid-area: icon-3;
+	background-image: url('../../images/third-container/icon-3.svg');
+}
+.area-2 > .icon-4 {
+	grid-area: icon-4;
+	background-image: url('../../images/third-container/icon-4.svg');
+	background-size: auto 90%;
+	background-position-y: center;
+}
+.area-2 > .text-x {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: .75fr 1.25fr;
+}
+.area-2 > .text-x > .text-title {
+	align-self: end;
+}
+.area-2 > .text-x > .text-content {
+	align-self: center;
+}
+.area-2 .text-title {
+	font-family: 'Helvetica Neue Roman';
+	font-size: 1.7vw;
+	color: #000;
+}
+.area-2 .text-content {
+	font-size: 1.5vw;
+	color: #4d4d4d;
+}
+.area-2 > .text-1 {
+	grid-area: text-1;
+}
+.area-2 > .text-2 {
+	grid-area: text-2;
+}
+.area-2 > .text-3 {
+	grid-area: text-3;
+}
+/*Third area Settings*/
+.area-3 > .text-title {
+	align-self: start;
+}
+.area-3 > .text-title > * {
+	font-family: 'Helvetica Neue Roman';
+	text-align: center;
+	font-size: 1.7vw;
+	color: #000;
+}
+.area-3 > .text-btn {
+	place-self: end center;
+	border: 2px solid var(--main-blue);
+	border-radius: .5vw;
+	border-color: var(--btn-blue);
+	padding: 1vh 2.5vw 1vh 2.5vw;
+	background-color: var(--btn-blue);
+	cursor: pointer;
+}
+
+.area-3 > .text-btn > span {
+	font-family: 'Helvetica Neue Roman';
+	font-size: 1.5vw;
+	border-color: var(--btn-blue);
+	color: white;
+}
+
+third-container .area-3 > .text-btn:hover {
+	background-color: #236a94;
+}
+/*
+third-container .area-3 > .text-btn:hover span {
+	color: rgb(19, 80, 129);
+}*/

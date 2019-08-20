@@ -1,0 +1,91 @@
+﻿@{
+    ViewBag.Title = "Pre-Registro";
+    Layout = "~/Views/Shared/_LayoutPublico.cshtml";
+}
+
+<login-form>
+    <div class="form-base-container-content">
+        <div class="dark-logo"></div><div class="exit-btn" onclick="redirectTo('@Url.Action("index","Home")')"></div><div class="form-content">
+            <div class="form-base-title">Bienvenido a La Mesa de Dinero</div><div class="parragraph-container" style="color:#000;line-height:normal">
+                <p>Ingresa tus datos y recibir&aacute;s un SMS de validaci&oacute;n</p>
+                <p>para continuar con tu registro</p>
+            </div><div class="form"  >
+                <div class="login-selection">
+                    <div id="login-people" data-bind="click:$root.SelectTipoPersonaNatural" class="people active">
+                        <span>Persona</span>
+                    </div>
+                    <div id="login-company" data-bind="click:$root.SelectTipoPersonaJuridica" class="company inactive">
+                        <span>Empresa</span>
+                    </div>
+                </div>
+                <div id="tab_persona"  class="content-tab-home" data-bind="with:$root.persona">
+                    <base-input type="text" placeholder="DNI"><div class="base-input-content"><input placeholder="DNI" class="control_dni" type="text" data-bind="value:nroDocumento" /></div></base-input>
+                    <base-input type="text" placeholder="Nombre"><div class="base-input-content"><input placeholder="Nombres" class="control_nombre " type="text" data-bind="value:nombre" readonly /></div></base-input>
+                    <base-input type="text" placeholder="Apellido"><div class="base-input-content"><input placeholder="Apellidos" type="text" data-bind="value:apellido" readonly></div></base-input>
+                    <base-input type="text" placeholder="Correo"><div class="base-input-content"><input placeholder="Correo" type="text" data-bind="value:email"></div></base-input>
+                    <base-input type="text" placeholder="Celular"><div class="base-input-content"><input placeholder="Celular" type="text" data-bind="value:celular"></div></base-input>
+                </div>
+
+                <div style="display:none;" id="tab_empresa" class="content-tab-home" data-bind="with:$root.empresa">
+                    <base-input type="text" placeholder="Nombre"><div class="base-input-content"><input placeholder="N° de RUC" class="control_nombre" type="text" data-bind="value:$data.nroDocumento" /></div></base-input>
+                    <base-input type="text" placeholder="Nombre"><div class="base-input-content"><input placeholder="Nombre de Empresa" class="control_nombre" type="text" data-bind="value:$data.nombreEmpresa" readonly></div></base-input>
+                    <base-input type="text" placeholder="Nombre"><div class="base-input-content"><input placeholder="DNI del Contacto" class="control_nombre" type="text" data-bind="value:$data.nroDocumentoContacto"></div></base-input>
+                    <base-input type="text" placeholder="Nombre"><div class="base-input-content"><input placeholder="Nombre del Contacto" class="control_nombre" type="text" data-bind="value:$data.nombre" readonly></div></base-input>
+                    <base-input type="text" placeholder="Apellido"><div class="base-input-content"><input placeholder="Apellidos del Contacto" type="text" data-bind="value:$data.apellido" readonly></div></base-input>
+                    <base-input type="text" placeholder="Correo"><div class="base-input-content"><input placeholder="Correo del Contato" type="text" data-bind="value:$data.email"></div></base-input>
+                    <base-input type="text" placeholder="Celular"><div class="base-input-content"><input placeholder="Celular del Contacto" type="text" data-bind="value:$data.celular"></div></base-input>
+                </div>
+
+                <custom-checkbox class="chx-2" text-content="No">
+
+                </custom-checkbox>
+
+                <div id="conditions" class="middle-text conditions">
+
+                    <label class="k-content-radio">
+                        <input type="checkbox" name="acepto_terminos" data-bind="checked:$root.aceptarTerm" />
+                        <div class="k-radioButtom-icon"></div>
+                    </label>
+
+
+
+                    <div class="conditions-text">Acepto los <u class="conditions-text underline"><a href="@Url.Action("terminos","Home")" target="_blank" style="color: #00abca;">términos del contrato</a></u></div>
+                </div>
+                <div id="to-password" class="base-btn" data-bind="click:$root.registrarCliente">
+                    <span class="base-btn-icon"></span>
+                    <span class="base-btn-text">Crear mi cuenta</span>
+                </div>
+                <div class="form-bottom-text">
+                    <span class="question">Ya estás Registrado?</span>
+                    <a id="to-sign-in" href="@Url.Action("","Acceso")" class="link">Entra aquí</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</login-form>
+
+<div class="popup-container hidden" id="popup_msm">
+    <div class="popup">
+        <span onclick="closeModal();" class="cross"></span>
+        <div class="popup-content alert">
+            <div class="exclamation-circle">!</div>
+            <div class="alert-title" id="title_popup"></div>
+            <div class="alert-subtitle" id="message_popup"></div>
+            <div class="btn blue-style" id="footer_popup"></div>
+
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    <script>
+        var w_host = '@System.Configuration.ConfigurationManager.AppSettings["HostWeb"]';
+    </script>
+
+
+    <script src="~/Content/js/home/home.js"></script>
+}
+
+

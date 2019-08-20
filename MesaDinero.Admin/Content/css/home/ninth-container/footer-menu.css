@@ -1,0 +1,39 @@
+footer-menu > .footer-menu-content {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 1.2fr 3.8fr;
+}
+footer-menu > .footer-menu-content > .text-title {
+	color: var(--main-blue);
+	font-size: 1.3vw;
+	font-family: 'Helvetica Neue Roman';
+}
+footer-menu > .footer-menu-content .submenu {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-row-gap: 1vh;
+	grid-template-rows: repeat(5, 20%);
+}
+footer-menu > .footer-menu-content .submenu > div {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: .4fr 5fr;
+}
+footer-menu > .footer-menu-content .submenu > div > * {
+	color: #4d4d4d;
+	font-size: 1.2vw;
+}
+footer-menu > .footer-menu-content .submenu .disk {
+	background-image: url('../../images/ninth-container/disk.svg');
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: center;
+}
+footer-menu > .footer-menu-content .book {
+	background-image: url('../../images/ninth-container/libro-de-reclamacion.svg');
+	background-repeat: no-repeat;
+	background-size: 20%;
+	background-position: 0 0;
+}

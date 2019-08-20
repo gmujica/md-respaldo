@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>La Mesa Dinero - @ViewBag.Title</title>
+    <!-- General -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/general.css">
+    <!-- Dashboard -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/dashboard-container/dashboard-item.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/containers/basic_container_layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/containers/dashboard_base_layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/containers/complex_container_layout.css">
+    @*<link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/layout.css">*@
+
+    <link rel="stylesheet" type="text/css" href="~/Content/css/containers/dashboard_base_layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/containers/basic_container_layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/dashboard-container/dashboard-item.css">
+    <link href="~/Content/css/containers/complex_container_layout.css" rel="stylesheet" />
+    <link href="~/Content/css/router/operaciones_layout.css" rel="stylesheet" />
+    <link href="~/Content/css/components/dashboard-container/dashboard-list/list.css" rel="stylesheet" />
+    <link href="~/Content/css/popup.css" rel="stylesheet" />
+    <link href="~/Content/css/register-auction-container/layout.css" rel="stylesheet" />
+    <link href="~/Content/css/register-auction-container/fancy-input.css" rel="stylesheet" />
+    <link href="~/Content/css/effects.css" rel="stylesheet" />
+    <link href="~/Content/css/toastr.css" rel="stylesheet" />
+    <link href="~/Content/css/app.css" rel="stylesheet" />
+
+
+
+
+    @RenderSection("Styles", false)
+    <link href="~/Content/css/toastr.css" rel="stylesheet" />
+    <link href="~/Content/css/app.css" rel="stylesheet" />
+
+
+</head>
+<body>
+    <div class="loading-spiner-holder" style="display:none;"></div>
+    <dashboard-basic-container>
+        <div class="dashboard-container-content">
+            <div class="logo-area"></div>
+            @Html.Partial("_MenuPartial")
+            <div class="user-area with-menu">
+                <div class='bars-icon'></div>
+                <div class="user-area-content">
+                    <div class="user-area-initials">@ViewBag.inicialesCliente</div>
+
+                    <div class="user-area-user">@User.Identity.Name</div>
+                    <div class="user-area-arrow"></div>
+                </div>
+                <div class="popup-menu hidden">
+                    @*<div class="popup-menu-option">
+                            <div class="popup-menu-option-icon icon-1"></div>
+                            <div class="popup-menu-option-text">Crear Cuenta de Empresa</div>
+                        </div>*@
+                    <div class="popup-menu-option cursor-pointer" onclick="redirectTo('@Url.Action("ModificarDatosEmpresa", "Registro")')">
+                        <div class="popup-menu-option-icon icon-2"></div>
+                        <div class="popup-menu-option-text">Mis Datos</div>
+                    </div>
+                    <div class="popup-menu-option" onclick="redirectTo('@Url.Action("ModificarPassword", "Registro")')">
+                        <div class="popup-menu-option-icon icon-3"></div>
+                        <div class="popup-menu-option-text">Cambiar Contraseña</div>
+                    </div>
+                    <div class="popup-menu-option">
+                        <div class="popup-menu-option-icon icon-4"></div>
+                        <div class="popup-menu-option-text"><a style="color: #666666; text-decoration: none;" href="@Url.Action("LogOff", "Account")">Cerrar Sesión</a></div>
+                    </div>
+                </div>
+            </div>
+            @RenderBody()
+
+        </div>
+    </dashboard-basic-container>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Content/js/toggle_dashboard_menu_effect_open.js"></script>
+    <script src="~/Content/js/select_menu_option.js"></script>
+    <script src="~/Scripts/knockout-3.4.0.js"></script>
+    <script src="~/Scripts/knockout.validation.js"></script>
+    <script src="~/Scripts/knockout.mapping-latest.js"></script>
+    <script src="~/Content/js/global.js"></script>
+    <script src="~/Content/js/app.js"></script>
+    <script src="~/Content/js/toastr.js"></script>
+    <script src="~/Content/js/close_popup.js"></script>
+    <script type="text/javascript">
+        var urlApp = '@Url.Content("~")';
+        var urlApi = '@Url.Content("~")' + "api/";
+        toastr.options = { "progressBar": false, "positionClass": "toast-bottom-right", "closeButton": true, "showMethod": "slideDown" }
+        $(function () {
+            debugger;
+            var menu = '@Session["menuid"]';
+
+            $("#" + menu).addClass("active_focus");
+
+        });
+        function redirectTo(url) {
+           
+            window.location.href = url;
+        }
+
+        function toogleSubMenu(child) {
+            //$("ul.submenu").hide();
+
+            //$('#' + child).toggle();
+        };
+
+    </script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

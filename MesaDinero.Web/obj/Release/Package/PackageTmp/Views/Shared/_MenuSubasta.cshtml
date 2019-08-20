@@ -1,0 +1,326 @@
+﻿@model  MesaDinero.Domain.helpMenuSubasta
+
+@if (Model.menu == "SM1")
+{
+    <horizontal-progress-bar class="cmpnt-2">
+        <div class="horizontal-progress-bar-content" style="grid-template-columns: 1fr 1fr 1fr 1fr 1fr;">
+            <div class="active">
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border"></div>
+                <div class="top-border top-right-border"></div>
+                <a class="status-text">Subasta</a>
+            </div>
+
+            <div>
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border"></div>
+                <div class="top-border top-right-border"></div>
+                <div class="status-text" style="color: #b3b3b3;">Confirmas</div>
+            </div>
+
+            <div>
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border"></div>
+                <div class="top-border top-right-border"></div>
+                <div class="status-text" style="color: #b3b3b3;">Envias</div>
+            </div>
+
+            <div>
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border"></div>
+                <div class="top-border top-right-border"></div>
+                <div class="status-text" style="color: #b3b3b3;">Verificamos</div>
+            </div>
+
+            <div>
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border"></div>
+                <div class="top-border top-right-border"></div>
+                <div class="status-text" style="color: #b3b3b3;">Recibes</div>
+            </div>
+        </div>
+    </horizontal-progress-bar>
+    <div class="user-area-content ex">
+        <div class="user-area-initials">@((String)ViewBag.inicialesCliente)</div>
+        <div class="user-area-pipe"></div>
+        <div class="user-area-ex" onclick="CerrarSubasta();"></div>
+        @*onclick="redirectTo('@Url.Action("Index", "Inicio")')"*@
+    </div>
+}
+else if (Model.menu == "SM2")
+{
+    <horizontal-progress-bar class="cmpnt-2">
+        <div class="horizontal-progress-bar-content" style="grid-template-columns: 1fr 1fr 1fr 1fr 1fr;">
+            <div class="">
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border" style="background: #00abca;"></div>
+                <div class="top-border top-right-border" style="background: #00abca;"></div>
+                <a class="status-text" href="@Url.Action("Activa", "Subasta", new { id = Model.sid })">Subasta</a>
+            </div>
+
+            <div class="active">
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border" style="background: #00abca;"></div>
+                <div class="top-border top-right-border"></div>
+                <a class="status-text">Confirmas</a>
+            </div>
+
+            <div>
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border"></div>
+                <div class="top-border top-right-border"></div>
+                <div class="status-text" style="color: #b3b3b3;">Envias</div>
+            </div>
+
+            <div>
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border"></div>
+                <div class="top-border top-right-border"></div>
+                <div class="status-text" style="color: #b3b3b3;">Verificamos</div>
+            </div>
+
+            <div>
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border"></div>
+                <div class="top-border top-right-border"></div>
+                <div class="status-text" style="color: #b3b3b3;">Recibes</div>
+            </div>
+        </div>
+    </horizontal-progress-bar>
+    <div class="user-area-content ex">
+        <div class="user-area-initials">@((String)ViewBag.inicialesCliente)</div>
+        <div class="user-area-pipe"></div>
+        <div class="user-area-ex" onclick="CerrarSubasta();"></div>
+        @*onclick="redirectTo('@Url.Action("Index", "Inicio")')"*@
+    </div>
+}
+else if (Model.menu == "SM3")
+{
+    <horizontal-progress-bar class="cmpnt-2">
+        <div class="horizontal-progress-bar-content" style="grid-template-columns: 1fr 1fr 1fr 1fr 1fr;">
+            <div class="">
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border"></div>
+                <div class="top-border top-right-border" style="background: #00abca;"></div>
+                <a class="status-text" style="color: #00abca;" href="@Url.Action("Activa", "Subasta", new { id = Model.sid })">Subasta</a>
+            </div>
+
+            <div>
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border" style="background: #00abca;"></div>
+                <div class="top-border top-right-border" style="background: #00abca;"></div>
+                <a class="status-text" style="color: #00abca;" href="@Url.Action("Confirmar", "Subasta", new { id = Model.sid })">Confirmas</a>
+            </div>
+
+            <div class="active">
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border" style="background: #00abca;"></div>
+                <div class="top-border top-right-border"></div>
+                <div class="status-text">Envias</div>
+            </div>
+
+            <div>
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border"></div>
+                <div class="top-border top-right-border"></div>
+                <div class="status-text" style="color: #b3b3b3;">Verificamos</div>
+            </div>
+
+            <div>
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border"></div>
+                <div class="top-border top-right-border"></div>
+                <div class="status-text" style="color: #b3b3b3;">Recibes</div>
+            </div>
+        </div>
+    </horizontal-progress-bar>
+    <div class="user-area-content ex">
+        <div class="user-area-initials">@((String)ViewBag.inicialesCliente)</div>
+        <div class="user-area-pipe"></div>
+        <div class="user-area-ex" onclick="CerrarSubasta();"></div>
+        @*onclick="redirectTo('@Url.Action("Index", "Inicio")')"*@
+    </div>
+}
+else if (Model.menu == "SM4")
+{
+    <horizontal-progress-bar class="cmpnt-2">
+        <div class="horizontal-progress-bar-content" style="grid-template-columns: 1fr 1fr 1fr 1fr 1fr;">
+            <div class="">
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border"></div>
+                <div class="top-border top-right-border" style="background: #00abca;"></div>
+                <div class="status-text" style="color: #00abca;">Subasta</div>
+            </div>
+
+            <div>
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border" style="background: #00abca;"></div>
+                <div class="top-border top-right-border" style="background: #00abca;"></div>
+                <div class="status-text" style="color: #00abca;">Confirmas</div>
+            </div>
+
+            <div>
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border" style="background: #00abca;"></div>
+                <div class="top-border top-right-border" style="background: #00abca;"></div>
+                <div class="status-text" style="color: #00abca;">Envias</div>
+            </div>
+
+            <div class="active">
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border" style="background: #00abca;"></div>
+                <div class="top-border top-right-border"></div>
+                <div class="status-text">Verificamos</div>
+            </div>
+
+            <div>
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border"></div>
+                <div class="top-border top-right-border"></div>
+                <div class="status-text" style="color: #b3b3b3;">Recibes</div>
+            </div>
+        </div>
+    </horizontal-progress-bar>
+    <div class="user-area-content ex" onclick="redirectTo('@Url.Action("Index", "Inicio")')">
+        <div class="user-area-initials">@((String)ViewBag.inicialesCliente)</div>
+        <div class="user-area-pipe"></div>
+        <div class="user-area-ex"></div>
+        @*onclick="redirectTo('@Url.Action("Index", "Inicio")')"*@
+    </div>
+}
+else if (Model.menu == "SM5")
+{
+    <horizontal-progress-bar class="cmpnt-2">
+        <div class="horizontal-progress-bar-content" style="grid-template-columns: 1fr 1fr 1fr 1fr 1fr;">
+            <div class="">
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border"></div>
+                <div class="top-border top-right-border" style="background: #00abca;"></div>
+                <div class="status-text" style="color: #00abca;">Subasta</div>
+            </div>
+
+            <div>
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border" style="background: #00abca;"></div>
+                <div class="top-border top-right-border" style="background: #00abca;"></div>
+                <div class="status-text" style="color: #00abca;">Confirmas</div>
+            </div>
+
+            <div>
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border" style="background: #00abca;"></div>
+                <div class="top-border top-right-border" style="background: #00abca;"></div>
+                <div class="status-text" style="color: #00abca;">Envias</div>
+            </div>
+
+            <div>
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border" style="background: #00abca;"></div>
+                <div class="top-border top-right-border" style="background: #00abca;"></div>
+                <div class="status-text">Verificamos</div>
+            </div>
+
+            <div class="active">
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border" style="background: #00abca;"></div>
+                <div class="top-border top-right-border"></div>
+                <div class="status-text">Recibes</div>
+            </div>
+        </div>
+    </horizontal-progress-bar>
+    <div class="user-area-content ex" onclick="redirectTo('@Url.Action("Index", "Inicio")')">
+        <div class="user-area-initials">@((String)ViewBag.inicialesCliente)</div>
+        <div class="user-area-pipe"></div>
+        <div class="user-area-ex"></div>
+        @*onclick="redirectTo('@Url.Action("Index", "Inicio")')"*@
+    </div>
+}
+
+else
+{
+    <horizontal-progress-bar class="cmpnt-2">
+        <div class="horizontal-progress-bar-content" style="grid-template-columns: 1fr 1fr 1fr 1fr 1fr;">
+            <div class="active">
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border"></div>
+                <div class="top-border top-right-border"></div>
+                <a class="status-text">Subasta</a>
+            </div>
+
+            <div>
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border"></div>
+                <div class="top-border top-right-border"></div>
+                <div class="status-text" style="color: #b3b3b3;">Confirmas</div>
+            </div>
+
+            <div>
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border"></div>
+                <div class="top-border top-right-border"></div>
+                <div class="status-text" style="color: #b3b3b3;">Envias</div>
+            </div>
+
+            <div>
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border"></div>
+                <div class="top-border top-right-border"></div>
+                <div class="status-text" style="color: #b3b3b3;">Verificamos</div>
+            </div>
+
+            <div>
+                <div class="little-circle"></div>
+                <div class="top-border top-left-border"></div>
+                <div class="top-border top-right-border"></div>
+                <div class="status-text" style="color: #b3b3b3;">Recibes</div>
+            </div>
+        </div>
+    </horizontal-progress-bar>
+    <div class="user-area-content ex">
+        <div class="user-area-initials">@((String)ViewBag.inicialesCliente)</div>
+        <div class="user-area-pipe"></div>
+        <div class="user-area-ex" onclick="CerrarSubasta();"></div>
+        @*onclick="redirectTo('@Url.Action("Index", "Inicio")')"*@
+    </div>
+    @*<horizontal-progress-bar class="cmpnt-2">
+            <div class="horizontal-progress-bar-content" style="grid-template-columns: 1fr 1fr 1fr 1fr 1fr;">
+                <div class="active">
+                    <div class="little-circle"></div>
+                    <div class="top-border top-left-border"></div>
+                    <div class="top-border top-right-border"></div>
+                    <div class="status-text" style="color: #00abca;">Subasta</div>
+                </div>
+
+                <div>
+                    <div class="little-circle"></div>
+                    <div class="top-border top-left-border"></div>
+                    <div class="top-border top-right-border"></div>
+                    <div class="status-text" style="color: #00abca;">Confirmas</div>
+                </div>
+
+                <div>
+                    <div class="little-circle"></div>
+                    <div class="top-border top-left-border"></div>
+                    <div class="top-border top-right-border" s></div>
+                    <div class="status-text" style="color: #00abca;">Envias</div>
+                </div>
+
+                <div>
+                    <div class="little-circle"></div>
+                    <div class="top-border top-left-border"></div>
+                    <div class="top-border top-right-border"></div>
+                    <div class="status-text">Verificamos</div>
+                </div>
+
+                <div>
+                    <div class="little-circle"></div>
+                    <div class="top-border top-left-border"></div>
+                    <div class="top-border top-right-border"></div>
+                    <div class="status-text">Recibes</div>
+                </div>
+            </div>
+        </horizontal-progress-bar>*@
+}
+
+
+

@@ -1,0 +1,1243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Emerson\Desktop\publicacion\Web</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="bin/EPPlus.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/es/EntityFramework.resources.dll">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="bin/es/EntityFramework.SqlServer.resources.dll">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.AspNet.Identity.Core.resources.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.AspNet.Identity.EntityFramework.resources.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.AspNet.Identity.Owin.resources.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Owin.Host.SystemWeb.resources.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Owin.resources.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Owin.Security.Facebook.resources.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Owin.Security.Google.resources.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Owin.Security.MicrosoftAccount.resources.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Owin.Security.resources.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Owin.Security.Twitter.resources.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/es/System.Net.Http.Formatting.resources.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Helpers.resources.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Http.resources.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Http.WebHost.resources.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Mvc.resources.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Optimization.resources.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Razor.resources.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.WebPages.Deployment.resources.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.WebPages.Razor.resources.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.WebPages.resources.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/JWT.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/MesaDinero.Data.dll">
+      <publishTime>06/26/2019 18:03:48</publishTime>
+    </File>
+    <File Include="bin/MesaDinero.Domain.dll">
+      <publishTime>07/10/2019 15:18:06</publishTime>
+    </File>
+    <File Include="bin/MesaDinero.Web.dll">
+      <publishTime>07/10/2019 17:35:41</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>04/16/2019 09:35:16</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>04/16/2019 09:35:14</publishTime>
+    </File>
+    <File Include="bin/Twilio.dll">
+      <publishTime>04/16/2019 09:35:16</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>04/16/2019 09:35:16</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/app.css">
+      <publishTime>07/10/2019 17:09:00</publishTime>
+    </File>
+    <File Include="Content/css/auction/auction-box/layout.css">
+      <publishTime>06/23/2019 18:33:02</publishTime>
+    </File>
+    <File Include="Content/css/auction/auction-confirmation/layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/caja-mods.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/chosen/chosen-sprite%402x.png">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/chosen/chosen-sprite.png">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/chosen/chosen.min.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/components/dashboard-container/bank-form/layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/components/dashboard-container/bank-list/layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/components/dashboard-container/dashboard-list/list.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/components/form-base-container/base-input/layout.css">
+      <publishTime>06/23/2019 20:35:25</publishTime>
+    </File>
+    <File Include="Content/css/components/register-auction/round-button/icons/file-alt-regular.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/components/register-auction/round-button/icons/image-regular.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/components/register-auction/round-button/icons/plus-solid.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/components/register-auction/round-button/round-button.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/components/register-auction/special-counter/special-counter.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/components/round-button/icons/file-alt-regular.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/components/round-button/icons/image-regular.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/components/round-button/icons/plus-solid.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/components/round-button/round-button.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/components/special-counter/special-counter.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/containers/auction_confirmation_box_layout.css">
+      <publishTime>06/16/2019 21:23:54</publishTime>
+    </File>
+    <File Include="Content/css/containers/basic_container_layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/containers/complex_container_layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/containers/dashboard_base_layout.css">
+      <publishTime>06/18/2019 03:57:20</publishTime>
+    </File>
+    <File Include="Content/css/corfid/banner-corfid.jpg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/corfid/corfid.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/corfid/iconos-1.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/corfid/iconos-2.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/corfid/iconos-3.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/corfid/iconos-4.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/corfid/layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/corfid/timeline-corfid.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/counter-mods.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/dashboard-container/dashboard-item.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/dashboard-container/images/corfid-1.png">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/dashboard-container/images/corfid-2.png">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/dashboard-container/images/corfid-3.png">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/dashboard-container/images/corfid-5.png">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/dashboard-container/layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/effects.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/empresas/layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/fonts/HelveticaNeue-Roman.otf">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/fonts/HelveticaNeue-Roman.ttf">
+      <publishTime>04/16/2019 09:35:06</publishTime>
+    </File>
+    <File Include="Content/css/fonts/HelveticaNeue-Thin.otf">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/fonts/HelveticaNeue-Thin.ttf">
+      <publishTime>05/13/2014 18:55:22</publishTime>
+    </File>
+    <File Include="Content/css/form-base-container/layout.css">
+      <publishTime>06/23/2019 20:34:30</publishTime>
+    </File>
+    <File Include="Content/css/general.css">
+      <publishTime>06/23/2019 19:36:59</publishTime>
+    </File>
+    <File Include="Content/css/home/eighth-container/layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/home/extra-container/layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/home/fifth-container/layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/home/fourth-container/layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/home/main-container/exchanger-input.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/home/main-container/footer.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/home/main-container/layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/home/main-container/logo.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/home/main-container/options.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/home/main-container/section-a.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/home/main-container/section-b.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/home/ninth-container/footer-menu.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/home/ninth-container/layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/home/second-container/layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/home/seventh-container/contact-area.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/home/seventh-container/layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/home/sixth-container/layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/home/third-container/layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/dashboard-container/bell-regular.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/dashboard-container/book-solid.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/dashboard-container/building-regular.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/dashboard-container/check-solid.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/dashboard-container/coins-solid.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/dashboard-container/gavel-solid-active.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/dashboard-container/gavel-solid.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/dashboard-container/sign-out-alt-solid.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/dashboard-container/tasks-solid.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/dashboard-container/unlock-alt-solid.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/dashboard-container/user-circle-regular.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/dashboard-container/wallet-solid.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/eighth-container/apple.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/eighth-container/googleplay.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/empresas/banner-empresas.jpg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/empresas/logoiso-12.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/extra-container/logo.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/fifth-container/map.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/form-base-container/backgroud-login.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/form-base-container/boton-active.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/form-base-container/boton.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/form-base-container/candado-boton.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/form-base-container/candado-input.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/form-base-container/equis-cerrar.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/form-base-container/lock.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/form-base-container/password-eye.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/fourth-container/fc-logo-1.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/fourth-container/fc-logo-3.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/fourth-container/logo.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/arrow-down-2.2.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/arrow-down-2.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/arrow-down.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/arrow-up-2.2.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/arrow-up-2.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/arrow-up.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/back-arrow-blue.gif">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/back-arrow-blue.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/back-arrow.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/background-24.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/background-login-opaque.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/background-login.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/banbif-color.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/banbif.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/bars-solid.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/bcp-color.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/bcp.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/candado.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/caret-down-solid.1.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/caret-down-solid.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/check-solid-blue.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/clock-regular-white.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/credit-card-solid.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/ex.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/fa-search.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/file.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/footer-img-1.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/i-icon-35.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/interbank-color.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/interbank.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/isotipo.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/lock.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/logo-01.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/logo-corfid.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/peru.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/REXT.png">
+      <publishTime>06/12/2019 14:31:54</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/rextie.webp">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/scotiabank-color.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/scotiabank.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/search-solid.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/sync.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/times-solid-red.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/trash-alt-regular.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/usa.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/user-regular.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/icons/ver.png">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/logos/logo-blue.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/ninth-container/disk.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/ninth-container/libro-de-reclamacion.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/ninth-container/logo-footer.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/register-auction-container/boton-active.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/register-auction-container/boton.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/register-auction-container/expandible-thingy.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/second-container/afiliado-1-color.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/second-container/afiliado-1.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/second-container/afiliado-2-color.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/second-container/afiliado-2.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/second-container/afiliado-3-color.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/second-container/afiliado-3.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/second-container/afiliado-4-color.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/second-container/afiliado-4.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/second-container/afiliado-5-color.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/second-container/afiliado-5.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/seventh-container/facebook.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/seventh-container/google+.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/seventh-container/instagram.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/seventh-container/linkedin.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/seventh-container/twitter.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/sixth-container/contacto.jpg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/third-container/icon-1.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/third-container/icon-2.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/third-container/icon-3.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/images/third-container/icon-4.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/libro-reclamaciones/layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/popup.css">
+      <publishTime>06/19/2019 19:56:25</publishTime>
+    </File>
+    <File Include="Content/css/quienes-somos/layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/register-auction-container/custom-checkbox.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/register-auction-container/fancy-input.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/register-auction-container/horizontal-progress-bar.css">
+      <publishTime>06/04/2019 13:46:04</publishTime>
+    </File>
+    <File Include="Content/css/register-auction-container/layout.css">
+      <publishTime>05/16/2019 17:17:50</publishTime>
+    </File>
+    <File Include="Content/css/registration/bank-registration/layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/registration/company-registration/layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/registration/person-registration/layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/registration/register-container/layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/registration/verification-container/layout.css">
+      <publishTime>05/15/2019 14:53:02</publishTime>
+    </File>
+    <File Include="Content/css/registration/verification-container/verification-mods.css">
+      <publishTime>05/15/2019 14:54:32</publishTime>
+    </File>
+    <File Include="Content/css/router/corfid_layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/router/operaciones_layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/router/partner_layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/router/treasury_layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/terminos/layout.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/toastr.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/css/user-area-adjustments.css">
+      <publishTime>05/14/2019 11:08:42</publishTime>
+    </File>
+    <File Include="Content/js/add_form_effect.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/another-input-effect.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/app.js">
+      <publishTime>04/20/2019 18:49:50</publishTime>
+    </File>
+    <File Include="Content/js/ayuda.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/base-input.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/button_gr.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/cliente/ModificarDatos_persona.js">
+      <publishTime>06/22/2019 20:14:04</publishTime>
+    </File>
+    <File Include="Content/js/cliente/ModificarEmpresa.js">
+      <publishTime>05/22/2019 16:35:18</publishTime>
+    </File>
+    <File Include="Content/js/cliente/Modificar_DatosBancarios.js">
+      <publishTime>06/22/2019 20:16:45</publishTime>
+    </File>
+    <File Include="Content/js/close_popup.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/custom_bank_select.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/custom_checkbox_effect.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/custom_select.js">
+      <publishTime>06/17/2019 16:44:50</publishTime>
+    </File>
+    <File Include="Content/js/custom_select_home.js">
+      <publishTime>06/17/2019 16:49:02</publishTime>
+    </File>
+    <File Include="Content/js/fancy_input_effect.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/global.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/home/CambiarPassWprdExterno.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/home/home.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/home/login.js">
+      <publishTime>04/22/2019 09:47:16</publishTime>
+    </File>
+    <File Include="Content/js/home/ModificarPassword.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/home/RecuperarContrasena.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/home/tabs.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/ie-polyfill.js">
+      <publishTime>04/05/2019 14:35:46</publishTime>
+    </File>
+    <File Include="Content/js/Inicio/Inicio.js">
+      <publishTime>05/22/2019 12:08:46</publishTime>
+    </File>
+    <File Include="Content/js/open_popup.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/precios-spot.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/preguntas_frecuentes.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/privacidad-data.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/Registro/DatosBancarios.js">
+      <publishTime>06/22/2019 19:54:30</publishTime>
+    </File>
+    <File Include="Content/js/Registro/DatosBancariosReadOnly.js">
+      <publishTime>06/22/2019 20:17:52</publishTime>
+    </File>
+    <File Include="Content/js/Registro/Password.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/Registro/RegistroDatosEmpresa.js">
+      <publishTime>05/13/2019 17:48:26</publishTime>
+    </File>
+    <File Include="Content/js/Registro/RegistroDatosEmpresa.ReadOnly.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/Registro/RegistroDatosPersona.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/Registro/RegistroDatosPersonaEdit.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/Registro/RegistroDatosPersonaReadOnly.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/Registro/RegistroPersonaAutorizada.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/Registro/RegistroValidacion.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/Registro/ValidacionMSM.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/remove_bank_account.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/select_financer.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/select_menu_option.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/separador_miles.js">
+      <publishTime>04/05/2019 14:35:46</publishTime>
+    </File>
+    <File Include="Content/js/Subasta/InstruccionPago.js">
+      <publishTime>05/10/2019 09:56:10</publishTime>
+    </File>
+    <File Include="Content/js/Subasta/subasta.js">
+      <publishTime>06/04/2019 12:00:32</publishTime>
+    </File>
+    <File Include="Content/js/Subasta/SubastaActiva.js">
+      <publishTime>06/19/2019 19:24:19</publishTime>
+    </File>
+    <File Include="Content/js/Subasta/Subastaconfirmacion.js">
+      <publishTime>06/25/2019 13:04:42</publishTime>
+    </File>
+    <File Include="Content/js/Subasta/SubastaEnvio.js">
+      <publishTime>06/16/2019 21:43:24</publishTime>
+    </File>
+    <File Include="Content/js/Subasta/SubastaListaOperacion.js">
+      <publishTime>06/17/2019 11:01:36</publishTime>
+    </File>
+    <File Include="Content/js/Subasta/subastaProceso.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/Subasta/subastaVerifica.js">
+      <publishTime>05/15/2019 16:55:32</publishTime>
+    </File>
+    <File Include="Content/js/terminos-data.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/terminos-func.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/toastr.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/toastr.min.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/toggle_dashboard_menu_effect.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/toggle_dashboard_menu_effect_open.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/js/view_password_effect.js">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/Plantillas/Html/RecuperarContrasena.html">
+      <publishTime>04/17/2019 11:09:20</publishTime>
+    </File>
+    <File Include="Content/Plantillas/Html/RestaurarRegistro.html">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>04/16/2019 09:35:10</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Scripts/chosen.jquery.js">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Scripts/juery-mask/inputmask.js">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Scripts/juery-mask/jquery.inputmask.js">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Scripts/juery-mask/jquery.mask.js">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Scripts/knockout-3.4.0.debug.js">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Scripts/knockout-3.4.0.js">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Scripts/knockout.mapping-latest.js">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Scripts/knockout.validation.js">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Scripts/knockout.validation.min.js">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>06/17/2019 16:46:02</publishTime>
+    </File>
+    <File Include="Views/Acceso/CambiarPassword.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Acceso/ConfirmarSMS.cshtml">
+      <publishTime>06/23/2019 20:25:01</publishTime>
+    </File>
+    <File Include="Views/Acceso/Index.cshtml">
+      <publishTime>05/02/2019 10:04:24</publishTime>
+    </File>
+    <File Include="Views/Acceso/ModificarPassword.cshtml">
+      <publishTime>04/20/2019 19:35:30</publishTime>
+    </File>
+    <File Include="Views/Acceso/RecuperarPassword.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Account/ExternalLoginConfirmation.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Account/ExternalLoginFailure.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Account/Login.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Account/Manage.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Account/Register.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Account/_ChangePasswordPartial.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Account/_RemoveAccountPartial.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Account/_SetPasswordPartial.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Cliente/CuentasBancarias.cshtml">
+      <publishTime>06/17/2019 11:09:16</publishTime>
+    </File>
+    <File Include="Views/Cliente/ModificarDatos.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Cliente/ModificarDatosEmpresa.cshtml">
+      <publishTime>06/17/2019 17:10:32</publishTime>
+    </File>
+    <File Include="Views/Cliente/ModificarPassword.cshtml">
+      <publishTime>05/22/2019 12:14:56</publishTime>
+    </File>
+    <File Include="Views/Cliente/_EditPersonaDatosPartial.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Home/ayuda.cshtml">
+      <publishTime>06/23/2019 18:44:05</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Home/corfid.cshtml">
+      <publishTime>06/17/2019 14:47:24</publishTime>
+    </File>
+    <File Include="Views/Home/empresas.cshtml">
+      <publishTime>06/23/2019 18:35:44</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>06/17/2019 16:50:32</publishTime>
+    </File>
+    <File Include="Views/Home/libroReclamaciones.cshtml">
+      <publishTime>06/17/2019 14:44:14</publishTime>
+    </File>
+    <File Include="Views/Home/privacidad.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Home/quienesSomos.cshtml">
+      <publishTime>06/23/2019 18:22:13</publishTime>
+    </File>
+    <File Include="Views/Home/terminos.cshtml">
+      <publishTime>06/17/2019 14:41:26</publishTime>
+    </File>
+    <File Include="Views/Inicio/Index.cshtml">
+      <publishTime>06/17/2019 10:59:42</publishTime>
+    </File>
+    <File Include="Views/Registro/DatosBancarios.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Registro/DatosBasicos.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Registro/Index.cshtml">
+      <publishTime>06/23/2019 20:06:41</publishTime>
+    </File>
+    <File Include="Views/Registro/ListaOperacion.cshtml">
+      <publishTime>06/22/2019 20:42:04</publishTime>
+    </File>
+    <File Include="Views/Registro/MisCuentasBanco.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Registro/MisDatos.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Registro/Operaciones.cshtml">
+      <publishTime>06/22/2019 20:22:56</publishTime>
+    </File>
+    <File Include="Views/Registro/Password.cshtml">
+      <publishTime>04/17/2019 12:50:20</publishTime>
+    </File>
+    <File Include="Views/Registro/PersonaAutorizada.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Registro/Subasta.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Registro/Verificacion.cshtml">
+      <publishTime>05/13/2019 18:02:16</publishTime>
+    </File>
+    <File Include="Views/Registro/_comboBancos.cshtml">
+      <publishTime>01/30/2019 17:56:01</publishTime>
+    </File>
+    <File Include="Views/Registro/_DatosEmpresaPartial.cshtml">
+      <publishTime>05/14/2019 11:28:32</publishTime>
+    </File>
+    <File Include="Views/Registro/_DatosPersonaPartial.cshtml">
+      <publishTime>06/23/2019 20:52:53</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Shared/_EmpresaDatosPartial.cshtml">
+      <publishTime>05/14/2019 12:01:22</publishTime>
+    </File>
+    <File Include="Views/Shared/_InstruccionPago.cshtml">
+      <publishTime>06/17/2019 13:07:34</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>06/17/2019 10:57:52</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout2.cshtml">
+      <publishTime>06/22/2019 20:33:46</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutPublico.cshtml">
+      <publishTime>05/02/2019 10:03:14</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutRegistro.cshtml">
+      <publishTime>06/23/2019 21:15:25</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutSubasta.cshtml">
+      <publishTime>06/04/2019 17:08:02</publishTime>
+    </File>
+    <File Include="Views/Shared/_LoginPartial.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Shared/_MenuSubasta.cshtml">
+      <publishTime>06/04/2019 13:13:36</publishTime>
+    </File>
+    <File Include="Views/Shared/_Pagination.cshtml">
+      <publishTime>04/20/2019 20:38:50</publishTime>
+    </File>
+    <File Include="Views/Shared/_PersonaAutorizada.cshtml">
+      <publishTime>06/17/2019 17:14:20</publishTime>
+    </File>
+    <File Include="Views/Shared/_PersonaDatosAccionista.cshtml">
+      <publishTime>06/17/2019 17:12:02</publishTime>
+    </File>
+    <File Include="Views/Shared/_PersonaDatosPartial.cshtml">
+      <publishTime>06/23/2019 21:03:44</publishTime>
+    </File>
+    <File Include="Views/Shared/_PersonaDatosSimplePartial.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/Shared/_PersonaDatosSimplePartialAccionista.cshtml">
+      <publishTime>05/13/2019 17:55:42</publishTime>
+    </File>
+    <File Include="Views/Shared/_RegistroHeader.cshtml">
+      <publishTime>07/10/2019 17:29:16</publishTime>
+    </File>
+    <File Include="Views/Subasta/Activa.cshtml">
+      <publishTime>06/17/2019 16:35:48</publishTime>
+    </File>
+    <File Include="Views/Subasta/Confirmar.cshtml">
+      <publishTime>06/25/2019 13:12:40</publishTime>
+    </File>
+    <File Include="Views/Subasta/Envio.cshtml">
+      <publishTime>06/17/2019 13:06:42</publishTime>
+    </File>
+    <File Include="Views/Subasta/Index.cshtml">
+      <publishTime>06/04/2019 13:54:14</publishTime>
+    </File>
+    <File Include="Views/Subasta/Inicio.cshtml">
+      <publishTime>06/04/2019 16:44:26</publishTime>
+    </File>
+    <File Include="Views/Subasta/ListaOperacionCliente.cshtml">
+      <publishTime>06/17/2019 11:16:46</publishTime>
+    </File>
+    <File Include="Views/Subasta/recibes.cshtml">
+      <publishTime>06/05/2019 15:50:08</publishTime>
+    </File>
+    <File Include="Views/Subasta/SubastaProceso.cshtml">
+      <publishTime>02/11/2019 18:01:37</publishTime>
+    </File>
+    <File Include="Views/Subasta/Verificacion.cshtml">
+      <publishTime>05/16/2019 13:52:40</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>04/16/2019 09:35:12</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/26/2019 18:04:47</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

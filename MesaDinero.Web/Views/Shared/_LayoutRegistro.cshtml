@@ -1,0 +1,312 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>La Mesa Dinero - @ViewBag.Title</title>
+    <!-- General -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/general.css">
+    <!-- Dashboard -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/containers/dashboard_base_layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/containers/basic_container_layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/dashboard-container/dashboard-item.css">
+    <link href="~/Content/css/register-auction-container/horizontal-progress-bar.css" rel="stylesheet" />
+    <!--              -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/effects.css">
+
+    @RenderSection("Styles", false)
+    <link href="~/Content/css/toastr.css" rel="stylesheet" />
+    <link href="~/Content/css/app.css" rel="stylesheet" />
+
+    
+    <style>
+        .user-area {
+            grid-template-columns: 175px 1fr 95px !important;
+        }
+
+        .dashboard-container-content > .user-area .bars-icon {
+            background-size: 20%;
+        }
+
+        .horizontal-progress-bar-content > div .little-circle {
+            height: 9px;
+            width: 9px;
+            top: -4.5px;
+            left: 50%;
+        }
+
+        .auction-box-container {
+            width: 900px;
+            display: grid;
+            grid-template-columns: minmax(250px, 1.1fr) minmax(270px, 1.1fr);
+        }
+
+        .expandible-thingy-container {
+            height: 30px;
+        }
+
+        .auction-box-container exchanger-input .label {
+            font-size: 13px;
+        }
+
+        exchanger-input > div:not(.dropdown-menu) {
+            border-radius: 6px;
+            border-bottom-right-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        .auction-box-container exchanger-input > div {
+            grid-template-columns: .1fr auto minmax(40px, .5fr) minmax(auto, 120px) !important;
+        }
+
+        .auction-box-container exchanger-input .flags {
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+            height: 59px;
+        }
+
+        .auction-box-container .partners-list > div {
+            padding: 1.5vh 2vw 1.5vh 2vw !important;
+        }
+
+        .auction-box-container .echange-box-buttons.center {
+            height: 50px;
+        }
+
+        .auction-box-container .input-container {
+            margin-bottom: 25px;
+        }
+
+        .auction-box-container .exchange-box-title {
+            margin-bottom: 8vh;
+            margin-top: 0;
+            top: 0;
+        }
+
+        .auction-box-container exchanger-input input {
+            font-size: 20px;
+            display: block;
+            max-width: 160px;
+        }
+
+        .auction-box-container special-counter {
+            width: 70%;
+            margin: auto;
+        }
+
+        .auction-box-container .partners-list > div div:last-child {
+            text-align: center;
+        }
+
+        exchanger-input.selected {
+            border-color: var(--font-blue);
+        }
+
+        .auction-box-container .partners-list > div {
+            grid-template-columns: auto auto auto;
+        }
+        /*Subasta 2*/
+        .auction-box-container special-counter {
+            margin-bottom: 6vh;
+        }
+
+        .expandible-thingy-container.active {
+            height: 12vh;
+        }
+
+            .expandible-thingy-container.active .exchange-info > div > div:first-child {
+                color: #00baff;
+                font-family: "Helvetica Neue Roman";
+            }
+
+        .auction-box-container .partners-list > div.active {
+            color: #00baff;
+        }
+
+        .auction-box-container .partners-list > div div {
+            font-size: 13px;
+        }
+
+        .expandible-thingy-container.active .exchange-info > div > div,
+        .you-saved.active {
+            color: var(--btn-blue);
+        }
+        /*Subasta 3*/
+        .custom-select-box .icon {
+            background-position-x: right;
+        }
+
+        .auction-confirmation-container .select-area {
+            width: 498px;
+            grid-template-rows: auto auto;
+            grid-template-columns: 1fr 1fr;
+            row-gap: 3px;
+        }
+
+            .auction-confirmation-container .select-area .s-label {
+                grid-row: 1 / 2;
+                color: var(--btn-blue);
+                justify-self: left;
+                font-size: 13px;
+            }
+
+            .auction-confirmation-container .select-area .custom-select-box {
+                grid-row: 2 / 3;
+            }
+
+        .auction-confirmation-container .block-text,
+        .auction-confirmation-container .exchange-board,
+        .auction-confirmation-container .select-area {
+            width: 535px;
+        }
+
+        div.custom-select-box {
+            grid-template-columns: 1fr 20px;
+        }
+
+        .auction-confirmation-container .exchange-board > div:last-child {
+            border-left: 1px solid #b3b3b3;
+        }
+
+        .auction-confirmation-container .exchange-board > div:first-child {
+            border-right: 1px solid #b3b3b3;
+        }
+
+        .auction-confirmation-container .exchange-board {
+            border: 1px solid #b3b3b3;
+        }
+
+            .auction-confirmation-container .exchange-board .rate {
+                font-size: 16px;
+            }
+
+        .bank-form .btn.blue-bordered {
+            height: 34px;
+            width: 183px;
+            justify-self: start;
+            align-self: center;
+        }
+
+            .bank-form .btn.blue-bordered * {
+                font-size: .8em;
+            }
+
+        .bank-form > .sub-title {
+            border-bottom: none !important;
+            background: none;
+            margin-bottom: 40px;
+        }
+
+        .d-label {
+            position: absolute;
+            font-size: 1.1vw;
+            top: -1.3em;
+            left: 2vh;
+            z-index: 1;
+            color: var(--btn-blue);
+        }
+
+        div.custom-select-box li, .custom-select-value {
+            padding-left: 15px;
+        }
+
+        .custom-select-box[value],
+        .custom-select-box.show-options {
+            border-color: var(--font-blue);
+        }
+        /*Cambio*/
+        .fake-placeholder {
+            /*color: var(--btn-blue) !important;*/
+        }
+
+        .select-area .custom-select-box.custom-select {
+            font-size: 13px;
+        }
+        /*Subasta 4*/
+        .auction-confirmation-container .main-title > div {
+            width: 400px;
+            margin: auto;
+            display: block;
+            left: unset;
+        }
+
+        .select-area div.custom-select-box > .custom-select-icon {
+            background: none !important;
+        }
+
+        .auction-confirmation-container .select-area {
+            margin: 0 auto 5vh auto;
+        }
+
+        .auction-confirmation-container .operations-resume .operations-box {
+            border: 1px solid var(--font-blue) !important;
+        }
+
+        .auction-confirmation-container .operations-resume {
+            width: 535px;
+        }
+
+        base-input.selected > div {
+            border: 1px solid var(--font-blue);
+        }
+    </style>
+</head>
+<body>
+    <div class="loading-spiner-holder" style="display:none;"></div>
+    <dashboard-basic-container>
+        <div class="dashboard-container-content">
+            <div class="logo-area-close"></div>
+            <div class="menu-area-close">
+                
+            </div>
+            <div class="user-area">
+                <div class="bars-icon-close"></div>
+                @Html.Partial("_RegistroHeader", (MesaDinero.Domain.Model.RegistroHeaderMenu)ViewData["MenuRegistro"])
+               <div class="popup-menu hidden">
+                    <div class="popup-menu-option">
+                        <div class="popup-menu-option-icon icon-1"></div>
+                        <div class="popup-menu-option-text">Crear Cuenta de Empresa</div>
+                    </div><div class="popup-menu-option">
+                        <div class="popup-menu-option-icon icon-2"></div>
+                        <div class="popup-menu-option-text">Mis Datos</div>
+                    </div><div class="popup-menu-option">
+                        <div class="popup-menu-option-icon icon-3"></div>
+                        <div class="popup-menu-option-text">Cambiar Contraseña</div>
+                    </div><div class="popup-menu-option">
+                        <div class="popup-menu-option-icon icon-4"></div>
+                        <div class="popup-menu-option-text">Cerrar Sesión</div>
+                    </div>
+                </div>
+            </div>
+            @RenderBody()
+            
+    </dashboard-basic-container>
+
+
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/chosen.jquery.js"></script>
+    @*<script src="~/Content/js/toggle_dashboard_menu_effect_open.js"></script>*@
+    <script src="~/Content/js/select_menu_option.js"></script>
+
+
+    <script src="~/Scripts/knockout-3.4.0.js"></script>
+    <script src="~/Scripts/knockout.validation.js"></script>
+    <script src="~/Scripts/knockout.mapping-latest.js"></script>
+    <script src="~/Content/js/global.js"></script>
+    <script src="~/Content/js/app.js"></script>
+    <script src="~/Content/js/toastr.js"></script>
+    <script type="text/javascript">
+        var urlApp = '@Url.Content("~")';
+        var urlApi = '@Url.Content("~")' + "api/";
+        toastr.options = { "progressBar": false, "positionClass": "toast-bottom-right", "closeButton": true, "showMethod": "slideDown" }
+        function redirectTo(url) {
+            window.location.href = url;
+        }
+    </script>
+
+
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>
+
+
+

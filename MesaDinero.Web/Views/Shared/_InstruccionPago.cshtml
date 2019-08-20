@@ -1,0 +1,136 @@
+﻿
+
+<!----------------------MODAL INSTRUCCION PAGO-------------------------->
+
+<div class="popup-container hidden ficha-popup" id="ficha">
+    <div class="popup" style="zoom: 90%;">
+        <span class="cross"></span>
+        <div class="popup-content">
+            <div class="register-auction-body register-container auction-confirmation-container" style="padding-top: 2em; padding-bottom: 2em;" data-bind="with:$root.subastaContexto">
+                <div class="main-header-container">
+                    <div class="main-title" style="max-width:650px">
+                        Instrucción de Pago
+                    </div>
+                </div>
+                <div class="block-text">
+                    <div>
+                        <p>ID de Transacción</p>
+                        <p>Fecha y Hora</p>
+                        <p>Nombre del TItular</p>
+                        <p>Financiaera Adjudicada</p>
+                        <p>Tipo de Cambio Pactado</p>
+                    </div>
+                    <div>
+                        <p data-bind="text:$data.formatoTransaccion"></p>
+
+                        <p data-bind="text:$data.fechaHora" style="height:16px"></p>
+                        <p data-bind="text:$data.usuario"></p>
+                        <p data-bind="text:$data.partnersAdjuntado"></p>
+                        <p data-bind="text:$data.precioPactado"></p>
+                    </div>
+                </div>
+                <div class="exchange-board">
+                    <div>
+                        <div class="exch-title">Tú Envías</div>
+                        <div class="rate">
+                            <span data-bind="text:$data.monedaEnvia"></span>
+                            <span data-bind="text:$data.montoEnvia"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="exch-title">Fideicomiso Corfid</div>
+                        <div class="iconed"></div>
+                    </div>
+                    <div>
+                        <div class="exch-title">Tú Recibes</div>
+                        <div class="rate">
+                            <span data-bind="text:$data.monedaRecibe"></span>
+                            <span data-bind="text:$data.montoRecibe"></span>
+
+                        </div>
+                    </div>
+                </div><round-button class="btn-round add add-account-btn hidden" text-content="Agregar Nueva Cuenta">
+                    <div class="round-button-content">
+                        <div class="btn-icon"></div>
+                        <div class="btn-text">Agregar Nueva Cuenta</div>
+                    </div>
+                </round-button>
+
+                <div class="select-area">
+                    <div class="s-label">Cuenta Origen</div>
+                    <div class="custom-select-box custom-select" value="interbank" id="bank">
+                        <div class="custom-select-value">
+                            <div>
+                                <img width="40px" height="17px" style="padding-left:10px" data-bind="attr:{src: $data.logoOrigen}" />
+                                @*<span data-bind="text: $data.logoOrigen"></span>*@
+                            </div>
+                            <div data-bind="text:$data.origen" style="text-align:left;padding-left:10px">1234-5678-91011-5000</div>
+                        </div>
+                    </div>
+
+                    <div class="s-label">Cuenta Destino</div>
+                    <div class="custom-select-box custom-select" value="bcp id=" bank">
+                        <div class="custom-select-value">
+                            @*<div class="bcp icon"></div>*@
+                            <img width="40px" height="17px" style="padding-left:10px" data-bind="attr:{src: $data.logoDestino}" />
+                            <div data-bind="text:$data.destino" style="text-align:left;padding-left:10px"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <!---->
+                <div class="operations-resume">
+                    <div class="operations-box-title">
+                        Inicia sesión en tu Banca Online y <span>
+                            transfiere exactamente <span data-bind="text:$data.monedaEnvia"></span>
+                            <span data-bind="text:$data.montoEnvia"></span>
+                        </span> a:
+                    </div>
+                    <div class="operations-box">
+                        <div class="operations-box-item">
+                            <div class="operations-box-subtitle">Nombre del Beneficiario</div>
+                            <div class="operations-box-value" data-bind="text: $data.nombreFideicomiso"></div>
+                        </div>
+                        <div class="operations-box-item">
+                            <div class="operations-box-subtitle">RUC</div>
+                            <div class="operations-box-value" data-bind="text: $data.RucFideicomiso"></div>
+                        </div>
+                        <div class="operations-box-item">
+                            <div class="operations-box-subtitle">Nombre del Banco</div>
+                            <div class="operations-box-value" data-bind="text: $data.bancoFideicomiso"></div>
+                        </div>
+                        <div class="operations-box-item">
+                            <div class="operations-box-subtitle">Moneda</div>
+                            <div class="operations-box-value" data-bind="text: $data.monedaBancoFideicomiso"></div>
+                        </div>
+                        <div class="operations-box-item">
+                            <div class="operations-box-subtitle">Tipo de Cuenta</div>
+                            <div class="operations-box-value" data-bind="text: $data.tipoCuentaFideicomiso"></div>
+                        </div>
+                        <div class="operations-box-item">
+                            <div class="operations-box-subtitle">Número de Cuenta Corfid</div>
+                            <div class="operations-box-value" data-bind="text: $data.nroCuentaFideicomiso"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="status green" style="margin-bottom:0px">
+                    <div class="status-content">
+                        <span class="status-icon"></span>
+                        <div class="status-text">
+                            <div class="status-text-content">
+                                <p style="text-align:justify">Recuerda que una operación confirmada no pagada equivale a la suspensión
+                               de las credenciales de acceso, hasta el pago de la penalidad equivalente a
+                                5% del valor de la operacion</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/Content/js/Subasta/InstruccionPago.js"></script>
+<!----------------------------------------------------------------------------->

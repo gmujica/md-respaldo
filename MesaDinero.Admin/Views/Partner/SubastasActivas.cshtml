@@ -1,0 +1,132 @@
+﻿@{
+    ViewBag.Title = "Subasta Activas";
+}
+
+@section Styles{
+
+    <!-- Subasta -->
+    <link rel="stylesheet" type="text/css" href="~/Content/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/css/user-area-adjustments.css">
+    <link href="~/Content/css/ficha-datos.css" rel="stylesheet" />
+    <link href="~/Content/css/registration/person-registration/layout.css" rel="stylesheet" />
+
+    <style>
+        .k-table .k-tbody tr td{
+            line-height:30px;
+        }
+
+        .k-input {
+            outline: none;
+            border: none;
+            color: var(--main-orange);
+            background-color: inherit;
+            text-align: center;
+            display: block;
+            width: 100%;
+            font-size: 14px;
+        }
+
+        .enviar-oferta {
+            min-width:120px;
+        }
+
+    </style>
+}
+
+<div class="complex-dashboard-content">
+    <div class="dashboard-tabs" style="grid-template-columns: 1fr 1fr 1fr 2fr;">
+
+    </div>
+    <div class="list-container">
+        <div class="partner partner-b">
+            <div class="table-responsive prt_subastasacivas">
+                <table class="k-table  k-trow-pointer tb_1">
+                    <thead class="k-thead" style="display: block;width: 100%;">
+                        <tr class="k-throw" style="display: block;width: 100%;">
+                            <th style="width: 18%; display: inline-block;">ID Transacción</th>
+                            <th style="width: 15%;display: inline-block;">Tiempo Restante</th>
+                            <th style="width: 34%; display: inline-block;">Usuario</th>
+                            <th style=" width: 10%; display: inline-block;">Quiere</th>
+                            <th style=" display: inline-block;width: 10%;">Moneda</th>
+                            <th style=" width: 10%; display: inline-block;">Monto</th>
+                        </tr>
+                    </thead>
+                    <tbody class="k-tbody" data-bind="foreach:$root.lstSubastas" style="display: block;width: 100%;">
+                        <tr style="display: block;width: 100%;">
+                            <td style="width: 18%; display: inline-block;">
+                                <span data-bind="text:$data.nroSubasta"></span>
+                            </td>
+                            <td style="width: 15%;display: inline-block;">
+                                <span data-bind="text:$data.tiempoRestante() + 'sgn.'"></span>
+                            </td>
+                            <td style="width: 34%; display: inline-block;">
+                                <span data-bind="text:$data.usuario"></span>
+                            </td>
+                            <td style=" width: 10%; display: inline-block;">
+                                <span data-bind="text:$data.operacion"></span>
+                            </td>
+                            <td style=" display: inline-block;width: 10%;">
+                                <span data-bind="text:$data.moneda"></span>
+                            </td>
+                            <td style=" width: 10%; display: inline-block;">
+                                <span data-bind="text:$data.monto"></span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table class="k-table k-trow-pointer tb_2" style="float:right;">
+                    <thead class="k-thead" style="display: block;width: 100%;">
+                        <tr class="k-throw" style="display: block; width: 100%;">
+                            <th style="width: 45%;display: inline-block;">Mi Oferta</th>
+                            <th style=" width: 50%; display: inline-block;">
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="k-tbody" data-bind="foreach:$root.lstSubastas2">
+                        <tr>
+                            <td>
+                                <input type="text" data-bind="value:$data.tipoCambioPactado,event: {keydown: $data.tabOut},attr:{id:'mono_'+$data.codigo(),onfocus:'focusk('+$data.codigo()+')',onblur:'focusoutk('+$data.codigo()+');'}" class="k-input" />
+                            </td>
+                            <td>
+                                <div data-bind="click:$data.updateTipoCambio,attr:{id:'btn_'+$data.codigo()}" style="max-width: 120px; height: 30px; background: #B5B5B5;" class="btn  enviar-oferta"><span class="btn-text" style="color:#fff;">Enviado</span></div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+            </div>
+            <br />
+            <br />
+
+        </div>
+
+    </div>
+</div>
+
+
+
+@section Scripts {
+
+    <script src="~/Content/js/app/Partner/SubastasActivas.js"></script>
+
+    
+
+    <script>
+
+        function focusk(id) {
+            $('#btn_' + id).css("background", "#00d068");
+            $('#btn_' + id + ' span').text('Enviar');
+        };
+
+        function focusoutk(id) {
+            $('#btn_' + id).css("background", "#B5B5B5");
+            $('#btn_' + id + ' span').text('Enviado');
+        }
+
+      
+    </script>
+
+
+}

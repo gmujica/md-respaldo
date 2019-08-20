@@ -1,0 +1,562 @@
+﻿@{
+    
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>La Mesa De Dinero</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/general.css">
+    <!-- 1ra Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/logo.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/options.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/section-a.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/section-b.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/exchanger-input.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/footer.css">
+    <!-- 2da Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/second-container/layout.css">
+    <!-- 3ra Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/third-container/layout.css">
+    <!-- 4ra Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/fourth-container/layout.css">
+    <!-- 5ta Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/fifth-container/layout.css">
+    <!-- 6ta Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/sixth-container/layout.css">
+    <!-- 7ma Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/seventh-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/seventh-container/contact-area.css">
+    <!--Extra container-->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/extra-container/layout.css">
+    <!-- 8va Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/eighth-container/layout.css">
+    <!-- 9na Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/ninth-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/ninth-container/footer-menu.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/popup.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/caja-mods.css">
+    <link href="~/Content/css/app.css" rel="stylesheet" />
+    <script src="~/Content/js/open_popup.js"></script>
+    <script src="~/Content/js/close_popup.js"></script>
+    <!-- custom select 1 (exchange soles) -->
+    <script src="~/Content/js/custom_select_home.js"></script>
+    <script src="~/Content/js/ie-polyfill.js"></script>
+    <script src="~/Content/js/another-input-effect.js"></script>
+    <script src="~/Content/js/custom_select_home.js"></script>
+    @*<script src="~/Content/js/separador_miles.js"></script>*@
+    <script type="text/javascript">
+        function redirectTo(url) {
+            window.location.href = url;
+        }
+    </script>
+
+    <style>
+        .user-area {
+            grid-template-columns: 85px 1fr 135px !important;
+        }
+
+        .dashboard-container-content > .user-area .bars-icon {
+            background-size: 20%;
+        }
+
+        .horizontal-progress-bar-content > div .little-circle {
+            height: 9px;
+            width: 9px;
+            top: -4.5px;
+            left: 50%;
+        }
+
+        .auction-box-container {
+            width: 900px;
+            display: grid;
+            grid-template-columns: minmax(250px, 1.1fr) minmax(270px, 1.1fr);
+        }
+
+        .expandible-thingy-container {
+            height: 30px;
+        }
+
+        .auction-box-container .partners-list > div {
+            padding: 1.5vh 2vw 1.5vh 2vw !important;
+        }
+
+        .auction-box-container .echange-box-buttons.center {
+            height: 50px;
+        }
+
+        .auction-box-container .input-container {
+            margin-bottom: 25px;
+        }
+
+        .auction-box-container .exchange-box-title {
+            margin-bottom: 8vh;
+            margin-top: 0;
+            top: 0;
+        }
+
+        .auction-box-container special-counter {
+            width: 70%;
+            margin: auto;
+        }
+
+        .auction-box-container .partners-list > div div:last-child {
+            text-align: center;
+        }
+
+        .auction-box-container .partners-list > div {
+            grid-template-columns: auto auto auto;
+        }
+
+            .auction-box-container .partners-list > div div {
+                font-size: 15px;
+            }
+
+        .new-text {
+            font-size: 14px;
+            font-family: 'Helvetica Neue Roman';
+            font-weight: bold;
+        }
+
+            .new-text:not(.mew2) {
+                font-size: 12px;
+                color: rgb(153, 153, 153);
+            }
+
+        exchanger-input > div:not(.dropdown-menu) {
+            border-radius: 5px 5px 5px 5px !important;
+        }
+
+        .sect-b-btn > .btn1 > .popup-opener:hover {
+            /*background-color:  rgba(19, 95, 158, 0.932);*/
+            background-color: azure;
+        }
+
+        a { 
+            text-decoration: none;
+        }
+
+        #a1 {
+            color:#585858;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="popup-container hidden" id="popup_2">
+        <div class="popup subasta-popup">
+            <span class="cross"></span>
+            <div class="popup-content">
+                <div class="board-text" style="margin: 10px auto 10px auto; font-size: 18px;">Subasta en LA MESA DE DINERO y compara con estos proveedores</div>
+                <div class="board-text" style="color: black; font-weight: bold; font-family: 'Helvetica Neue Roman'">El mercado cuando tu compras <span style="color: var(--main-orange);">$20,000</span></div>
+                <div class="comparison-board">
+                    <div class="board-item board-item-head">
+                        <div>Proveedor</div>
+                        <div>Tipo de cambio</div>
+                        <div>Tú envías</div>
+                    </div>
+                    <div class="board-item">
+                        <div class="board-icon mdi">Proveedor</div>
+                        <div>
+                            <div class="circle green"></div>
+                            <div>
+                                <div class="btn success" style="padding: 10px 5px 10px 5px; height: 25px; width: 80px;">
+                                    <div class="btn-text">Subastar</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div style="color: var(--main-orange)">subasta y compra</div>
+                        </div>
+                    </div>
+                    <div class="board-item">
+                        <div class="board-icon ibank">Proveedor</div>
+                        <div>
+                            <div class="circle green"></div>
+                            <div style="width: 80px; padding: 10px 5px 10px 5px; display: grid; grid-template-rows: auto auto; grid-template-columns: auto auto; column-gap: 5px;">
+                                <div class="new-text mew2">Vende</div>
+                                <div class="new-text mew2">3.256</div>
+                                <div class="new-text">Compra</div>
+                                <div class="new-text">3.241</div>
+                            </div>
+                        </div>
+                        <div>S/ .65,200.00</div>
+                    </div>
+                    <div class="board-item">
+                        <div class="board-icon irextie">Proveedor</div>
+                        <div>
+                            <div class="circle red"></div>
+                            <div style="width: 80px; padding: 10px 5px 10px 5px; display: grid; grid-template-rows: auto auto; grid-template-columns: auto auto; column-gap: 5px;">
+                                <div class="new-text mew2">Vende</div>
+                                <div class="new-text mew2">3.260</div>
+                                <div class="new-text">Compra</div>
+                                <div class="new-text">3.245</div>
+                            </div>
+                        </div>
+                        <div>S/ .65,400.00</div>
+                    </div>
+                    <div class="board-item">
+                        <div class="board-icon ibcp">Proveedor</div>
+                        <div>
+                            <div class="circle red"></div>
+                            <div style="width: 80px; padding: 10px 5px 10px 5px; display: grid; grid-template-rows: auto auto; grid-template-columns: auto auto; column-gap: 5px;">
+                                <div class="new-text mew2">Vende</div>
+                                <div class="new-text mew2">3.27</div>
+                                <div class="new-text">Compra</div>
+                                <div class="new-text">3.255</div>
+                            </div>
+                        </div>
+                        <div>S/ .65,500.00</div>
+                    </div>
+                </div>
+                <div class="board-font-blue">ver más proveedores</div>
+                <div class="board-text long-text">
+                    <p>Esta informacion la recolectamos consultando a las plataformas digitales de los proveedores y consultando precios al igual</p>
+                    <p>que lo hace un cliente. Estas tasas la puede consultar usted mismo en cada uno de los portales de cada proveedor, nosotros</p>
+                    <p>simplemente le facilitamos el trabajo.</p>
+                </div>
+                <div class="board-last-text">Siempre vamos a ser transparentes, porque es lo justo</div>
+            </div>
+        </div>
+    </div>
+    <main-container>
+        <div class="meta-content">
+            <meta-logo class="logo">
+                <div class="logo-content" id=”clickeable” onclick="location.href = '@Url.Action("","Home")';" style="cursor:pointer;"></div>
+            </meta-logo>
+            <meta-options class="options">
+                <div class="opt-1"><span><a href="@Url.Action("quienesSomos","Home")">Quienes Somos</a></span></div>
+                <div class="opt-2"><span><a href="@Url.Action("empresas","Home")">Empresas</a></span></div>
+                <div class="opt-3"><span><a href="@Url.Action("corfid","Home")">Instituciones Registradas</a></span></div>
+                <div class="opt-4"><span><a href="@Url.Action("ayuda","Home")">Ayuda</a></span></div>
+                <div class="opt-5"><span><a href="#Contacto">Contacto</a> </span></div>
+                <div class="opt-6 sign-in sign-in-menu">
+                    <span>Iniciar Sesión</span>
+                    <ul class="sub-menu-login">
+                        <li><a href="@Url.Action("","Acceso")">Como Cliente</a></li>
+                        <li><a href="@System.Configuration.ConfigurationManager.AppSettings["HostAdmin"]">Intranet</a> </li>
+                    </ul>
+                </div>
+                <a style="text-decoration:none;" href="@Url.Action("","Registro")" class="opt-7 sign-up"><span>Registrarse</span></a>
+            </meta-options>
+            <meta-section-a class="sect-a">
+                <div class="text-1">
+                    La forma fácil y segura de subastar tus Soles y Dólares en línea.
+                </div>
+                <div class="text-2">
+                    Accede a la negociación directa con las instrucciones financieras registradas, competirán ofreciéndote la mejor tasa del mercado.
+                </div>
+                <div class="btn-1">
+                    <span class="btn-1-img"></span>
+                    <span class="btn-1-txt">Ver cómo funciona</span>
+                </div>
+                <div class="text-3">Compruébalo tú mismo!</div>
+            </meta-section-a>
+            <meta-section-b class="sect-b">
+                <div>
+                    <div class="title" style="width: 600px; text-align: center;">¿Cuánto te gustaría subastar?</div>
+                    <exchanger-input class="combo1 exch1" currency="DOL" placeholder="1000" label="Tú envías">
+                        <div style="height: 75px;">
+                            <div class="label" style="font-size: 17px;">Tú envías</div>
+                            <input value="" class="input" placeholder="1000" style="font-size: 25px;" id="input-miles">
+                            <div class="icon" style="height: 70px"></div>
+                            <div class="flags" style="height: 75px; width: 125px;">
+                                <div class="flag DOL"></div>
+                                <div class="currency" style="font-size: 20px;">DOL</div>
+                                <div class="arrow"></div>
+                            </div>
+                        </div>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div>
+                                    <div class="flag DOL"></div>
+                                    <div>DOL</div>
+                                    <div>Dólares americanos</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div class="flag PEN"></div>
+                                    <div>PEN</div>
+                                    <div>Soles peruanos</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </exchanger-input>
+                    <exchanger-input class="combo2 exch2" currency="PEN" placeholder="Soles" label="Tú recibes" readonly="1">
+                        <div style="height: 75px;">
+                            <div class="label" style="font-size: 17px;">Tú recibes</div>
+                            <input value="" class="input" placeholder="Soles" style="font-size: 25px;">
+                            <div class="icon" style="height: 75;"></div>
+                            <div class="flags" style="height: 75px;width: 125px;">
+                                <div class="flag PEN"></div>
+                                <div class="currency" style="font-size: 20px;">PEN</div>
+                                <div class="arrow"></div>
+                            </div>
+                        </div>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div>
+                                    <div class="flag PEN"></div>
+                                    <div>PEN</div>
+                                    <div>Soles peruanos</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div class="flag DOL"></div>
+                                    <div>DOL</div>
+                                    <div>Dólares americanos</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </exchanger-input>
+                    <div class="sect-b-btn btn1 popup-opener" target-popup="popup_2"><span style="font-size: 20px;">Comparar Precios</span></div>
+                    <div class="sect-b-btn btn2" onclick="redirectTo('@Url.Action("index","Registro")')"><span style="font-size: 20px;">Subastar</span></div>
+                </div>
+            </meta-section-b>
+            <meta-footer class="footer">
+                <div class="footer-img-1"></div>
+                <div class="footer-text">Trabajamos con cuentas Bancarias de Fideicomiso</div>
+                <div class="footer-img-2"></div>
+                <div class="footer-img-3"></div>
+                <div class="footer-img-4"></div>
+                @*<div class="footer-img-5"></div>*@
+            </meta-footer>
+        </div>
+    </main-container>
+    <second-container>
+        <div class="meta-content">
+            <div class="text1">Instituciones financieras registradas</div>
+            <div class="text2"><strong>Competirán por ofrecerte el mejor tipo de cambio del mercado en tiempo real</strong></div>
+            <div class="brands">
+                <div class="img-1"></div>
+                <div class="img-2"></div>
+                <div class="img-3"></div>
+                <div class="img-4"></div>
+                <div class="img-5"></div>
+            </div>
+        </div>
+    </second-container>
+    <third-container>
+        <div class="meta-content">
+            <div class="area-1">
+                <div class="text-title">¿Por qué la Mesa de Dinero?</div>
+                <div class="text-content"><strong>Somos la primera Mesa de Dinero de las empresas Pyme y Personas</strong></div>
+            </div>
+            <div class="area-2">
+                <div class="icon-type-1 icon icon-1"></div>
+                <div class="icon-type-1 icon icon-2"></div>
+                <div class="icon-type-1 icon icon-3"></div>
+                <div class="icon icon-4"></div>
+                <div class="text-x text-1">
+                    <div class="text-title">Tú dinero será subastado en tiempo real</div>
+                    <div class="text-content">
+                        Accesibilidad al mejor tipo de cambio desde donde estés, permitiendo la negociación directa con las entidades registradas.
+                    </div>
+                </div>
+                <div class="text-x text-2">
+                    <div class="text-title">Somos ágiles y entendemos que el tiempo es dinero</div>
+                    <div class="text-content">
+                        Hemos conectado nuestros sistemas y procesos con las instituciones registradas y la entidad fiduciaria para hacer que tus operaciones sean ágiles.
+                    </div>
+                </div>
+                <div class="text-x text-3">
+                    <div class="text-title">Siempre seremos honestos y transparentes</div>
+                    <div class="text-content">
+                        Hacemos todo lo posible por comparar los precios. Tomarás la decisión de tu dinero con toda la información posible del mercado.
+                    </div>
+                </div>
+            </div>
+            <div class="area-3">
+                <div class="text-title">
+                    <div class="text-title-1">Operaciones rentables y seguras con total agilidad</div>
+                    <div class="text-title-2">No esperes más inicia con nosotros!</div>
+                </div>
+                <div class="text-btn" onclick="redirectTo('@Url.Action("index","Registro")')">
+                    <span>Crea tu cuenta</span>
+                </div>
+            </div>
+            <div class="triangle"></div>
+        </div>
+    </third-container>
+    <fourth-container>
+        <div class="meta-content">
+            <div class="logo">
+                <div class="fc-logo-1"></div>
+                <div class="fc-logo-2"></div>
+                <div class="fc-logo-3"></div>
+            </div>
+            <div class="text text-1">Aseguramos la protección de tu dinero</div>
+            <div class="text text-2">
+                La presencia de entidad fiduciaria CORFID regulada y supervisada por la Superintencia de Banca y Seguros
+                (SBS) asegurará tus fondos en cuentas bancarias inembargables.
+            </div>
+            <div class="text text-3">
+                Mantener la confianza de nuestros clientes y partners es nuestra prioridad número uno. Nuestro compromiso
+                de garantizar operaciones de cambio seguros en línea es la razón por la cual nuestros clientes eligen La
+                Mesa de Dinero.
+            </div>
+            <div class="text text-4"><strong>Igual de seguro que un Banco</strong></div>
+            <div class="btn-1-l" onclick="redirectTo('@Url.Action("corFid","Home")')">
+                <span>Leer más</span>
+            </div>
+        </div>
+    </fourth-container>
+    <fifth-container>
+        <div class="meta-content">
+            <div class="text">
+                <div class="text-title">Regístrate y accede a nuestra comunidad</div>
+                <div class="text-content">
+                    <strong>
+                        Juntos crearemos un mercado sin límites de acceso y transparencia.
+                        Porque lo merecemos
+                    </strong>
+                </div>
+            </div>
+            <div class="map"></div>
+        </div>
+    </fifth-container>
+    <extra-container>
+        <div class="meta-content">
+            <div class="text text-title">Nuestros Aliados</div>
+            <div class="text text-content">
+                <strong>Instituciones que nos respaldan</strong>
+            </div>
+            <div class="img-1"></div>
+        </div>
+    </extra-container>
+    <eighth-container>
+        <div class="meta-content">
+            <div class="text text-title">Próximamente descarga nuestra Aplicación</div>
+            <div class="text text-content">
+                <strong>
+                    Haz seguimiento de tus transferencias donde quiera que estés,
+                    o haz nuevas en un par de minutos
+                </strong>
+            </div>
+            <div class="img-1"></div>
+            <div class="img-2"></div>
+        </div>
+    </eighth-container>
+    <sixth-container style="background-color: #fff;">
+        <div class="meta-content">
+            <div class="text-1 text-title">¿Buscabas más?</div>
+            <div class="text-2 text-content">
+                Gente muy agradable y con sentido de urgencia, dispuesta a
+                ayudarte cuando nos necesites!
+            </div>
+        </div>
+    </sixth-container>
+    <seventh-container>
+        <div class="meta-content" id="Contacto">
+            <div class="text-title title-1">Contacto</div>
+            <div class="text-title title-2">Solicita un experto en servicio</div>
+            <div class="block-1">
+                <p>LA MESA DE DINERO</p>
+                <p>Calle Monte Rosa 256 Piso 10 Chacarilla</p>
+                <p>Santiago de Surco</p>
+                <p>(1) 432 - 3453</p>
+                <p>info@lamesadedinero.com</p>
+                <p>Lunes a Viernes - 9:00 am a 7:00 pm</p>
+            </div>
+            <div class="social">
+                <div class="text-title">Redes Sociales</div>
+                <div class="text-content">Síguenos en:</div>
+                <div class="text-icon text-icon-1"></div>
+                <div class="text-icon text-icon-2"></div>
+                <div class="text-icon text-icon-3"></div>
+                <div class="text-icon text-icon-4"></div>
+                <div class="text-icon text-icon-5"></div>
+            </div>
+            <contact-area class="block-2">
+                <div class="contact-area-content">
+                    <div class="dev-border contact-border">
+                        <input value="" placeholder="Nombre" type="text">
+                    </div>
+                    <div class="dev-border contact-border">
+                        <input value="" placeholder="Apellido" type="text">
+                    </div>
+                    <div class="dev-border contact-border">
+                        <input value="" placeholder="Celular" type="text">
+                    </div>
+                    <div class="dev-border contact-border">
+                        <input value="" placeholder="Correo" type="text">
+                    </div>
+                    <div class="dev-border contact-border btn-s">
+                        <span>Solicítenos Hoy</span>
+                    </div>
+                </div>
+            </contact-area>
+        </div>
+    </seventh-container>
+    <ninth-container>
+        <div class="meta-content">
+            <footer-menu class="menu">
+                <div class="footer-menu-content">
+                    <div class="text-title">Mapa del Sitio</div>
+                    <div class="text-title">Servicio al Cliente</div>
+                    <div class="text-title">Mi Cuenta</div>
+                    <div class="text-title">Libro de Reclamación</div>
+                    <div class="submenu">
+                        <div>
+                            <span class="disk"></span>
+                            <div><span class="text-footer"><a id="a1" href="@Url.Action("quienesSomos","Home")">Nosotros</a></span></div>
+                        </div>
+                        <div>
+                            <span class="disk"></span>
+                            
+                            <div><span class="text-footer"><a id="a1" href="@Url.Action("corfid", "Home")">Instituciones Registradas</a></span></div>
+                            
+                        </div>
+                        <div>
+                            <span class="disk"></span>
+                            <div><span class="text-footer"><a id="a1" href="@Url.Action("empresas","Home")">Empresas</a></span></div>
+                        </div>
+                    </div>
+                    <div class="submenu">
+                        <div>
+                            <span class="disk"></span>
+                            
+                            <div><span class="disk"></span><div><span class="text-footer"><a id="a1" href="#Contacto">Contáctenos</a></span></div></div>
+                        </div>
+                        <div>
+                            <span class="disk"></span>
+                            <div><span class="text-footer"><a id="a1" href="@Url.Action("ayuda","Home")">Ayuda</a></span></div>
+                        </div>
+                        <div>
+                            <span class="disk"></span>
+                            <div><span class="text-footer"><a id="a1" href="@Url.Action("terminos","Home")">Términos y Condiciones</a></span></div>
+                        </div>
+                        <div>
+                            <span class="disk"></span>
+                            @*<div><span class="text-footer"><a id="a1" href="@Url.Action("privacidad","Home")">Política de Privacidad</a></span></div>*@
+                            <div><span class="disk"></span><div><span class="text-footer"><a id="a1">Política de Privacidad</a></span></div></div>
+                        </div>
+                    </div>
+                    <div class="submenu">
+                        <div>
+                            <span class="disk"></span>
+                            <div><span class="text-footer"><a id="a1" href="@Url.Action("","Acceso")">Iniciar Sesión</a></span></div>
+                        </div>
+                        <div>
+                            <span class="disk"></span>
+                            <div><span class="text-footer"><a id="a1" href="@Url.Action("","Registro")">Registrarme</a></span></div>
+                        </div>
+                    </div>
+                    <div class="book" id=”clickeable” onclick="location.href = '@Url.Action("libroReclamaciones","Home")';" style="cursor:pointer;"></div>
+                </div>
+            </footer-menu>
+            <div class="logo"></div>
+            <div class="rights">
+                <!-- <p>LA MESA DE DINERO tiene todos los derechos en la empresa SOFIDIG S.A. ruc 20602578756, inscrito en registros públicos con número de partida electrónica 13972637.</p> -->
+                <p>© 2019 LA MESA DE DINERO. Todos los derechos Reservados</p>
+            </div>
+        </div>
+    </ninth-container>
+    <div id="ibmovx-is-installed"></div>
+</body>
+</html>

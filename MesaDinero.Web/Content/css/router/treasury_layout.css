@@ -1,0 +1,104 @@
+.treasury .main-header-container {
+	text-align: center;
+	margin: 5vh 0 2vh 0;
+}
+.treasury .main-header-container > .main-title {
+	color: var(--main-blue);
+	font-size: 1.8vw;
+	font-family: 'Helvetica Neue Roman';
+}
+.treasury .main-header-container >  .main-parragraph {
+	color: var(--main-blue);
+	font-family: 'Helvetica Neue Roman';
+	font-size: 1vw;
+	margin-top: 1vh;
+}
+/*treasury A*/
+.treasury-a {
+	padding: 5vh 6vw 4vh 6vw;
+}
+/*treasury B*/
+.treasury-b {
+	padding: 5vh 6vw 12vh 2vw;
+}
+.treasury-b dashboard-list .items .list-i,
+.treasury-b dashboard-list .headers {
+	grid-template-columns: .5fr 1fr 1fr .6fr 1fr .8fr .8fr .8fr .8fr .8fr 1.1fr .8fr !important;
+}
+.treasury-b .button-row {
+	margin-top: 4vh;
+	display: grid;
+	grid-template-columns: 5% 1fr 1fr 3fr;
+}
+.treasury-b .button-row .btn {
+	grid-column: 3 / 4;
+}
+.treasury-b .button-row .btn:first-child {
+	grid-column: 2 / 3;
+}
+.treasury-b .button-row .btn {
+	height: 5vh;
+	width: 12vw;
+	font-size: .8em;
+	place-self: center;
+}
+/*treasury C*/
+.treasury-c {
+	padding: 5vh 6vw 12vh 1vw;
+}
+.treasury-c .custom-select {
+	width: 13vw;
+	margin-bottom: 6vh;
+	margin-left: 5%;
+	height: 6vh;
+}
+.treasury-c dashboard-list .items .list-i,
+.treasury-c dashboard-list .headers {
+	grid-template-columns: .5fr 1fr .8fr .5fr 1fr .8fr 1fr 1fr .5fr 1fr 1fr !important;
+}
+.treasury-c .button-row {
+	margin-top: 4vh;
+	display: grid;
+	grid-template-columns: 5% 1fr 1fr 3fr;
+}
+.treasury-c .button-row .btn {
+	grid-column: 3 / 4;
+}
+.treasury-c .button-row .btn:first-child {
+	grid-column: 2 / 3;
+}
+.treasury-c .button-row .btn {
+	height: 5vh;
+	width: 12vw;
+	font-size: .8em;
+	place-self: center;
+}
+/*Treasury D*/
+.treasury-d {
+	padding: 5vh 6vw 12vh 1vw;
+}
+.treasury-d .select-area {
+	margin-left: 5%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1.5fr;
+	column-gap: 2vw;
+	margin-bottom: 10vh;
+	grid-template-rows: 6vh;
+}
+.treasury-d dashboard-list .items .list-i,
+.treasury-d dashboard-list .headers {
+	grid-template-columns: .5fr 1fr 1fr 1fr 1.2fr 1fr 1fr 1fr 1fr 1fr !important
+}
+/*Treasury E*/
+.treasury-e {
+	padding: 5vh 6vw 12vh 1vw;
+	display: grid;
+	grid-row-gap: 4vh;
+	grid-template-rows: auto auto 2vh;
+}
+.treasury-e .btn {
+	width: 8vw;
+	height: 5vh;
+	font-size: .7em;
+	justify-self: end;
+}

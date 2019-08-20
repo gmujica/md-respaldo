@@ -1,0 +1,76 @@
+﻿@model MesaDinero.Domain.Model.RegistroResponse
+
+@{
+    ViewBag.UserName = Model.userName;
+    ViewBag.Title = "Datos Basicos";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+    ViewData["MenuRegistro"] = Model.header;
+}
+
+@section Styles {
+    <link rel="stylesheet" type="text/css" href="~/Content/css/components/special-counter/special-counter.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/registration/register-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/registration/person-registration/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/containers/auction_confirmation_box_layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/containers/complex_container_layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/custom-checkbox.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/fancy-input.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/user-area-adjustments.css">
+    <link href="~/Content/css/chosen/chosen.min.css" rel="stylesheet" />
+}
+
+@if (Model.tipoCliente == 1)
+{
+    @Html.Partial("_DatosPersonaPartial", Model)
+}
+else
+{
+    @Html.Partial("_DatosEmpresaPartial",Model)
+}
+
+@section Scripts {
+
+
+    <script>
+            @if(Model.tipoCliente == 1)
+            {
+                <text>
+                    var w_nroDocumento = '@Html.Raw(Model.nroDocumento)';
+                    var w_nombres = '@Html.Raw(Model.nombres)';
+                    var w_apPaterno = '@Html.Raw(Model.apePaterno)';
+                    var w_apMaterno = '@Html.Raw(Model.apeMaterno)';
+                    var w_apEmail = '@Html.Raw(Model.email)';
+                    var w_celular = '@Html.Raw(Model.celular)';
+                    var sid = '@Html.Raw(Model.sid)';
+                </text>
+            }
+            else
+            {
+                <text>
+                    var w_nroDocumento = '@Html.Raw(Model.nroDocumento)';
+                    var sid = '@Html.Raw(Model.sid)';
+                </text>
+            }
+
+
+           
+
+
+
+    </script>
+
+    @if (Model.tipoCliente == 1)
+    {
+        
+            <script src="~/Content/js/Registro/RegistroDatosPersonaReadOnly.js"></script>
+        
+    }
+    else
+    {
+        <script src="~/Content/js/Registro/RegistroDatosEmpresa.ReadOnly.js"></script>
+    }
+
+}
+
+

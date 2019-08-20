@@ -1,0 +1,148 @@
+﻿
+
+@{
+    ViewBag.UserName = Model.userName;
+    ViewBag.MenuSubasta = "";
+    ViewBag.Title = "Operaciones";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/layout.css">
+
+
+<link href="~/Content/css/popup.css" rel="stylesheet" />
+<script src="~/Content/js/select_menu_option.js"></script>
+
+<script src="~/Content/js/custom_checkbox_effect.js"></script>
+<script src="~/Content/js/close_popup.js"></script>
+<script src="~/Content/js/add_form_effect.js"></script>
+
+<script src="~/Content/js/remove_bank_account.js"></script>
+<script src="~/Content/js/custom_bank_select.js"></script>
+
+
+
+<div class="content-area" style="grid-template-columns: auto;background-color: #fff;" id="datos_empresa">
+    <div class="register-auction-body register-container">
+
+        <div class="complex-dashboard-content" style="width:92%;margin:auto">
+
+            <div class="dashboard-tabs" style="grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;font-size: 15px;margin-bottom:40px;margin-left:0px;margin-top:15px;">
+                <div id="General" class="active"><a href="#" style="text-decoration:none;color:#428bca">General</a></div>
+                <div id="Realizadas"><a href="#" style="text-decoration:none;color:#428bca">Realizadas</a></div>
+                <div id="Incumplidas"><a href="#" style="text-decoration:none;color:#428bca">Incumplidas</a></div>
+                <div id="Curso"><a href="#" style="text-decoration:none;color:#428bca">En Curso</a></div>
+            </div>
+
+            @*<link rel="stylesheet" type="text/css" href="~/Content/bootstrap.css" />*@
+            <div class="list-container">
+
+
+                @*</div>
+                    <div class="list-container">*@
+                <div class="operations operations-c">
+                    <dashboard-list>
+                        <div>
+                            <!-- table inicio -->
+                            <div class="table-responsive" data-bind="with:lstOperacionesConfirmadasRegistradosT">
+                                <table class="k-table k-thover k-trow-pointer">
+                                    <thead class="k-thead">
+                                        <tr class="k-throw">
+                                            <th>Fecha</th>
+                                            <th>ID Transaccion</th>
+
+                                            <th>Financiera</th>
+                                            @*<th>Cliente</th>*@
+                                            <th>Tipo de Operacion</th>
+                                            @*<th>Moneda&nbsp;</th>*@
+                                            <th>Monto USD&nbsp;</th>
+                                            <th>Precio Pactado</th>
+                                            <th>Total PEN</th>
+                                            <th></th>
+                                            <th>Estado</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="k-tbody" data-bind="foreach:datasource">
+                                        <tr>
+
+                                            <td>
+                                                <span data-bind="text:fechaShort"></span>
+                                            </td>
+                                            <td>
+                                                <span data-bind="text:formatoTransaccion"></span>
+                                            </td>
+
+                                            <td>
+                                                <span data-bind="text:partnersAdjuntado"></span>
+                                            </td>
+                                            @*<td>
+                                                    <span data-bind="text:usuario"></span>
+                                                </td>*@
+                                            <td>
+                                                <span data-bind="text:quiere"></span>
+                                            </td>
+
+                                            <td>
+                                                <span data-bind="text:$data.montoUsd"></span>
+                                            </td>
+                                            <td>
+                                                <span data-bind="text:$data.precioPactado"></span>
+                                            </td>
+                                            <td>
+                                                <span data-bind="text:$data.montoPen"></span>
+                                            </td>
+
+                                            <td>
+                                                <div data-bind="attr:{'class' : 'k-icon k-status status_subasta_' + $data.estadoSubastaCodigo() }">
+                                                </div>
+                                            </td>
+                                            <td>
+
+
+                                                <div data-bind="attr:{'class':'status_'+$data.estadoSubastaCodigo()}">
+                                                    <div data-bind="text:$data.estadoSubasta"></div>
+                                                </div>
+
+
+
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                @*@Html.Partial("_Pagination")*@
+                            </div>
+                            <!-- / table fin-->
+
+
+
+                        </div>
+                    </dashboard-list>
+                </div>
+            </div>
+        </div>
+
+        @*realizado
+            en curso
+            incumplida*@
+
+
+    </div>
+
+</div>
+
+
+
+
+@section Scripts {
+
+
+    <script src="~/Content/js/select_menu_option.js"></script>
+
+    <script src="~/Content/js/close_popup.js"></script>
+
+    <script src="~/Content/js/Subasta/SubastaListaOperacion.js"></script>
+
+
+}
+
+

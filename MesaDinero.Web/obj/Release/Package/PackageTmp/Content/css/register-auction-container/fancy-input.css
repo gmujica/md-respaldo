@@ -1,0 +1,95 @@
+fancy-input-content, .fancy-input-content {
+	width: 100%;
+	height: 100%;
+}
+.fancy-input-content {
+	background-color: #fff;
+	position: relative;
+}
+.fancy-input-content.date {
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr;
+	grid-column-gap: .7em;
+}
+.fancy-input-content.date .custom-select{ 
+	margin-left: 0.2em;
+	background: url(../images/icons/caret-down-solid.svg) no-repeat 90% #fff !important;
+	background-size: .7em !important;
+}
+.fancy-input-content .fake-placeholder {
+	position: absolute;
+	font-size: 1.1vw;
+	top: -1.3em;
+	left: 2vh;
+	transition: 0.5s;
+	z-index: 1;
+	color: #999999;
+}
+
+.fancy-input-content .grid-2 {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-column-gap: 1vw;
+	height: 100%;
+}
+
+.fancy-input-content .grid-2 .custom-select {
+	width: 100%;
+	background-color: #fff;
+	border: none;
+	border: 1px solid #d1d1d1;
+	border-radius: 3px;
+	outline: none;
+	color: #999999;
+	font-size: 1.1vw;
+	background: transparent;
+	background: url("../images/icons/caret-down-solid.svg") no-repeat 90% #fff;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	background-size: 10px;
+	padding-left: 1vw;
+}
+.custom-select-wrap .fake-placeholder {
+	position: absolute;
+	font-size: 1.1vw;
+	top: -1.3em;
+	left: 2vh;
+	transition: 0.5s;
+	z-index: 1;
+	color: #999999;
+}
+.fancy-input-content.search input { 
+	background: url(../images/icons/fa-search.svg) no-repeat 3% #fff;
+	background-size: 1.3em;
+}
+.fancy-input-content input {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	width: 98.5%;
+	height: 100%;
+	font-size: 1.1vw;
+	z-index: 2;
+	border: 1px solid #d1d1d1;
+	border-radius: 3px;
+	transition: .5s;
+	color: var(--main-blue);
+	padding-left: 0.3em;
+	height: 100%;
+}
+.fancy-input-content.selected input {
+	/*border-bottom-color: #999999;*/
+	color: #999999;
+	border-bottom-width: 1px;
+}
+.fancy-input-content.selected input:focus {
+	color: var(--font-blue);
+	border-color: var(--font-blue);
+}
+
+.btn-center {
+	display: grid;
+	width: 100%;
+	
+}

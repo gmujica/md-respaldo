@@ -1,0 +1,354 @@
+﻿@model  MesaDinero.Domain.Subasta_ConfirmarOperacion_Response
+@{
+    //ViewBag.MenuSubasta = "SM1";
+    ViewBag.Title = "Confirmación";
+
+    //ViewData["MenuRegistro"] = null;
+    Layout = "~/Views/Shared/_LayoutSubasta.cshtml";
+
+}
+
+@section Styles {
+    <link href="~/Content/css/components/special-counter/special-counter.css" rel="stylesheet" />
+    <link href="~/Content/css/registration/register-container/layout.css" rel="stylesheet" />
+
+    <link href="~/Content/css/containers/auction_confirmation_box_layout.css" rel="stylesheet" />
+    <link href="~/Content/css/containers/basic_container_layout.css" rel="stylesheet" />
+    <link href="~/Content/css/containers/complex_container_layout.css" rel="stylesheet" />
+    <link href="~/Content/css/containers/dashboard_base_layout.css" rel="stylesheet" />
+    <link href="~/Content/css/register-auction-container/layout.css" rel="stylesheet" />
+    <link href="~/Content/css/register-auction-container/custom-checkbox.css" rel="stylesheet" />
+    <link href="~/Content/css/auction/auction-box/layout.css" rel="stylesheet" />
+    <link href="~/Content/css/counter-mods.css" rel="stylesheet" />
+    <link href="~/Content/css/home/main-container/exchanger-input.css" rel="stylesheet" />
+    <link href="~/Content/css/popup.css" rel="stylesheet" />
+    <link href="~/Content/css/components/form-base-container/base-input/layout.css" rel="stylesheet" />
+
+}
+
+<style>
+    .user-area {
+        grid-template-columns: 175px 1fr 135px !important;
+    }
+
+    .dashboard-container-content > .user-area .bars-icon {
+        background-size: 20%;
+    }
+
+    .horizontal-progress-bar-content > div .little-circle {
+        height: 9px;
+        width: 9px;
+        top: -4.5px;
+        left: 50%;
+    }
+
+    .auction-box-container {
+        width: 900px;
+        display: grid;
+        grid-template-columns: minmax(250px, 1.1fr) minmax(270px, 1.1fr);
+    }
+
+    .expandible-thingy-container {
+        height: 30px;
+    }
+
+    .auction-box-container exchanger-input .label {
+        font-size: 13px;
+    }
+
+    exchanger-input > div:not(.dropdown-menu) {
+        border-radius: 6px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .auction-box-container exchanger-input > div {
+        grid-template-columns: .1fr auto minmax(40px, .5fr) minmax(auto, 120px) !important;
+    }
+
+    .auction-box-container exchanger-input .flags {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        height: 59px;
+    }
+
+    .auction-box-container .partners-list > div {
+        padding: 1.5vh 2vw 1.5vh 2vw !important;
+    }
+
+    .auction-box-container .echange-box-buttons.center {
+        height: 50px;
+    }
+
+    .auction-box-container .input-container {
+        margin-bottom: 25px;
+    }
+
+    .auction-box-container .exchange-box-title {
+        margin-bottom: 8vh;
+        margin-top: 0;
+        top: 0;
+    }
+
+    .auction-box-container exchanger-input input {
+        font-size: 20px;
+        display: block;
+        max-width: 160px;
+    }
+
+    .auction-box-container special-counter {
+        width: 70%;
+        margin: auto;
+    }
+
+    .auction-box-container .partners-list > div div:last-child {
+        text-align: center;
+    }
+
+    exchanger-input.selected {
+        border-color: var(--font-blue);
+    }
+
+    .auction-box-container .partners-list > div {
+        grid-template-columns: auto auto auto;
+    }
+    /*Subasta 2*/
+    .auction-box-container special-counter {
+        margin-bottom: 6vh;
+    }
+
+    .expandible-thingy-container.active {
+        height: 12vh;
+    }
+
+        .expandible-thingy-container.active .exchange-info > div > div:first-child {
+            color: #00baff;
+            font-family: "Helvetica Neue Roman";
+        }
+
+    .auction-box-container .partners-list > div.active {
+        color: #00baff;
+    }
+
+    .auction-box-container .partners-list > div div {
+        font-size: 13px;
+    }
+
+    .expandible-thingy-container.active .exchange-info > div > div,
+    .you-saved.active {
+        color: var(--btn-blue);
+    }
+    /*Subasta 3*/
+    .custom-select-box .icon {
+        background-position-x: right;
+    }
+
+    .auction-confirmation-container .select-area {
+        width: 498px;
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 3px;
+    }
+
+        .auction-confirmation-container .select-area .s-label {
+            grid-row: 1 / 2;
+            color: var(--btn-blue);
+            justify-self: left;
+            font-size: 13px;
+        }
+
+        .auction-confirmation-container .select-area .custom-select-box {
+            grid-row: 2 / 3;
+        }
+
+    .auction-confirmation-container .block-text,
+    .auction-confirmation-container .exchange-board,
+    .auction-confirmation-container .select-area {
+        width: 535px;
+    }
+
+    div.custom-select-box {
+        grid-template-columns: 1fr 20px;
+    }
+
+    .auction-confirmation-container .exchange-board > div:last-child {
+        border-left: 1px solid #b3b3b3;
+    }
+
+    .auction-confirmation-container .exchange-board > div:first-child {
+        border-right: 1px solid #b3b3b3;
+    }
+
+    .auction-confirmation-container .exchange-board {
+        border: 1px solid #b3b3b3;
+    }
+
+        .auction-confirmation-container .exchange-board .rate {
+            font-size: 16px;
+        }
+
+    .bank-form .btn.blue-bordered {
+        height: 34px;
+        width: 183px;
+        justify-self: start;
+        align-self: center;
+    }
+
+        .bank-form .btn.blue-bordered * {
+            font-size: .8em;
+        }
+
+    .bank-form > .sub-title {
+        border-bottom: none !important;
+        background: none;
+        margin-bottom: 40px;
+    }
+
+    .d-label {
+        position: absolute;
+        font-size: 1.1vw;
+        top: -1.3em;
+        left: 2vh;
+        z-index: 1;
+        color: var(--btn-blue);
+    }
+
+    div.custom-select-box li, .custom-select-value {
+        padding-left: 15px;
+    }
+
+    .custom-select-box[value],
+    .custom-select-box.show-options {
+        border-color: var(--font-blue);
+    }
+
+    .fake-placeholder {
+        color: var(--btn-blue) !important;
+    }
+
+    .select-area .custom-select-box.custom-select {
+        font-size: 13px;
+    }
+
+    base-input.selected > div {
+        border: 1px solid var(--font-blue);
+    }
+
+    .register-auction-body .main-header-container {
+        margin: 20px auto 20px auto;
+        top: unset !important;
+    }
+
+    .auction-confirmation-container .main-title > div {
+        left: unset !important;
+        width: 450px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto 1fr;
+    }
+</style>
+
+<div class="popup-container hidden" id="popup_concluir">
+    <div class="popup">
+        <span class="cross"></span>
+        <div class="popup-content alert">
+            <div class="exclamation-circle">!</div>
+            <div class="alert-title">Tiempo concluido</div>
+            <div class="alert-subtitle">¿Desea iniciar una nueva subasta?</div>
+            <div class="btn blue-style close-popup-btn"><span class="btn-text" style="font-size: 1vw;"><a style="text-decoration:none;color:#FFF" href="@Url.Action("Index", "subasta")">Aceptar</a></span></div>
+            @*<div class="btn-text" style="font-size: 1vw"><a style="text-decoration:none;color:#FFF" href="@Url.Action("Index", "Inicio")">Aceptar</a></div>*@
+        </div>
+    </div>
+</div>
+
+
+
+
+<div  class="register-auction-body register-container auction-confirmation-container">
+    <special-counter value="Tiempo Restante" seconds="55 segundos">
+        <div>
+            <div class="special-counter-label-text">Tiempo Restante</div>
+            <div class="time-container">
+                <span class="clock-icon"></span>
+                <div class="time-counter"><b data-bind="text:$root.tiempo"></b> segundos</div>
+            </div>
+        </div>
+    </special-counter>
+    <div class="main-header-container">
+        <div class="main-title">
+            <div>
+                <div class="main-title-icon"></div>
+                Confirma tu operación con tu contraseña
+            </div>
+        </div>
+    </div>
+    <div class="block-text">
+        <div>
+            <p>ID de Transacción</p>
+            <p>Empresa Adjudicada</p>
+            <p>Tipo de Cambio Pactado</p>
+        </div>
+        <div>
+            <p>@string.Format("{0:000000000}", Model.transaccion)</p>
+            <p>@Model.nombrePartner</p>
+            <p>@string.Format("{0:#.000}", Model.tipoCambio)</p>
+        </div>
+    </div>
+    <div class="exchange-board">
+        <div>
+            <div class="exch-title">Tú Envías</div>
+            <div class="rate">@string.Format("{0} {1:n}", Model.monedaEnvio, Model.valorEnvio)</div>
+        </div>
+
+        <div>
+            <div class="exch-title">Fideicomiso Corfid</div>
+            <div class="iconed"></div>
+        </div>
+        <div>
+            <div class="exch-title">Tú Recibes</div>
+            <div class="rate">@string.Format("{0} {1:n}", Model.monedaRecibe, Model.valorRecibe)</div>
+        </div>
+    </div>
+    <div id="open_popup_bank_popup">
+    </div>
+    <base-input class="introduce-password" type="password" placeholder="Introduce tu contraseña">
+        <div class="base-input-content"><input placeholder="Introduce tu contraseña" type="password" data-bind="value:$root.password"><span class="view"></span></div>
+    </base-input>
+    <div class="btn success confirm-op" data-bind="click:$root.confirmarPassword"><span class="btn-text">Confirmar</span></div>
+    <div class="status green">
+        <div class="status-content">
+            <span class="status-icon"></span>
+            <div class="status-text">
+                <div class="status-text-content">
+                    Recuerda que una operación confirmada no pagada equivale a la suspensión
+                    de las credenciales de acceso, hasta el pago de la penalidad equivalente a
+                    5% del valor de la operacion
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+
+    <script>
+        var sid = '@Model.subasta';
+    </script>
+    <script src="~/Content/js/close_popup.js"></script>
+    <script src="~/Content/js/Subasta/Subastaconfirmacion.js"></script>
+
+    <script>
+
+        function noatras() {
+            debugger;
+            window.location.hash = "no-back-button";
+            window.location.hash = "Again-No-back-button"
+            window.onhashchange = function () {
+                window.location.hash = "no-back-button";
+            }
+        }
+    </script>
+
+
+}
+

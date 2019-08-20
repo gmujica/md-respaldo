@@ -1,0 +1,380 @@
+﻿@model MesaDinero.Domain.Model.RegistroResponse
+
+@{
+    ViewBag.UserName = Model.userName;
+    ViewBag.MenuRegistro = Model.header;
+    ViewBag.Title = "Operaciones";
+    Layout = "~/Views/Shared/_LayoutRegistro.cshtml";
+}
+
+@section Styles {
+<link href="~/Content/css/components/special-counter/special-counter.css" rel="stylesheet" />
+<link href="~/Content/css/registration/register-container/layout.css" rel="stylesheet" />
+
+<link href="~/Content/css/containers/auction_confirmation_box_layout.css" rel="stylesheet" />
+<link href="~/Content/css/containers/basic_container_layout.css" rel="stylesheet" />
+<link href="~/Content/css/containers/complex_container_layout.css" rel="stylesheet" />
+<link href="~/Content/css/containers/dashboard_base_layout.css" rel="stylesheet" />
+<link href="~/Content/css/register-auction-container/layout.css" rel="stylesheet" />
+<link href="~/Content/css/register-auction-container/custom-checkbox.css" rel="stylesheet" />
+<link href="~/Content/css/auction/auction-box/layout.css" rel="stylesheet" />
+<link href="~/Content/css/counter-mods.css" rel="stylesheet" />
+<link href="~/Content/css/home/main-container/exchanger-input.css" rel="stylesheet" />
+<link href="~/Content/css/popup.css" rel="stylesheet" />
+}
+
+<style>
+    .user-area {
+        grid-template-columns: 175px 1fr 135px !important;
+    }
+
+    .dashboard-container-content > .user-area .bars-icon {
+        background-size: 20%;
+    }
+
+    .horizontal-progress-bar-content > div .little-circle {
+        height: 9px;
+        width: 9px;
+        top: -4.5px;
+        left: 50%;
+    }
+
+    .auction-box-container {
+        width: 1000px;
+        display: grid;
+        grid-template-columns: minmax(500px, 1.1fr) minmax(450px, 1.1fr);
+    }
+
+    .expandible-thingy-container {
+        height: 30px;
+    }
+
+    .auction-box-container exchanger-input .label {
+        font-size: 13px;
+    }
+
+    exchanger-input > div:not(.dropdown-menu) {
+        border-radius: 6px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .auction-box-container exchanger-input > div {
+        grid-template-columns: .1fr auto minmax(40px, .5fr) minmax(auto, 120px) !important;
+    }
+
+    .auction-box-container exchanger-input .flags {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        height: 59px;
+    }
+
+    .auction-box-container .partners-list > div {
+        padding: 1.5vh 2vw 1.5vh 2vw !important;
+    }
+
+    .auction-box-container .echange-box-buttons.center {
+        height: 50px;
+    }
+
+    .auction-box-container .input-container {
+        margin-bottom: 25px;
+    }
+
+    .auction-box-container .exchange-box-title {
+        margin-bottom: 8vh;
+        margin-top: 0;
+        top: 0;
+    }
+
+    .auction-box-container exchanger-input input {
+        font-size: 20px;
+        display: block;
+        max-width: 160px;
+    }
+
+    .auction-box-container special-counter {
+        width: 70%;
+        margin: auto;
+    }
+
+    .auction-box-container .partners-list > div div:last-child {
+        text-align: center;
+    }
+
+    exchanger-input.selected {
+        border-color: var(--font-blue);
+    }
+
+    .auction-box-container .partners-list > div {
+        grid-template-columns: auto auto auto;
+    }
+
+        .auction-box-container .partners-list > div div {
+            font-size: 15px;
+        }
+
+        .auction-box-container .partners-list > div.list-title div {
+            font-size: 14px;
+        }
+
+    .popup-div-content {
+        font-size: 13px;
+        text-align: justify;
+    }
+
+        .popup-div-content > p {
+            padding: 0.5em;
+        }
+
+    .exclamation-circle-content {
+        text-align: -webkit-center;
+    }
+
+    .alert-title {
+        text-align: center;
+    }
+    .text-c {
+        padding: 4em;
+        font-family: 'Helvetica Neue Roman';
+        color: #ababab;
+        padding-top: 1.5em;
+        font-size: 15px;
+        text-align: center;
+    }
+
+        .text-c > .condiciones {
+            color: #00baff;
+        }
+
+            .text-c > .condiciones:hover {
+                border-bottom: #00baff solid 1px;
+                cursor: pointer;
+            }
+</style>
+
+<div class="content-area" style="grid-template-columns: 1fr; background-color: #fff;">
+
+    <div class="popup-container" id="popup_1">
+        <div class="popup">
+            <span class="cross"></span>
+            <div class="exclamation-circle-content">
+                <div class="exclamation-circle">!</div>
+            </div>
+            <div class="popup-content alert">
+                <div class="alert-title">Importante antes de iniciar una subasta</div>
+                <div class="alert-subtitle">
+                    <div class="popup-div-content">
+                        <p>
+                            1- Una operacion confirmada y no pagada esta afecta a
+                            la inhabilitacion de las credenciales de acceso, hasta el
+                            pago de una penalidad equivalente al 5% del valor de la
+                            operacion.
+                        </p>
+                        <p>
+                            2- Asegurate que has autorizado a tu banco realizar
+                            transferencias por el monto que vas a operar.
+                        </p>
+                        <p>
+                            3- Por seguridad, no aceptamos pagos con cheques, ni
+                            efectivo y solo operamos con cuentas del titular.
+                        </p>
+                        <p>
+                            4- Asegurate de tener configurado en nuestro sistema las
+                            cuenta de bancos con las que vas a operar en soles y
+                            dolares.
+                        </p>
+                    </div>
+                </div>
+                <div class="btn blue-style close-popup-btn"><span class="btn-text" style="font-size: 1vw;">Aceptar</span></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="register-auction-body register-container auction-box-container">
+        <div>
+
+            <div class="exchange-box-title">¿Cuánto te gustaría subastar?</div>
+
+            <div class="input-container">
+
+                <exchanger-input class="exch1" currency="USD" placeholder=" " label="Tú envías">
+                    <div>
+                        <div class="label" style="font-size: 17px;">Tú envías</div>
+                        <input value="" class="input" placeholder="Dólares" id="tu_envias" autocomplete="off">
+                        <div class="icon"></div>
+                        <div class="flags" style="height: 75px; width: 125px;">
+                            <div class="flag USD"></div>
+                            <div class="currency" style="font-size: 20px;">USD</div>
+                            <div class="arrow"></div>
+                        </div>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li class="selected">
+                            <div>
+                                <div class="flag USD"></div>
+                                <div>USD</div>
+                                <div>Dólares americanos</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <div class="flag PEN"></div>
+                                <div>PEN</div>
+                                <div>Soles peruanos</div>
+                            </div>
+                        </li>
+                    </ul>
+                </exchanger-input>
+
+
+                <br />
+
+                <exchanger-input class="exch2" currency="PEN" placeholder=" " label="Tú recibes" readonly="1">
+                    <div><div class="label" style="font-size: 17px;">Tú recibes</div>
+                    <input value="" class="input" placeholder="Soles" autocomplete="off">
+                    <div class="icon" >
+                        </div><div class="flags" style="height: 75px; width: 125px;">
+                        <div class="flag PEN">
+                        </div>
+                        <div class="currency" style="font-size: 20px;">PEN</div>
+                        <div class="arrow"></div>
+                        </div>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li class="selected">
+                            <div>
+                                <div class="flag PEN"></div>
+                                <div >PEN</div>
+                                <div>Soles peruanos</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <div class="flag USD"></div>
+                                <div>USD</div>
+                                <div>Dólares americanos</div>
+                            </div>
+                        </li>
+                    </ul>
+                </exchanger-input>
+
+            </div><div class="you-saved"></div>
+            <div class="echange-box-buttons center">
+                <div class="btn success" onclick="actionSubasta();" >
+                    <span class="btn-text">Subastar</span>
+                </div>
+            </div>
+            <div class="text-c">Subastando aceptas nuestras <strong class="condiciones">Condiciones de Uso</strong></div>
+        </div>
+        <div>
+
+                  <special-counter style="margin-bottom: 40px !important;" value="Tiempo Restante" seconds="55 segundos">
+                      <div>
+                          <div class="special-counter-label-text">Tiempo de Subasta</div>
+                          <div class="time-container">
+                              <span class="clock-icon"></span>
+                              <div class="time-counter">55 segundos</div>
+                          </div>
+                      </div>
+                  </special-counter>
+
+            <!--<special-counter value="Tiempo Restante" seconds="55 segundos">
+                <div>
+                    <div class="special-counter-label-text">Tiempo Restante</div>
+                <div class="time-container">
+                        <span class="clock-icon"></span>
+                        <div class="time-counter">@Model.tiempoSubasta segundos</div>
+                    </div><div class="special-counter-bottom-arrow"></div>
+                </div>
+            </special-counter>-->
+        <div class="partners-list-secondary-text"></div>
+            <div class="partners-list">
+                <div class="list-title">
+                    <div style="color: #a4acb3;">Ranking</div>
+                    <div>Participantes de Subasta</div>
+                    <div style="color: #a4acb3;">Tipo de Cambio</div>
+                </div>
+                <div class="pre-load-partner">Buscando participantes...</div>
+                @foreach (var item in Model.partners)
+                {
+                    <div class="item item-s-k" style="display:none;">
+                        <div>--</div>
+                        <div>@item</div>
+                        <div>--</div>
+                    </div>
+                }
+                
+               
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+@section Scripts{
+
+<script src="~/Content/js/custom_select.js"></script>
+<script src="~/Content/js/close_popup.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            var items = $('.item-s-k');
+            var cnt = items.length;
+
+
+            window.setInterval(function () {
+
+                if (cnt >= 0) {
+
+                    $(items[cnt]).show('slow');
+                    $(".pre-load-partner").hide();
+                    cnt = cnt - 1;
+
+                }
+
+            }, 900);
+
+        });
+
+        function closePreRegistro() {
+          
+            
+
+        };
+
+
+        function closeModal() {
+            $("#popup_msm").addClass('hidden');
+        };
+
+        function actionModal() {
+            $("#popup_msm").addClass('hidden');
+            $(".loading-spiner-holder").show();
+            window.location.href = "@System.Configuration.ConfigurationManager.AppSettings["HostWeb"]/Registro/Operaciones/@Model.sid" ;
+        }
+
+
+        function actionSubasta() {
+
+            $("#title_popup").text("La Mesa de Dinero");
+            var htmlMsg = ' <p> Para poder subastar, primero deber terminar tu registro si ya terminaste tu registro <br/> es posible que este se encuentre en proceso de validacion.  </p><br/><span>¿volver a la pantalla de operaciones?</span>';
+            $("#message_popup").html(htmlMsg);
+            var htmlFooter = '<a onclick="actionModal();" style="color: #fff; text-decoration: none;padding-top:6px;text-align:center;">Aceptar</a>';
+            $("#footer_popup").html(htmlFooter);
+            $("#popup_msm").removeClass("hidden");
+
+        };
+
+
+    </script>
+}
+

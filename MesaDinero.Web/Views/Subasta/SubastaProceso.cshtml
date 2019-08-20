@@ -1,0 +1,99 @@
+﻿@model MesaDinero.Domain.SubastaProceso_Response
+
+<style>
+    .auction-box-container special-counter {
+        margin-bottom: 6vh;
+    }
+</style>
+<div class="content-area" style="grid-template-columns: 1fr; background-color: #fff;">
+    <div class="register-auction-body register-container auction-box-container">
+        <div>
+            <div class="exchange-box-title" style="margin: 0;">Subasta Activa...</div>
+            <div class="partners-list-secondary-text">Si ya elegiste continúa y confirma tu operación</div>
+            <div class="input-container">
+                <exchanger-input class="exch1 selected" currency="DOL" placeholder=" " label="Tú envías">
+                    <div>
+                        <div class="label">Tú envías</div>
+                        
+                        <label class="input-subasta" id="lb_vEnvio">@string.Format("{0:#.00}",Model.valorEnvio)</label>
+                        <div class="icon"></div>
+                        <div class="flags">
+                            <div class="flag @Model.monedaEnvio"></div>
+                            <div class="currency">@Model.monedaEnvio</div>
+                            @*<div class="arrow"></div>*@
+                        </div>
+                    </div>
+                    
+                </exchanger-input>
+                <div class="expandible-thingy-container active">
+                    <div class="expandible-auction-thingy"></div>
+                    <div class="exchange-info">
+                        <div>
+                            <div id="selected_exchange_rate"><span id="tipoCambio">@string.Format("{0:#.000}",Model.tipoCambio)</span> <span id="name_partner">@Model.partner</span></div>
+                            <div>Tipo de cambio garantizado</div>
+                        </div>
+                    </div>
+                </div>
+                <exchanger-input class="exch2 selected" currency="PEN" placeholder=" " label="Tú recibes" readonly="1">
+                    <div>
+                        <div class="label">Tú recibes</div>
+                        <label class="input-subasta" id="lb_vRecibo">@string.Format("{0:#.00}", Model.valorRecibe)</label>
+                        <div class="icon"></div>
+                        <div class="flags">
+                            <div class="flag @Model.monedaRecive"></div>
+                            <div class="currency">@Model.monedaRecive</div>
+                            @*<div class="arrow"></div>*@
+                        </div>
+                    </div>
+                    
+                </exchanger-input>
+            </div>
+            <div class="you-saved active">Ganas hasta <span>PEN 200</span></div>
+            <div class="echange-box-buttons">
+                <div class="btn regular blue-bordered popup-opener btn-esp-1" target-popup="popup_2">
+                    <span class="btn-text">Compara</span>
+                </div>
+                
+                <div class="btn success popup-opener" data-bind="click:$root.confirmarSubasta">
+                    <span class="btn-text">Continúa</span>
+                </div>
+                
+            </div>
+        </div>
+        <div>
+            <special-counter value="Tiempo Restante" seconds="55 segundos">
+                <div>
+                    <div class="special-counter-label-text">Tiempo Restante</div>
+                    <div class="time-container">
+                        <span class="clock-icon"></span>
+                        <div class="time-counter"><span id="tiempo">@Model.tiempo</span> segundos</div>
+                    </div>
+                    <div class="special-counter-bottom-arrow"></div>
+                </div>
+            </special-counter>
+            <div class="partners-list">
+                <div class="list-title">
+                    <div>Ranking</div>
+                    <div>Participantes de Subasta</div>
+                    <div>Tipo de Cambio</div>
+                </div>
+
+              
+                <div class="item_partner_list" data-bind="foreach:lstParter">
+                    <div data-bind="click:$root.selectOferta, attr:{'id':$data.id,'class':'item_partner oferta ' + $data.classCss}" class="">
+                        <div data-bind="text:($index() + 1)"></div>
+                        <div data-bind="text:$data.nombre"></div>
+                        <div data-bind="text:$data.tipoCambio"></div>
+                    </div>
+                </div>
+                
+             
+
+
+            </div>
+        </div>
+    </div>
+    <!---->
+</div>
+
+

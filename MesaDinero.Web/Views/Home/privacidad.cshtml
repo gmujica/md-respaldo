@@ -1,0 +1,160 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/general.css">
+    <!-- 1ra Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/logo.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/options.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/section-a.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/section-b.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/exchanger-input.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/footer.css">
+    <!-- 2da Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/second-container/layout.css">
+    <!-- 3ra Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/third-container/layout.css">
+    <!-- 4ra Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/fourth-container/layout.css">
+    <!-- 5ta Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/fifth-container/layout.css">
+    <!-- 6ta Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/sixth-container/layout.css">
+    <!-- 7ma Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/seventh-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/seventh-container/contact-area.css">
+    <!--Extra container-->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/extra-container/layout.css">
+    <!-- 8va Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/eighth-container/layout.css">
+    <!-- 9na Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/ninth-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/ninth-container/footer-menu.css">
+    <!--Quienes Somos-->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/quienes-somos/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/corfid/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/user-area-adjustments.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/auction/auction-box/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/terminos/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/layout.css">
+    <link href="~/Content/css/app.css" rel="stylesheet" />
+    <!-- custom select 1 (exchange soles) -->
+    <script src="~/Content/js/custom_select.js"></script>
+    <script src="~/Content/js/privacidad-data.js"></script>
+    <script src="~/Content/js/terminos-func.js"></script>
+
+    <style>
+        a { 
+            text-decoration: none;
+        }
+
+        #a1 {
+            color:#585858;
+        }
+
+        li{
+            list-style:none;
+        }
+    </style>
+
+
+</head>
+<body>
+    <main-container id="corfid">
+        <div class="meta-content">
+            <meta-logo class="logo">
+                <div class="logo-content" id=”clickeable” onclick="location.href = '@Url.Action("","Home")';" style="cursor:pointer;"></div>
+            </meta-logo>
+            <meta-options class="options">
+                <div class="opt-1 selected-option"><span><a href="@Url.Action("quienesSomos","Home")">Quienes Somos</a></span></div>
+                <div class="opt-2"><span><a href="@Url.Action("empresas","Home")">Empresas</a></span></div>
+                <div class="opt-3"><span>Instituciones Registradas</span></div>
+                <div class="opt-4"><span><a href="@Url.Action("ayuda","Home")">Ayuda</a></span></div>
+                <div class="opt-5"><span>Contacto</span></div>
+                <div class="opt-6 sign-in sign-in-menu">
+                    <span>Iniciar Sesión</span>
+                    <ul class="sub-menu-login">
+                        <li><a href="@Url.Action("","Acceso")">Como Cliente</a></li>
+                        <li><a href="@System.Configuration.ConfigurationManager.AppSettings["HostAdmin"]">Intranet</a> </li>
+                    </ul>
+                </div>
+                <div class="opt-7 sign-up"><span>Registrarse</span></div>
+            </meta-options>
+        </div>
+    </main-container>
+    <div class="terminos">
+        <div id="title" class="title">Política de Privacidad</div>
+        <div id="terminos-content" class="content"></div>
+        <div class="btn-row">
+            <div id="previous" class="btn blue-bordered disabled"><span class="btn-text">Página Anterior</span></div>
+            <div id="next" class="btn blue-bordered"><span class="btn-text">Siguiente Página</span></div>
+        </div>
+    </div>
+    <ninth-container>
+        <div class="meta-content">
+            <footer-menu class="menu">
+                <div class="footer-menu-content">
+                    <div class="text-title">Mapa del Sitio</div>
+                    <div class="text-title">Servicio al Cliente</div>
+                    <div class="text-title">Mi Cuenta</div>
+                    <div class="text-title">Libro de Reclamación</div>
+                    <div class="submenu">
+                        <div>
+                            <span class="disk"></span>
+                            <div><span class="text-footer">Nosotros</span></div>
+                        </div>
+                        <div>
+                            <span class="disk"></span>
+                            <div><span class="text-footer">Instituciones Registradas</span></div>
+                        </div>
+                        <div>
+                            <span class="disk"></span>
+                            <div><span class="text-footer"><a id="a1" href="@Url.Action("empresas","Home")">Empresas</a></span></div>
+                        </div>
+                    </div>
+                    <div class="submenu">
+                        <div>
+                            <span class="disk"></span>
+                            <div><span class="text-footer">Contáctenos</span></div>
+                        </div>
+                        <div>
+                            <span class="disk"></span>
+                            <div><span class="text-footer"><a id="a1" href="@Url.Action("ayuda","Home")">Ayuda</a></span></div>
+                        </div>
+                        <div>
+                            <span class="disk"></span>
+                            <div><span class="text-footer"><a id="a1" href="@Url.Action("terminos","Home")">Términos y Condiciones</a></span></div>
+                        </div>
+                        <div>
+                            <span class="disk"></span>
+                            <div><span class="text-footer"><a id="a1" href="@Url.Action("privacidad","Home")">Política de Privacidad</a></span></div>
+                        </div>
+                    </div>
+                    <div class="submenu">
+                        <div>
+                            <span class="disk"></span>
+                            <div><span class="text-footer"><a id="a1" href="@Url.Action("","Acceso")">Iniciar Sesión</a></span></div>
+                        </div>
+                        <div>
+                            <span class="disk"></span>
+                            <div><span class="text-footer"><a id="a1" href="@Url.Action("","Registro")">Registrarme</a></span></div>
+                        </div>
+                    </div>
+                    <div class="book" id=”clickeable” onclick="location.href = '@Url.Action("libroReclamaciones","Home")';" style="cursor:pointer;"></div>
+                </div>
+            </footer-menu>
+            <div class="logo"></div>
+            <div class="rights">
+                <!-- <p>LA MESA DE DINERO tiene todos los derechos en la empresa SOFIDIG S.A. ruc 20602578756, inscrito en registros públicos con número de partida electrónica 13972637.</p> -->
+                <p>© 2018 LA MESA DE DINERO. Todos los derechos Reservados</p>
+            </div>
+        </div>
+    </ninth-container>
+</body>
+</html>

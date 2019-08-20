@@ -1,0 +1,157 @@
+﻿@model MesaDinero.Domain.Subasta_Init_Reponse
+
+<div class="content-area" style="grid-template-columns: 1fr; background-color: #fff;">
+
+    <div class="popup-container" id="popup_1">
+        <div class="popup">
+            <span class="cross"></span>
+            <div class="exclamation-circle-content">
+                <div class="exclamation-circle">!</div>
+            </div>
+            <div class="popup-content alert">
+                <div class="alert-title">Importante antes de iniciar una subasta</div>
+                <div class="alert-subtitle">
+                    <div class="popup-div-content">
+                        <p>
+                            1- Una operacion confirmada y no pagada esta afecta a
+                            la inhabilitacion de las credenciales de acceso, hasta el
+                            pago de una penalidad equivalente al 5% del valor de la
+                            operacion.
+                        </p>
+                        <p>
+                            2- Asegurate que has autorizado a tu banco realizar
+                            transferencias por el monto que vas a operar.
+                        </p>
+                        <p>
+                            3- Por seguridad, no aceptamos pagos con cheques, ni
+                            efectivo y solo operamos con cuentas del titular.
+                        </p>
+                        <p>
+                            4- Asegurate de tener configurado en nuestro sistema las
+                            cuenta de bancos con las que vas a operar en soles y
+                            dolares.
+                        </p>
+                    </div>
+                </div>
+                <div class="btn blue-style close-popup-btn"><span class="btn-text" style="font-size: 1vw;">Aceptar</span></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="register-auction-body register-container auction-box-container">
+        <div>
+
+            <div class="exchange-box-title">¿Cuánto te gustaría subastar?</div>
+
+            <div class="input-container">
+
+                <exchanger-input class="exch1" currency="USD" placeholder=" " label="Tú envías">
+                    <div>
+                        <div class="label" style="font-size: 17px;">Tú envías</div>
+                        <input value="" class="input" placeholder="Dólares" id="valor_envio" autocomplete="off">
+                        <div class="icon"></div>
+                        <div class="flags" style="height: 75px; width: 125px;">
+                            <div class="flag USD"></div>
+                            <div class="currency" style="font-size: 20px;">USD</div>
+                            <div class="arrow"></div>
+                        </div>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li class="selected">
+                            <div>
+                                <div class="flag USD"></div>
+                                <div>USD</div>
+                                <div>Dólares americanos</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <div class="flag PEN"></div>
+                                <div>PEN</div>
+                                <div>Soles peruanos</div>
+                            </div>
+                        </li>
+                    </ul>
+                </exchanger-input>
+
+
+                <br />
+
+                <exchanger-input class="exch2" currency="PEN" placeholder=" " label="Tú recibes" readonly="1">
+                    <div>
+                        <div class="label" style="font-size: 17px;">Tú recibes</div>
+                        <input value="" class="input" placeholder="Soles" id="valor_recibes" autocomplete="off">
+                        <div class="icon-2">
+                        </div><div class="flags" style="height: 75px; width: 125px;">
+                            <div class="flag PEN">
+                            </div>
+                            <div class="currency" style="font-size: 20px;">PEN</div>
+                            <div class="arrow"></div>
+                        </div>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li class="selected">
+                            <div>
+                                <div class="flag PEN"></div>
+                                <div>PEN</div>
+                                <div>Soles peruanos</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <div class="flag USD"></div>
+                                <div>USD</div>
+                                <div>Dólares americanos</div>
+                            </div>
+                        </li>
+                    </ul>
+                </exchanger-input>
+
+            </div><div class="you-saved"></div>
+            <div class="echange-box-buttons center">
+                <div class="btn success" data-bind="click:$root.initSubasta">
+                    <span class="btn-text">Subastar</span>
+                </div>
+            </div>
+            <div class="text-c">Subastando aceptas nuestras <strong class="condiciones">Condiciones de Uso</strong></div>
+        </div>
+        <div>
+
+            <special-counter style="margin-bottom: 40px !important;" value="Tiempo Restante" seconds="55 segundos">
+                <div>
+                    <div class="special-counter-label-text">Tiempo de Subasta</div>
+                    <div class="time-container">
+                        <span class="clock-icon"></span>
+                        <div class="time-counter">@Model.tiempo segundos</div>
+                    </div>
+                </div>
+            </special-counter>
+            <div class="partners-list-secondary-text"></div>
+            <div class="partners-list">
+                <div class="list-title">
+                    <div style="color: #a4acb3;">Ranking</div>
+                    <div>Participantes de Subasta</div>
+                    <div style="color: #a4acb3;">Tipo de Cambio</div>
+                </div>
+                @*<div class="pre-load-partner">Buscando participantes...</div>*@
+                @foreach (var item in Model.partners)
+                {
+                    <div class="item item-s-k">
+                        <div>--</div>
+                        <div>@item</div>
+                        <div>--</div>
+                    </div>
+                }
+
+
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+

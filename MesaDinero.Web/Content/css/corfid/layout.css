@@ -1,0 +1,161 @@
+#corfid {
+	height: auto !important;
+}
+#corfid .meta-content {
+	grid-template-rows: 82.11px auto !important;
+	grid-template-areas: ". logo . options options options ." !important;
+}
+third-container {
+	display: block;
+	border-bottom: 1px solid #c3c3c3;
+	height: auto;
+	padding: 50px 0 50px 0;
+}
+.area-1, .area-3 {
+	display: block;
+	text-align: center;
+}
+third-container > .meta-content {
+	grid-row-gap: 20px;
+	grid-template-rows: auto 798px auto;
+	grid-template-areas: "area-1" "area-2" "area-3";
+}
+.area-3 {
+	width: auto;
+}
+.area-3 .text-content {
+	color: var(--font-blue);
+	font-size: 1.65vw;
+	align-self: end;
+	font-family: 'Helvetica Neue Thin';
+}
+.area-2 > .icon-4 {
+	background-image: url(./timeline-corfid.svg);
+}
+.area-2 {
+	width: auto !important;
+	display: grid;
+	grid-template-columns: 130px 20px 32px 20px 1fr !important;
+	grid-template-rows: 1fr 1fr 1fr 1fr !important;
+	grid-template-areas:
+		"icon-1 . icon-4 . text-1"
+		"icon-2 . icon-4 . text-2"
+		"icon-3 . icon-4 . text-3"
+		"icon-5 . icon-4 . text-4" !important;
+}
+.area-2 > .text-x {
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	align-self: center;
+	justify-self: start;
+}
+.text-4 {
+	grid-area: text-4;
+}
+.area-3 span {
+	font-size: inherit;
+	font-family: inherit;
+	color: var(--main-blue);
+}
+.icon-1 {
+	background-size: 50% !important;
+	background-image: url('./iconos-1.svg') !important;
+	background-position: center !important;
+}
+.icon-2 {
+	background-size: 60% !important;
+	background-image: url('./iconos-2.svg') !important;
+	background-position: center !important;
+}
+.icon-3 {
+	background-size: 60% !important;
+	background-image: url('./iconos-3.svg') !important;
+	background-position: center !important;
+}
+.icon-5 {
+	background-size: 60% !important;
+	grid-area: icon-5;
+	background-image: url('./iconos-4.svg') !important;
+	background-position: center !important;
+}
+.icon-4 {
+	background-size: auto 80% !important;
+	background-position-y: center !important;
+}
+.corfid {
+	display: grid;
+	background-color: #f1f1f1;
+	height: 322px;
+	position: relative;
+}
+.corfid > .triangle {
+	position: absolute;
+	top: 100%;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 25px solid #f1f1f1;
+	justify-self: center;
+	z-index: 3;
+}
+.corfid-logo {
+	background-repeat: no-repeat;
+	background-image: url('./corfid.svg');
+	background-size: 90%;
+	background-position: center;
+	width: 200px;
+	height: 70px;
+	margin: 0 auto 0 auto;
+	align-self: end;
+}
+.corfid > * {
+	text-align: center;
+}
+.corfid .title {
+	grid-area: unset;
+	font-size: 29px;
+}
+.blue-text {
+	color: var(--font-blue);
+	font-size: 20px;
+}
+.corfid .text {
+	font-size: 18px;
+}
+.banner {
+	z-index: 1;
+	height: 450px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('./banner-corfid.jpg');
+}
+.banner > .shadow {
+	display: grid;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.banner .content {
+	justify-self: center;
+	align-self: center;
+	width: 70%;
+	z-index: 3;
+	color: #fff;
+}
+.banner .title, .banner .text, .banner hr {
+	color: #fff;
+	z-index: 1000;
+}
+.banner hr {
+	background-color: #fff;
+	border-width: .5px;
+	margin-bottom: 30px !important;
+	margin-top: 30px;
+}
+.banner .content > *:not(:last-child) {
+	margin-bottom: 20px;
+}

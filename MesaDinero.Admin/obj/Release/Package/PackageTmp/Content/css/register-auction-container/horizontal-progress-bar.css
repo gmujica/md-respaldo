@@ -1,0 +1,64 @@
+horizontal-progress-bar {
+	display: grid;
+	padding: 1vw 0;
+	width: 800px;
+	place-self: end center;
+}
+.horizontal-progress-bar-content {
+	place-self: end stretch;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: repeat(3, 1fr);/*this is the default, it might change.*/
+}
+.horizontal-progress-bar-content > div {
+	justify-self: stretch;
+	padding-bottom: 2px;
+	font-size: 1.1vw;
+	color: #b3b3b3;
+	display: grid;
+	grid-template-rows: 2.5vh auto;
+	grid-template-columns: 1fr 1fr;
+	position: relative;
+}
+.horizontal-progress-bar-content > div .little-circle {
+	position: absolute;
+	height: 1.6vh;
+	width: 1.6vh;
+	background-color: transparent;
+	border-radius: 50%;
+	top: -0.8vh;
+	left: 50%;
+}
+.horizontal-progress-bar-content > div.active .little-circle {
+	background-color: var(--main-blue);
+}
+.horizontal-progress-bar-content .top-border {
+	height: 1px;
+	justify-self: stretch;
+	background-color: #b3b3b3;
+	grid-row: 1 / 2;
+}
+.horizontal-progress-bar-content .top-left-border {
+	grid-column: 1 / 2;
+}
+.horizontal-progress-bar-content .top-right-border {
+	grid-column: 2 / 3;
+}
+.horizontal-progress-bar-content > div.active .status-text,
+.horizontal-progress-bar-content > div.completed .status-text {
+	color: var(--font-blue);
+}
+.horizontal-progress-bar-content > div:first-child .top-left-border,
+.horizontal-progress-bar-content > div:last-child .top-right-border {
+	background-color: transparent;
+}
+.horizontal-progress-bar-content .status-text {
+	color: inherit;
+	font-size: inherit;
+	grid-row: 2 / 3;
+	grid-column: 1 / 3;
+	justify-self: center;
+	font-family: 'Helvetica Neue Roman';
+	color: #b3b3b3;
+	font-size: 12px;
+}

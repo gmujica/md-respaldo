@@ -1,0 +1,55 @@
+﻿
+    <select class="custom-select" data-bind="options:$root.lstTipoDocumentoAutorizada,optionsText:'text',optionsValue:'value',optionsCaption:'Tipo de Documento',value:tipoDocumento"></select>
+    <fancy-input placeholder="N° de Documento">
+        <div class="fancy-input-content">
+            <div class="fake-placeholder">N° de Documento</div>
+            <input data-bind="value:$data.nroDocumento" type="text">
+        </div>
+    </fancy-input>
+
+    <fancy-input id="person-reg-name" placeholder="Nombres">
+        <div class="fancy-input-content">
+            <div class="fake-placeholder">Nombres</div>
+            <input data-bind="value:$data.nombres" type="text" disabled>
+        </div>
+    </fancy-input>
+    <fancy-input id="person-reg-lastname" placeholder="Apellido Paterno">
+        <div class="fancy-input-content">
+            <div class="fake-placeholder">Apellido Paterno</div>
+            <input data-bind="value:$data.apePaterno" type="text" disabled>
+        </div>
+    </fancy-input>
+    <fancy-input id="person-reg-lastname2" placeholder="Apellido Materno">
+        <div class="fancy-input-content">
+            <div class="fake-placeholder">Apellido Materno</div>
+            <input data-bind="value:$data.apeMaterno" type="text" disabled>
+        </div>
+    </fancy-input>
+    <fancy-input id="person-reg-birthdate" placeholder="Fecha de Nacimiento (DD/MM/AA)">
+        <div class="fancy-input-content">
+            <div class="fake-placeholder">Teléfono Celular</div>
+            <div class="grid-2">
+                <select class="custom-select" data-bind="value:$data.preCelular">
+                    <option class="custom-option" value="+51" selected="">+51</option>
+                    <option class="custom-option" value="+1">+1</option>
+                    <option class="custom-option" value="+54">+54</option>
+                    <option class="custom-option" value="+55">+55</option>
+                    <option class="custom-option" value="+56">+56</option>
+                    <option class="custom-option" value="+61">+61</option>
+                </select>
+                <input data-bind="value:$data.celular" type="text">
+            </div>
+        </div>
+    </fancy-input>
+    <fancy-input id="person-reg-email" placeholder="E-mail">
+        <div class="fancy-input-content">
+            <div class="fake-placeholder">E-mail</div>
+            <input data-bind="value:$data.email" type="text">
+        </div>
+    </fancy-input>
+    <select class="custom-select" data-bind="options:$root.lstCargos,optionsText:'text',optionsValue:'value',optionsCaption:'Seleccione Cargo',value:cargo"></select>
+    @*</div>
+        </div>*@
+    
+  
+

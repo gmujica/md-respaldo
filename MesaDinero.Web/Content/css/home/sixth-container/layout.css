@@ -1,0 +1,78 @@
+sixth-container {
+	background-color: #f3f3f3;
+	position: relative;
+  	overflow: hidden;
+}
+sixth-container > .meta-content {
+	width: 100%;
+	height: 99%;
+	margin-top: 1%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('../../images/sixth-container/contacto.jpg');
+}
+sixth-container > .meta-content:before,
+sixth-container > .meta-content:after {
+	content:'';
+	position: absolute;
+	bottom: 0;
+	width: 50%;
+	background-color: #fff;
+	padding-bottom:3%;
+}
+sixth-container > .meta-content:before {
+	right: 50%;
+	-ms-transform-origin: 100% 100%;
+	-webkit-transform-origin: 100% 100%;
+	transform-origin: 100% 100%;
+	-ms-transform: skewX(45deg);
+	-webkit-transform: skewX(45deg);
+	transform: skewX(45deg);
+}
+sixth-container > .meta-content:after {
+	left: 50%;
+	-ms-transform-origin: 0 100%;
+	-webkit-transform-origin: 0 100%;
+	transform-origin: 0 100%;
+	-ms-transform: skewX(-45deg);
+	-webkit-transform: skewX(-45deg);
+	transform: skewX(-45deg);
+}
+sixth-container > .meta-content {
+	display: grid;
+	grid-template-columns: 1fr 40% 1fr;
+	grid-template-rows: 9.5% 1fr 2fr 1fr 26%;
+	grid-template-areas:
+		". . ."
+		". text-1 ."
+		". text-2 ."
+		". btn-1 ."
+		". . .";
+}
+sixth-container > .meta-content > * {
+	color: #fff;
+	text-align: center;
+}
+sixth-container > .meta-content > .text-1 {
+	grid-area: text-1;
+	font-size: 2.1vw;
+	font-family: 'Helvetica Neue Roman';
+	align-self: end;
+}
+sixth-container > .meta-content > .text-2 {
+	grid-area: text-2;
+	font-size: 1.55vw;
+	align-self: center;
+}
+sixth-container > .meta-content > .btn-1 {
+	grid-area: btn-1;
+	place-self: end center;
+	border: 2px solid #fff;
+    border-radius: .5vw;
+    padding: 1vh 2.5vw 1vh 2.5vw;
+}
+sixth-container > .meta-content > .btn-1 > span {
+	font-family: 'Helvetica Neue Roman';
+	font-size: 1.5vw;
+}

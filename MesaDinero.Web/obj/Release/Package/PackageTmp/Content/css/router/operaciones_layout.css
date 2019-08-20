@@ -1,0 +1,57 @@
+.operations .main-header-container {
+	text-align: center;
+	margin: 5vh 0 2vh 0;
+}
+.operations .main-header-container > .main-title {
+	color: var(--main-blue);
+	font-size: 1.8vw;
+	font-family: 'Helvetica Neue Roman';
+}
+.operations .main-header-container >  .main-parragraph {
+	color: var(--main-blue);
+	font-family: 'Helvetica Neue Roman';
+	font-size: 1vw;
+	margin-top: 1vh;
+}
+/*Operations A*/
+.operations-a {
+	padding: 5vh 6vw 4vh 6vw;
+}
+/*Operations B*/
+.operations-b {
+	padding: 5vh 10vw 4vh 6vw;
+	display: grid;
+	grid-row-gap: 4vh;
+	grid-template-rows: auto auto 2vh;
+}
+.operations-b .btn {
+	width: 14vw;
+	height: 5vh;
+	font-size: .8em;
+	justify-self: end;
+}
+/*Operations C*/
+.operations-c {
+	padding: 5vh 6vw 6vh 6vw;
+}
+.operations-c dashboard-list .items .list-i,
+.operations-c dashboard-list .headers {
+	grid-template-columns: .5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
+}
+/*Operations D*/
+.operations-d {
+	padding: 5vh 7vw 6vh 7vw;
+}
+.operations-d base-input {
+	margin-bottom: 2vh !important;
+	width: 14vw !important;
+	height: 5vh !important;
+}
+/*Operations E*/
+.operations-e {
+	padding: 5vh 16vw 12vh 7vw;
+}
+.operations-e dashboard-list .items .list-i,
+.operations-e dashboard-list .headers {
+	grid-template-columns: .8fr .5fr 1fr .5fr .5fr 1fr !important;
+}

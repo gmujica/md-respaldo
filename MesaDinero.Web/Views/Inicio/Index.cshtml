@@ -1,0 +1,160 @@
+﻿@{
+    ViewBag.Title = "Inicio";
+}
+
+<style>
+    .content-area {
+        display: block !important;
+    }
+
+    dashboard-item-fase-a {
+        top: 1px;
+        margin-left: 30px;
+        display: block;
+        height: 150px;
+        background-color: #f1f4f5;
+    }
+
+    .dashboard-item-blue-line {
+        position: absolute;
+        height: 60%;
+        width: 3px;
+        left: -1px;
+        bottom: 0;
+        background-color: #0091ff;
+    }
+
+    .dashboard-container-content > .user-area .user-area-content {
+        align-self: center !important;
+        justify-self: center !important;
+        width: 100% !important;
+        grid-area: 1 / 3;
+    }
+
+    .dashboard-item-content {
+        background-color: #fff;
+        grid-template-columns: 51px 63px 6fr 160px;
+    }
+
+    .dashboard-container-content .subastar-btn {
+        margin: 0 auto 0 auto;
+    }
+
+    .s-title {
+        font-size: 24px;
+        text-align: center;
+        font-family: 'Helvetica Neue Roman';
+        margin-top: 100px;
+        margin-bottom: 10px;
+    }
+
+    .text {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .dashboard-item-content .fase-a {
+        box-shadow: none;
+    }
+
+        .dashboard-item-content .fase-a:active {
+            background-color: #f1f4f5;
+        }
+
+            .dashboard-item-content .fase-a:active > p {
+                color: #666666;
+            }
+
+        .dashboard-item-content .fase-a:hover {
+            /*box-shadow: 0px 3px 3vh 0px rgba(2,2,2,0.2);*/
+            border-color: var(--font-blue);
+        }
+</style>
+
+<form id="frm" name="frm" action="" method="post">
+
+</form>
+<div class="content-area">
+  
+    <!-- ko foreach:$root.listaNotificaciones -->
+        <dashboard-item-fase-a>
+            <div class="dashboard-item-content"  data-bind="click:$root.enviar">
+
+                <div class="dashboard-item-icon check-solid"></div>
+                @*<div class="dashboard-item-icon "></div>*@
+
+                <div class="dashboard-item-inner-content fase-a">
+                    <p class="header" data-bind="text:$data.Titulo">Cuenta Activa</p>
+
+                    <p></p>
+                    <p data-bind="text:$data.Mensaje"></p>
+
+                    <!-- ko if:$data.Url!="" -->
+                    @*target="_blank"*@
+                    @*<a data-bind="attr: { 'href': Url }" style="text-decoration:none;color:#004484">
+                        Ingrese aqui para continuar
+                    </a>*@
+                    <!-- /ko -->
+                    <script>
+
+                    </script>
+                </div>
+                <div class="dashboard-item-blue-line"></div>
+            </div>
+        </dashboard-item-fase-a>
+    <!-- /ko -->
+  
+
+    <div class="dashboard-IC" style="zoom: 125%;">
+        <div class="s-title">Bienvenido a la Mesa de Dinero</div>
+        <div class="text">La forma fácil y segura de subastar tus Soles y Dólares en línea!</div>
+        <a style="display:block;text-decoration:none;" id="enviar"  href="@Url.Action("", "Subasta")" class="subastar-btn">Subastar Divisas</a>
+    </div>
+
+</div>
+
+@section Scripts{
+    <script>
+        function enviar() {
+
+        }
+    </script>
+<script type="text/javascript" src="~/Content/js/Inicio/Inicio.js"></script>
+   <script type="text/javascript">
+
+       $("#enviar").click(function (e) {
+           var w_host = '@System.Configuration.ConfigurationManager.AppSettings["HostWeb"]';
+           debugger;
+           e.preventDefault();
+           PostJson("subasta-verificar-bloqueo", false).done(function (resultado) {
+               debugger;
+               if (resultado.success == true) {
+
+                   if (resultado.data == false) {
+                       toastr.error("¡Cliente esta bloqueado, no puede realizar Subastas!");
+                       //document.getElementById('frm').submit();
+                       return false;
+                   } else {
+                       debugger;
+                       window.location.href = w_host + "/Subasta";
+                   }
+                  
+                   //var datos = ko.toJS(resultado.data);
+                   //console.log(datos);
+                 
+               } else {
+                   toastr.error(resultado.error);
+                   return false;
+               }
+           });
+       });
+
+       $('#subasta_menu').addClass('active');
+        
+
+
+
+
+    </script>
+}

@@ -1,0 +1,62 @@
+meta-section-a {
+	display: grid;
+	grid-template-columns: 55% 1fr;
+	grid-template-rows: auto 1fr auto 1fr auto 1fr auto;
+	grid-template-areas:
+		"text-1 text-1"
+		". ."
+		"text-2 text-2"
+		". ."
+		"btn-1 ."
+		". ."
+		"text-3 .";
+}
+meta-section-a > * {
+	place-self: stretch stretch;
+}
+meta-section-a > .text-1 {
+	grid-area: text-1;
+	color: #fff;
+	font-size: 2.2vw;
+	font-family: 'Helvetica Neue Roman';
+}
+meta-section-a > .text-2 {
+	grid-area: text-2;
+	color: var(--font-blue);
+	color: #fff;
+	font-size: 1.7vw;
+}
+meta-section-a > .btn-1 {
+	grid-area: btn-1;
+	color: #fff;
+	display: grid;
+	grid-template-columns: .2fr .4fr auto .2fr;
+	grid-template-rows: 8vh;
+	border-radius: .5vw;
+	border: 2px solid var(--btn-blue);
+	cursor: pointer;
+}
+.btn-1-img {
+	height: 3vh;
+	width: 3vh;
+	grid-column: 2 / 3;
+	background-image: url('../../images/icons/ver.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	place-self: center;
+}
+.btn-1-txt {
+	grid-column: 3 / 4;
+	font-size: 1.4vw;
+	align-self: center;
+	font-family: 'Helvetica Neue Roman';
+}
+.btn-1:hover {
+	background-color: var(--btn-blue);
+}
+meta-section-a > .text-3 {
+	grid-area: text-3;
+	color: var(--font-blue);
+	color: #fff;
+	font-size: 1.7vw;
+}

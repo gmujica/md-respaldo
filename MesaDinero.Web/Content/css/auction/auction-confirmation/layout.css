@@ -1,0 +1,50 @@
+.auction-confirmation-container {
+	text-align: center;
+}
+.auction-confirmation-container .main-title > div {
+	font-family: 'Helvetica Neue Roman' !important;
+	width: 38%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: auto 35vw;
+	position: relative;
+	left: -113px;
+}
+.auction-confirmation-container .main-title .main-title-icon {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	background-image: url('../../../css/images/icons/candado.svg');
+	width: 2vw;
+	height: 2vw;
+}
+/*Special Counter*/
+.auction-confirmation-container special-counter {
+	width: 25%;
+	margin: 4vh auto 2vh auto;
+	height: 6vh;
+}
+/*First block of text*/
+.auction-confirmation-container .block-text {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr;
+	width: 40%;
+	margin: 4vh auto 0 auto;
+}
+.auction-confirmation-container .block-text > div {
+	justify-self: right;
+}
+.auction-confirmation-container .block-text > div:first-child {
+	justify-self: left;
+}
+.auction-confirmation-container .block-text > div > p{
+	text-align: right;
+	color: var(--font-blue);
+	font-size: .9em;
+	margin-bottom: .5vh;
+}
+.auction-confirmation-container .block-text > div:first-child > p{
+	text-align: left;
+	color: #b3b3b3;
+}

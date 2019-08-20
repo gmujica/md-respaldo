@@ -1,0 +1,47 @@
+﻿@model MesaDinero.Domain.Model.RegistroClientesRequest
+@{
+    ViewBag.Title = "Confirmar SMS";
+    Layout = "~/Views/Shared/_LayoutPublico.cshtml";
+}
+
+
+
+    <forgotten-password>
+        <div class="form-base-container-content">
+            <div class="dark-logo"></div>
+            <div class="exit-btn" onclick="redirectTo('@Url.Action("index", "Registro")')"></div>
+            <div class="form-content">
+            <div class="form-base-title">Ingresa tu clave SMS</div>
+            <div class="parragraph-container">
+                    <p>Por seguridad validaremos el número de tu celular, ingresa el código SMS  que se envio al Cel. <b>@Model.phone</b> y continúa con el registro</p>
+
+             </div>
+
+            <div style="margin-bottom:12px">
+                <i class="glyphicon glyphicon-time"></i> <span data-bind="text:strMinutos">00</span> : <span data-bind="text:strSegundos">00</span>
+            </div>
+
+            <div class="form">
+                    <base-input type="text" placeholder="Ingresa tu dirección de correo"><div class="base-input-content"><input value="" placeholder="Ingresa tu clave SMS" type="text" data-bind="value:$root.clavemsm" /></div></base-input>
+                    <!-- ko if:generarNuevoMsM() == false -->
+                    <div class="base-btn" data-bind="click:$root.validarSMS">
+                        <span class="base-btn-text">Ingresar</span>
+                    </div>
+                    <!-- /ko -->
+                    <!-- ko if:generarNuevoMsM() == true -->
+                    <div class="base-btn btn-danger" data-bind="click:$root.EnviarMsM">
+                        <span class="base-btn-text ">Enviar nuevo SMS</span>
+                    </div>
+                    <!-- /ko -->
+                </div>
+            </div>
+        </div>
+    </forgotten-password>
+
+    
+@section Scripts {
+<script type="text/javascript">
+        var SecredId = '@Model.email'
+</script>
+   <script src="~/Content/js/Registro/ValidacionMSM.js"></script>
+}

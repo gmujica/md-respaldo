@@ -1,0 +1,82 @@
+﻿@model MesaDinero.Domain.Model.RegistroPassWpord_Response
+@{
+    ViewBag.Title = "Acceso";
+    Layout = "~/Views/Shared/_LayoutPublico.cshtml";
+}
+
+<style>
+    .validation-summary-errors ul li {
+        list-style: none;
+        color: #d81212;
+    }
+</style>
+
+
+<sign-in>
+    <div class="form-base-container-content">
+        <div class="dark-logo"></div><div class="exit-btn" onclick="redirectTo('@Url.Action("index","Home")')"></div>
+        <div class="form-content">
+            <div class="form-base-title">Ingresa a tu cuenta</div>
+            <div class="form" id="frm_login" data-bind="with:$root.loginContext">
+                <br />
+                <br />
+                <input type="hidden" name="ReturnUrl" value="@Request.QueryString["ReturnUrl"]" />
+                <base-input type="text" placeholder="Correo"><div class="base-input-content"><input placeholder="Correo" type="text" name="email" data-bind="value:email" autocomplete="off" /></div></base-input>
+                <base-input type="password" placeholder="Contraseña"><div class="base-input-content"><input placeholder="Contraseña" type="password" name="password" data-bind="value:password" /><span class="view"></span></div></base-input>
+                <div id="to-recovery" class="middle-text link"><a class="link" href="@Url.Action("RecuperarPassword","Acceso")">Recuperar Contraseña</a></div>
+                <div id="to-recovery" class="middle-text link" data-bind="click:$root.openModalRecuperarRegistro"><a class="link" href="javascript:void(0);">Continuar Registro</a></div>
+                <a class="base-btn" data-bind="click:$root.login" style="text-decoration:none;color:#fff;">
+                    <span class="base-btn-icon"></span>
+                    <span class="base-btn-text">Iniciar Sesión</span>
+                </a>
+                <div class="form-bottom-text">
+                    <span class="question">No tienes cuenta aún?</span>
+                    <a id="to-sign-up" class="link" href="@Url.Action("","Registro")">Crea una aquí</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</sign-in>
+
+
+
+
+<div class="popup-container hidden ficha-popup ficha-person" id="modal-continuar-registro">
+    <div class="popup" style="width: 35%;">
+        <span class="cross" data-bind="click:$root.closeModalRecuperarRegistro"></span>
+        <div class="popup-content">
+            <div class="container-continuar-registro">
+                <div class="form-base-container-content">
+                    <div class="form-content-2">
+                        <div class="form-base-title">Continuar Registro</div>
+                        <div class="form" data-bind="with:$root.continuarRegistroContext">
+                            <br />
+                            <base-input type="text" placeholder="Correo"><div class="base-input-content"><input placeholder="Correo" type="text" name="email" autocomplete="off" data-bind="value:$data.email" /></div></base-input>
+                            <base-input type="password" placeholder="Contraseña"><div class="base-input-content"><input placeholder="Nro Documento" type="text" name="nroDocumento" data-bind="value:$data.nroDocumento" /></div></base-input>
+                            <a class="base-btn" style="text-decoration:none;color:#fff;" data-bind="click:$root.continuarRegistro">
+                                <span class="base-btn-text">Continuar Registro</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    <script src="~/Content/js/view_password_effect.js"></script>
+    <script>
+    var w_host = '@System.Configuration.ConfigurationManager.AppSettings["HostWeb"]';
+        var returnUrl = '@Html.Raw(Request.QueryString["ReturnUrl"])';
+    </script>
+
+    <script src="~/Content/js/home/login.js"></script>
+
+}
+
+
+

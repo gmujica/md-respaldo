@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mail</title>
+    <style>
+        .td {
+            text-align: center;
+            color: #004484;
+            font-size: 21px;
+            font-family: 'Helvetica Neue Roman';
+        }
+
+        .td-footer {
+            text-align: center;
+            color: #a0a0a0;
+            font-size: 15px;
+        }
+        .td-2 {
+            color: #a0a0a0;
+            font-size: 18px; 
+            text-align: center;
+        }
+        .btn_1 {
+            background-color: #1072aa;
+	        color: #fff;
+            border: 1px solid #1072aa;
+            cursor: pointer;
+            font-size: 1.2vw;
+            border-radius: .5vh;
+            font-family: 'Helvetica Neue Roman';
+            line-height: 2vw;
+            padding: 6px;
+            width: 175px;
+        }
+        .btn_1:hover {
+            background-color: #236a94;
+        }
+        .btn_2 {
+            background-color: #fff;
+	        color: #1072aa;
+            border: 1px solid #1072aa;
+            cursor: pointer;
+            font-size: 1.2vw;
+            border-radius: .5vh;
+            font-family: 'Helvetica Neue Roman';
+            line-height: 2vw;
+            padding: 6px;
+            width: 175px;
+            margin-left: 2em;
+        }
+        .btn_2:hover {
+            background-color: #1072aa;
+	        color: #fff;   
+        }
+        .td-logo {
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 15%;
+            background-image: url(/home/developer/md-frontend/src/css/images/icons/logo-01.svg);
+            background-color: #004484;
+            height: 3.5em;
+            padding: 1em;
+        }
+        .td-3 > p {
+            color: #004484;
+            font-size: 18px; 
+        }
+        .tr-user {
+            background-color: #f1f1f1;
+            height: 60px;
+            text-align: center;
+            color: #929292;
+            font-size: 1.3vw;
+        }
+    </style>
+</head>
+    <body>
+        <table width="100%" cellpadding="10px">
+            <tr>
+                <td class="td-logo"></td>
+            </tr>
+            <tr class="tr-user">
+                <td>
+                    <span>Hola <strong>{{nombre}}!</strong></span>
+                </td>
+            </tr>
+        </table>
+        <div style="text-align: -webkit-center">
+            <table width="55%"   cellpadding="10px">
+                <tr>
+                    <td class="td">
+                        <p>Hemos enviado exactamente {{monto}} {{moneda}}</p>
+                        <p>a tu cuenta de banco que has instruido, de acuerdo a</p>
+                        <p>la operacion pactada en la subasta.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td-2">
+                        <p>Estamos muy felices de tenerte y siempre trabajaremos para darte el mejor servivio</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td-3">
+                        <p style="margin-bottom: -0.5em;">Ya lo tienes!</p>
+                        <p>El equipo de La Mesa de Dinero</p>
+                    </td>
+                </tr>
+                <tr>
+                    <!--<td class="td">
+                        <button class="btn_1">Recomiéndanos</button>
+                        <button class="btn_2">Instrucción</button>{secret}}
+                    </td>-->
+                    <td class="td">
+                        <p class="block-bottom">
+                            <a target="blank" class="btn_2" style="text-decoration:none" href="{{host}}/Subasta/Recibes/{{secredId}}">Instrucción</a>
+                        </p>
+                    </td>
+                </tr>
+                <td class="td-footer">
+                    La MESA DE DINERO es propiedad de SOFIDIG S.A. registrado con RUC 2060258756, La operaciones de La Mesa de Dinero son resguardadas
+                    por Corporación Fiduciaria CORFID, empresa financiera regulada por la SuperIntendencia de Banca y Seguro SBS.
+                </td>
+            </table>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,99 @@
+seventh-container {
+	border-bottom: 1px solid #c3c3c3;
+}
+seventh-container > .meta-content {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-rows: 14% .75fr 2.25fr 1fr 20% 11%;
+	grid-template-columns: .9fr 19.5% 1.3fr 41% .6fr;
+	grid-template-areas:
+		". . . . ."
+		". title-1 . title-2 ."
+		". block-1 . block-2 ."
+		". block-1 . block-2 ."
+		". social . . ."
+		". . . . .";
+}
+seventh-container .dev-border {
+	border: 1px dotted black;
+}
+seventh-container > .meta-content > * {
+	color: #4d4d44;
+	font-size: 1.2vw;
+}
+seventh-container > .meta-content > .title-1 {
+	grid-area: title-1;
+}
+seventh-container > .meta-content > .title-2 {
+	grid-area: title-2;
+}
+seventh-container > .meta-content > .text-title,
+seventh-container > .meta-content > .social > .text-title {
+	color: var(--main-blue);
+	place-self: start start;
+	font-size: 1.7vw;
+	font-family: 'Helvetica Neue Roman';
+}
+seventh-container > .meta-content > .block-1 {
+	grid-area: block-1;
+}
+seventh-container > .meta-content > .block-1 > p {
+	margin-bottom: .9vw;
+}
+seventh-container > .meta-content > .block-2 {
+	grid-area: block-2;
+}
+seventh-container > .meta-content > .social {
+	grid-area: social;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+}
+seventh-container > .meta-content > .social > .text-title,
+seventh-container > .meta-content > .social > .text-content {
+	grid-column: span 5;
+	align-self: center;
+}
+seventh-container > .meta-content > .social > .text-icon {
+	grid-column: span 1;
+	grid-row: span 1;
+	background-position: 0 center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+seventh-container > .meta-content > .social > .text-icon-1 {
+	background-image: url('../../images/seventh-container/l-g.svg');
+}
+seventh-container > .meta-content > .social > .text-icon-1:hover {
+	background-image: url('../../images/seventh-container/l.svg');
+}
+seventh-container > .meta-content > .social > .text-icon-2 {
+	background-image: url('../../images/seventh-container/i-g.svg');
+}
+seventh-container > .meta-content > .social > .text-icon-2:hover {
+	background-image: url('../../images/seventh-container/int.svg');
+}
+seventh-container > .meta-content > .social > .text-icon-3 {
+	background-image: url('../../images/seventh-container/g-g.svg');
+}
+seventh-container > .meta-content > .social > .text-icon-3:hover {
+	background-image: url('../../images/seventh-container/g-2.svg');
+}
+seventh-container > .meta-content > .social > .text-icon-4 {
+	background-image: url('../../images/seventh-container/t-g.svg');
+}
+seventh-container > .meta-content > .social > .text-icon-4:hover {
+	background-image: url('../../images/seventh-container/t.svg');
+}
+seventh-container > .meta-content > .social > .text-icon-5 {
+	background-image: url('../../images/seventh-container/f-g.svg');
+}
+seventh-container > .meta-content > .social > .text-icon-5:hover {
+	background-image: url('../../images/seventh-container/f2.svg');
+	
+}
+seventh-container > .meta-content > .social > * {
+	cursor: pointer;
+}
+

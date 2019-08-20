@@ -1,0 +1,244 @@
+﻿
+@{
+
+}
+@section Styles{
+
+    <!-- Dashboard -->
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+
+<link rel="stylesheet" type="text/css" href="~/Content/css/user-area-adjustments.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/router/corfid_layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/mi-oferta.css">
+
+<link rel="stylesheet" type="text/css" href="~/Content/css/containers/auction_confirmation_box_layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/popup.css">
+
+<script src="~/Content/js/select_menu_option.js"></script>
+<script src="~/Content/js/close_popup.js"></script>
+<script src="~/Content/js/open_popup.js"></script>
+<script src="~/Content/js/base-input.js"></script>
+
+
+
+<link href="~/Content/css/registration/person-registration/layout.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/layout.css">
+
+}
+
+
+
+<style>
+    .popup-content {
+        width: 650px;
+    }
+
+    .main-title {
+        text-align: center;
+        max-width: 650px;
+    }
+
+    .auction-confirmation-container .select-area {
+        width: 498px;
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 3px;
+    }
+
+        .auction-confirmation-container .select-area .s-label {
+            grid-row: 1 / 2;
+            color: var(--btn-blue);
+            justify-self: left;
+            font-size: 13px;
+        }
+
+        .auction-confirmation-container .select-area .custom-select-box {
+            grid-row: 2 / 3;
+        }
+
+    .auction-confirmation-container .block-text,
+    .auction-confirmation-container .exchange-board,
+    .auction-confirmation-container .select-area {
+        width: 535px;
+    }
+
+    .select-area div.custom-select-box > .custom-select-icon {
+        background: none !important;
+    }
+
+    .auction-confirmation-container .select-area {
+        margin: 0 auto 5vh auto;
+    }
+
+    .select-area .custom-select-box.custom-select {
+        font-size: 13px;
+    }
+
+    .auction-confirmation-container .exchange-board {
+        border: 1px solid #b3b3b3;
+    }
+
+    .custom-select-box[value],
+    .custom-select-box.show-options {
+        border-color: var(--font-blue);
+    }
+
+    .auction-confirmation-container .operations-resume .operations-box {
+        border: 1px solid var(--font-blue) !important;
+    }
+</style>
+<!---->
+<style>
+    .button-row > .btn {
+        width: 150px !important;
+        height: 45px;
+    }
+
+    .k-input {
+        outline: none;
+        border: none;
+        color: var(--main-orange);
+        background-color: inherit;
+        text-align: center;
+        display: block;
+        width: 100%;
+        font-size: 14px;
+    }
+</style>
+
+<!--Instruccion de Pago-->
+@Html.Partial("_InstruccionPago")
+<!---->
+<div class="content-area">
+    <div class="complex-dashboard-content">
+        @*<div class="dashboard-tabs" style="grid-template-columns: 1fr 1fr 2fr;">
+            <div class="active">Aprobar Pagos</div>
+            <div>Cuentas de Banco</div>
+        </div>*@
+        <div class="list-container">
+            <div class="corfid corfid-e">
+                @*corfid corfid-e*@
+                @*<dashboard-list>
+                <div style="text-align: center;" data-bind="with:$root.lstAprobarPagos">
+                    <div class="headers" style="grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;" style="font-size: 15px;">
+                        <div class="header-i empty"></div>
+                        <div class="header-i normal">ID Transacción</div>
+                        <div class="header-i normal">Tipo de Operación</div>
+                        <div class="header-i normal">Usuario</div>
+                        <div class="header-i normal">Acción</div>
+                        <div class="header-i normal">Moneda</div>
+                        <div class="header-i normal">Monto</div>
+                        <div class="header-i normal">Banco</div>
+                        <div class="header-i normal">Cuentas Bancarias</div>
+                        <div class="header-i normal">Hora S. Pago</div>
+                        <div class="header-i normal">Ingresa ID de Pago</div>
+                    </div>
+                    <div class="items" style="font-size: 20px;" data-bind="foreach:$data.datasource">
+                        <div style="grid-template-columns: repeat(11, 1fr)" class="list-i">
+                            <div class="other">
+                                <custom-checkbox class="chx-1" text-content="void">
+                                    <div class="custom-checkbox-content inactive">
+                                        <div class="custom-checkbox-icon"></div>
+                                        <div class="custom-checkbox-text">void</div>
+                                    </div>
+                                </custom-checkbox>
+                            </div>
+                            <div class="normal" data-bind="text:$data.formatoTransaccion"></div>
+                            <div class="normal" data-bind="text:$data.tipoOperacion">xxx</div>
+                            <div class="normal" data-bind="text:$data.usuario">xxx</div>
+                            <div class="normal" data-bind="text:$data.accion">xxx</div>
+                            <div class="normal" data-bind="text:$data.tipoMoneda">xxx</div>
+                            <div class="normal" data-bind="text:$data.monto">xxx</div>
+                            <div class="normal" data-bind="text:$data.banco">xxx</div>
+                            <div class="normal" data-bind="text:$data.cuenta">xxx</div>
+                            <div class="normal">xxx</div>
+                            <div class="orange"><input type="text" data-bind="value:$data.IngresarIdPago" /></div>
+                        </div>
+                    </div>
+                </div>
+            </dashboard-list>*@
+
+
+
+
+                <dashboard-list>
+                    <div style="text-align: center;" data-bind="with:$root.lstAprobarPagos">
+                        <table class="k-table k-thover k-trow-pointer">
+                            <thead class="k-thead " style="font-size: 15px">
+                                <tr class="k-throw">
+                                    <th>
+                                        <label class="k-content-radio">
+                                            <input type="checkbox" id="idcheckgeneral" data-bind="event:{change :$root.checkearAll}" />
+                                            <div class="k-radioButtom-icon"></div>
+                                        </label>&nbsp;
+                                    </th>
+                                    <th>ID Transacción</th>
+                                    <th>Tipo de Operación</th>
+                                    <th>Usuario</th>
+                                    <th>Acción&nbsp;</th>
+                                    <th>Moneda&nbsp;</th>
+                                    <th>Monto&nbsp;</th>
+                                    @*<th>Banco</th>
+                                    <th>Cuentas Bancarias</th>*@
+                                    <th>Hora S. Pago</th>
+                                    <th>Ingresa ID de Pago</th>
+                                </tr>
+
+                            </thead>
+                            <tbody class="k-tbody" data-bind="foreach:$data.datasource">
+                                <tr data-bind="event:{dblclick :$root.openModal}">
+                                    <td>
+                                        <label class="k-content-radio">
+                                            <input type="checkbox" name="acepto_terminos" data-bind="checked:$data.checkPago" />
+                                            <div class="k-radioButtom-icon"></div>
+                                        </label>
+                                    </td>
+                                    <td><span data-bind="text:$data.formatoTransaccion"></span></td>
+                                    <td><span data-bind="text:$data.tipoOperacion"></span></td>
+                                    <td><span data-bind="text:$data.usuario"></span></td>
+                                    <td><span data-bind="text:$data.accion"></span></td>
+                                    <td><span data-bind="text:$data.tipoMoneda"></span></td>
+                                    <td><span data-bind="text:$data.monto"></span></td>
+                                    @*<td><span data-bind="text:$data.banco"></span></td>
+                                    <td><span data-bind="text:$data.cuenta"></span></td>*@
+                                    <td><span data-bind="text:$data.hora_Corfid"></span></td>
+                                    <td><input class="k-input" type="text" data-bind="value:$data.IngresarIdPago" /></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        @Html.Partial("_Pagination")
+                    </div>
+                </dashboard-list>
+
+
+
+
+
+
+                <div class="observations" style="margin-top:5px;margin-bottom:10px">
+                    <div class="observations-title">Observaciones</div>
+                    <div class="observations-textarea">
+
+                        <textarea rows="4" maxlength="2000" data-bind="value:$root.observ" cols="50" spellcheck="true" style="z-index: auto; position: relative; line-height: normal; font-size: 13.3333px; transition: none 0s ease 0s; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);">
+                            
+                        </textarea>
+                    </div>
+                </div>
+                <div class="button-row" style="margin-top:10px;">
+                    <div class="btn regular" style="font-size:13px;" data-bind="click:$root.confirmarPago"><span class="btn-text">Confirmación de Pago</span></div>
+                    <div class="btn regular" style="font-size:13px;" data-bind="click:$root.rechazarPago"><span class="btn-text">Rechazar</span></div>
+                    <!--devolver-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+
+    <!--Modal-->
+    <script src="~/Content/js/select_menu_option.js"></script>
+    <script src="~/Content/js/close_popup.js"></script>
+    <!---->
+    <script src="~/Content/js/app/OperacionAprobarPagos.js"></script>
+}

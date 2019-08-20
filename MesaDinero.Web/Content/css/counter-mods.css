@@ -1,0 +1,19 @@
+.auction-box-container special-counter {
+	width: 90% !important;
+	margin: auto !important;
+	height: 50px !important;
+}
+.auction-confirmation-container special-counter {
+	height: 50px !important;
+}
+special-counter > div {
+	background-color: #fff !important;
+}
+special-counter .special-counter-label-text, special-counter .time-container {
+	font-size: 20px !important;
+	font-family: 'Helvetica Neue Roman' !important;
+	color: #00baff;
+}
+/*special-counter .special-counter-bottom-arrow {
+	border-top-color: #00baff !important;
+}*/

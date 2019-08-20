@@ -1,0 +1,226 @@
+﻿@{
+    ViewBag.Title = "Operaciones Historicas";
+}
+
+
+@*<link href="~/Content/css/ficha-datos.css" rel="stylesheet" />
+    <link href="~/Content/css/registration/person-registration/layout.css" rel="stylesheet" />*@
+
+<!-- Dashboard -->
+<link rel="stylesheet" type="text/css" href="~/Content/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/custom-checkbox.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/auction/auction-box/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/horizontal-progress-bar.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/dashboard-container/bank-form/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/dashboard-container/bank-list/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/user-area-adjustments.css">
+<!---->
+<link rel="stylesheet" type="text/css" href="~/Content/css/ficha-datos.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/popup.css">
+<!-- Containers -->
+
+<link rel="stylesheet" type="text/css" href="~/Content/css/containers/basic_container_layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/containers/complex_container_layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/containers/dashboard_base_layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/registration/verification-container/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/containers/auction_confirmation_box_layout.css">
+
+
+
+<style>
+    .popup-content {
+        width: 650px;
+    }
+
+    .main-title {
+        text-align: center;
+        max-width: 100vw;
+    }
+
+    .auction-confirmation-container .select-area {
+        width: 498px;
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 3px;
+    }
+
+        .auction-confirmation-container .select-area .s-label {
+            grid-row: 1 / 2;
+            color: var(--btn-blue);
+            justify-self: left;
+            font-size: 13px;
+        }
+
+        .auction-confirmation-container .select-area .custom-select-box {
+            grid-row: 2 / 3;
+        }
+
+    .auction-confirmation-container .block-text,
+    .auction-confirmation-container .exchange-board,
+    .auction-confirmation-container .select-area {
+        width: 535px;
+    }
+
+    .select-area div.custom-select-box > .custom-select-icon {
+        background: none !important;
+    }
+
+    .auction-confirmation-container .select-area {
+        margin: 0 auto 5vh auto;
+    }
+
+    .select-area .custom-select-box.custom-select {
+        font-size: 13px;
+    }
+</style>
+<!--Instruccion de Pago-->
+@Html.Partial("_InstruccionPago")
+<!---->
+<div class="complex-dashboard-content">
+    <div class="dashboard-tabs" style="grid-template-columns: 1fr 1fr 1fr 2fr;">
+        <div id="general" class="active"><a href="@Url.Action("ListaOperacionesHistoricas", "Corfid")">General</a></div>
+        <div id="pagado"><a href="" style="text-decoration:none" data-bind="click:$root.listaPagado">Pagado</a></div>
+        <div id="Incumplidas"><a href="" style="text-decoration:none" data-bind="click:$root.listarIncumplidas">Incumplidas</a></div>
+        <div id="curso"><a href="" style="text-decoration:none" data-bind="click:$root.listarCurso">En Proceso</a></div>
+
+    </div>
+    <div class="list-container">
+        <div class="operations operations-g">
+            <div class="main-header-container">
+
+                @using (Html.BeginForm("DescargarExcel", "Corfid", FormMethod.Post, new { id = "frm", target = "_blank" }))
+                {
+                    @Html.Hidden("transacciones")
+                    @Html.Hidden("solicitud")
+
+                    <div class="btn blue-bordered" style="width:180px;margin-left:100px;margin-top:50px;">
+                        <span class="btn-text" data-bind="click:$root.exportarTxt">Exportar Excel</span>
+                    </div>
+                }
+            </div>
+        </div>
+        @*</div>
+            <div class="list-container">*@
+        <div class="operations operations-a">
+            <dashboard-list>
+                <div>
+                    <!-- table inicio -->
+                    <div class="table-responsive" data-bind="with:lstOperacionesConfirmadasRegistradosT">
+                        <table class="k-table k-thover k-trow-pointer">
+                            <thead class="k-thead">
+                                <tr class="k-throw">
+                                    <th>
+                                        <label class="k-content-radio">
+                                            <input type="checkbox" id="idcheckgeneral" data-bind="event:{change :$root.checkearAll}" />
+                                            <div class="k-radioButtom-icon"></div>
+                                        </label>
+                                    </th>
+                                    <th>Fecha</th>
+                                    <th>ID Transaccion</th>
+
+                                    <th>Empresa Adj</th>
+                                    <th>Cliente</th>
+                                    <th>Quiere&nbsp;</th>
+                                    <th>Monto USD&nbsp;</th>
+                                    <th>Precio Pactado</th>
+                                    <th>Total PEN</th>
+
+                                    <th></th>
+                                    <th>Estado</th>
+                                </tr>
+                            </thead>
+                            <tbody class="k-tbody" data-bind="foreach:datasource">
+                                <tr data-bind="event:{dblclick :$root.openModal}">
+                                    <td style="width:30px;margin-right:10px;">
+
+                                        <label class="k-content-radio">
+                                            <input type="checkbox" name="acepto_terminos" data-bind="checked:$data.checkPago" />
+                                            <div class="k-radioButtom-icon"></div>
+                                        </label>
+
+                                    </td>
+
+                                    <td>
+                                        <span data-bind="text:fechaShort"></span>
+                                    </td>
+                                    <td>
+                                        <span data-bind="text:formatoTransaccion"></span>
+                                    </td>
+
+                                    <td>
+                                        <span data-bind="text:partnersAdjuntado"></span>
+                                    </td>
+                                    <td>
+                                        <span data-bind="text:usuario"></span>
+                                    </td>
+                                    <td>
+                                        <span data-bind="text:quiere"></span>
+                                    </td>
+                                    @*<td>
+                                            <span data-bind="text:tipoMoneda"></span>
+                                        </td>*@
+                                    <td>
+                                        <span data-bind="text:$data.montoUsd"></span>
+                                    </td>
+                                    <td>
+                                        <span data-bind="text:$data.precioPactado"></span>
+                                    </td>
+                                    <td>
+                                        <span data-bind="text:$data.montoPen"></span>
+                                    </td>
+                                    @*<td>
+                                            <span data-bind="text:hora"></span>
+                                        </td>*@
+                                    <td>
+                                        <div data-bind="attr:{'class' : 'k-icon k-status status_subasta_generico_' + $data.estadoSubastaCodigo() }">
+                                        </div>
+                                    </td>
+                                    <td>
+
+
+                                        <div data-bind="attr:{'class':'status_generico_'+$data.estadoSubastaCodigo()}">
+                                            <div data-bind="text:$data.estadoSubasta"></div>
+                                        </div>
+
+                                        @*<div class="list-i">
+                                            <div class="status iconed red">
+                                                <span></span>
+                                                <div data-bind="text:$data.estadoSubasta"></div>
+                                            </div>
+                                            </div>*@
+
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        @Html.Partial("_Pagination")
+                    </div>
+                    <!-- / table fin-->
+
+
+
+                </div>
+            </dashboard-list>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+
+    @*<script src="~/Content/js/toggle_dashboard_menu_effect_open.js"></script>*@
+    <script src="~/Content/js/select_menu_option.js"></script>
+
+    @*<script src="~/Content/js/ficha-datos.js"></script>*@
+    @*<script src="~/Content/js/open_simple_popup.js"></script>*@
+    <!--<script src="../../js/open_popup.js"></script>-->
+    <script src="~/Content/js/close_popup.js"></script>
+
+    <script src="~/Content/js/app/Corfid/OperacionesHistoricas.js"></script>
+    <script src="~/Content/js/grilla_dinamica.js"></script>
+
+}
+
+
+

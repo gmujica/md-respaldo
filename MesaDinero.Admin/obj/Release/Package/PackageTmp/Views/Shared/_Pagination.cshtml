@@ -1,0 +1,22 @@
+﻿<div class="row k-pagination" data-bind="with:paging">
+    <div class="col-xs-5 k-number-pagination">
+        <span class="p-init" data-bind="text:offset"></span> al <span class="p-limit" data-bind="text:limit"></span> de <span class="p-total" data-bind="text:total"></span>
+    </div>
+    <div class="col-xs-7 text-right">
+        <nav aria-label="Page navigation" class="k-nav-pagination">
+            <ul class="pagination">
+                <li class="paginate_button previous disabled" data-bind="css:{disabled: page() <= 1, lipage:page() > 1 }" aria-controls="dynamic-table" tabindex="0" id="dynamic-table_previous">
+                    <span data-bind="click:$data.Previus">Anterior</span>
+                </li>
+                <!-- ko foreach: numbersPages -->
+                <li class="paginate_button" aria-controls="dynamic-table" tabindex="0" data-bind="css: { active: $data.Value, lipage: !$data.Value() }">
+                    <span data-bind="text: $data.Key,click:$parent.Pagination"></span>
+                </li>
+                <!-- /ko -->
+                <li class="paginate_button next" data-bind="css:{disabled: page() >= PageCount(), lipage:page() < PageCount() }" aria-controls="dynamic-table" tabindex="0" id="dynamic-table_next">
+                    <span data-bind="click:$data.NextPage">Siguiente</span>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>

@@ -1,0 +1,51 @@
+﻿@model System.String
+
+<fancy-input id="person-reg-document" placeholder="N° de Documento">
+    <div class="fancy-input-content">
+        <div class="fake-placeholder">Tipo de Documento</div>
+        <select class="custom-select kontrol" data-bind="options:$root.lstTipoDocumentoPersona,optionsText:'text',optionsValue:'value',optionsCaption:'--Seleccionar--',value:tipoDocumento">
+        </select>
+    </div>
+</fancy-input>
+<fancy-input placeholder="N° de Documento"><div class="fancy-input-content"><div class="fake-placeholder">N° de Documento</div><input class="kontrol" data-bind="value:nroDocumento" type="text"></div></fancy-input>
+<fancy-input placeholder="Nombres"><div class="fancy-input-content"><div class="fake-placeholder">Nombres</div><input data-bind="value:nombres" class="kontrol" type="text"></div></fancy-input>
+<fancy-input placeholder="Apellido Paterno"><div class="fancy-input-content"><div class="fake-placeholder">Apellido Paterno</div><input class="kontrol" data-bind="value:apePaterno" type="text"></div></fancy-input>
+<fancy-input placeholder="Apellido Materno"><div class="fancy-input-content"><div class="fake-placeholder">Apellido Materno</div><input class="kontrol" data-bind="value:apeMaterno" type="text"></div></fancy-input>
+@*<fancy-input id="person-reg-birthdate" placeholder="Fecha de Nacimiento (DD/MM/AA)">
+    <div class="fancy-input-content">
+        <div class="fake-placeholder">Teléfono Celular</div>
+        <div class="grid-2">
+            <div>
+
+                <fancy-input id="person-reg-document" placeholder="N° de Documento">
+                    <div class="fancy-input-content">
+                        <select class="custom-select kontrol" data-bind="value:preCelular">
+                            <option value="">--</option>
+                            <option value="51">+51</option>
+                            <option value="54">+54</option>
+                            <option value="55">+55</option>
+                            <option value="56">+56</option>
+                            <option value="61">+61</option>
+                        </select>
+                    </div>
+                </fancy-input>
+
+            </div>
+            <div>
+                <fancy-input id="person-reg-country" placeholder="Celular"><div class="fancy-input-content"><div class="fake-placeholder">Celular</div><input class="kontrol" type="text" data-bind="value:celular"></div></fancy-input>
+            </div>
+
+        </div>
+    </div>
+</fancy-input>
+<fancy-input id="person-reg-email" placeholder="E-mail"><div class="fancy-input-content"><div class="fake-placeholder">E-mail</div><input value="" class="kontrol" type="text" data-bind="value:email"></div></fancy-input>*@
+
+@if(Model == "PA")
+{
+   <fancy-input id="person-reg-document" placeholder="Cargo">
+    <div class="fancy-input-content">
+        <div class="fake-placeholder">Cargo</div>
+        <select class="custom-select kontrol"  data-bind="options:$root.lstCargos,optionsText:'text',optionsValue:'value',optionsCaption:'--Seleccionar--',value:cargo"></select>
+    </div>
+    </fancy-input> 
+}

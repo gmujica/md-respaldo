@@ -1,0 +1,135 @@
+dashboard-list {
+	width: 100%;
+	height: 100%;
+}
+dashboard-list > div {
+	width: 100%;
+	height: 100%;
+}
+dashboard-list .list-i {
+	width: 100%;
+	display: grid;
+	grid-template-rows: 1fr;
+}
+dashboard-list .headers {
+	display: grid;
+	grid-template-rows: 1fr;
+	margin-bottom: 1vh;
+}
+dashboard-list {
+	padding-left: 1vw;
+}
+dashboard-list .headers .header-i {
+	color: var(--btn-blue);
+	font-size: .7em;
+	font-family: 'Helvetica Neue Roman';
+}
+dashboard-list .headers .header-i .header-iconed {
+	display: grid;
+	grid-template-columns: 50% 20%;
+}
+dashboard-list .item-iconed {
+	display: grid;
+	grid-template-columns: 20% auto;
+}
+dashboard-list .list-i * {
+	color: var(--btn-blue);
+}
+dashboard-list .header-i * {
+	color: var(--btn-blue);
+	font-family: 'Helvetica Neue Roman';
+}
+dashboard-list .iconed {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+dashboard-list .header-i .usa,
+dashboard-list .list-i .usa {
+	background-image: url('../../../images/icons/usa.svg');
+}
+dashboard-list .header-i .peru,
+dashboard-list .list-i .peru {
+	background-image: url('../../../images/icons/peru.svg');
+}
+dashboard-list .list-i * {
+	color: #808080;
+}
+dashboard-list .list-i:hover {
+	background-color: #f2f2f2;
+}
+dashboard-list .list-i div.normal,
+dashboard-list .list-i div.orange,
+dashboard-list .list-i div.green {
+	border-bottom: .5px solid #e6e6e6;
+}
+dashboard-list .list-i div.orange {
+	color: var(--main-orange);
+}
+dashboard-list .list-i div.red {
+	color: #e25142
+}
+dashboard-list .list-i div.normal,
+dashboard-list .list-i div.other,
+dashboard-list .list-i div.orange,
+dashboard-list .list-i div.green,
+dashboard-list .list-i div.red {
+	grid-column: span 1;
+	padding: 1vh 0 1vh 0;
+}
+dashboard-list .list-i div.green {
+	color: #95E5CE;
+}
+/*Estatus*/
+dashboard-list .list-i .status {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 3fr;
+}
+dashboard-list .list-i .status > span {
+	border-radius: 50%;
+	width: 2vh;
+	height: 2vh;
+}
+dashboard-list .list-i .status.pagado > span {
+	background-color: #46be8a;
+}
+dashboard-list .list-i .status.curso > span {
+	background-color: #29abe2;
+}
+dashboard-list .list-i .status.red > span {
+	background-color: #e25142;
+}
+dashboard-list .list-i .status.yellow > span {
+	background-color: #FFA84D;
+}
+dashboard-list .list-i .status > div {
+	font-family: 'Helvetica Neue Roman';
+	font-size: .7em;
+}
+dashboard-list .list-i .status.pagado div {
+	color: #46be8a;
+}
+dashboard-list .list-i .status.curso div {
+	color: #29abe2;
+}
+dashboard-list .list-i .status.red div {
+	color: #e25142;
+}
+dashboard-list .list-i .status.yellow div {
+	color: #FFA84D;
+}
+/*Checkboxes*/
+dashboard-list .custom-checkbox-icon {
+	height: 100%;
+}
+dashboard-list .custom-checkbox-content {
+	font-size: 1.1vw;
+	display: grid;
+	column-gap: 0;
+	grid-template-columns: 1fr 0;
+}
+dashboard-list .custom-checkbox-text {
+	width: 0;
+	color: transparent !important;
+}

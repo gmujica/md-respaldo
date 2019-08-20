@@ -1,0 +1,39 @@
+ninth-container {
+	background-color: #f3f3f3;
+}
+ninth-container > .meta-content {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 9% 9.5% 1fr 9.5% 9%;
+	grid-template-rows: 12.53% 32.2% 22.6% 11.9% 8% 1fr 4.2%;
+	grid-template-areas:
+		". . . . ."
+		". . menu . ."
+		". . . . ."
+		". . logo . ."
+		". . . . ."
+		". rights rights rights ."
+		". . . . .";
+}
+ninth-container .dev-border {
+	border: 1px dotted #000;
+}
+ninth-container > .meta-content > .menu {
+	grid-area: menu;
+}
+ninth-container > .meta-content > .logo {
+	grid-area: logo;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	background-image: url('../../images/logos/logo-blue.svg');
+}
+ninth-container > .meta-content > .rights {
+	grid-area: rights;
+}
+ninth-container > .meta-content > .rights > p {
+	text-align: center;
+	color: #4d4d4d;
+	font-size: 1.1vw;
+}

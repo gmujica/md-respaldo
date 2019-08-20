@@ -1,0 +1,84 @@
+﻿@model MesaDinero.Domain.Model.RegistroPassWpord_Response
+@{
+    ViewBag.Title = "Acceso";
+    Layout = "~/Views/Shared/_LayoutPublico.cshtml";
+}
+<link href="~/Content/css/chosen/chosen.min.css" rel="stylesheet" />
+<style>
+    .validation-summary-errors ul li {
+        list-style: none;
+        color: #d81212;
+    }
+</style>
+
+
+<sign-in>
+    <div class="form-base-container-content">
+        <div class="dark-logo"></div><div class="exit-btn" onclick="redirectTo('@System.Configuration.ConfigurationManager.AppSettings["HostWeb"]')">
+    
+</div><div class="form-content">
+            <div class="form-base-title">Ingresa a tu cuenta</div>
+
+
+            @using (Html.BeginForm("Login", "Account", FormMethod.Post, new { @class = "form", style = "", id = "frm_login" }))
+            {
+
+                <br />
+                <br />
+
+                @Html.ValidationSummary(true)
+
+
+                @*<base-input>
+                    <div class="" style="padding:0;border:0;">
+                        <select id="empresa" name="empresa" class="custom-select k-choseen">
+                            <option value>--Seleccione Empresa--</option>
+                            @foreach (var e in ViewBag.lstEmpresas as List<MesaDinero.Domain.ComboListItemString>)
+                            {
+                                <option value="@e.value">@e.text</option>
+                            }
+                        </select>
+
+                    </div>
+                </base-input>*@
+
+                <base-input type="text" placeholder="Correo"><div class="base-input-content"><input placeholder="Correo" type="text" name="email" value="@Model.email"></div></base-input>
+                <base-input type="password" placeholder="Contraseña"><div class="base-input-content"><input placeholder="Contraseña" id="password" type="password" name="password" value=""><span class="view" onclick="tooglePassword('#password');"></span></div></base-input>
+                <div id="to-recovery" class="middle-text link"><a class="link" href="@Url.Action("RecuperarPassword","Registro")">Recuperar Contraseña</a></div>
+                <div class="base-btn" id="btn_login">
+                    <span class="base-btn-icon"></span>
+                    <span class="base-btn-text">Iniciar Sesión</span>
+                </div>
+            }
+
+
+        </div>
+    </div>
+</sign-in>
+
+
+
+@section Scripts {
+    <script>
+        $("#btn_login").on("click", function () {
+
+            $(".loading-spiner-holder").show();
+
+            $("#frm_login").submit();
+
+        });
+
+        function tooglePassword(el) {
+            debugger;
+            if ($(el).attr("type") == 'text') {
+                $(el).attr("type", "password")
+            } else {
+                $(el).attr("type", "text")
+            }
+
+        }
+    </script>
+}
+
+
+

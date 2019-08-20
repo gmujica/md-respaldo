@@ -1,0 +1,183 @@
+.auction-confirmation-container {
+	text-align: center;
+	position: relative;
+}
+.auction-confirmation-container .main-title > div {
+	font-family: 'Helvetica Neue Roman' !important;
+	width: 38%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: auto 35vw;
+	position: relative;
+	left: -113px;
+}
+.auction-confirmation-container .main-title .main-title-icon {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	background-image: url('../images/icons/candado.svg');
+	width: 2vw;
+	height: 2vw;
+}
+/*Special Counter*/
+/*16-06-2019*/
+.auction-confirmation-container special-counter {
+	width: 400px;
+	margin: 4vh auto 2vh auto;
+	height: 6vh;
+}
+/*First block of text*/
+.auction-confirmation-container .block-text {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr;
+	width: 498px;
+	margin: 4vh auto 2vh auto;
+}
+.auction-confirmation-container .block-text > div {
+	justify-self: right;
+}
+.auction-confirmation-container .block-text > div:first-child {
+	justify-self: left;
+}
+.auction-confirmation-container .block-text > div > p{
+	text-align: right;
+	color: var(--font-blue);
+	font-size: .9em;
+	margin-bottom: .5vh;
+}
+.auction-confirmation-container .block-text > div:first-child > p{
+	text-align: left;
+	color: #b3b3b3;
+}
+/*Exchange Indicators*/
+.auction-confirmation-container .exchange-board {
+	width: 498px;
+	margin: 0 auto 4vh auto;
+	border: 2px solid #b3b3b3;
+	border-radius: 6px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	height: 8vh;
+}
+.auction-confirmation-container .exchange-board > div {
+	display: grid;
+	grid-template-rows: 1fr 2fr;
+	align-items: center;
+}
+.auction-confirmation-container .exchange-board > div:first-child {
+	border-right: 2px solid #b3b3b3;
+}
+.auction-confirmation-container .exchange-board > div:last-child {
+	border-left: 2px solid #b3b3b3;
+}
+.auction-confirmation-container .exchange-board .exch-title,
+.auction-confirmation-container .exchange-board .rate {
+	font-size: .6em;
+	font-family: 'Helvetica Neue Roman';
+	color: var(--btn-blue);
+}
+.auction-confirmation-container .exchange-board .rate {
+	font-size: .9em;
+}
+.auction-confirmation-container .exchange-board .iconed {
+	place-self: stretch;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 2vw;
+	background-image: url('../images/icons/logo-corfid.svg');
+}
+/*Add Account Button*/
+.auction-confirmation-container .add-account-btn {
+	width: 15%;
+	display: block;
+	position: absolute;
+	left: 72%;
+}
+.auction-confirmation-container .add-account-btn .round-button-content {
+	grid-template-columns: .5fr 2.5fr;
+}
+.auction-confirmation-container .add-account-btn .btn-text {
+	justify-self: start;
+}
+.auction-confirmation-container .add-account-btn.hidden {
+	visibility: hidden;
+}
+/*Select Banks Area*/
+.auction-confirmation-container .select-area {
+	width: 498px;
+	margin: 0 auto 10vh auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 1vw;
+}
+/*Operations resume*/
+.auction-confirmation-container .operations-resume {
+	width: 535px;
+	margin: 0 auto 2vh auto;
+	display: grid;
+	grid-row-gap: 2vh;
+	grid-template-rows: auto auto;
+}
+.auction-confirmation-container .operations-resume .operations-box {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-row-gap: 3vh;
+	padding: 2vh 1vw 2vh 1vw;
+	border: 2px solid #d1d1d1;
+	border-radius: 6px;
+}
+.auction-confirmation-container .operations-resume .operations-box-title {
+	font-family: 'Helvetica Neue Roman';
+	color: #b3b3b3;
+}
+.auction-confirmation-container .operations-resume .operations-box-title span {
+	font-family: inherit;
+	color: var(--btn-blue);
+}
+.auction-confirmation-container .operations-box-item {
+	display: grid;
+	place-items: start;
+	height: 6vh;
+}
+.auction-confirmation-container .operations-box-item .operations-box-subtitle {
+	font-size: .6em;
+	font-family: 'Helvetica Neue Roman';
+	color: #b3b3b3;
+}
+.auction-confirmation-container .operations-box-item .operations-box-value {
+	font-family: 'Helvetica Neue Roman';
+	color: var(--btn-blue);
+	font-size: .9em;
+}
+/*Input Label*/
+.auction-confirmation-container .input-label {
+	font-family: 'HElvetica Neue Roman';
+	color: var(--btn-blue);
+	font-size: 1.2em;
+	margin-bottom: 2vh;
+	margin: 0 auto 2vh auto;
+	width: 350px;
+}
+/*Password input*/
+.auction-confirmation-container .introduce-password {
+	width: 309px;
+	margin: 0 auto 0 auto;
+	margin-bottom: 2vh;
+}
+/*Confirm btn*/
+.auction-confirmation-container .btn.confirm-op {
+	margin: 0 auto 4vh auto;
+	height: 6vh;
+	width: 309px;
+	font-size: .8em;
+}
+/*Status Div*/
+.auction-confirmation-container .status {
+	display: block;
+	width: 498px;
+	margin: 0 auto 4vh auto;
+	text-align: left;
+	height: 15vh;
+}

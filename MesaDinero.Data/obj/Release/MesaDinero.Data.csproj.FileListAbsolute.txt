@@ -1,0 +1,79 @@
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Data\bin\Release\MesaDinero.Data.dll.config
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Data\bin\Release\MesaDinero.Data.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Data\bin\Release\MesaDinero.Data.pdb
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.SqlServer.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.SqlServer.xml
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Data\obj\Release\MesaDinero.Data.dll
+G:\RepositorioIntegrado\lmd\MesaDinero\MesaDinero.Data\obj\Release\MesaDinero.Data.pdb
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Data\bin\Release\MesaDinero.Data.dll.config
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Data\bin\Release\MesaDinero.Data.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Data\bin\Release\MesaDinero.Data.pdb
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.SqlServer.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.SqlServer.xml
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Data\obj\Release\MesaDinero.Data.csprojResolveAssemblyReference.cache
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Data\obj\Release\MesaDinero.Data.dll
+G:\RepositorioIntegradoMaster\lmd\MesaDinero\MesaDinero.Data\obj\Release\MesaDinero.Data.pdb
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Data\bin\Release\MesaDinero.Data.dll.config
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Data\bin\Release\MesaDinero.Data.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Data\bin\Release\MesaDinero.Data.pdb
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.SqlServer.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.SqlServer.xml
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Data\obj\Release\MesaDinero.Data.csprojResolveAssemblyReference.cache
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Data\obj\Release\MesaDinero.Data.dll
+G:\Proyecto Mesa de Dinero\Versiones\29-04-2019\MesaDinero\MesaDinero.Data\obj\Release\MesaDinero.Data.pdb
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Data\bin\Release\MesaDinero.Data.dll.config
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Data\bin\Release\MesaDinero.Data.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Data\bin\Release\MesaDinero.Data.pdb
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.SqlServer.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.SqlServer.xml
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Data\obj\Release\MesaDinero.Data.csprojResolveAssemblyReference.cache
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Data\obj\Release\MesaDinero.Data.dll
+G:\Proyecto Mesa de Dinero\Versiones\15-05-2019\MesaDinero\MesaDinero.Data\obj\Release\MesaDinero.Data.pdb
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Data\bin\Release\MesaDinero.Data.dll.config
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Data\bin\Release\MesaDinero.Data.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Data\bin\Release\MesaDinero.Data.pdb
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.SqlServer.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.SqlServer.xml
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Data\obj\Release\MesaDinero.Data.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Data\obj\Release\MesaDinero.Data.dll
+D:\PROYECTOS\2019\LDM\fuentes\MesaDinero\MesaDinero.Data\obj\Release\MesaDinero.Data.pdb
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Data\bin\Release\MesaDinero.Data.dll.config
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Data\bin\Release\MesaDinero.Data.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Data\bin\Release\MesaDinero.Data.pdb
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.SqlServer.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.SqlServer.xml
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Data\obj\Release\MesaDinero.Data.csprojResolveAssemblyReference.cache
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Data\obj\Release\MesaDinero.Data.dll
+G:\Proyecto Mesa de Dinero\Versiones\04-06-2019\MesaDinero\MesaDinero.Data\obj\Release\MesaDinero.Data.pdb
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Data\bin\Release\MesaDinero.Data.dll.config
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Data\bin\Release\MesaDinero.Data.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Data\bin\Release\MesaDinero.Data.pdb
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.SqlServer.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.SqlServer.xml
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Data\obj\Release\MesaDinero.Data.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Data\obj\Release\MesaDinero.Data.dll
+D:\PROYECTOS\2019\LDM\fuentes\17-06-2019\17-06-2019\MesaDinero\MesaDinero.Data\obj\Release\MesaDinero.Data.pdb
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Data\bin\Release\MesaDinero.Data.dll.config
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Data\bin\Release\MesaDinero.Data.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Data\bin\Release\MesaDinero.Data.pdb
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.SqlServer.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Data\bin\Release\EntityFramework.SqlServer.xml
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Data\obj\Release\MesaDinero.Data.csprojResolveAssemblyReference.cache
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Data\obj\Release\MesaDinero.Data.dll
+G:\Proyecto Mesa de Dinero\Versiones\25-06-2019\MesaDinero\MesaDinero.Data\obj\Release\MesaDinero.Data.pdb

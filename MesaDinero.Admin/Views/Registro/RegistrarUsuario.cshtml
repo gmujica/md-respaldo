@@ -1,0 +1,380 @@
+﻿@{
+
+}
+@*<link rel="stylesheet" type="text/css" href="~/Content/bootstrap.css" />
+<link href="~/Content/css/ficha-datos.css" rel="stylesheet" />
+<link href="~/Content/css/registration/person-registration/layout.css" rel="stylesheet" />*@
+
+@section Styles{
+
+    <!-- Subasta -->
+    <link rel="stylesheet" type="text/css" href="~/Content/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/css/user-area-adjustments.css">
+    <link href="~/Content/css/ficha-datos.css" rel="stylesheet" />
+    <link href="~/Content/css/registration/person-registration/layout.css" rel="stylesheet" />
+
+}
+
+<style>
+    .register-container-block.block-1-1 {
+        grid-template-rows: none !important;
+    }
+</style>
+
+
+<div class="complex-dashboard-content">
+    <div class="list-container">
+        <div class="operations operations-c">
+            <a data-bind="click:$root.openModalAdd" class="btn btn-primary btn-xs" style="max-width:120px;position: relative;display: block;padding: 5px 0;">
+                <i class="glyphicon glyphicon-plus" style="display: inline-block;"></i>
+                <span style="display: inline-block;">Agregar</span>
+            </a>
+            <dashboard-list>
+                <div>
+
+                    <div class="table-responsive" data-bind="with:$root.lst">
+                        <table class="k-table k-thover k-trow-pointer">
+                            <thead class="k-thead">
+                                <tr class="k-throw">
+                                    <th>Empresa</th>
+                                    <th>Tipo Usuario</th>
+                                    <th>Nombre</th>
+                                    <th>Estado</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody class="k-tbody" data-bind="foreach:$data.datasource">
+                                <tr>
+                                    <td>
+                                        <span data-bind="text:$data.razonSocial"></span>
+                                    </td>
+                                    <td>
+                                        <span data-bind="text:$data.tipoUsuario"></span>
+                                    </td>
+                                    <td>
+                                        <span data-bind="text:$data.email"></span>
+                                    </td>
+                                    <td>
+                                        <span data-bind="text:$data.nombreEstado"></span>
+                                    </td>
+                                    <td>
+
+                                        <a title="Perfil" data-bind="click:$root.openModalPerfil"><i class="glyphicon glyphicon-user"></i></a>
+                                        &emsp;
+                                        <a title="Editar" data-bind="click:$root.openModalEdit"><i class="glyphicon glyphicon-pencil"></i></a>
+                                        &emsp;
+                                        <a title="Eliminar" data-bind="click:$root.openModalEliminar"><i class="glyphicon glyphicon-trash"></i></a>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        @Html.Partial("_Pagination")
+                    </div>
+
+                </div>
+            </dashboard-list>
+        </div>
+    </div>
+</div>
+
+<br />
+<br />
+
+<div class="popup-container hidden ficha-popup ficha-person" id="ficha_add_cargo">
+    <div class="popup" style="width: 65%;">
+        <span class="cross"></span>
+        <div class="popup-content">
+            <person-registration>
+                <div class="register-auction-content" data-bind="with:$root.AddContext">
+                    <div class="register-auction-body register-container">
+                        <div class="main-header-container">
+                            <div class="main-title">Agregar Usuario</div>
+                        </div>
+
+                        <div class="register-container-block block-1-1">
+                             <div class="custom-select-wrap">
+                                <select class="custom-select" data-bind="value: $data.tipoUsuario">
+                                    <option class="custom-option" value="" selected="">Tipo de Empresa</option>
+                                    <option class="custom-option" value="LMD">LMD</option>
+                                    @*<option class="custom-option" value="Canal">Canal</option>*@
+                                    <option class="custom-option" value="FID">Fideicomiso</option>
+                                    <option class="custom-option" value="PAR">Partner</option>
+                                </select>
+                            </div>
+                            
+                            <div class="custom-select-wrap">
+                                <select class="custom-select" data-bind="options: $root.lstActividadEconomica, optionsValue: 'value', optionsText: 'text', optionsCaption: 'Seleccione Empresa', value: $data.rucEmpresa"></select>
+                            </div>
+
+                            <fancy-input id="person-reg-document" class="selected" placeholder="Ruc">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Ruc</div>
+                                    <input data-bind="value: $data.ructext" maxlength="70" type="text">
+                                </div>
+                            </fancy-input>
+
+                            <div class="custom-select-wrap">
+                                <select class="custom-select" data-bind="options:$root.lstTipoDocumento,optionsText:'text',optionsValue:'value',optionsCaption:'Tipo de Documento',value:$data.tipoDocumento"></select>
+                            </div>
+                            <fancy-input id="person-reg-document" class="selected" placeholder="Nro Documento">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Nro de Documento</div>
+                                    <input data-bind="value:$data.nroDocumento" maxlength="70" type="text">
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-document" class="selected" placeholder="Nombre">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Nombre</div>
+                                    <input data-bind="value:$data.nombre" maxlength="70" type="text">
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-document" class="selected" placeholder="Apellido Paterno">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Apellido Paterno</div>
+                                    <input data-bind="value:$data.apellidoPat" maxlength="70" type="text">
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-document" class="selected" placeholder="Apellido Materno">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Apellido Materno</div>
+                                    <input data-bind="value:$data.apellidoMat" maxlength="70" type="text">
+                                </div>
+                            </fancy-input>
+
+                            <fancy-input id="person-reg-birthdate" placeholder="Fecha de Nacimiento (DD/MM/AA)">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Teléfono Celular</div>
+                                    <div class="grid-2">
+                                        <select class="custom-select" data-bind="value:$data.prefijo">
+                                            <option class="custom-option" value="+51" selected="">+51</option>
+                                            <option class="custom-option" value="+1">+1</option>
+                                            <option class="custom-option" value="+54">+54</option>
+                                            <option class="custom-option" value="+55">+55</option>
+                                            <option class="custom-option" value="+56">+56</option>
+                                            <option class="custom-option" value="+61">+61</option>
+                                        </select>
+                                        <input data-bind="value:$data.celular" type="text">
+                                    </div>
+                                </div>
+                            </fancy-input>
+
+                            <fancy-input id="person-reg-document" class="selected" placeholder="Correo">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Correo</div>
+                                    <input data-bind="value:$data.email" maxlength="70" type="text">
+                                </div>
+                            </fancy-input>
+
+                        </div>
+                        <div class="block-1-3">
+                            <div class="observations">
+
+                            </div>
+                            <div class="button-row">
+                                <div class="btn btn-green" data-bind="click:$root.addNew"><span class="btn-text">Guardar</span></div>
+                                <div class="btn btn-red" data-bind="click:$root.closeModalAdd"><span class="btn-text">Cancelar</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </person-registration>
+        </div>
+    </div>
+</div>
+
+<div class="popup-container hidden ficha-popup ficha-person" id="ficha_edit_cargo">
+    <div class="popup" style="width: 65%;">
+        <span class="cross"></span>
+        <div class="popup-content">
+            <person-registration>
+                <div class="register-auction-content" data-bind="with:$root.EditContext">
+                    <div class="register-auction-body register-container">
+                        <div class="main-header-container">
+                            <div class="main-title">Editar Usuario</div>
+                        </div>
+                        <div class="register-container-block block-1-1">
+
+                            <div class="custom-select-wrap">
+                                <select class="custom-select" data-bind="options:$root.lstTipoDocumento,optionsText:'text',optionsValue:'value',optionsCaption:'Tipo de Documento',value:tipoDocumento"></select>
+                            </div>
+
+                            <fancy-input id="person-reg-document" class="selected" placeholder="Nro Documento">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Nro de Documento</div>
+                                    <input disabled data-bind="value:$data.nroDocumento" maxlength="70" type="text">
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-document" class="selected" placeholder="Nombre">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Nombre</div>
+                                    <input disabled data-bind="value:$data.nombre" maxlength="70" type="text">
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-document" class="selected" placeholder="Apellido Paterno">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Apellido Paterno</div>
+                                    <input disabled data-bind="value:$data.apellidoPat" maxlength="70" type="text">
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-document" class="selected" placeholder="Apellido Materno">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Apellido Materno</div>
+                                    <input disabled data-bind="value:$data.apellidoMat" maxlength="70" type="text">
+                                </div>
+                            </fancy-input>
+
+                            <fancy-input id="person-reg-birthdate" placeholder="Fecha de Nacimiento (DD/MM/AA)">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Teléfono Celular</div>
+                                    <div class="grid-2">
+                                        <select class="custom-select" data-bind="value:$data.prefijo">
+                                            <option class="custom-option" value="+51" selected="">+51</option>
+                                            <option class="custom-option" value="+1">+1</option>
+                                            <option class="custom-option" value="+54">+54</option>
+                                            <option class="custom-option" value="+55">+55</option>
+                                            <option class="custom-option" value="+56">+56</option>
+                                            <option class="custom-option" value="+61">+61</option>
+                                        </select>
+                                        <input data-bind="value:$data.celular" type="text">
+                                    </div>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-document" class="selected" placeholder="Correo">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Correo</div>
+                                    <input disabled data-bind="value:$data.email" maxlength="70" type="text">
+                                </div>
+                            </fancy-input>
+
+                            <div class="custom-select-wrap">
+                                <select class="custom-select" data-bind="value:$data.tipoUsuario">
+                                    <option class="custom-option" value="" selected="">Tipo de Empresa</option>
+                                    <option class="custom-option" value="LMD">LMD</option>
+                                    @*<option class="custom-option" value="Canal">Canal</option>*@
+                                    <option class="custom-option" value="FID">Fideicomiso</option>
+                                    <option class="custom-option" value="PAR">Partner</option>
+                                </select>
+                            </div>
+                            <div class="custom-select-wrap">
+                                <select class="custom-select" data-bind="options:$root.lstActividadEconomica,optionsValue:'value',optionsText:'text',optionsCaption:'Seleccione Empresa',value:$data.rucEmpresa"></select>
+                            </div>
+
+                            <fancy-input id="person-reg-document" class="selected" placeholder="Ruc">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Ruc</div>
+                                    <input data-bind="value:$data.ructext" maxlength="70" type="text">
+                                </div>
+                            </fancy-input>
+
+
+
+                        </div>
+                        <div class="block-1-3">
+                            <div class="observations">
+
+                            </div>
+                            <div class="button-row">
+                                <div class="btn btn-green" data-bind="click:$root.editar"><span class="btn-text">Guardar</span></div>
+                                <div class="btn btn-red" data-bind="click:$root.closeModalEdit"><span class="btn-text">Cancelar</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </person-registration>
+        </div>
+    </div>
+</div>
+
+
+<div class="popup-container hidden ficha-popup ficha-person" id="ficha_perfil">
+    <div class="popup"  >
+        <span class="cross"></span>
+        <div class="popup-content">
+            <person-registration>
+                <div class="register-auction-content" data-bind="with:$root.EditContext"  >
+                    <div class="register-auction-body register-container" >
+                        <div class="main-header-container">
+                            <div class="main-title">Perfil Usuario</div>
+                        </div>
+                   
+                        <dashboard-list>
+                            <div>
+                                <div class="table-responsive" data-bind="with:$root.lstperfil" style="width: 50%;margin:auto;">
+                                    <table class="k-table k-thover k-trow-pointer">
+                                        <thead class="k-thead">
+                                            <tr class="k-throw">
+                                                <th>Nº</th>
+                                                <th>Nombre</th>
+                                                <th>Activar</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="k-tbody" data-bind="foreach:$data.datasource">
+                                            <tr>
+                                                <td>
+                                                    <span data-bind="text: 'N°' + ($index() + 1)"></span>
+                                                </td>
+                                                <td>
+                                                    <span data-bind="text:$data.nombre"></span>
+                                                </td>
+                                                <td style="width:30px;">
+
+                                                    <label class="k-content-radio">
+                                                        <input type="checkbox" name="acepto_terminos" data-bind="checked:$data.checkActivo" />
+                                                        <div class="k-radioButtom-icon"></div>
+                                                    </label>
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    @Html.Partial("_Pagination")
+                                </div>
+
+
+                            </div>
+                        </dashboard-list>
+
+
+                        <div class="block-1-3">
+                            <div class="observations">
+
+                            </div>
+                            <div class="button-row">
+                                <div class="btn btn-green" data-bind="click:$root.asignarPerfil"><span class="btn-text">Guardar</span></div>
+                                <div class="btn btn-red" data-bind="click:$root.closeModalPerfil"><span class="btn-text">Cancelar</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </person-registration>
+         
+       
+        </div>
+    </div>
+</div>
+
+<div class="popup-container confirmation-popup hidden" style="z-index: 2000" id="modal_remove_cargo">
+    <div class="popup" style="min-width: 270px;" data-bind="with:$root.EliminarContext">
+        <span class="cross"></span>
+        <div class="popup-content alert" style="    font-size: 15px;">
+            <div class="exclamation-circle">!</div>
+            <div class="alert-title">Eliminar Cargo</div>
+            <div class="alert-subtitle">¿Está seguro de continuar?</div>
+            <div class="btn blue-style" data-bind="click:$root.eliminar" style="height: 26px;max-width: 30%;font-size: 11px;margin-top: 10px;"><span class="btn-text">Aceptar</span></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+@section Scripts {
+
+    <script src="~/Content/js/app/Registro/RegistroUsuario.js"></script>
+}
+
+
+
+

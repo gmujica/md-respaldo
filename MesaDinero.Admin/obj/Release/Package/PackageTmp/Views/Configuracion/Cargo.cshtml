@@ -1,0 +1,190 @@
+﻿@{
+
+}
+@*<link rel="stylesheet" type="text/css" href="~/Content/bootstrap.css" />
+<link href="~/Content/css/ficha-datos.css" rel="stylesheet" />
+<link href="~/Content/css/registration/person-registration/layout.css" rel="stylesheet" />*@
+
+@section Styles{
+
+    <!-- Subasta -->
+    <link rel="stylesheet" type="text/css" href="~/Content/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/css/user-area-adjustments.css">
+    <link href="~/Content/css/ficha-datos.css" rel="stylesheet" />
+    <link href="~/Content/css/registration/person-registration/layout.css" rel="stylesheet" />
+
+}
+
+
+<style>
+    .register-container-block.block-1-1{
+            grid-template-rows: none !important;
+    }
+</style>
+
+
+<div class="complex-dashboard-content">
+    <div class="list-container">
+        <div class="operations operations-c">
+            <a data-bind="click:$root.openModalAdd" class="btn btn-primary btn-xs" style="max-width:120px;position: relative;display: block;padding: 5px 0;">
+                <i class="glyphicon glyphicon-plus" style="display: inline-block;"></i>
+                <span style="display: inline-block;">Agregar</span>
+            </a>
+            <dashboard-list>
+                <div>
+
+                    <div class="table-responsive" data-bind="with:$root.lstCargos">
+                        <table class="k-table k-thover k-trow-pointer">
+                            <thead class="k-thead">
+                                <tr class="k-throw">
+                                    <th>Nombre</th>
+                                    <th>Estado</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody class="k-tbody" data-bind="foreach:$data.datasource">
+                                <tr>
+                                    <td>
+                                        <span data-bind="text:$data.nombre"></span>
+                                    </td>
+                                    <td>
+                                        @*<!-- ko if:$data.estado() == 1 -->
+                                        <span>Activo</span>
+                                        <!-- /ko -->
+
+                                        <!-- ko if:$data.estado() == 2 -->
+                                        <span>Inactivo</span>
+                                        <!-- /ko -->*@
+
+                                        <span data-bind="text:$data.nombreEstado"></span>
+                                    </td>
+                                    <td>
+                                        <a title="Editar" data-bind="click:$root.openModalEdit"><i class="glyphicon glyphicon-pencil"></i></a>
+                                        &emsp;
+                                        <a title="Eliminar" data-bind="click:$root.openModalEliminar"><i class="glyphicon glyphicon-trash"></i></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        @Html.Partial("_Pagination")
+                    </div>
+
+                </div>
+            </dashboard-list>
+        </div>
+    </div>
+</div>
+
+<br />
+<br />
+
+<div class="popup-container hidden ficha-popup ficha-person" id="ficha_add_cargo">
+    <div class="popup" style="width: 65%;">
+        <span class="cross"></span>
+        <div class="popup-content">
+            <person-registration>
+                <div class="register-auction-content" data-bind="with:$root.cargoAddContext">
+                    <div class="register-auction-body register-container">
+                        <div class="main-header-container">
+                            <div class="main-title">Agregar Nuevo Cargo</div>
+                        </div>
+                        <div class="register-container-block block-1-1">
+                            <fancy-input id="person-reg-document" class="selected" placeholder="Nombre">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Nombre</div>
+                                    <input data-bind="value:$data.nombre" maxlength="70" type="text">
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-document" class="selected" placeholder="Estado">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Estado</div>
+                                    <select class="custom-select" data-bind="value:$data.estado">
+                                        <option value="">--Seleccionar--</option>
+                                        <option value="1">Activo</option>
+                                        <option value="2">Inactivo</option>
+                                    </select>
+                                </div>
+                            </fancy-input>
+                        </div>
+                        <div class="block-1-3">
+                            <div class="observations">
+
+                            </div>
+                            <div class="button-row">
+                                <div class="btn btn-green" data-bind="click:$root.addNewCargo"><span class="btn-text">Guardar</span></div>
+                                <div class="btn btn-red" data-bind="click:$root.closeModalAdd"><span class="btn-text">Cancelar</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </person-registration>
+        </div>
+    </div>
+</div>
+
+<div class="popup-container hidden ficha-popup ficha-person" id="ficha_edit_cargo">
+    <div class="popup" style="width: 65%;">
+        <span class="cross"></span>
+        <div class="popup-content">
+            <person-registration>
+                <div class="register-auction-content" data-bind="with:$root.cargoEditContext">
+                    <div class="register-auction-body register-container">
+                        <div class="main-header-container">
+                            <div class="main-title">Editar Cargo</div>
+                        </div>
+                        <div class="register-container-block block-1-1">
+                            <fancy-input id="person-reg-document" class="selected" placeholder="Nombre">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Nombre</div>
+                                    <input data-bind="value:$data.nombre" maxlength="70" type="text">
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-document" class="selected" placeholder="Estado">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Estado</div>
+                                    <select class="custom-select" data-bind="value:$data.estado">
+                                        <option value="">--Seleccionar--</option>
+                                        <option value="1">Activo</option>
+                                        <option value="2">Inactivo</option>
+                                    </select>
+                                </div>
+                            </fancy-input>
+                        </div>
+                        <div class="block-1-3">
+                            <div class="observations">
+
+                            </div>
+                            <div class="button-row">
+                                <div class="btn btn-green" data-bind="click:$root.editcargo"><span class="btn-text">Guardar</span></div>
+                                <div class="btn btn-red" data-bind="click:$root.closeModalEdit"><span class="btn-text">Cancelar</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </person-registration>
+        </div>
+    </div>
+</div>
+
+<div class="popup-container confirmation-popup hidden" style="z-index: 2000" id="modal_remove_cargo">
+    <div class="popup" style="min-width: 270px;" data-bind="with:$root.cargoEliminarContext">
+        <span class="cross"></span>
+        <div class="popup-content alert" style="    font-size: 15px;">
+            <div class="exclamation-circle">!</div>
+            <div class="alert-title">Eliminar Cargo</div>
+            <div class="alert-subtitle">¿Está seguro de continuar?</div>
+            <div class="btn blue-style" data-bind="click:$root.eliminarcargo" style="height: 26px;max-width: 30%;font-size: 11px;margin-top: 10px;"><span class="btn-text">Aceptar</span></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+@section Scripts {
+<script src="~/Content/js/app/Configuracion/Cargo.js"></script>
+}
+
+
+
+

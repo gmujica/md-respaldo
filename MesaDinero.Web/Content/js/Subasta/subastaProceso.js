@@ -1,0 +1,12 @@
+﻿ViewModelSubastaProceso = function () {
+
+
+
+        alert("ok");
+   
+}
+
+
+
+
+

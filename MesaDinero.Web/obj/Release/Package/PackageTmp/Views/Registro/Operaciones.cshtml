@@ -1,0 +1,225 @@
+﻿@model MesaDinero.Domain.Model.RegistroResponse
+@{
+    ViewBag.UserName = Model.userName;
+    ViewBag.MenuSubasta = "";
+    ViewBag.Title = "Operaciones";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+@section Styles {
+
+}
+
+<style>
+    .content-area {
+        display: block !important;
+    }
+
+    dashboard-item-fase-a {
+        top: 1px;
+        margin-left: 30px;
+        display: block;
+        height: 150px;
+        background-color: #f1f4f5;
+    }
+
+    .dashboard-item-blue-line {
+        position: absolute;
+        height: 60%;
+        width: 3px;
+        left: -1px;
+        bottom: 0;
+        background-color: #0091ff;
+    }
+
+    .dashboard-container-content > .user-area .user-area-content {
+        align-self: center !important;
+        justify-self: center !important;
+        width: 100% !important;
+        grid-area: 1 / 3;
+    }
+
+    .dashboard-item-content {
+        background-color: #fff;
+        grid-template-columns: 51px 63px 6fr 160px;
+    }
+
+    .dashboard-container-content .subastar-btn {
+        margin: 0 auto 0 auto;
+    }
+
+    .s-title {
+        font-size: 24px;
+        text-align: center;
+        font-family: 'Helvetica Neue Roman';
+        margin-top: 100px;
+        margin-bottom: 10px;
+    }
+
+    .text {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .dashboard-item-content .fase-a {
+        box-shadow: none;
+    }
+
+        .dashboard-item-content .fase-a:active {
+            background-color: #f1f4f5;
+        }
+
+            .dashboard-item-content .fase-a:active > p {
+                color: #666666;
+            }
+
+        .dashboard-item-content .fase-a:hover {
+            /*box-shadow: 0px 3px 3vh 0px rgba(2,2,2,0.2);*/
+            border-color: var(--font-blue);
+        }
+</style>
+
+<div class="content-area">
+    <dashboard-item-fase-a>
+        <div class="dashboard-item-content">
+            <div class="dashboard-item-title">Operación en Curso</div>
+            <div class="dashboard-item-icon check-solid"></div>
+            @if (Model.seguimiento == MesaDinero.Domain.SeguimientoRegistro.RegistroBatosPrincipales)
+            {
+                <div class="dashboard-item-inner-content fase-a" onclick="ActionOperacion();">
+                    <p class="header">Cuenta Activa</p>
+                    <p>@Model.nombres</p>
+                    <p>Por unica vez para cumplir con la reglamentación de la unidad de inteligencia financieras UIF - SBS</p>
+                    <script>
+                        function ActionOperacion() {
+                            $(".loading-spiner-holder").show();
+                            window.location.href = "@System.Configuration.ConfigurationManager.AppSettings["HostWeb"]/Registro/Continuar/@Model.sid";
+                        };
+                    </script>
+                </div>
+            }
+            else if (Model.seguimiento == MesaDinero.Domain.SeguimientoRegistro.RegistroPersonaAutorizada)
+            {
+                <div class="dashboard-item-inner-content fase-a" onclick="ActionOperacion();">
+                    <p class="header">Registro de cuenta para la Mesa de Dinero - Persona Autorizada</p>
+                    <p>@Model.nombres</p>
+                    <p>Por favor termina de registrar los datos de la(a) personas autorizadas de tu empresa.</p>
+
+                    <script>
+                        function ActionOperacion() {
+                            $(".loading-spiner-holder").show();
+                            window.location.href = "@System.Configuration.ConfigurationManager.AppSettings["HostWeb"]/Registro/Continuar/@Model.sid";
+                        };
+                    </script>
+                </div>
+            }
+            else if (Model.seguimiento == MesaDinero.Domain.SeguimientoRegistro.RegistroDatosBancarios)
+            {
+                <div class="dashboard-item-inner-content fase-a" onclick="ActionOperacion();">
+                    <p class="header">Registro de cuenta para la Mesa de Dinero - Cuentas Bancarias</p>
+                    <p>@Model.nombres</p>
+                    <p>Por favor termina de registrar tus datos bancarios.</p>
+
+                    <script>
+                        function ActionOperacion() {
+                            $(".loading-spiner-holder").show();
+                            window.location.href = "@System.Configuration.ConfigurationManager.AppSettings["HostWeb"]/Registro/Continuar/@Model.sid";
+                        };
+                    </script>
+                </div>
+            }
+            else if (Model.seguimiento == MesaDinero.Domain.SeguimientoRegistro.PreProcesoValidacion && Model.estado == "O")
+            {
+                <div class="dashboard-item-inner-content fase-a" onclick="ActionOperacion();">
+                    <p class="header">Registro de cuenta para la Mesa de Dinero - Registro Observado</p>
+                    <p>@Model.nombres</p>
+                    <p>Hubo un problema con tu registro, da click para ver más detalles.</p>
+
+                    <script>
+                        function ActionOperacion() {
+                            $(".loading-spiner-holder").show();
+                            window.location.href = "@System.Configuration.ConfigurationManager.AppSettings["HostWeb"]/Registro/Continuar/@Model.sid";
+                        };
+                    </script>
+                </div>
+            }
+            else if (Model.seguimiento == MesaDinero.Domain.SeguimientoRegistro.PreProcesoValidacion)
+            {
+                <div class="dashboard-item-inner-content fase-a" onclick="ActionOperacion();">
+                    <p class="header">Registro de cuenta para la Mesa de Dinero - Pre Validación de Datos</p>
+                    <p>@Model.nombres</p>
+                    <p>Estamos por iniciar la validación de los datos para tu inscripción en la Mesa de Dinero.</p>
+
+                    <script>
+                        function ActionOperacion() {
+                            $(".loading-spiner-holder").show();
+                            window.location.href = "@System.Configuration.ConfigurationManager.AppSettings["HostWeb"]/Registro/Continuar/@Model.sid";
+                        };
+                    </script>
+                </div>
+            }
+            else if (Model.seguimiento == MesaDinero.Domain.SeguimientoRegistro.RegistroProcesoValidacion)
+            {
+                <div class="dashboard-item-inner-content fase-a" onclick="ActionOperacion();">
+                    <p class="header">Registro de cuenta para la Mesa de Dinero - Validación de Datos</p>
+                    <p>@Model.nombres</p>
+                    <p>Estamos validando tus datos para tu inscripción en la Mesa de Dinero.</p>
+
+                    <script>
+                        function ActionOperacion() {
+                            $(".loading-spiner-holder").show();
+                            window.location.href = "@System.Configuration.ConfigurationManager.AppSettings["HostWeb"]/Registro/Continuar/@Model.sid";
+                        };
+                    </script>
+                </div>
+            }
+            else if (Model.seguimiento == MesaDinero.Domain.SeguimientoRegistro.IngresoClaveSMS)
+            {
+                <div class="dashboard-item-inner-content fase-a" onclick="ActionOperacion();">
+                    <p class="header">Registro de cuenta para la Mesa de Dinero - Verificación de Nro. Movil</p>
+                    <p>@Model.nombres</p>
+                    <p>Estamos validando tus datos para tu inscripción en la Mesa de Dinero.</p>
+
+                    <script>
+                        function ActionOperacion() {
+                            $(".loading-spiner-holder").show();
+                            window.location.href = "@System.Configuration.ConfigurationManager.AppSettings["HostWeb"]/Registro/Continuar/@Model.sid";
+                        };
+                    </script>
+                </div>
+            }
+            else if (Model.seguimiento == MesaDinero.Domain.SeguimientoRegistro.CrearPassword)
+            {
+                <div class="dashboard-item-inner-content fase-a" onclick="ActionOperacion();">
+                    <p class="header">Registro de cuenta para la Mesa de Dinero - Creación de Password</p>
+                    <p>@Model.nombres</p>
+                    <p>Crea tu password para poder finalizar tu registro en la Mesa de dinero y empiezar a subastar tus divisas.</p>
+
+                    <script>
+                        function ActionOperacion() {
+                            $(".loading-spiner-holder").show();
+                            window.location.href = "@System.Configuration.ConfigurationManager.AppSettings["HostWeb"]/Registro/Continuar/@Model.sid";
+                        };
+                    </script>
+                </div>
+            }
+
+            <div class="dashboard-item-blue-line"></div>
+        </div>
+    </dashboard-item-fase-a>
+    <div class="dashboard-IC" style="zoom: 125%;">
+        <div class="s-title">Bienvenido a la Mesa de Dinero</div>
+        <div class="text">La forma fácil y segura de subastar tus Soles y Dólares en línea!</div>
+        <a style="display:block;text-decoration:none;" href="@Url.Action("Subasta", "Registro", new { id = Model.sid })" class="subastar-btn">Subastar Divisas</a>
+    </div>
+</div>
+
+@section Scripts {
+
+    <script >
+        $('#subasta_menu').addClass('active');
+    </script>
+  
+
+}

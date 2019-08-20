@@ -1,0 +1,189 @@
+﻿@{
+
+}
+<link rel="stylesheet" type="text/css" href="~/Content/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/form-base-container/base-input/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/custom-checkbox.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/auction/auction-box/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/horizontal-progress-bar.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/dashboard-container/bank-form/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/dashboard-container/bank-list/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/router/treasury_layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/user-area-adjustments.css">
+
+<link rel="stylesheet" type="text/css" href="~/Content/css/popup.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/containers/auction_confirmation_box_layout.css">
+
+<link rel="stylesheet" type="text/css" href="~/Content/css/router/corfid_layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/layout.css">
+<style>
+    .popup-content {
+        width: 650px;
+    }
+
+    .main-title {
+        text-align: center;
+        max-width: 100vw;
+    }
+
+    .auction-confirmation-container .select-area {
+        width: 498px;
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 3px;
+    }
+
+        .auction-confirmation-container .select-area .s-label {
+            grid-row: 1 / 2;
+            color: var(--btn-blue);
+            justify-self: left;
+            font-size: 13px;
+        }
+
+        .auction-confirmation-container .select-area .custom-select-box {
+            grid-row: 2 / 3;
+        }
+
+    .auction-confirmation-container .block-text,
+    .auction-confirmation-container .exchange-board,
+    .auction-confirmation-container .select-area {
+        width: 535px;
+    }
+
+    .select-area div.custom-select-box > .custom-select-icon {
+        background: none !important;
+    }
+
+    .auction-confirmation-container .select-area {
+        margin: 0 auto 5vh auto;
+    }
+
+    .select-area .custom-select-box.custom-select {
+        font-size: 13px;
+    }
+</style>
+
+
+<div class="content-area">
+    <div class="complex-dashboard-content">
+
+        <div class="operations operations-g">
+            <div class="main-header-container">
+                <div class="main-title">Mis Adjudicaciones</div>
+                <div class="main-parragraph" data-bind="text:$root.fechaSistema">
+
+                    @*<span data-bind="text:$root.fechaSistema"></span>*@
+                </div>
+            </div>
+        </div>
+
+        <div class="list-container">
+
+            <div class="treasury treasury-c">
+
+                <dashboard-list>
+                    <div style="text-align: center;" data-bind="with:$root.lstliquidacion">
+
+                        <table class="k-table k-thover k-trow-pointer">
+                            <thead class="k-thead">
+                                <tr class="k-throw">
+                                    <th>
+                                        <label class="k-content-radio">
+                                            <input type="checkbox" id="idcheckgeneralEstado" data-bind="event:{change :$root.checkearAllEstado}" />
+                                            <div class="k-radioButtom-icon"></div>
+                                        </label>
+                                    </th>
+                                    <th>ID <br />Transacción</th>
+                                    <th>Fecha</th>
+                                    <th>Hora</th>
+                                   
+                                
+                                    @*<th>Partner</th>*@
+                                    <th>Cliente</th>
+                                    <th>Quiere</th>
+                                    <th>Total USD</th>
+                                    <th>Precio Pactado</th>
+                                    <th>Total PEN</th>
+                                    <th></th>
+                                    <th>&nbsp;Estado de Pago</th>
+                                </tr>
+                            </thead>
+                            <tbody class="k-tbody" data-bind="foreach:$data.datasource">
+                                <tr>
+                                    <td>
+                                        <label class="k-content-radio">
+                                            <input type="checkbox" name="idcheck" data-bind="checked:$data.checkEstado" />
+                                            <div class="k-radioButtom-icon"></div>
+                                        </label>
+                                    </td>
+                                    <td><span data-bind="text:$data.formatoTransaccion"></span></td>
+                                    <td><span data-bind="text:$data.fechaReg"></span></td>
+                                    <td><span data-bind="text:$data.HoraConfirmacion"></span></td>
+                          
+                                    
+                                    @*<td><span data-bind="text:$data.partnersAdjuntado"></span></td>*@
+                                    <td><span data-bind="text:$data.cliente"></span></td>
+                                    <td><span data-bind="text:$data.quiere"></span></td>
+                                    <td><span data-bind="text:$data.montoUSDventaText"></span></td>
+                                    <td><span data-bind="text:$data.tipoCambioText"></span></td>
+                                    <td><span data-bind="text:$data.montoSolesventaText"></span></td>
+                                    <td>
+                                        <div data-bind="attr:{'class' : 'k-icon k-status status_subasta_generico_' + $data.estadoSubastaCodigo() }">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div data-bind="attr:{'class':'status_generico_'+$data.estadoSubastaCodigo()}">
+                                            <div data-bind="text:$data.estadoSubasta"></div>
+                                        </div>
+                                    </td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                        @Html.Partial("_Pagination")
+
+
+                    </div>
+                </dashboard-list>
+                <div style="display: grid; grid-template-columns: auto auto; grid-template-rows: 1fr; grid-column-gap: 10px;">
+                    @*<div>
+                            <div class="btn blue-bordered" data-bind="click:$root.addCuenta"><span class="btn-text">+ Agregar</span></div>
+                        </div>*@
+                    <div>
+
+                        @*<div id="confirmar_bancos_" data-bind="click:$root.generarLiquidacion" style="width:190px;height:28px;" class="btn regular" style="width: auto !important; height: 100% !important; border: 1px solid transparent !important;">
+                                <span class="btn-text">Generar Liquidacion</span>
+                            </div>*@
+                        @using (Html.BeginForm("DescargarPartnerLiquidacionExcel", "Partner", FormMethod.Post, new { id = "frm", target = "_blank" }))
+                        {
+
+                            @*@Html.Hidden("numPartner")
+                                @Html.Hidden("numLiq")
+                                @Html.Hidden("estadoLiq")
+                                @Html.Hidden("tipo")*@
+                            @Html.Hidden("operaciones")
+                            <div class="btn blue-bordered" style="width:180px;">
+                                <span class="btn-text" data-bind="click:$root.exportarTxt">Exportar Excel</span>
+                            </div>
+                        }
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <!--Modal-->
+    <script src="~/Content/js/select_menu_option.js"></script>
+    <script src="~/Content/js/close_popup.js"></script>
+    <!---->
+    <script src="~/Content/js/app/Partner/MisAdjudicaciones.js"></script>
+}
+

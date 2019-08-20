@@ -1,0 +1,157 @@
+exchanger-input {
+	position: relative;
+}
+exchanger-input > div:not(.dropdown-menu) {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	display: grid;
+	background-color: #fff;
+	grid-template-rows: .9fr 1.1fr;
+	grid-template-columns: .2fr 2.3fr .5fr 1fr;
+	grid-template-areas:
+		". label icon flags"
+		". input icon flags";
+	border-radius: 3px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.label {
+	grid-area: label;
+	color: #ababab;
+	align-self: end;
+	font-size: 2.4vh;
+	font-family: 'Helvetica Neue Roman';
+}
+.input {
+	grid-area: input;
+	outline: none;
+	border: none;
+	font-size: 4vh;
+	font-family: 'Helvetica Neue Roman';
+	color: var(--main-blue);
+}
+.input::placeholder {
+	color: var(--main-blue);
+}
+.icon {
+	grid-area: icon;
+}
+.icon-2 {
+	grid-area: icon;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 40%;
+	background-image: url(../../images/form-base-container/lock.svg);
+	margin-left: 40px;
+}
+.flags {
+	grid-area: flags;
+	background-color: var(--btn-blue);
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+	display: grid;
+	grid-template-columns: 1.2fr .1fr .8fr;
+	grid-template-rows: 1fr;
+	width: 100%;
+}
+.flags > .dropdown-menu > li {
+	align-self: center;
+}
+.DOL, .PEN {
+	place-self: stretch;
+	grid-row: span 1;
+	grid-column: 1 / 2;
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-position: center;
+}
+.flags > .currency {
+	align-self: center;
+	justify-self: end;
+	text-align: center;
+	color: #fff;
+	font-family: 'Helvetica Neue Roman';
+	font-size: 3vh;
+}
+.flags:hover {
+	background-color:  rgba(19, 95, 158, 0.932);
+}
+.flags > .arrow {
+	cursor: pointer;
+	place-self: stretch stretch;
+	grid-row: span 1;
+	grid-column: 3 / 4;
+	background-repeat: no-repeat;
+	background-size: 40%;
+	background-position: center;
+	background-image: url('../../images/icons/arrow-down-2.svg');
+}
+.DOL {
+	background-image: url('../../images/icons/usa.svg');
+}
+.PEN {
+	background-image: url('../../images/icons/peru.svg');
+}
+.dropdown-menu {
+	position: absolute;
+	top: 100%;
+	right: 0;
+	z-index: 1000;
+	display: none;
+	padding: 8px;
+	margin: 0;
+	list-style: none;
+	font-size: 16px;
+	text-align: left;
+	background-color: #fff;
+	border: 0 solid #e2e6e8;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 20px 66px 0 rgba(34,48,73,0.2);
+	box-shadow: 0 20px 66px 0 rgba(34,48,73,0.2);
+	background-clip: padding-box;
+	min-width: 104px;
+}
+.show-dropdown > .dropdown-menu {
+	display: block;
+	width: 420px;
+}
+.dropdown-menu:hover {
+	background-color: #f2f5f7;
+}
+.dropdown-menu li {
+	line-height: 24px;
+	padding: 13px 16px 11px;
+	color: #64737a;
+	cursor: pointer;
+	border-radius: 3px;
+}
+.dropdown-menu li > div {
+	width: 100%;
+	height: 100%;
+	color: inherit;
+	display: grid;
+	grid-template-columns: 24px 35px auto;
+	column-gap: 10px;
+	justify-items: start;
+}
+.dropdown-menu li .flag {
+	background-position: bottom left;
+	background-size: contain;
+	width: 24px;
+	height: 16px;
+	align-self: center;
+}
+.dropdown-menu li * {
+	font-family: 'Helvetica Neue Roman';
+}
+.dropdown-menu li:hover {
+	color: #2e4369;
+	background-color: #ffffff;
+}
+.dropdown-menu li.selected {
+	color: #2e4369;
+	background-color: #f2f5f7;
+}

@@ -1,0 +1,141 @@
+/*Partner A*/
+.partner-a {
+	padding: 7vh 6vw 5vh 6vw;
+}
+.partner-a dashboard-list {
+	height: 400px;
+	display: block;
+}
+.partner-a .btn {
+	font-size: .8em;
+}
+.partner-a .list-i .normal:last-child {
+	padding: 0 .1vw .5vh 0;
+	border: none;
+}
+/*Partner B*/
+.partner-b {
+	padding: 5vh 5vw 14vh 6vw;
+}
+.partner-b .button-row {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.partner-b .button-row .btn {
+	align-self: center;
+	width: 90%;
+	height: 5vh;
+	font-size: .8em;
+}
+.partner-b dashboard-list .items .list-i,
+.partner-b dashboard-list .headers {
+	/*grid-template-columns: repeat(7, 1fr) .5fr !important;*/
+}
+/*Partner C*/
+.partner-c {
+	padding: 9vh 3vw 14vh 3vw;
+}
+.partner-c dashboard-list .items .list-i,
+.partner-c dashboard-list .headers {
+	grid-template-columns: .5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
+}
+.partner-c dashboard-list {
+	margin-bottom: 10vh;
+	display: block;
+	padding: 0;
+}
+.partner-c > .btn {
+	height: 5vh;
+	width: 14vw;
+	font-size: .8em;
+}
+/*Partner D*/
+.partner-d {
+	padding: 9vh 6vw 14vh 6vw;
+}
+.partner-d dashboard-list .list-i * {
+	font-size: 1em;
+}
+.partner-d dashboard-list .list-i .item-iconed,
+.partner-d dashboard-list .list-i .amt {
+	font-size: .8em;
+}
+.partner-d dashboard-list .list-i div.normal,
+.partner-d dashboard-list .list-i div.other,
+.partner-d dashboard-list .list-i div.orange,
+.partner-d dashboard-list .list-i div.green,
+.partner-d dashboard-list .list-i div.red {
+	padding: 2vh 0 2vh 0;
+}
+/*Partner E*/
+.partner-e {
+	padding: 14vh 8vw 5vh 8vw;
+}
+.partner-e .bank-list,
+.partner-e .bank-form {
+	margin-bottom: 4vh;
+}
+.partner-e > .btn {
+	height: 6vh;
+	font-size: .8em;
+	width: 31vw;
+	margin-left: 25%;
+}
+/*Partner F*/
+.partner-f {
+	height: 560px;
+	display: grid;
+	grid-template-columns: 5% auto 15%;
+	grid-row-gap: 6vh;
+	grid-template-rows: repeat(4, auto) 5%;
+	grid-template-areas: ". txt-1 ." ". form-area ." ". txt-2 ." ". bank-list ." ". . .";
+	/*height: 560px;
+	display: grid;
+	grid-template-columns: 5% auto 15%;
+	grid-row-gap: 6vh;
+	grid-template-rows: 5% repeat(4, auto) 5%;
+	grid-template-areas:
+		". . ."
+		". txt-1 ."
+		". form-area ."
+		". txt-2 ."
+		". bank-list ."
+		". . .";
+	overflow-y: auto */
+}
+.partner-f .title-1 {
+	font-size: 1.5em;
+	grid-area: txt-1
+}
+.partner-f .read-input-form-area {grid-area: form-area}
+.partner-f .title-2 {grid-area: txt-2}
+.partner-f bank-list {grid-area: bank-list}
+.partner-f .title-1,
+.partner-f .title-2 {
+	color: var(--btn-blue);
+	font-family: 'Helvetica Neue Roman';
+}
+.partner-f .bank-list-item {
+	grid-template-columns: 15% 20% 15% repeat(3, auto) !important;
+}
+.partner-f .list-col.trash {
+	display: none;
+	width: none;
+	grid-column: unset;
+	grid-row: unset;
+}
+.partner-f .read-input-form-area {
+	display: grid;
+	grid-row-gap: 6vh;
+	grid-template-rows: 1fr auto 2fr;
+}
+.partner-f .read-input-form-area .block {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+	grid-column-gap: 1vw;
+	grid-row-gap: 6vh;
+	grid-template-rows: 6vh 6vh;
+}
+.partner-f .read-input-form-area .block input {
+	/*border: none;*/
+}

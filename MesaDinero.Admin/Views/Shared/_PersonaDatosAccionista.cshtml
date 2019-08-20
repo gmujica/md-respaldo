@@ -1,0 +1,35 @@
+﻿
+    <div class="custom-select-wrap ">
+    <select class="custom-select" data-bind="options:$root.lstTipoDocumentoaccionista,optionsText:'text',optionsValue:'value',optionsCaption:'Tipo de Documento',value:tipoDocumento"></select>
+    </div>
+    <fancy-input placeholder="N° de Documento">
+        <div class="fancy-input-content">
+            <div class="fake-placeholder">N° de Documento</div>
+            <input data-bind="value:$data.nroDocumento" maxlength="20" type="text">
+        </div>
+    </fancy-input>
+    <fancy-input placeholder="Nombres">
+        <div class="fancy-input-content">
+            <div class="fake-placeholder">Nombres</div>
+            <input data-bind="value:$data.nombres" maxlength="200" type="text" disabled>
+        </div>
+    </fancy-input>
+    <fancy-input placeholder="Apellido Paterno">
+        <div class="fancy-input-content">
+            <div class="fake-placeholder">Apellido Paterno</div>
+            <input data-bind="value:$data.apePaterno" maxlength="200" type="text" disabled>
+        </div>
+    </fancy-input>
+    <fancy-input placeholder="Apellido Materno">
+        <div class="fancy-input-content">
+            <div class="fake-placeholder">Apellido Materno</div>
+            <input data-bind="value:$data.apeMaterno" maxlength="200" type="text" disabled>
+        </div>
+    </fancy-input>
+    @*<fancy-input  placeholder="E-mail">
+            <div class="fancy-input-content">
+                <div class="fake-placeholder">E-mail</div>
+                <input data-bind="value:$data.email" maxlength="50" type="text">
+            </div>
+        </fancy-input>*@
+    <div class="nada"></div>

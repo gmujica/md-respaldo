@@ -1,0 +1,161 @@
+.new-form {
+	position: relative;
+	margin-bottom: 3em;
+}
+.add-row-btn {
+	border-radius: 3px;
+	border: 1px solid #1e7bb0;
+	color: #1e7bb0;
+	height: 45px;
+	cursor: pointer;
+	width: 385px;
+	grid-template-columns: auto !important;
+}
+
+.add-row-btn .btn-text { 
+	text-align: center;
+	place-self: center;
+	font-weight: 900;
+}
+.remove-form {
+	position: absolute;
+	left: 101%;
+	top: -10px;
+	width: .6em;
+	height: .6em;
+	background-image: url(./images/form-base-container/equis-cerrar.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+/*Custom Selects*/
+div.custom-select-box {
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr 33px;
+	user-select: none;
+}
+div.custom-select-box > .custom-select-icon {
+	cursor: pointer;
+	align-self: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	background-image: url('./images/icons/caret-down-solid.svg');
+	width: 10px;
+	height: 10px;
+}
+div.custom-select-box > .custom-select-option-list {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+}
+div.custom-select-box.show-options > .custom-select-option-list {
+	display: block;
+	box-shadow: 0px 3px 3vh 0px rgba(2,2,2,0.2);
+}
+div.custom-select-box > ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	z-index: 1000;
+	background-color: #fff;
+}
+div.custom-select-box li,
+.custom-select-value {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-items: center;
+	column-gap: 5px;
+	height: 6vh;
+}
+.default-value {
+	grid-column: 1 / 4;
+	justify-self: start;
+	margin-left: 10px;
+}
+div.custom-select-box li:hover {
+	background-color: #f2f5f7;
+}
+.custom-select-box.custom-select {
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid #d1d1d1;
+	border-radius: 3px;
+	outline: none;
+	color: #999999;
+	font-size: 1.1vw;
+	background: transparent;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	background-size: 10px;
+	padding: 0;
+}
+.custom-select-box.custom-select.show-options {
+	outline: none;
+	color: var(--main-blue);
+	border-bottom-color: var(--main-blue);
+}
+.custom-select-box .icon {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 90%;
+	align-self: stretch;
+	justify-self: center;
+	width: 55px;
+	grid-area: unset;
+}
+.custom-select-box .bcp {
+	background-image: url('./images/icons/bcp-color.svg');
+}
+div.custom-select-box li:hover .bcp {
+	background-image: url('./images/icons/bcp-color.svg');
+}
+.custom-select-box .interbank {
+	background-image: url('./images/icons/interbank-color.svg');
+}
+div.custom-select-box li:hover .interbank {
+	background-image: url('./images/icons/interbank-color.svg');
+}
+.custom-select-box .scotiabank {
+	background-image: url('./images/icons/scotiabank-color.svg');
+}
+div.custom-select-box li:hover .scotiabank {
+	background-image: url('./images/icons/scotiabank-color.svg');
+}
+.custom-select-box .banbif {
+	background-image: url('./images/icons/banbif-color.svg');
+}
+div.custom-select-box li:hover .banbif {
+	background-image: url('./images/icons/banbif-color.svg');
+}
+.bank-list {
+	max-height: 177px;
+    overflow:auto;
+	/*min-height: 174px;*/
+}
+
+#open_popup_bank_popup {
+	margin: 0 auto 0 auto;
+	margin-bottom: 2em;
+	color: var(--btn-blue);
+	font-weight: bold;
+	cursor: pointer;
+	width: 350px;
+}
+.btn-green {
+	background-color: #00d068;
+	color: white !important;
+}
+.btn-orange {
+	background-color: #ffa84d;
+	color: white !important;
+}
+.btn-red {
+	background-color: #e25142;
+	color: white !important;
+}

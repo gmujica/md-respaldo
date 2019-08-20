@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E65F65AB-95EF-4C51-B96E-F603AAA03D28}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MesaDinero.Web</RootNamespace>
+    <AssemblyName>MesaDinero.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EPPlus">
+      <HintPath>..\packages\EPPlus.4.1.0\lib\net40\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.0.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.1\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.0.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.0.0\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.0.0\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.0.0\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.1.0.0\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.1.0.0\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.1.0.0\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.2.0.0\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.2.0.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.2.0.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.2.0.0\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.2.0.0\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.2.0.0\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.2.0.0\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.2.0.0\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.2.0.0\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AccesoController.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\Api\ApiBaseController.cs" />
+    <Compile Include="Controllers\Api\ClienteController.cs" />
+    <Compile Include="Controllers\Api\CommonController.cs" />
+    <Compile Include="Controllers\Api\SubastaController.cs" />
+    <Compile Include="Controllers\Api\RegistroController.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\ClienteController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InicioController.cs" />
+    <Compile Include="Controllers\RegistroController.cs" />
+    <Compile Include="Controllers\SubastaController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\app.css" />
+    <Content Include="Content\css\auction\auction-box\layout.css" />
+    <Content Include="Content\css\auction\auction-confirmation\layout.css" />
+    <Content Include="Content\css\caja-mods.css" />
+    <Content Include="Content\css\chosen\chosen-sprite%402x.png" />
+    <Content Include="Content\css\chosen\chosen-sprite.png" />
+    <Content Include="Content\css\chosen\chosen.min.css" />
+    <Content Include="Content\css\components\dashboard-container\bank-form\layout.css" />
+    <Content Include="Content\css\components\dashboard-container\bank-list\layout.css" />
+    <Content Include="Content\css\components\dashboard-container\dashboard-list\list.css" />
+    <Content Include="Content\css\components\form-base-container\base-input\layout.css" />
+    <Content Include="Content\css\components\register-auction\round-button\icons\file-alt-regular.svg" />
+    <Content Include="Content\css\components\register-auction\round-button\icons\image-regular.svg" />
+    <Content Include="Content\css\components\register-auction\round-button\icons\plus-solid.svg" />
+    <Content Include="Content\css\components\register-auction\round-button\round-button.css" />
+    <Content Include="Content\css\components\register-auction\special-counter\special-counter.css" />
+    <Content Include="Content\css\components\round-button\icons\file-alt-regular.svg" />
+    <Content Include="Content\css\components\round-button\icons\image-regular.svg" />
+    <Content Include="Content\css\components\round-button\icons\plus-solid.svg" />
+    <Content Include="Content\css\components\round-button\round-button.css" />
+    <Content Include="Content\css\components\special-counter\special-counter.css" />
+    <Content Include="Content\css\containers\auction_confirmation_box_layout.css" />
+    <Content Include="Content\css\containers\basic_container_layout.css" />
+    <Content Include="Content\css\containers\complex_container_layout.css" />
+    <Content Include="Content\css\containers\dashboard_base_layout.css" />
+    <Content Include="Content\css\corfid\banner-corfid.jpg" />
+    <Content Include="Content\css\corfid\corfid.svg" />
+    <Content Include="Content\css\corfid\iconos-1.svg" />
+    <Content Include="Content\css\corfid\iconos-2.svg" />
+    <Content Include="Content\css\corfid\iconos-3.svg" />
+    <Content Include="Content\css\corfid\iconos-4.svg" />
+    <Content Include="Content\css\corfid\layout.css" />
+    <Content Include="Content\css\corfid\timeline-corfid.svg" />
+    <Content Include="Content\css\counter-mods.css" />
+    <Content Include="Content\css\dashboard-container\dashboard-item.css" />
+    <Content Include="Content\css\dashboard-container\images\corfid-1.png" />
+    <Content Include="Content\css\dashboard-container\images\corfid-2.png" />
+    <Content Include="Content\css\dashboard-container\images\corfid-3.png" />
+    <Content Include="Content\css\dashboard-container\images\corfid-5.png" />
+    <Content Include="Content\css\dashboard-container\layout.css" />
+    <Content Include="Content\css\effects.css" />
+    <Content Include="Content\css\empresas\layout.css" />
+    <Content Include="Content\css\form-base-container\layout.css" />
+    <Content Include="Content\css\general.css" />
+    <Content Include="Content\css\home\eighth-container\layout.css" />
+    <Content Include="Content\css\home\extra-container\layout.css" />
+    <Content Include="Content\css\home\fifth-container\layout.css" />
+    <Content Include="Content\css\home\fourth-container\layout.css" />
+    <Content Include="Content\css\home\main-container\exchanger-input.css" />
+    <Content Include="Content\css\home\main-container\footer.css" />
+    <Content Include="Content\css\home\main-container\layout.css" />
+    <Content Include="Content\css\home\main-container\logo.css" />
+    <Content Include="Content\css\home\main-container\options.css" />
+    <Content Include="Content\css\home\main-container\section-a.css" />
+    <Content Include="Content\css\home\main-container\section-b.css" />
+    <Content Include="Content\css\home\ninth-container\footer-menu.css" />
+    <Content Include="Content\css\home\ninth-container\layout.css" />
+    <Content Include="Content\css\home\second-container\layout.css" />
+    <Content Include="Content\css\home\seventh-container\contact-area.css" />
+    <Content Include="Content\css\home\seventh-container\layout.css" />
+    <Content Include="Content\css\home\sixth-container\layout.css" />
+    <Content Include="Content\css\home\third-container\layout.css" />
+    <Content Include="Content\css\images\dashboard-container\bell-regular.svg" />
+    <Content Include="Content\css\images\dashboard-container\book-solid.svg" />
+    <Content Include="Content\css\images\dashboard-container\building-regular.svg" />
+    <Content Include="Content\css\images\dashboard-container\check-solid.svg" />
+    <Content Include="Content\css\images\dashboard-container\coins-solid.svg" />
+    <Content Include="Content\css\images\dashboard-container\gavel-solid-active.svg" />
+    <Content Include="Content\css\images\dashboard-container\gavel-solid.svg" />
+    <Content Include="Content\css\images\dashboard-container\sign-out-alt-solid.svg" />
+    <Content Include="Content\css\images\dashboard-container\tasks-solid.svg" />
+    <Content Include="Content\css\images\dashboard-container\unlock-alt-solid.svg" />
+    <Content Include="Content\css\images\dashboard-container\user-circle-regular.svg" />
+    <Content Include="Content\css\images\dashboard-container\wallet-solid.svg" />
+    <Content Include="Content\css\images\eighth-container\apple.svg" />
+    <Content Include="Content\css\images\eighth-container\googleplay.svg" />
+    <Content Include="Content\css\images\empresas\banner-empresas.jpg" />
+    <Content Include="Content\css\images\empresas\logoiso-12.svg" />
+    <Content Include="Content\css\images\extra-container\logo.svg" />
+    <Content Include="Content\css\images\fifth-container\map.svg" />
+    <Content Include="Content\css\images\form-base-container\backgroud-login.svg" />
+    <Content Include="Content\css\images\form-base-container\boton-active.svg" />
+    <Content Include="Content\css\images\form-base-container\boton.svg" />
+    <Content Include="Content\css\images\form-base-container\candado-boton.svg" />
+    <Content Include="Content\css\images\form-base-container\candado-input.svg" />
+    <Content Include="Content\css\images\form-base-container\equis-cerrar.svg" />
+    <Content Include="Content\css\images\form-base-container\lock.svg" />
+    <Content Include="Content\css\images\form-base-container\password-eye.svg" />
+    <Content Include="Content\css\images\fourth-container\fc-logo-1.svg" />
+    <Content Include="Content\css\images\fourth-container\fc-logo-3.svg" />
+    <Content Include="Content\css\images\fourth-container\logo.svg" />
+    <Content Include="Content\css\images\icons\arrow-down-2.2.svg" />
+    <Content Include="Content\css\images\icons\arrow-down-2.svg" />
+    <Content Include="Content\css\images\icons\arrow-down.svg" />
+    <Content Include="Content\css\images\icons\arrow-up-2.2.svg" />
+    <Content Include="Content\css\images\icons\arrow-up-2.svg" />
+    <Content Include="Content\css\images\icons\arrow-up.svg" />
+    <Content Include="Content\css\images\icons\back-arrow-blue.gif" />
+    <Content Include="Content\css\images\icons\back-arrow-blue.svg" />
+    <Content Include="Content\css\images\icons\back-arrow.svg" />
+    <Content Include="Content\css\images\icons\background-24.svg" />
+    <Content Include="Content\css\images\icons\background-login-opaque.svg" />
+    <Content Include="Content\css\images\icons\background-login.svg" />
+    <Content Include="Content\css\images\icons\banbif-color.svg" />
+    <Content Include="Content\css\images\icons\banbif.svg" />
+    <Content Include="Content\css\images\icons\bars-solid.svg" />
+    <Content Include="Content\css\images\icons\bcp-color.svg" />
+    <Content Include="Content\css\images\icons\bcp.svg" />
+    <Content Include="Content\css\images\icons\candado.svg" />
+    <Content Include="Content\css\images\icons\caret-down-solid.1.svg" />
+    <Content Include="Content\css\images\icons\caret-down-solid.svg" />
+    <Content Include="Content\css\images\icons\check-solid-blue.svg" />
+    <Content Include="Content\css\images\icons\clock-regular-white.svg" />
+    <Content Include="Content\css\images\icons\credit-card-solid.svg" />
+    <Content Include="Content\css\images\icons\ex.svg" />
+    <Content Include="Content\css\images\icons\fa-search.svg" />
+    <Content Include="Content\css\images\icons\file.svg" />
+    <Content Include="Content\css\images\icons\footer-img-1.svg" />
+    <Content Include="Content\css\images\icons\i-icon-35.svg" />
+    <Content Include="Content\css\images\icons\interbank-color.svg" />
+    <Content Include="Content\css\images\icons\interbank.svg" />
+    <Content Include="Content\css\images\icons\isotipo.svg" />
+    <Content Include="Content\css\images\icons\lock.svg" />
+    <Content Include="Content\css\images\icons\logo-01.svg" />
+    <Content Include="Content\css\images\icons\logo-corfid.svg" />
+    <Content Include="Content\css\images\icons\peru.svg" />
+    <Content Include="Content\css\images\icons\REXT.png" />
+    <Content Include="Content\css\images\icons\rextie.webp" />
+    <Content Include="Content\css\images\icons\scotiabank-color.svg" />
+    <Content Include="Content\css\images\icons\scotiabank.svg" />
+    <Content Include="Content\css\images\icons\search-solid.svg" />
+    <Content Include="Content\css\images\icons\sync.svg" />
+    <Content Include="Content\css\images\icons\times-solid-red.svg" />
+    <Content Include="Content\css\images\icons\trash-alt-regular.svg" />
+    <Content Include="Content\css\images\icons\usa.svg" />
+    <Content Include="Content\css\images\icons\user-regular.svg" />
+    <Content Include="Content\css\images\icons\ver.png" />
+    <Content Include="Content\css\images\logos\logo-blue.svg" />
+    <Content Include="Content\css\images\ninth-container\disk.svg" />
+    <Content Include="Content\css\images\ninth-container\libro-de-reclamacion.svg" />
+    <Content Include="Content\css\images\ninth-container\logo-footer.svg" />
+    <Content Include="Content\css\images\register-auction-container\boton-active.svg" />
+    <Content Include="Content\css\images\register-auction-container\boton.svg" />
+    <Content Include="Content\css\images\register-auction-container\expandible-thingy.svg" />
+    <Content Include="Content\css\images\second-container\afiliado-1-color.svg" />
+    <Content Include="Content\css\images\second-container\afiliado-1.svg" />
+    <Content Include="Content\css\images\second-container\afiliado-2-color.svg" />
+    <Content Include="Content\css\images\second-container\afiliado-2.svg" />
+    <Content Include="Content\css\images\second-container\afiliado-3-color.svg" />
+    <Content Include="Content\css\images\second-container\afiliado-3.svg" />
+    <Content Include="Content\css\images\second-container\afiliado-4-color.svg" />
+    <Content Include="Content\css\images\second-container\afiliado-4.svg" />
+    <Content Include="Content\css\images\second-container\afiliado-5-color.svg" />
+    <Content Include="Content\css\images\second-container\afiliado-5.svg" />
+    <Content Include="Content\css\images\seventh-container\facebook.svg" />
+    <Content Include="Content\css\images\seventh-container\google+.svg" />
+    <Content Include="Content\css\images\seventh-container\instagram.svg" />
+    <Content Include="Content\css\images\seventh-container\linkedin.svg" />
+    <Content Include="Content\css\images\seventh-container\twitter.svg" />
+    <Content Include="Content\css\images\sixth-container\contacto.jpg" />
+    <Content Include="Content\css\images\third-container\icon-1.svg" />
+    <Content Include="Content\css\images\third-container\icon-2.svg" />
+    <Content Include="Content\css\images\third-container\icon-3.svg" />
+    <Content Include="Content\css\images\third-container\icon-4.svg" />
+    <Content Include="Content\css\libro-reclamaciones\layout.css" />
+    <Content Include="Content\css\popup.css" />
+    <Content Include="Content\css\quienes-somos\layout.css" />
+    <Content Include="Content\css\register-auction-container\custom-checkbox.css" />
+    <Content Include="Content\css\register-auction-container\fancy-input.css" />
+    <Content Include="Content\css\register-auction-container\horizontal-progress-bar.css" />
+    <Content Include="Content\css\register-auction-container\layout.css" />
+    <Content Include="Content\css\registration\bank-registration\layout.css" />
+    <Content Include="Content\css\registration\company-registration\layout.css" />
+    <Content Include="Content\css\registration\person-registration\layout.css" />
+    <Content Include="Content\css\registration\register-container\layout.css" />
+    <Content Include="Content\css\registration\verification-container\layout.css" />
+    <Content Include="Content\css\registration\verification-container\verification-mods.css" />
+    <Content Include="Content\css\router\corfid_layout.css" />
+    <Content Include="Content\css\router\operaciones_layout.css" />
+    <Content Include="Content\css\router\partner_layout.css" />
+    <Content Include="Content\css\router\treasury_layout.css" />
+    <Content Include="Content\css\terminos\layout.css" />
+    <Content Include="Content\css\toastr.css" />
+    <Content Include="Content\css\user-area-adjustments.css" />
+    <Content Include="Content\js\add_form_effect.js" />
+    <Content Include="Content\js\another-input-effect.js" />
+    <Content Include="Content\js\app.js" />
+    <Content Include="Content\js\ayuda.js" />
+    <Content Include="Content\js\base-input.js" />
+    <Content Include="Content\js\button_gr.js" />
+    <Content Include="Content\js\cliente\ModificarDatos_persona.js" />
+    <Content Include="Content\js\cliente\ModificarEmpresa.js" />
+    <Content Include="Content\js\cliente\Modificar_DatosBancarios.js" />
+    <Content Include="Content\js\close_popup.js" />
+    <Content Include="Content\js\custom_bank_select.js" />
+    <Content Include="Content\js\custom_checkbox_effect.js" />
+    <Content Include="Content\js\custom_select.js" />
+    <Content Include="Content\js\custom_select_home.js" />
+    <Content Include="Content\js\fancy_input_effect.js" />
+    <Content Include="Content\js\global.js" />
+    <Content Include="Content\js\home\CambiarPassWprdExterno.js" />
+    <Content Include="Content\js\home\home.js" />
+    <Content Include="Content\js\home\login.js" />
+    <Content Include="Content\js\home\ModificarPassword.js" />
+    <Content Include="Content\js\home\RecuperarContrasena.js" />
+    <Content Include="Content\js\home\tabs.js" />
+    <Content Include="Content\js\ie-polyfill.js" />
+    <Content Include="Content\js\Inicio\Inicio.js" />
+    <Content Include="Content\js\open_popup.js" />
+    <Content Include="Content\js\precios-spot.js" />
+    <Content Include="Content\js\preguntas_frecuentes.js" />
+    <Content Include="Content\js\privacidad-data.js" />
+    <Content Include="Content\js\Registro\DatosBancarios.js" />
+    <Content Include="Content\js\Registro\DatosBancariosReadOnly.js" />
+    <Content Include="Content\js\Registro\Password.js" />
+    <Content Include="Content\js\Registro\RegistroDatosEmpresa.js" />
+    <Content Include="Content\js\Registro\RegistroDatosEmpresa.ReadOnly.js" />
+    <Content Include="Content\js\Registro\RegistroDatosPersona.js" />
+    <Content Include="Content\js\Registro\RegistroDatosPersonaEdit.js" />
+    <Content Include="Content\js\Registro\RegistroDatosPersonaReadOnly.js" />
+    <Content Include="Content\js\Registro\RegistroPersonaAutorizada.js" />
+    <Content Include="Content\js\Registro\RegistroValidacion.js" />
+    <Content Include="Content\js\Registro\ValidacionMSM.js" />
+    <Content Include="Content\js\remove_bank_account.js" />
+    <Content Include="Content\js\select_financer.js" />
+    <Content Include="Content\js\select_menu_option.js" />
+    <Content Include="Content\js\separador_miles.js" />
+    <Content Include="Content\js\Subasta\InstruccionPago.js" />
+    <Content Include="Content\js\Subasta\subasta.js" />
+    <Content Include="Content\js\Subasta\SubastaActiva.js" />
+    <Content Include="Content\js\Subasta\Subastaconfirmacion.js" />
+    <Content Include="Content\js\Subasta\SubastaEnvio.js" />
+    <Content Include="Content\js\Subasta\SubastaListaOperacion.js" />
+    <Content Include="Content\js\Subasta\subastaProceso.js" />
+    <Content Include="Content\js\Subasta\subastaVerifica.js" />
+    <Content Include="Content\js\terminos-data.js" />
+    <Content Include="Content\js\terminos-func.js" />
+    <Content Include="Content\js\toastr.js" />
+    <Content Include="Content\js\toastr.min.js" />
+    <Content Include="Content\js\toggle_dashboard_menu_effect.js" />
+    <Content Include="Content\js\toggle_dashboard_menu_effect_open.js" />
+    <Content Include="Content\js\view_password_effect.js" />
+    <Content Include="Content\Plantillas\Html\RecuperarContrasena.html" />
+    <Content Include="Content\Plantillas\Html\RestaurarRegistro.html" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\css\fonts\HelveticaNeue-Roman.otf" />
+    <Content Include="Content\css\fonts\HelveticaNeue-Thin.otf" />
+    <Content Include="Content\css\fonts\HelveticaNeue-Roman.ttf" />
+    <Content Include="Content\css\fonts\HelveticaNeue-Thin.ttf" />
+    <None Include="Properties\PublishProfiles\MesaDinero.pubxml" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\chosen.jquery.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\juery-mask\inputmask.js" />
+    <Content Include="Scripts\juery-mask\jquery.inputmask.js" />
+    <Content Include="Scripts\juery-mask\jquery.mask.js" />
+    <Content Include="Scripts\knockout-3.4.0.debug.js" />
+    <Content Include="Scripts\knockout-3.4.0.js" />
+    <Content Include="Scripts\knockout.mapping-latest.js" />
+    <Content Include="Scripts\knockout.validation.js" />
+    <Content Include="Scripts\knockout.validation.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout2.cshtml" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Account\_ChangePasswordPartial.cshtml" />
+    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
+    <Content Include="Views\Account\_RemoveAccountPartial.cshtml" />
+    <Content Include="Views\Account\_SetPasswordPartial.cshtml" />
+    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
+    <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\Manage.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Acceso\Index.cshtml" />
+    <Content Include="Views\Acceso\RecuperarPassword.cshtml" />
+    <Content Include="Views\Acceso\ConfirmarSMS.cshtml" />
+    <Content Include="Views\Shared\_LayoutPublico.cshtml" />
+    <Content Include="Views\Registro\DatosBasicos.cshtml" />
+    <Content Include="Views\Shared\_LayoutRegistro.cshtml" />
+    <Content Include="Views\Shared\_PersonaDatosPartial.cshtml" />
+    <Content Include="Views\Shared\_RegistroHeader.cshtml" />
+    <Content Include="Views\Registro\DatosBancarios.cshtml" />
+    <Content Include="Views\Registro\Verificacion.cshtml" />
+    <Content Include="Views\Shared\_EmpresaDatosPartial.cshtml" />
+    <Content Include="Views\Shared\_PersonaDatosSimplePartial.cshtml" />
+    <Content Include="Views\Registro\PersonaAutorizada.cshtml" />
+    <Content Include="Views\Registro\Password.cshtml" />
+    <Content Include="Views\Inicio\Index.cshtml" />
+    <Content Include="Views\Subasta\Index.cshtml" />
+    <Content Include="Views\Shared\_MenuSubasta.cshtml" />
+    <Content Include="Views\Subasta\Inicio.cshtml" />
+    <Content Include="Views\Subasta\Confirmar.cshtml" />
+    <Content Include="Views\Subasta\Envio.cshtml" />
+    <Content Include="Views\Registro\Operaciones.cshtml" />
+    <Content Include="Views\Registro\Subasta.cshtml" />
+    <Content Include="Views\Subasta\Verificacion.cshtml" />
+    <Content Include="Views\Cliente\ModificarDatos.cshtml" />
+    <Content Include="Views\Cliente\CuentasBancarias.cshtml" />
+    <Content Include="Views\Cliente\_EditPersonaDatosPartial.cshtml" />
+    <Content Include="Views\Acceso\CambiarPassword.cshtml" />
+    <Content Include="Views\Registro\MisDatos.cshtml" />
+    <Content Include="Views\Registro\_DatosPersonaPartial.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Registro\MisCuentasBanco.cshtml" />
+    <Content Include="Views\Subasta\Activa.cshtml" />
+    <Content Include="Views\Shared\_LayoutSubasta.cshtml" />
+    <Content Include="Views\Registro\Index.cshtml" />
+    <Content Include="Views\Registro\_DatosEmpresaPartial.cshtml" />
+    <Content Include="Views\Home\ayuda.cshtml" />
+    <Content Include="Views\Home\empresas.cshtml" />
+    <Content Include="Views\Home\libroReclamaciones.cshtml" />
+    <Content Include="Views\Home\privacidad.cshtml" />
+    <Content Include="Views\Home\quienesSomos.cshtml" />
+    <Content Include="Views\Home\terminos.cshtml" />
+    <Content Include="Views\Acceso\ModificarPassword.cshtml" />
+    <Content Include="Views\Cliente\ModificarDatosEmpresa.cshtml" />
+    <Content Include="Views\Shared\_PersonaDatosAccionista.cshtml" />
+    <Content Include="Views\Shared\_PersonaAutorizada.cshtml" />
+    <Content Include="Views\Subasta\recibes.cshtml" />
+    <Content Include="Views\Subasta\ListaOperacionCliente.cshtml" />
+    <Content Include="Views\Shared\_Pagination.cshtml" />
+    <Content Include="Views\Home\corfid.cshtml" />
+    <Content Include="Views\Shared\_InstruccionPago.cshtml" />
+    <Content Include="Views\Shared\_PersonaDatosSimplePartialAccionista.cshtml" />
+    <Content Include="Views\Cliente\ModificarPassword.cshtml" />
+    <Content Include="Views\Registro\ListaOperacion.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Content\images\" />
+    <Folder Include="Views\Base\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="packages.config" />
+    <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MesaDinero.Data\MesaDinero.Data.csproj">
+      <Project>{695c7699-34b3-4321-ad15-21ae44bfc4fc}</Project>
+      <Name>MesaDinero.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MesaDinero.Domain\MesaDinero.Domain.csproj">
+      <Project>{1a1ec5f9-b664-429d-9b95-9a34162f32fc}</Project>
+      <Name>MesaDinero.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3909</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:3909/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

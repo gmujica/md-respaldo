@@ -1,0 +1,117 @@
+﻿@{
+
+}
+
+
+<!-- General -->
+
+<link rel="stylesheet" type="text/css" href="~/Content/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="~/Content/css/dashboard-container/dashboard-item.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/containers/basic_container_layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/containers/dashboard_base_layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/containers/complex_container_layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/form-base-container/base-input/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/effects.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/popup.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/ficha-datos.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/user-area-adjustments.css">
+<script src="~/Content/js/select_menu_option.js"></script>
+
+<script src="~/Content/js/close_popup.js"></script>
+<script src="~/Content/js/open_popup.js"></script>
+<script src="~/Content/js/base-input.js"></script>
+
+<link href="~/Content/css/ficha-datos.css" rel="stylesheet" />
+<link href="~/Content/css/registration/person-registration/layout.css" rel="stylesheet" />
+
+
+<div class="complex-dashboard-content">
+    <div class="dashboard-tabs" style="grid-template-columns: 1fr 1fr 1fr 1fr 1fr;">
+        <div id="General" class="active"><a href="@Url.Action("ListaOperaciones", "Partner" )">General</a></div>
+        <div id="Realizadas"><a href="" data-bind="click:$root.listaRealizado">Realizadas</a></div>
+        <div id="Incumplidas"><a href="" style="text-decoration:none" data-bind="click:$root.listarIncumplidas">Incumplidas</a></div>
+        <div id="Curso"><a href="" style="text-decoration:none" data-bind="click:$root.listarCurso">En Proceso</a></div>
+    </div>
+    @*<div class="list-container">*@
+    <div class="operations operations-d">
+
+        <dashboard-list>
+            <div>
+                <!-- table inicio -->
+                <div class="table-responsive" data-bind="with:$root.listaOperacion">
+                    <table class="k-table k-thover k-trow-pointer">
+                        <thead class="k-thead">
+                            <tr class="k-throw">
+                                <th>Fecha</th>
+                                <th>ID Transaccion</th>
+                                <th>Cliente</th>
+
+                                <th>Tipo de Cambio</th>
+                                <th>Envías</th>
+                                <th>Recibes</th>
+                                <th></th>
+                                <th>Estado</th>
+                            </tr>
+                        </thead>
+
+                        <tbody class="k-tbody" data-bind="foreach:$data.datasource">
+                            <tr data-bind="event:{dblclick :$root.openModal}">
+                                <td>
+                                    <span data-bind="text:fechaShort"></span>
+                                </td>
+                                <td>
+                                    <span data-bind="text:formatoTransaccion"></span>
+                                </td>
+
+                                <td>
+                                    <span data-bind="text:usuario"></span>
+                                </td>
+
+                                <td>
+                                    <span data-bind="text:tipoCambioText"></span>
+                                </td>
+
+
+                                <td>
+
+                                    <span data-bind="text:$data.monedaEnvia"></span><br />
+                                    <span data-bind="text:$data.montoEnviaText"></span>
+                                </td>
+                                <td>
+                                    <span data-bind="text:$data.monedaRecibe"></span><br />
+                                    <span data-bind="text:$data.montoRecibeText"></span>
+                                </td>
+
+
+                                <td>
+                                    <div data-bind="attr:{'class' : 'k-icon k-status status_subasta_generico_' + $data.estadoSubastaCodigo() }">
+                                    </div>
+                                </td>
+
+                                <td style="width:150px">
+                                    <div data-bind="attr:{'class':'status_generico_'+$data.estadoSubastaCodigo()}">
+                                        <div data-bind="text:$data.estadoSubasta"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    @Html.Partial("_Pagination")
+                </div>
+                <!-- / table fin-->
+
+            </div>
+
+        </dashboard-list>
+    </div>
+    @*</div>*@
+</div>
+
+
+
+
+@section Scripts {
+    <script src="~/Content/js/close_popup.js"></script>
+    <script src="~/Content/js/app/Partner/ListaOperacion.js"></script>
+}

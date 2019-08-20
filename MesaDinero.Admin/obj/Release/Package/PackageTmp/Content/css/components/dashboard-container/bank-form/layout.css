@@ -1,0 +1,69 @@
+/*Bank form*/
+bank-form {
+	width: 100%;
+	height: 100%;
+}
+.bank-form {
+	height: auto;
+	padding: 2vh 0 4vh 0;
+}
+.bank-form .sub-title {
+	color: var(--main-blue);
+	font-size: 1.5vw;
+	font-family: 'Helvetica Neue Roman';
+	margin-bottom: 2vh;
+}
+
+.bank-form .bank-form-content.fancy-manyas-require { 
+	grid-row-gap: 0;
+	grid-template-rows: 4vh 6vh 4vh 6vh 6vh;
+	grid-row-gap: 2vh;
+}
+.place-holder-required {
+	padding-top: 5px;
+	color: var(--plomo-light);
+	font-size: 14px;
+	position: relative;
+	top: 50%;
+}
+
+.place-holder-required span {
+	color: #ef7a69;
+}
+.bank-form .bank-form-content {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(220px, 1fr));
+	column-gap: 1vw;
+	grid-row-gap: 6vh;
+}
+.bank-form .bank-form-content > * {
+	height: 6vh;
+}
+/*Confirm button*/
+.btn.confirm {
+	height: 6vh;
+	width: 40%;
+}
+.bank-form .btn.blue-style {
+	grid-area: 3;
+	background-color: #fff;
+	border: 1px solid var(--btn-blue);
+	color: var(--btn-blue);
+}
+.bank-form > .sub-title {
+	color: var(--btn-blue);
+    border-bottom: 2px solid #676767;
+    cursor: pointer;
+    background: url(../../../images/icons/arrow-up-2.svg) no-repeat 98% #fff;
+    background-size: .7em;
+    font-size: 14px;
+    height: 3vh;
+}
+.bank-form > .sub-title.hide {
+	background: url(../../../images/icons/arrow-down-2.svg) no-repeat 98% #fff;
+	background-size: .7em;
+}
+
+.sub-title.hide + div {
+	display: none;
+}

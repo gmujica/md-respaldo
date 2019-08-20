@@ -1,0 +1,167 @@
+:root {
+	--main-blue: #004484;
+	--btn-blue: #1072aa;
+    --font-blue: #00abca;
+	--main-orange: #00d068;
+    --main-gray: #a7a9ac;
+    --plomo-light: #a7a9ac;
+}
+/*Cambiar*/
+@font-face {
+    font-family: 'Helvetica Neue Roman';
+    /*src: url('fonts/HelveticaNeue-Roman.ttf') format('truetype');*/
+    src: url('fonts/HelveticaNeue-Roman.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Helvetica Neue Thin';
+	src: url('fonts/HelveticaNeue-Thin.ttf') format('truetype');
+}
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica Neue Thin';
+	user-select: none;
+    font-size:13px;
+}
+html, body, main-container {
+	height: 100%;
+	width: 100%;
+}
+second-container, third-container, fourth-container, fifth-container,
+sixth-container, seventh-container, extra-container, eighth-container, ninth-container {
+	display: block;
+	width: 100%;
+}
+second-container {
+	height: 59%;
+}
+third-container {
+	height: 157%;
+}
+fourth-container {
+	height: 108.3%;
+}
+fifth-container {
+	height: 136%;
+}
+sixth-container {
+	height: 48%;
+}
+seventh-container {
+	height: 71%;
+}
+extra-container,
+eighth-container {
+	height: 51.62%;
+}
+ninth-container {
+	height: 60.2%;
+}
+.sub-title {
+	border-bottom: 1px solid #676767 !important;
+}
+
+/******** Cambios 2019_01_08 - Jhon Kevin Mariños ***************/
+
+.underline {
+text-decoration:underline;
+cursor:pointer;
+}
+
+
+.loading-spiner-holder {
+position:fixed;
+background:#000000;
+opacity:0.5;
+bottom:0;
+right:0;
+left:0;
+top:0;
+width:100%;
+height:100%;
+z-index: 99999;
+}
+
+.validationMessage {
+    font-family: 'Helvetica Neue Thin';
+    font-size: 12px;
+    color: #E32230;
+}
+
+.validation_error_style_parent {
+border:1px solid #E32230;
+}
+
+
+.place-holder-required span, .fake-placeholder span  {
+    color: #ef7a69;
+}
+
+.status-verificion {
+   margin:0 !important;
+   width:auto !important;
+}
+
+.status-verificion.green .status-content {
+
+    width : 100% !important;
+}
+
+/*Cambio solicitado por José Luis*/
+.horizontal-progress-bar-content > div {
+	cursor: pointer;
+}
+.custom-select:active,
+.observations textarea:focus,
+base-input.selected > div,
+.dev-border.contact-border.selected {
+	border-color: var(--font-blue) !important;
+}
+.sect-b-btn:hover {
+	cursor: pointer;
+}
+.btn.regular:hover,
+.opt-7.sign-up:hover,
+.sect-b-btn.btn1:hover {
+	background-color: #0d5d8c !important;
+}
+.btn.blue-bordered:hover:not(.disabled) {
+	border-color: var(--btn-blue) !important;
+	background-color: var(--btn-blue) !important;
+	color: #fff !important;
+}
+.btn.blue-bordered:active:not(.disabled) {
+	border-color: #0d5d8c !important;
+	background-color: #0d5d8c !important;
+	color: #fff !important;
+}
+.btn.success:hover,
+.sect-b-btn.btn2:hover,
+.base-btn:hover,
+.subastar-btn:hover {
+	background-color: #00b359 !important;
+}
+fourth-container > .meta-content > .btn-1:hover {
+	color: #00b359 !important;
+	border-color: #00b359 !important;
+	cursor: pointer;
+}
+fourth-container > .meta-content > .btn-1:hover > *,
+sixth-container > .meta-content > .btn-1:hover > *,
+.dev-border.contact-border.btn-1:hover > *,
+.empresas .btn-1:hover > * {
+	color: inherit !important;
+}
+sixth-container > .meta-content > .btn-1:hover {
+	border-color: #d9d9d9 !important;
+	color: #d9d9d9;
+	cursor: pointer;
+}
+.dev-border.contact-border.btn-1:hover {
+	cursor: pointer;
+	color: #003566 !important;
+	border-color: #003566 !important;
+}
+exchanger-input.selected {
+	border: 1px solid var(--font-blue) !important;
+}

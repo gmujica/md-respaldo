@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>La Mesa Dinero - @ViewBag.Title</title>
+    <!-- General -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/general.css">
+    <!-- Dashboard -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/containers/dashboard_base_layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/containers/basic_container_layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/dashboard-container/dashboard-item.css">
+    <link href="~/Content/css/user-area-adjustments.css" rel="stylesheet" />
+
+    @RenderSection("Styles", false)
+    <link href="~/Content/css/toastr.css" rel="stylesheet" />
+    <link href="~/Content/css/app.css" rel="stylesheet" />
+
+
+</head>
+<body>
+    <dashboard-basic-container>
+        <div class="dashboard-container-content">
+            <div class="logo-area cursor-pointer" ></div>
+            <div class="menu-area">
+                <div id="subasta_menu" class="menu-area-option" onclick="redirectTo('@Url.Action("Operaciones", "Registro", new { id = ViewBag.sid})')">
+                    <span class="menu-area-option-icon icon-1"></span>
+                    <div class="menu-area-option-text">Mis Subastas</div>
+                </div>
+
+                <div id="operacion" class="menu-area-option" onclick="redirectTo('@Url.Action("ListaOperacion","Registro", new { id = ViewBag.sid})')">
+                    <span class="menu-area-option-icon icon-2"></span>
+                    <div class="menu-area-option-text">Mis Operaciones</div>
+                </div>
+
+                <div id="banco" class="menu-area-option cursor-pointer" onclick="redirectTo('@Url.Action("MisCuentasBanco", "Registro", new { id = ViewBag.sid})')">
+                    <span class="menu-area-option-icon icon-3"></span>
+                    <div class="menu-area-option-text">Mis cuentas de Banco</div>
+                </div>
+                <a class="menu-area-option-text" style="text-decoration:none" href="@Url.Action("terminos", "Home")" target="_blank">
+                    <div class="menu-area-option ">
+                        <span class="menu-area-option-icon icon-4"></span>
+                        <div class="menu-area-option-text">Legal</div>
+                    </div>
+                </a>
+            </div>
+            <div class="user-area with-menu">
+                <div class="bars-icon"></div>
+                <div class="user-area-content" >
+                 
+                    <div class="user-area-initials">@ViewBag.inicialesCliente</div>
+                    <div class="user-area-user">@ViewBag.nombreCliente</div>
+                    <div class="user-area-arrow"></div>
+                </div>
+                <div class="popup-menu hidden">
+                    @*<div class="popup-menu-option">
+                <div class="popup-menu-option-icon icon-1"></div>
+                <div class="popup-menu-option-text">Crear Cuenta de Empresa</div>
+            </div>*@
+                    <div class="popup-menu-option cursor-pointer" onclick="redirectTo('@Url.Action("MisDatos", "Registro", new { id = ViewBag.sid})')">
+                        <div class="popup-menu-option-icon icon-2"></div>
+                        <div class="popup-menu-option-text">Mis Datos</div>
+                    </div>
+                    @*<div class="popup-menu-option">
+                        <div class="popup-menu-option-icon icon-3"></div>
+                        <div class="popup-menu-option-text">Cambiar Contraseña</div>
+                    </div>*@
+                    <div class="popup-menu-option" onclick="redirectTo('@Url.Action("Index", "Home")')">
+                        <div class="popup-menu-option-icon icon-4"></div>
+                        <div class="popup-menu-option-text">Cerrar Sesión</div>
+                    </div>
+                </div>
+            </div>
+            @RenderBody()
+            
+        </div>
+    </dashboard-basic-container>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/chosen.jquery.js"></script>
+    <script src="~/Content/js/toggle_dashboard_menu_effect_open.js"></script>
+    <script src="~/Content/js/select_menu_option.js"></script>
+    <script src="~/Scripts/knockout-3.4.0.js"></script>
+    <script src="~/Scripts/knockout.validation.js"></script>
+    <script src="~/Scripts/knockout.mapping-latest.js"></script>
+    <script src="~/Content/js/global.js"></script>
+    <script src="~/Content/js/app.js"></script>
+    <script src="~/Content/js/toastr.js"></script>
+    <script type="text/javascript">
+        var urlApp = '@Url.Content("~")';
+        var urlApi = '@Url.Content("~")' + "api/";
+        toastr.options = { "progressBar": false, "positionClass": "toast-bottom-right", "closeButton": true, "showMethod": "slideDown" }
+
+        function redirectTo(url) {
+            window.location.href = url;
+        }
+
+    </script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

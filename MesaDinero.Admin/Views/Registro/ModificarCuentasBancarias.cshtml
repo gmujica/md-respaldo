@@ -1,0 +1,504 @@
+﻿
+@{
+    //Layout = "~/Views/Shared/_LayoutRegistro.cshtml";
+}
+
+
+<!-- General -->
+@*<link rel="stylesheet" type="text/css" href="~/Content/css/general.css">*@
+<!-- Dashboard -->
+@*<link rel="stylesheet" type="text/css" href="~/Content/css/containers/dashboard_base_layout.css">*@
+@*<link rel="stylesheet" type="text/css" href="~/Content/css/containers/basic_container_layout.css">*@
+@*<link rel="stylesheet" type="text/css" href="~/Content/css/dashboard-container/dashboard-item.css">*@
+
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/special-counter/special-counter.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/round-button/round-button.css">
+
+<!---                        -->
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/special-counter/special-counter.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/round-button/round-button.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/registration/register-container/layout.css">
+
+<link rel="stylesheet" type="text/css" href="~/Content/css/registration/person-registration/layout.css">
+
+<link rel="stylesheet" type="text/css" href="~/Content/css/containers/auction_confirmation_box_layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/containers/basic_container_layout.css">
+@*<link rel="stylesheet" type="text/css" href="~/Content/css/containers/complex_container_layout.css">*@
+
+<link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/custom-checkbox.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/auction/auction-box/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/horizontal-progress-bar.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/fancy-input.css">
+@*<link rel="stylesheet" type="text/css" href="~/Content/css/effects.css">*@
+<link rel="stylesheet" type="text/css" href="~/Content/css/user-area-adjustments.css">
+
+<link rel="stylesheet" type="text/css" href="~/Content/css/registration/company-registration/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/containers/dashboard_base_layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/registration/bank-registration/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/dashboard-container/bank-form/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/dashboard-container/bank-list/layout.css">
+
+<link href="~/Content/css/ficha-datos.css" rel="stylesheet" />
+@*<link rel="stylesheet" type="text/css" href="~/Content/css/app.css">*@
+<link href="~/Content/css/popup.css" rel="stylesheet" />
+@*<link href="~/Content/css/effects.css" rel="stylesheet" />
+    <link href="~/Content/css/toastr.css" rel="stylesheet" />*@
+<!--../js/toggle_dashboard_menu_effect.js-->
+@*<script src="~/Content/js/toggle_dashboard_menu_effect.js"></script>*@
+<script src="~/Content/js/select_menu_option.js"></script>
+<script src="~/Content/js/fancy_input_effect.js"></script>
+<script src="~/Content/js/custom_checkbox_effect.js"></script>
+<script src="~/Content/js/close_popup.js"></script>
+<script src="~/Content/js/add_form_effect.js"></script>
+
+
+<script src="~/Content/js/remove_bank_account.js"></script>
+<script src="~/Content/js/custom_bank_select.js"></script>
+<style>
+    .dashboard-container-content > .user-area .user-area-content.ex {
+        place-items: center;
+    }
+
+    .user-area {
+        /*grid-template-columns: 175px 1fr 135px !important;*/
+    }
+
+    .dashboard-container-content > .user-area .user-area-content .user-area-pipe {
+        justify-self: stretch;
+        align-self: stretch;
+    }
+
+    .remove-form {
+        background-image: url('../content/css/images/icons/trash-alt-regular.svg') !important;
+        width: 14px;
+        height: 14px;
+    }
+</style>
+<style>
+    .user-area {
+        /*grid-template-columns: 175px 1fr 135px !important;*/
+    }
+
+    .dashboard-container-content > .user-area .bars-icon {
+        background-size: 20%;
+    }
+
+    .horizontal-progress-bar-content > div .little-circle {
+        height: 9px;
+        width: 9px;
+        top: -4.5px;
+        left: 50%;
+    }
+
+    .auction-box-container {
+        width: 900px;
+        display: grid;
+        grid-template-columns: minmax(250px, 1.1fr) minmax(270px, 1.1fr);
+    }
+
+    .expandible-thingy-container {
+        height: 30px;
+    }
+
+    .auction-box-container exchanger-input .label {
+        font-size: 13px;
+    }
+
+    exchanger-input > div:not(.dropdown-menu) {
+        border-radius: 6px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .auction-box-container exchanger-input > div {
+        grid-template-columns: .1fr auto minmax(40px, .5fr) minmax(auto, 120px) !important;
+    }
+
+    .auction-box-container exchanger-input .flags {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        height: 59px;
+    }
+
+    .auction-box-container .partners-list > div {
+        padding: 1.5vh 2vw 1.5vh 2vw !important;
+    }
+
+    .auction-box-container .echange-box-buttons.center {
+        height: 50px;
+    }
+
+    .auction-box-container .input-container {
+        margin-bottom: 25px;
+    }
+
+    .auction-box-container .exchange-box-title {
+        margin-bottom: 8vh;
+        margin-top: 0;
+        top: 0;
+    }
+
+    .auction-box-container exchanger-input input {
+        font-size: 20px;
+        display: block;
+        max-width: 160px;
+    }
+
+    .auction-box-container special-counter {
+        width: 70%;
+        margin: auto;
+    }
+
+    .auction-box-container .partners-list > div div:last-child {
+        text-align: center;
+    }
+
+    exchanger-input.selected {
+        border-color: var(--font-blue);
+    }
+
+    .auction-box-container .partners-list > div {
+        grid-template-columns: auto auto auto;
+    }
+    /*Subasta 2*/
+    .auction-box-container special-counter {
+        margin-bottom: 6vh;
+    }
+
+    .expandible-thingy-container.active {
+        height: 12vh;
+    }
+
+        .expandible-thingy-container.active .exchange-info > div > div:first-child {
+            color: #00baff;
+            font-family: "Helvetica Neue Roman";
+        }
+
+    .auction-box-container .partners-list > div.active {
+        color: #00baff;
+    }
+
+    .auction-box-container .partners-list > div div {
+        font-size: 13px;
+    }
+
+    .expandible-thingy-container.active .exchange-info > div > div,
+    .you-saved.active {
+        color: var(--btn-blue);
+    }
+    /*Subasta 3*/
+    .custom-select-box .icon {
+        background-position-x: right;
+    }
+
+    .auction-confirmation-container .select-area {
+        width: 498px;
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 3px;
+    }
+
+        .auction-confirmation-container .select-area .s-label {
+            grid-row: 1 / 2;
+            color: var(--btn-blue);
+            justify-self: left;
+            font-size: 13px;
+        }
+
+        .auction-confirmation-container .select-area .custom-select-box {
+            grid-row: 2 / 3;
+        }
+
+    .auction-confirmation-container .block-text,
+    .auction-confirmation-container .exchange-board,
+    .auction-confirmation-container .select-area {
+        width: 535px;
+    }
+
+    div.custom-select-box {
+        grid-template-columns: 1fr 20px;
+    }
+
+    .auction-confirmation-container .exchange-board > div:last-child {
+        border-left: 1px solid #b3b3b3;
+    }
+
+    .auction-confirmation-container .exchange-board > div:first-child {
+        border-right: 1px solid #b3b3b3;
+    }
+
+    .auction-confirmation-container .exchange-board {
+        border: 1px solid #b3b3b3;
+    }
+
+        .auction-confirmation-container .exchange-board .rate {
+            font-size: 16px;
+        }
+
+    .bank-form .btn.blue-bordered {
+        height: 100%;
+        width: 100%;
+        justify-self: start;
+        align-self: center;
+    }
+
+        .bank-form .btn.blue-bordered * {
+            /*font-size: .8em;*/
+        }
+
+    .bank-form > .sub-title {
+        border-bottom: none !important;
+        background: none;
+        margin-bottom: 40px;
+    }
+
+    .d-label {
+        position: absolute;
+        font-size: 1.1vw;
+        top: -1.3em;
+        left: 2vh;
+        z-index: 1;
+        color: var(--btn-blue);
+    }
+
+    div.custom-select-box li, .custom-select-value {
+        padding-left: 15px;
+    }
+
+    .custom-select-box[value],
+    .custom-select-box.show-options {
+        border-color: var(--font-blue);
+    }
+
+    .fake-placeholder {
+        color: var(--btn-blue) !important;
+    }
+
+    .select-area .custom-select-box.custom-select {
+        font-size: 13px;
+    }
+
+    base-input.selected > div {
+        border: 1px solid var(--font-blue);
+    }
+</style>
+<style>
+    .dashboard-container-content > .user-area .user-area-content.ex {
+        place-items: center;
+    }
+
+    .dashboard-container-content > .user-area .user-area-content .user-area-pipe {
+        justify-self: stretch;
+        align-self: stretch;
+    }
+
+    .user-area {
+        /*grid-template-columns: 175px 1fr 135px !important;*/
+    }
+
+    .coloreGris {
+        color: #b3b3b3 !important;
+    }
+
+    .deshabilitarDiv {
+        pointer-events: none;
+    }
+</style>
+
+
+<div class="content-area" style="grid-template-columns: auto;background-color: #fff;" id="datos_empresa">
+    <div class="register-auction-body register-container">
+        @*<div class="main-header-container">
+            <div class="main-title">Mis Cuentas Bancarias</div>
+            <div class="main-parragraph">
+                Este proceso es rápido y por única vez, para cumplir con la normativa de
+                concocer al cliente regulado por la Unidad de Inteligencia Financiera UIF - SBS.
+            </div>
+        </div>*@
+        @*<div class="company-block derpy" data-bind="with:$root.empresa">
+            <div class="company-block-content">
+                <div class="new-form">
+                    <fancy-input placeholder="Número RUC">
+                        <div class="fancy-input-content">
+                            <div class="fake-placeholder">Número RUC</div>
+                            <input value="" maxlength="11" data-bind="value:$data.ruc" type="text">
+                        </div>
+                    </fancy-input>
+                    <fancy-input placeholder="Nombre">
+                        <div class="fancy-input-content">
+                            <div class="fake-placeholder">Nombre</div>
+                            <input value="" maxlength="150" data-bind="value:$data.nombre" type="text">
+                        </div>
+                    </fancy-input>
+                    <div class="custom-select-wrap">
+                        <select class="custom-select" data-bind="options:$root.lstActividadEconomica,optionsValue:'value',optionsText:'text',optionsCaption:'Actividad Económica',value:actividadEconomica"></select>
+                    </div>
+                    <div class="custom-select-wrap">
+                        <select class="custom-select" data-bind="options:$root.lstOrigenFondos,optionsValue:'value',optionsText:'text',optionsCaption:'Origen de fondos',value:origenFondos"></select>
+                    </div>
+                    <div class="custom-select-wrap">
+                        <select class="custom-select" data-bind="value:$data.tipoEmpresa">
+                            <option class="custom-option" value="" selected="">Tipo de Empresa</option>
+                            <option class="custom-option" value="LMD">LMD</option>
+                            <option class="custom-option" value="Canal">Canal</option>
+                            <option class="custom-option" value="Fideicomiso">Fideicomiso</option>
+                            <option class="custom-option" value="Parnert">Parnert</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>*@
+
+   
+
+        <div class="content-area" style="grid-template-columns: auto;background-color: #fff" id="datos_cuentas_bancarias">
+            
+            <div class="popup-container hidden confirmation-popup" style="z-index: 2000" id="remove_cuenta">
+                <div class="popup">
+                    <span class="cross" data-bind="click:$root.closeRemoveCuenta"></span>
+                    <div class="popup-content alert">
+                        <div class="exclamation-circle">!</div>
+                        <div class="alert-title">Eliminar cuenta bancaria</div>
+                        <div class="alert-subtitle">¿Está seguro de continuar?</div>
+                        <div class="btn blue-style close-popup-btn" data-bind="click:$root.removeCuentaBancaria"><span class="btn-text">Aceptar</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <bank-registration>
+                <div class="register-auction-content">
+                    <div class="register-auction-body register-container bank-registration-container">
+                        <div class="main-header-container">
+                            <div class="main-title">
+                                <div>
+                                    <div class="main-title-icon"></div> Configura tus Cuentas Bancarias
+                                </div>
+                            </div>
+                            @*<div class="main-parragraph">
+                                Necesitamos una cuenta en Soles y una cuenta en Dólares. Por seguridad sólo cuentas del titular
+                            </div>*@
+                        </div>
+                        <div class="bank-registration-content">
+                            <bank-list>
+                                <table class="k-table k-thover k-trow-pointer">
+                                    <thead class="k-thead">
+                                        <tr class="k-throw">
+                                            <th>Cuenta</th>
+                                            <th>Banco</th>
+                                            <th>Moneda</th>
+                                            <th>Tipo de Cuenta</th>
+                                            <th>N° de Cuenta</th>
+                                            @*<th>CCI</th>*@
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="k-tbody" data-bind="foreach:cuentasBancarias">
+                                        <!-- ko if: $data.estado() == 1  -->
+                                        <tr>
+                                            <td>
+                                                <span data-bind="text: 'N°' + ($index() + 1)"></span>
+                                            </td>
+                                            <td>
+                                                <span>
+                                                    <img width="50" data-bind="attr:{'src':$data.logo}" />
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span data-bind="text:$data.monedatext"></span>
+                                            </td>
+                                            <td>
+                                                <span data-bind="text:$data.tipoCuentaText"></span>
+                                            </td>
+                                            <td>
+                                                <span data-bind="text:$data.nroCuenta"></span>
+                                            </td>
+                                            @*<td>
+                                                <span data-bind="text:$data.nroCCI"></span>
+                                            </td>*@
+                                            <td>
+                                                <div class="icon tach" data-bind="click:$root.openRemove"></div>
+                                            </td>
+                                        </tr>
+                                        <!-- /ko -->
+                                    </tbody>
+                                </table>
+                            </bank-list>
+
+                            <bank-form>
+                                <div class="bank-form">
+                                    <div class="sub-title">Agregar Nueva Cuenta</div>
+                                    <div class="bank-form-content" data-bind="with:$root.cuentaBanco">
+
+                                        <fancy-input id="account-number" placeholder="">
+                                            <div class="fancy-input-content">
+                                                <div class="fake-placeholder">Banco</div>
+
+                                                <select id="combo_Bancos" class="custom-select" data-bind="value:$data.banco">
+                                                    <option value="">Seleccione Banco</option>
+                                                    <!-- ko foreach:$root.lstBancos -->
+
+                                                    <option data-bind="value:$data,text:$data.nombre,attr:{'data-img':$data.icon}"></option>
+                                                    <!-- /ko -->
+                                                </select>
+                                            </div>
+                                        </fancy-input>
+                                      
+                                        <fancy-input id="account-number" placeholder="">
+                                            <div class="fancy-input-content">
+                                                <div class="fake-placeholder">Moneda</div>
+
+                                                <select class="custom-select" data-bind="options:$root.lsttiposMoneda,optionsCaption:'Seleccione Moneda',optionsText:'text',value:$data.moneda"></select>
+                                            </div>
+                                        </fancy-input>
+
+                                        <fancy-input id="account-number" placeholder="">
+                                            <div class="fancy-input-content">
+                                                <div class="fake-placeholder">Tipo de Cuenta</div>
+
+                                                <select class="custom-select" id="tipocuenta" data-bind="options:$root.lstTipoCuentaBancaria,optionsCaption:'Tipo de Cuenta',optionsText:'text',value:$data.tipoCuenta"></select>
+                                            </div>
+                                        </fancy-input>
+
+                                        <fancy-input id="account-number" placeholder="N° de Cuenta">
+                                            <div class="fancy-input-content">
+                                                <div class="fake-placeholder">N° de Cuenta</div>
+                                                <input id="cuenta_bancaria" data-bind="value:$data.nroCuenta" type="text">
+                                            </div>
+                                        </fancy-input>
+                                        <div style="display: grid; grid-template-columns: auto auto; grid-template-rows: 1fr; grid-column-gap: 10px;">
+                                            <div>
+                                                <div class="btn blue-bordered" data-bind="click:$root.addCuenta"><span class="btn-text">+ Agregar</span></div>
+                                            </div>
+                                            <div>
+                                                <div id="confirmar_bancos_" data-bind="click:$root.modificarCuentas" class="btn regular" style="width: auto !important; height: 100% !important; border: 1px solid transparent !important;">
+                                                    <span class="btn-text">Guardar</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </bank-form>
+                        </div>
+                    </div>
+                </div>
+            </bank-registration>
+        </div>
+
+
+
+    </div>
+
+</div>
+
+@section Scripts {
+    <!---->
+
+    <script src="~/Content/js/close_popup.js"></script>
+    <script src="~/Scripts/juery-mask/inputmask.js"></script>
+    <script src="~/Scripts/juery-mask/jquery.inputmask.js"></script>
+    <script src="~/Content/js/app/Registro/ModificarCuentasEmpresa.js"></script>
+
+}
+
+

@@ -1,0 +1,192 @@
+.empresas {
+	position: relative;
+	grid-area: content;
+	display: grid;
+	background-image: url('../images/empresas/banner-empresas.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	justify-items: center;
+	align-items: center;
+	z-index: 0;
+}
+.empresas > .shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.45);
+}
+.empresas > div {
+	text-align: center;
+	z-index: 2;
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	row-gap: 10px;
+}
+.empresas > div * {
+	color: #fff;
+}
+.empresas .btn-1 {
+	border: 2px solid #fff;
+	border-radius: .5vw;
+	padding: 1vh 2.5vw 1vh 2.5vw;
+	width: auto;
+	margin-top: 50px;
+	cursor: pointer;
+}
+.empresas .btn-1 > span {
+	font-family: 'Helvetica Neue Roman';
+	font-size: 22px;
+}
+.empresas-second-container {
+	height: 71%;
+	display: grid;
+	grid-template-rows: 70% 30%;
+}
+.empresas-second-first {
+	width: 950px;
+	height: 100%;
+	display: grid;
+	margin: auto;
+	grid-template-columns: minmax(250px, 1.1fr) minmax(270px, 1.1fr);
+}
+.empresas-second-second .brands {
+	height: 100%;
+	justify-self: stretch;
+	display: grid;
+	column-gap: 3vw;
+	grid-template-rows: 1fr;
+	grid-template-columns: repeat(3, 1fr) .7fr .5fr;
+}
+.empresas-text-block {
+	padding-top: 106px;
+	padding-left: 190px;
+	width: 100%;
+}
+.empresas-text-block > .s-title {
+	font-size: 23px;
+}
+.empresas-text-block > .text {
+	margin-top: 15px;
+	font-size: 18px;
+	text-align: justify;
+}
+.empresas-second-second .brands {
+	width: 80%;
+	margin: auto;
+}
+.empresas-second-second .brands > * {
+	justify-self: stretch;
+	align-self: stretch;
+	background-size: contain;
+	background-position-y: center;
+	background-repeat: no-repeat;
+}
+.empresas-second-second .brands > .img-1 {
+	background-image: url('../images/second-container/afiliado-1.svg');
+}
+.empresas-second-second .brands > .img-2 {
+	background-image: url('../images/second-container/afiliado-2.svg');
+}
+.empresas-second-second .brands > .img-3 {
+	background-image: url('../images/second-container/afiliado-3.svg');
+}
+.empresas-second-second .brands > .img-4 {
+	background-image: url('../images/second-container/afiliado-4.svg');
+	background-position-x: right;
+}
+.empresas-second-second .brands > .img-5 {
+	background-image: url('../images/second-container/afiliado-5.svg');
+	background-position-x: right;
+	background-size: contain;
+}
+
+.empresas-second-second .brands > .img-1:hover {
+	background-image: url('../images/second-container/afiliado-1-color.svg');
+}
+.empresas-second-second .brands > .img-2:hover {
+	background-image: url('../images/second-container/afiliado-2-color.svg');
+}
+.empresas-second-second .brands > .img-3:hover {
+	background-image: url('../images/second-container/afiliado-3-color.svg');
+}
+.empresas-second-second .brands > .img-4:hover {
+	background-image: url('../images/second-container/afiliado-4-color.svg');
+}
+.empresas-second-second .brands > .img-5:hover {
+	background-image: url('../images/second-container/afiliado-5-color.svg');
+}
+.empresas-third-container {
+	height: 65%;
+	display: grid;
+	grid-template-rows: auto 150px;
+	background-color: #f1f1f1;
+}
+.empresas-third-container > div:first-child {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	line-height: 100%;
+	margin-top: 40px;
+}
+.empresas-third-container > div:first-child > div:not(first-child) {
+	margin-bottom: 40px;
+}
+.empresas-third-container > div:nth-child(2) {
+	width: 65%;
+	height: 100%;
+	margin: auto;
+	text-align: center;
+	display: grid;
+	grid-template-rows: auto 1fr;
+}
+.empresas-third-container .brands {
+	align-self: stretch;
+	display: grid;
+	column-gap: 3vw;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.empresas-third-container .brands > * {
+	justify-self: stretch;
+	align-self: stretch;
+	background-size: contain;
+	background-position-y: center;
+	background-repeat: no-repeat;
+}
+.empresas-third-container .text.gray {
+	color: #4d4d44;
+}
+.empresas-third-container .brands > .img-1 {
+	background-image: url('../images/icons/banbif.1.svg');
+	background-size: 60%;
+}
+.empresas-third-container .brands > .img-2 {
+	background-image: url('../images/icons/bcp.1.svg');
+	background-size: 60%;
+}
+.empresas-third-container .brands > .img-3 {
+	background-image: url('../images/icons/interbank.1.svg');
+	background-size: 90%;
+}
+.empresas-third-container .brands > .img-4 {
+	background-image: url('../images/icons/scotiabank.1.svg');
+}
+.empresas-third-container .logo-iso12 {
+	background-image: url('../images/empresas/logoiso-12.svg');
+	background-size: 75%;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+}
+/*Latests mods*/
+.empresas-second-first .echange-box-buttons.center {
+	height: 50px !important;
+}
+.empresas-second-first .echange-box-buttons.center {
+	width: 75% !important;
+}

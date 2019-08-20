@@ -1,0 +1,61 @@
+.log .circle {
+	position: absolute;
+	height: 10px;
+	width: 10px;
+	background-color: var(--main-blue);
+	top: 100%;
+	left: calc(50.2% - 5px);
+	border-radius: 50%;
+	z-index: 1;
+}
+.verification-block:not(.four-logs) .log:not(.log-3) {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	position: relative;
+}
+.verification-block {
+	width: 700px;
+	margin: 50px auto 30px auto;
+	display: grid;
+	grid-template-columns: 2fr 2fr 1fr;
+	grid-template-rows: 81px 81px 1fr;
+	grid-template-areas: "log-1 log-1 ." "log-2 log-2 ." "log-3 status status";
+}
+.log > div {
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Helvetica Neue Roman';
+	color: var(--main-blue);
+}
+.esp-log {
+	justify-self: baseline;
+	padding-left: 75px;
+}
+.status-text-title {
+	font-size: 16px;
+	font-family: 'Helvetica Neue Roman';
+	margin-bottom: 10px;
+}
+.status-text-content {
+	font-size: 14px;
+}
+.status-marker {
+	width: 4px !important;
+	height: 64px !important;
+}
+.status-content {
+	align-self: center !important;
+}
+.verification-block.four-logs {
+	grid-template-rows: 81px 81px 81px 1fr;
+	grid-template-areas:
+		"log-1 log-1 ."
+		"log-2 log-2 ."
+		"log-3 log-3 ."
+		"log-4 status status";
+}
+.verification-block.four-logs .log:not(.log-4) {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	position: relative;
+}

@@ -1,0 +1,65 @@
+meta-options {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: auto 4% auto 3% auto 3% auto 4% auto 4% auto 2% 11.547%;
+	grid-template-areas:
+		"opt-1 . opt-2 . opt-3 . opt-4 . opt-5 . opt-6 . opt-7";
+	align-items: stretch;
+}
+meta-options * {
+	color: white;
+	font-size: 1.13vw;
+	font-family: 'Helvetica Neue Roman';
+	cursor: pointer;
+}
+meta-options > *:not(.opt-7) {
+	display: grid;
+	align-items: center;
+	border-bottom: 3px solid transparent;
+}
+meta-options > *:not(.opt-7):hover,
+meta-options > .selected-option {
+	background-color: rgba(255, 255, 255, 0.1);
+	border-bottom: 3px solid var(--font-blue);
+}
+meta-options > *:not(.opt-7) span {
+	margin: 0 5px 0 5px;
+}
+.opt-1 {
+	grid-area: opt-1;
+}
+.opt-2 {
+	grid-area: opt-2;
+}
+.opt-3 {
+	grid-area: opt-3;
+}
+.opt-4 {
+	grid-area: opt-4;
+}
+.opt-5 {
+	grid-area: opt-5;
+}
+.opt-6 {
+	grid-area: opt-6;
+}
+.opt-6 span {
+	color: var(--font-blue) !important;
+}
+.opt-7 {
+	border-radius: 4px;
+	background-color: var(--btn-blue);
+	grid-area: opt-7;
+	align-self: center;
+	justify-self: stretch;
+	display: grid;
+	grid-template-rows: 100%;
+	grid-template-columns: 100%;
+	height: 40px;
+}
+.opt-7 > span {
+	grid-column: span 1;
+	grid-row: span 1;
+	place-self: center;
+}
+

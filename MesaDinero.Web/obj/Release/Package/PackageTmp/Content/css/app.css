@@ -1,0 +1,757 @@
+﻿.chosen-container-single .chosen-search input[type="text"]{
+        width: 92.3%;
+    border-radius: 0;
+    outline: none;
+}
+
+.chosen-container li.result-selected{
+    
+}
+
+.bank_conatiner_add_k {
+    margin: 30px 0 0 0;
+ width: 100% !important;
+}
+
+.custom-select-option-list {
+border:1px solid #ccc;
+}
+
+div.custom-select-box li {
+cursor:pointer;
+}
+
+.icon_BCP {
+    background-image: url(./images/icons/bcp-color.svg);
+    background-repeat: no-repeat;
+    background-position: 1vw, center;
+    background-size: 46%;
+    padding: 1vh 1vw 1vh 1vw;
+    font-size: .9em;
+    height: 17px;
+}
+
+.icon_BITBK {
+    background-image: url(./images/icons/interbank-color.svg);
+    background-repeat: no-repeat;
+    background-position: 1vw, center;
+    background-size: 46%;
+    padding: 1vh 1vw 1vh 1vw;
+    font-size: .9em;
+    height: 17px;
+}
+
+.icon_BANBIF {
+    background-image: url(./images/icons/banbif-color.svg);
+    background-repeat: no-repeat;
+    background-position: 1vw, center;
+    background-size: 46%;
+    padding: 1vh 1vw 1vh 1vw;
+    font-size: .9em;
+    height: 17px;
+}
+
+.icon_BSTB {
+     background-image: url(./images/icons/scotiabank-color.svg);
+    background-repeat: no-repeat;
+    background-position: 1vw, center;
+    background-size: 46%;
+    padding: 1vh 1vw 1vh 1vw;
+    font-size: .9em;
+    height: 17px;
+}
+
+.accionista_k_sub_title {
+    display: block;
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+    border: 0;
+    border-bottom: 0px solid #ccc !important;
+}
+
+.USD {
+    background-image: url(images/icons/usa.svg);
+}
+
+.DOL, .PEN, .USD {
+    place-self: stretch;
+    grid-row: span 1;
+    grid-column: 1 / 2;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+.dashboard-container-content > .user-area .user-area-content .user-area-icon{
+/*width:15px;*/
+}
+
+.dashboard-container-content > .user-area .user-area-content .user-area-arrow{
+    /*width:9px;*/
+}
+
+.dashboard-item-content > .dashboard-item-title{
+    /*margin: 2% 0 3% 0;*/
+}
+
+p{margin:0;}
+
+.display-block{display:block !important;}
+
+
+.k-content-radio{
+    color: #999999;
+    cursor:pointer;
+}
+
+.k-content-radio input{
+    display:none;
+}
+
+.k-radioButtom-icon{
+    background-image: url(images/register-auction-container/boton.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    place-self: stretch stretch;
+    display:inline-block;
+    width:15px;
+    height:15px;
+}
+
+.k-content-radio input[type="radio"]:checked+div.k-radioButtom-icon{
+    background-image: url(images/register-auction-container/boton-active.svg);
+}
+
+
+.k-content-radio input[type="checkbox"]:checked+div.k-radioButtom-icon{
+    background-image: url(images/form-base-container/boton-active.svg);
+}
+
+
+
+/********************* Subasta ***********************************/
+
+
+    .expandible-thingy-container {
+        height: 30px;
+    }
+
+    .auction-box-container exchanger-input .label {
+        font-size: 13px;
+    }
+
+    exchanger-input > div:not(.dropdown-menu) {
+        border-radius: 6px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+   
+
+    .auction-box-container exchanger-input .flags {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        height: 59px;
+    }
+
+   
+
+    .auction-box-container .echange-box-buttons.center {
+        height: 50px;
+    }
+
+    .auction-box-container .input-container {
+        margin-bottom: 25px;
+    }
+
+    .auction-box-container .exchange-box-title {
+        margin-bottom: 8vh;
+        margin-top: 0;
+        top: 0;
+    }
+
+    .auction-box-container exchanger-input input {
+        font-size: 20px;
+        display: block;
+        max-width: 160px;
+    }
+
+    .auction-box-container special-counter {
+        width: 70%;
+        margin: auto;
+    }
+
+    .auction-box-container .partners-list > div div:last-child {
+        text-align: center;
+    }
+
+    exchanger-input.selected {
+        border-color: var(--font-blue);
+    }
+
+    
+
+    .expandible-thingy-container {
+        height: 52px;
+        margin: 10px 0;
+    }
+
+    .auction-box-container exchanger-input .label {
+        font-size: 13px;
+    }
+
+    exchanger-input > div:not(.dropdown-menu) {
+        border-radius: 6px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+  
+
+    .auction-box-container exchanger-input .flags {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        height: 59px;
+    }
+
+
+
+    .auction-box-container .echange-box-buttons.center {
+        height: 50px;
+    }
+
+    .auction-box-container .input-container {
+        margin-bottom: 25px;
+    }
+
+    .auction-box-container .exchange-box-title {
+        margin-bottom: 8vh;
+        margin-top: 0;
+        top: 0;
+    }
+
+    .auction-box-container exchanger-input input {
+        font-size: 20px;
+        display: block;
+        max-width: 160px;
+    }
+
+    .auction-box-container special-counter {
+        width: 70%;
+        margin: auto;
+    }
+
+    .auction-box-container .partners-list > div.item_partner_list div.item_partner {
+        text-align: center;
+    }
+
+    .auction-box-container .partners-list > div.item_partner_list div.item_partner:first-child > div {
+        font-size:12px;
+    }
+
+    exchanger-input.selected {
+        border-color: var(--font-blue);
+    }
+
+
+    label.input-subasta{
+    grid-area: input;
+    outline: none;
+    border: none;
+    font-family: 'Helvetica Neue Roman';
+    color: var(--main-blue);
+        font-size: 20px;
+    display: block;
+    max-width: 160px;
+    }
+
+
+    .fancy-input-content .input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 98.5%;
+    height: 100%;
+    font-size: 1.1vw;
+    z-index: 2;
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+    transition: .5s;
+    color: var(--main-blue);
+    padding-left: 0.3em;
+    height: 100%;
+}
+
+/*********************** /Subasta ***********************/
+
+.content-tab-home {
+    justify-self: center;
+    align-self: center;
+    display: block;
+    width: 80%;
+}
+
+.content-tab-home > base-input{
+    width: 100%;
+}
+
+.k-row{
+        display: block;
+    width: 100%;
+}
+
+.k-col-sm-6{
+        display: inline-block;
+    width: 49.5%;
+}
+
+.k-input{
+        z-index: 2;
+    border: 1px solid #d1d1d1;
+    width: 99.5%;
+    color: #004484;
+    height: 30px;
+    outline: none;
+    font-size: 1.1vw;
+    padding-left: 0.3em;
+    border-radius: 3px;
+    transition: .5s;
+    background-color: transparent;
+}
+
+.k-select{
+    height: 37px !important;
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+    outline: none;
+    color: #999999;
+    font-size: 1.1vw;
+    background: transparent;
+    background: url(./images/icons/caret-down-solid.svg) no-repeat 95% #fff;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-size: 10px;
+    height: 100%;
+    padding-left: 1vw;
+}
+
+
+.v-top{
+    vertical-align:top;
+    margin-bottom:15px;
+}
+
+.k-btn{
+        min-height: 36px;
+    margin-top: 10px;
+}
+
+.k-title-autorizado{
+        width: 701.94px;
+    margin: 0 auto;
+}
+
+.selected_ofertas{
+    background-color: #f1f4f5;
+    color: #00abca;
+}
+
+/**************************table *****************************/
+
+
+.k-table{
+    width:100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.k-table .k-thead .k-throw th{
+    padding: 10px 0;
+    color: #1072aa;
+    font-size: 12px;
+    font-family: 'Helvetica Neue Roman';
+    font-weight: normal;
+    text-align:center;
+}
+
+.k-table .k-tbody tr{
+
+}
+table.k-table.k-thover > .k-tbody tr:hover
+{
+    background-color: #f2f2f2;
+}
+
+table.k-table.k-thover.k-trow-pointer > .k-tbody tr:hover
+{
+    cursor:pointer;
+}
+
+k-table .k-tbody tr{
+
+}
+
+
+
+.k-table .k-tbody tr td{
+    padding: 7px 0;
+    font-size: 11px;
+    font-family: 'Helvetica Neue Roman';
+    text-align:center;
+    border-bottom:1px solid #e6e6e6;
+}
+
+.k-table .k-tbody tr td span{
+    font-size: 11px;
+    font-family: 'Helvetica Neue Roman';
+    color:#808080;
+}
+
+
+.icon.tach {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px;
+    background-image: url(images/icons/trash-alt-regular.svg);
+    height: 18px;
+    width: 18px;
+    cursor: pointer;
+}
+
+.auction-box-container .partners-list > div.item_partner_list div.item_partner.oferta.Activo {
+    border: 1.3px solid #05a0da;
+    color: #00baff;
+    background: #e0ecf1;
+    font-weight: bold;
+}
+
+
+.user-area {
+    grid-template-columns: 5% 1fr 20.0fr !important;
+}
+
+.auction-confirmation-container .status {
+    display: block;
+    width: 498px;
+    margin: 0 auto 4vh auto;
+    text-align: left;
+    height: 15vh;
+}
+
+.status.green .status-content {
+    background-color: #ebfff2;
+    color: #46be8a;
+}
+
+.status .status-content {
+    font-size: 1vw;
+}
+.status-content {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    display: grid;
+    grid-template-columns: 29px 1fr;
+    grid-template-rows: 1fr;
+    min-height: 50px;
+}
+
+.status.green .status-icon {
+    background-image: url(images/icons/i-icon-35.svg);
+}
+
+.status .status-icon {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+
+.user-area-user {
+    min-width: 100px;
+    max-width: 220px;
+}
+
+.popup-menu-option-text a{
+    font-size: 1vw;
+        cursor: pointer;
+    color: #666666;
+    text-decoration:none;
+}
+
+
+.chosen-container-single .chosen-single div{
+    width:25px;
+}
+
+/*******************************************************/
+
+.form-content-2 > .form-base-title {
+    font-family: 'Helvetica Neue Roman';
+    color: var(--main-blue);
+    font-size: 1.5em;
+    text-align:center;
+}
+
+.form-content-2  > .form base-input{
+    width:100%;
+}
+
+.form-content-2  > .form .base-btn{
+    padding:7px 10px;
+}
+
+.form-content-2  > .form{
+    text-align:center;
+}
+
+.horizontal-progress-bar-content .status-text{
+    text-decoration:none !important;
+}
+
+
+button:disabled,
+button[disabled],
+button.btn:disabled,
+button.btn[disabled]{
+    cursor:not-allowed;
+}
+
+span.validationMessage{
+     font-size: 11px;
+    /*color: #21afcc;*/
+    color:#FF3333;
+}
+
+.k-table-default .k-thead .k-throw th{
+        font-size: .7em;
+    color: #666666;
+    padding: 1vh 1vw 1vh 1vw;
+    margin-bottom: 1vh;
+
+    padding: 7px 0;
+    font-family: 'Helvetica Neue Roman';
+    text-align: center;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.k-table-default .k-tbody tr td span{
+        color: var(--btn-blue);
+    font-size: .9em;
+    padding: 1vh 1vw 1vh 1vw;
+    font-family: 'Helvetica Neue Roman';
+}
+
+.cursor-pointer{
+    cursor:pointer;
+}
+
+
+/**Home*/
+
+.sign-in-menu {
+    position:relative
+}
+
+.sub-menu-login{
+    display:none;
+}
+
+.sign-in-menu:hover > ul.sub-menu-login {
+    display:block;
+}
+
+.sign-in-menu ul{
+    position: absolute;
+    bottom: -74px;
+    background: #fff;
+    color: #004484;
+    min-width: 163px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index:100;
+}
+
+.sign-in-menu ul li{
+        color: #004484;
+    padding: 11px 15px;
+    border-bottom: 0.5px solid #ccc;
+    font-size: 12px;
+    text-align: center;
+}
+
+.sign-in-menu ul li a{
+     color: #004484 !important;
+     text-decoration:none  !important;
+     font-size: 12px;
+}
+
+.sign-in-menu ul li:hover{
+    background-color:#fafafa;
+    font-weight:bold;
+    
+}
+
+/* Kevin  */
+
+div.item-s-k.Activo{
+    background-color: #f1f4f5;
+    color: #00abca;
+    font-weight:bold;
+}
+ .register-auction-body .btn.disabled
+ {
+     background: rgb(181, 181, 181);
+     cursor:not-allowed;
+ }
+
+ .loading-spiner-holder {
+position:fixed;
+background:#000000;
+opacity:0.5;
+bottom:0;
+right:0;
+left:0;
+top:0;
+width:100%;
+height:100%;
+z-index: 99999;
+}
+
+ /*estado*/
+
+ 
+.k-icon {
+        width: 12px;
+    height: 12px;
+}
+.k-icon.k-status {
+        border-radius: 50%;
+    display: inline-block;
+}
+
+ div.k-icon.k-status.status_subasta_C {
+    background: #F82508;
+     
+}
+
+div.k-icon.k-status.status_subasta_D {
+    background: #FFA84D;
+    
+}
+
+div.k-icon.k-status.status_subasta_P {
+    background: #FFA84D;
+    
+}
+
+div.k-icon.k-status.status_subasta_E {
+    background: #000;
+}
+
+div.k-icon.k-status.status_subasta_F {
+    background: #46be8a;
+}
+
+div.k-icon.k-status.status_subasta_G {
+    font-size:12px;
+    background: #46be8a;
+}
+
+div.k-icon.k-status.status_subasta_H {
+    background: #e25142;
+}
+
+div.k-icon.k-status.status_subasta_I {
+    background: #29abe2;
+}
+
+div.k-icon.k-status.status_subasta_J {
+    background: #e25142;
+}
+
+div.k-icon.k-status.status_subasta_M {
+    background: #29abe2;
+}
+
+div.k-icon.k-status.status_subasta_Y {
+    background: #e25142;
+}
+
+div.k-icon.k-status.status_subasta_Z {
+    background: #e25142;
+}
+
+.status_C {
+    color: #F82508;
+    font-weight:bold;
+}
+
+.status_D {
+    color: #FFA84D;
+    font-weight:bold;
+    font-size:12px;
+}
+
+.status_E {
+    color: #000;
+    font-weight:bold;
+    font-size:12px;
+}
+
+.status_F {
+    color: #46be8a;
+    font-weight:bold;
+    font-size:12px;
+}
+.status_G {
+    color: #46be8a;
+    font-weight:bold;
+    font-size:12px;
+}
+
+.status_I {
+    color: #29abe2;
+    font-weight:bold;
+    font-size:12px;
+}
+
+.status_J {
+    color: #e25142;
+    font-weight:bold;
+    font-size:12px;
+}
+
+.status_M {
+    color: #29abe2;
+    font-weight:bold;
+    font-size:12px;
+}
+
+.status_H {
+    color: #e25142;
+    font-weight:bold;
+    font-size:12px;
+}
+
+.status_P {
+    color: #FFA84D;
+    font-weight:bold;
+    font-size:12px;
+}
+ 
+.status_Y {
+    color: #e25142;
+    font-weight:bold;
+    font-size:12px;
+}
+
+.status_Z {
+    color: #e25142;
+    font-weight:bold;
+    font-size:12px;
+}

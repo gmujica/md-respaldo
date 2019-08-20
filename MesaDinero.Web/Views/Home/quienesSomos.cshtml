@@ -1,0 +1,204 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/general.css">
+    <!-- 1ra Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/logo.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/options.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/section-a.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/section-b.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/exchanger-input.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/main-container/footer.css">
+    <!-- 2da Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/second-container/layout.css">
+    <!-- 3ra Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/third-container/layout.css">
+    <!-- 4ra Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/fourth-container/layout.css">
+    <!-- 5ta Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/fifth-container/layout.css">
+    <!-- 6ta Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/sixth-container/layout.css">
+    <!-- 7ma Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/seventh-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/seventh-container/contact-area.css">
+    <!--Extra container-->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/extra-container/layout.css">
+    <!-- 8va Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/eighth-container/layout.css">
+    <!-- 9na Pantalla Home -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/ninth-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/home/ninth-container/footer-menu.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/popup.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/caja-mods.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/app.css"/>
+    <!--Quienes Somos-->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/quienes-somos/layout.css">
+    <script src="~/Content/js/open_popup.js"></script>
+    <script src="~/Content/js/close_popup.js"></script>
+    <!-- custom select 1 (exchange soles) -->
+    <script src="~/Content/js/custom_select.js"></script>
+    <script src="~/Content/js/ie-polyfill.js"></script>
+    <script src="~/Content/js/another-input-effect.js"></script>
+    <script src="~/Content/js/custom_select.js"></script>
+    <script src="~/Content/js/separador_miles.js"></script>
+    <style>
+        a { 
+            text-decoration: none;
+        }
+
+        #a1 {
+            color:#585858;
+        }
+
+        li{
+            list-style:none;
+        }
+    </style>
+
+</head>
+<body>
+    <main-container id="quienes-somos">
+        <div class="meta-content">
+            <meta-logo class="logo">
+                <div class="logo-content" id=”clickeable” onclick="location.href = '@Url.Action("","Home")';" style="cursor:pointer;"></div>
+            </meta-logo>
+            <meta-options class="options">
+                <div class="opt-1 selected-option"><span><a href="@Url.Action("quienesSomos","Home")">Quienes Somos</a></span></div>
+                <div class="opt-2"><span><a href="@Url.Action("empresas","Home")">Empresas</a></span></div>
+                <div class="opt-3"><span><a href="@Url.Action("corfid","Home")">Instituciones Registradas</a></span></div>
+                <div class="opt-4"><span><a href="@Url.Action("ayuda","Home")">Ayuda</a></span></div>
+                <div class="opt-5"><span><a href="#Contacto">Contacto</a> </span></div>
+                <div class="opt-6 sign-in sign-in-menu">
+                    <span>Iniciar Sesión</span>
+                    <ul class="sub-menu-login">
+                        <li><a href="@Url.Action("","Acceso")">Como Cliente</a></li>
+                        <li><a href="@System.Configuration.ConfigurationManager.AppSettings["HostAdmin"]">Intranet</a> </li>
+                    </ul>
+                </div>
+                <div class="opt-7 sign-up"><span><a href="@Url.Action("","Registro")">Registrarse</a></span></div>
+            </meta-options>
+            <div class="quienes-somos" style="padding: 4em;">
+                <div class="s-title">¿Quienes Somos?</div>
+                <div class="text blue"><strong>Somos La Mesa de Dinero de las empresas Pymes y Personas.</strong></div>
+                <br /><br />
+                <div class="text">Bancos, Cajas Municipales, Sociedades Agente de Bolsa y otras financieras compiten con sus tasas más coopetitivas</div>
+                <div class="text">para adjudicarse tus divisas.</div>
+                <br /><br />
+                <div class="text">La Mesa de Dinero está disponible en entorno web y próximamente en dispositivos móviles IOS y Android para concretar</div>
+                <div class="text">operaciones C2B y B2B.</div>
+                <br /><br />
+                <div class="s-title">Nuestro Futuro</div>
+                <div class="text blue"><strong>La Mesa de Dinero está pensada para convertirse en una multiplataforma financiera.</strong></div>
+                <br /><br />
+                <div class="text">Nuestro futuro lo vamos a escribir contigo, estamos creando una comunidad segura de EMPRESAS y PERSONAS</div>
+                <div class="text">con sentido de pertenencia.</div>
+                <br /><br />
+                <div class="text blue"><strong>Ya lo tienes!</strong></div>
+            </div>
+        </div>
+    </main-container>
+    <sixth-container>
+        <div class="meta-content">
+            <div class="text-1 text-title">¿Buscabas más?</div>
+            <div class="text-2 text-content">
+                Gente muy agradable y con sentido de urgencia, dispuesta a
+                ayudarte cuando nos necesites!
+            </div>
+            @*<div class="btn-1">
+                <span>Contáctanos</span>
+            </div>*@
+        </div>
+    </sixth-container>
+    <seventh-container>
+        <div class="meta-content" id="Contacto">
+            <div class="text-title title-1">Contacto</div>
+            <div class="text-title title-2">Solicita un experto en servicio</div>
+            <div class="block-1">
+                <p>LA MESA DE DINERO</p>
+                <p>Calle Monte Rosa 256 Piso 10 Surco</p>
+                <p>Chacarilla</p>
+                <p>(1) 432 - 3453</p>
+                <p>info@lamesadedinero.com</p>
+                <p>Lunes a Viernes - 9:00 am a 7:00 pm</p>
+            </div>
+            <div class="social">
+                <div class="text-title">Redes Sociales</div>
+                <div class="text-content">Síguenos en:</div>
+                <div class="text-icon text-icon-1"></div>
+                <div class="text-icon text-icon-2"></div>
+                <div class="text-icon text-icon-3"></div>
+                <div class="text-icon text-icon-4"></div>
+                <div class="text-icon text-icon-5"></div>
+            </div>
+            <contact-area class="block-2">
+                <div class="contact-area-content">
+                    <div class="dev-border contact-border">
+                        <input value="" placeholder="Nombre" type="text">
+                    </div>
+                    <div class="dev-border contact-border">
+                        <input value="" placeholder="Apellido" type="text">
+                    </div>
+                    <div class="dev-border contact-border">
+                        <input value="" placeholder="Celular" type="text">
+                    </div>
+                    <div class="dev-border contact-border">
+                        <input value="" placeholder="Correo" type="text">
+                    </div>
+                    <div class="dev-border contact-border btn-s">
+                        <span>Solicítenos Hoy</span>
+                    </div>
+                </div>
+            </contact-area>
+        </div>
+    </seventh-container>
+    <ninth-container>
+        <div class="meta-content">
+            <footer-menu class="menu">
+                <div class="footer-menu-content">
+                    <div class="text-title">Mapa del Sitio</div>
+                    <div class="text-title">Servicio al Cliente</div>
+                    <div class="text-title">Mi Cuenta</div>
+                    <div class="text-title">Libro de Reclamación</div>
+                    <div class="submenu">
+                        <div><span class="disk"></span><div><span class="text-footer"><a id="a1" href="@Url.Action("quienesSomos","Home")">Nosotros</a></span></div></div>
+                        <div>
+                            <span class="disk"></span>
+
+                            <div><span class="text-footer"><a id="a1" href="@Url.Action("corfid", "Home")">Instituciones Registradas</a></span></div>
+
+                        </div>
+                        <div><span class="disk"></span><div><span class="text-footer"><a id="a1" href="@Url.Action("empresas","Home")">Empresas</a></span></div></div>
+                    </div>
+                    <div class="submenu">
+                        @*<div><span class="disk"></span><div><span class="text-footer">Contáctenos</span></div></div>*@
+                        <div><span class="disk"></span><div><span class="text-footer"><a id="a1" href="#Contacto">Contáctenos</a></span></div></div>
+                        <div><span class="disk"></span><div><span class="text-footer"><a id="a1" href="@Url.Action("ayuda","Home")">Ayuda</a></span></div></div>
+                        <div><span class="disk"></span><div><span class="text-footer"><a id="a1" href="@Url.Action("terminos","Home")">Términos y Condiciones</a></span></div></div>
+                        <div><span class="disk"></span><div><span class="text-footer"><a id="a1" href="@Url.Action("privacidad","Home")">Política de Privacidad</a></span></div></div>
+                    </div>
+                    <div class="submenu">
+                        <div><span class="disk"></span><div><span class="text-footer"><a id="a1" href="@Url.Action("","Acceso")">Iniciar Sesión</a></span></div></div>
+                        <div><span class="disk"></span><div><span class="text-footer"><a id="a1" href="@Url.Action("","Registro")">Registrarme</a></span></div></div>
+                    </div>
+                    <div class="book" id=”clickeable” onclick="location.href = '@Url.Action("libroReclamaciones","Home")';" style="cursor:pointer;"></div>
+                </div>
+            </footer-menu>
+            <div class="logo"></div>
+            <div class="rights">
+                <!-- <p>LA MESA DE DINERO tiene todos los derechos en la empresa SOFIDIG S.A. ruc 20602578756, inscrito en registros públicos con número de partida electrónica 13972637.</p> -->
+                <p>© 2018 LA MESA DE DINERO. Todos los derechos Reservados</p>
+            </div>
+        </div>
+    </ninth-container>
+    <div id="ibmovx-is-installed"></div>
+</body>
+</html>

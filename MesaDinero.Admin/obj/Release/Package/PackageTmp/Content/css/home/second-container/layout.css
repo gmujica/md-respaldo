@@ -1,0 +1,82 @@
+second-container > .meta-content {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-rows: 24% 1.25fr 5.8% .75fr 21% 2fr 20%;
+	grid-template-columns: 11% 13% 1fr 13% 11%;
+	background-color: #f1f1f1;
+	grid-template-areas:
+		". . . . ."
+		". . text1 . ."
+		". . . . ."
+		". . text2 . ."
+		". . . . ."
+		". brands brands brands ."
+		". . . . .";
+}
+second-container .dev-border {
+	border-color: #000;
+}
+second-container > .meta-content > * {
+	justify-self: center;
+}
+second-container > .meta-content > .text1 {
+	grid-area: text1;
+	font-size: 2.1vw;
+	color: #000;
+	font-family: 'Helvetica Neue Roman';
+}
+second-container > .meta-content > .text2 {
+	grid-area: text2;
+	font-size: 1.55vw;
+	color: var(--main-blue);
+}
+second-container > .meta-content > .brands {
+	grid-area: brands;
+	justify-self: stretch;
+	display: grid;
+	column-gap: 3vw;
+	grid-template-rows: 1fr;
+	grid-template-columns: repeat(3, 1fr) .7fr .5fr;
+}
+second-container > .meta-content > .brands > * {
+	grid-column: span 1;
+	place-self: stretch stretch;
+	background-size: contain;
+	background-position-y: center;
+	background-repeat: no-repeat;
+}
+second-container > .meta-content > .brands > .img-1 {
+	background-image: url('../../images/second-container/afiliado-1.svg');
+}
+second-container > .meta-content > .brands > .img-2 {
+	background-image: url('../../images/second-container/afiliado-2.svg');
+}
+second-container > .meta-content > .brands > .img-3 {
+	background-image: url('../../images/second-container/afiliado-3.svg');
+}
+second-container > .meta-content > .brands > .img-4 {
+	background-image: url('../../images/second-container/afiliado-4.svg');
+	background-position-x: right;
+}
+second-container > .meta-content > .brands > .img-5 {
+	background-image: url('../../images/second-container/afiliado-5.svg');
+	background-position-x: right;
+	background-size: contain;
+}
+
+second-container > .meta-content > .brands > .img-1:hover {
+	background-image: url('../../images/second-container/afiliado-1-color.svg');
+}
+second-container > .meta-content > .brands > .img-2:hover {
+	background-image: url('../../images/second-container/afiliado-2-color.svg');
+}
+second-container > .meta-content > .brands > .img-3:hover {
+	background-image: url('../../images/second-container/afiliado-3-color.svg');
+}
+second-container > .meta-content > .brands > .img-4:hover {
+	background-image: url('../../images/second-container/afiliado-4-color.svg');
+}
+second-container > .meta-content > .brands > .img-5:hover {
+	background-image: url('../../images/second-container/afiliado-5-color.svg');
+}

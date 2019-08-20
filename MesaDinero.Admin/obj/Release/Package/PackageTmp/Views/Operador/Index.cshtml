@@ -1,0 +1,869 @@
+﻿@{
+    ViewBag.Title = "Registro Clientes";
+}
+@*<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<link href="~/Content/css/ficha-datos.css" rel="stylesheet" />
+<link href="~/Content/css/registration/person-registration/layout.css" rel="stylesheet" />*@
+
+@section Styles{
+
+    <!-- Subasta -->
+    <link rel="stylesheet" type="text/css" href="~/Content/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/custom-checkbox.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/auction/auction-box/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/horizontal-progress-bar.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/fancy-input.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/components/dashboard-container/bank-form/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/components/dashboard-container/dashboard-list/list.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/components/dashboard-container/bank-list/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/router/partner_layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/user-area-adjustments.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/mi-oferta.css">
+
+    <link rel="stylesheet" type="text/css" href="~/Content/css/popup.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/containers/auction_confirmation_box_layout.css">
+<link href="~/Content/css/registration/person-registration/layout.css" rel="stylesheet" />
+    <!---->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/ficha-datos.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/popup.css">
+    }
+
+
+<div class="popup-container hidden ficha-popup ficha-person" id="ficha-person">
+    <div class="popup" style="width: 65%;">
+        <span class="cross"></span>
+        <div class="popup-content">
+            <person-registration>
+                <div class="register-auction-content" data-bind="with:$root.personaTmp">
+                    <div class="register-auction-body register-container">
+                        <div class="main-header-container">
+                            <div class="main-title">Ficha de Datos Persona</div>
+                        </div>
+                        <!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+                        <div class="register-container-block block-1-1">
+                            <fancy-input id="person-reg-document" class="selected" placeholder="Tipo de Documento">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Tipo de Documento</div>
+                                    <input data-bind="value:tipoDocumento" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-document" class="selected" placeholder="N° de Documento">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">N° de Documento</div>
+                                    <input data-bind="value:nroDocumento" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-name" class="selected" placeholder="Nombres">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Nombres</div>
+                                    <input data-bind="value:nombres" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-lastname" class="selected" placeholder="Apellido Paterno">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Apellido Paterno</div>
+                                    <input data-bind="value:apePaterno" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-lastname2" class="selected" placeholder="Apellido Materno">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Apellido Materno</div>
+                                    <input data-bind="value:apeMaterno" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-lastname2" class="selected" placeholder="Fecha de Nacimiento">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Fecha de Nacimiento</div>
+                                    <input data-bind="value:fechaNacimiento" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-email" class="selected" placeholder="E-mail">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">E-mail</div>
+                                    <input data-bind="value:email" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-birthdate" placeholder="Fecha de Nacimiento (DD/MM/AA)">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Teléfono Celular</div>
+                                    <input data-bind="value:celular" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                        </div>
+                        <!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+                        <div class="sub-title-normal" id="short">Dirección</div>
+                        <div class="block-1-1-2">
+                            <fancy-input id="person-reg-country" class="selected" placeholder="Nacionalidad">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Pa&iacute;s</div>
+                                    <input data-bind="value:pais" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-state" class="selected" placeholder="Departamento">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Departamento</div>
+                                    <input data-bind="value:departamento" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-address" class="selected" placeholder="Provincia">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Provincia</div>
+                                    <input data-bind="value:provincia" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-district" class="selected" placeholder="Distrito">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Distrito</div>
+                                    <input data-bind="value:distrito" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-address" class="selected" placeholder="Dirección">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Dirección</div>
+                                    <input data-bind="value:direccion" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                        </div>
+                        <div class="block-1-2">
+                            <div class="sub-title-normal">Información Laboral</div>
+                            <div class="block-1-2-1">
+                                <fancy-input id="person-sit-lab" class="selected" placeholder="Situación Laboral">
+                                    <div class="fancy-input-content">
+                                        <div class="fake-placeholder">Situación Laboral</div>
+                                        <input data-bind="value:sictuacionLaboral" type="text" disabled>
+                                    </div>
+                                </fancy-input>
+                                <fancy-input id="person-origen-fond" class="selected" placeholder="Origen de Fondos">
+                                    <div class="fancy-input-content">
+                                        <div class="fake-placeholder">Origen de Fondos</div>
+                                        <input data-bind="value:origenFondos" type="text" disabled>
+                                    </div>
+                                </fancy-input>
+                                <fancy-input class="selected" placeholder="Entidad Pública">
+                                    <div class="fancy-input-content">
+                                        <div class="fake-placeholder">Es una persona políticamente expuesta</div>
+                                        <input data-bind="value:expuesto" type="text" disabled>
+                                    </div>
+                                </fancy-input>
+                                @*<fancy-input class="selected" placeholder="Entidad Pública">
+                            <div class="fancy-input-content">
+                                <div class="fake-placeholder">Entidad Pública</div>
+                                <input value="Ninguna" type="text" disabled>
+                            </div>
+                        </fancy-input>
+                        <fancy-input class="selected" placeholder="Cargo">
+                            <div class="fancy-input-content">
+                                <div class="fake-placeholder">Cargo</div>
+                                <input value="Ninguno" type="text" disabled>
+                            </div>
+                        </fancy-input>*@
+                            </div>
+                        </div>
+                        <div class=block-1-4>
+                            <div class="sub-title-normal">Cuentas Bancarias</div>
+                            <bank-list>
+                                <div class="bank-list">
+                                   
+                                    <table class="k-table k-thover k-trow-pointer">
+                                        <thead class="k-thead">
+                                            <tr class="k-throw">
+                                                <th>Cuenta</th>
+                                                <th>Banco</th>
+                                                <th>Moneda</th>
+                                                <th>Tipo de Cuenta</th>
+                                                <th>Nro de Cuenta</th>
+                                                <th>Estado</th>              
+                                            </tr>
+                                        </thead>
+                                        <tbody class="k-tbody" data-bind="foreach:$data.cuentasBancarias">
+                                            <tr>
+                                                <td>
+                                                    <span data-bind="text:'N°'  + ($index() + 1)"></span>
+                                                </td>
+                                                <td>
+                                                    <span data-bind=""></span>
+                                                    <img data-bind="attr:{'src': $data.logo}" width="100" />
+                                                </td>
+                                                <td>
+                                                    <span data-bind="text:$data.moneda"></span>
+                                                </td>
+                                                <td>
+                                                    <span data-bind="text:$data.tipoCuentaText"></span>
+                                                </td>
+                                                <td>
+                                                    <span data-bind="text:$data.nroCuenta"></span>
+                                                </td>
+                                                <td>
+                                                    <span data-bind="text:$data.estado"></span>
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </bank-list>
+                        </div>
+
+
+                        <div class=block-1-4>
+                            <div class="sub-title-normal">Observaciones</div>
+                            <bank-list>
+                                <div class="bank-list">
+
+                                    <table class="k-table k-thover k-trow-pointer">
+                                        <thead class="k-thead">
+                                            <tr class="k-throw">
+                                                <th>Nroº</th>
+                                                <th>Fecha Obs.</th>
+                                                <th>Mensaje</th>
+                                                <th>Observador</th>
+                                                <th>Nombre Obs.</th>
+                                                <th>Estado</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="k-tbody" data-bind="foreach:$data.observaciones">
+                                            <tr>
+                                                <td>
+                                                    <span data-bind="text:'N°'  + ($index() + 1)"></span>
+                                                </td>
+                                                <td>
+                                                    <span data-bind="text:$data.fechaOperador"></span>
+                                                </td>
+                                                <td>
+                                                    <span data-bind="text:$data.mensaje"></span>
+                                                </td>
+                                                <td>
+                                                    <span data-bind="text:$data.observador"></span>
+                                                </td>
+                                                <td>
+                                                    <span data-bind="text:$data.nombre"></span>
+                                                </td>
+                                                <td>
+                                                    <span data-bind="text:$data.nombreEstado"></span>
+                                                </td>
+                                              
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </bank-list>
+                        </div>
+
+                       
+
+                        <div class="block-1-3">
+
+
+                            <div class="observations">
+                                <div class="observations-title">Comentario</div>
+                                <div class="observations-textarea">
+                                    <textarea data-bind="value:$root.comentario" rows="4" cols="50" spellcheck="true" style="z-index: auto; position: relative; line-height: normal; font-size: 13.3333px; transition: none 0s ease 0s; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="button-row">
+                                <!-- ko if:estadoValidacion() == 'P' || estadoValidacionFideicomiso() == 'O' || estadoValidacionFideicomiso() == 'R' -->
+                                <div class="btn btn-green" data-bind="click:$root.aprobarPCliente"><span class="btn-text">Aprobar</span></div>
+                                <div class="btn btn-orange" data-bind="click:$root.observarPCliente"><span class="btn-text">Observado</span></div>
+                                <div class="btn btn-red" data-bind="click:$root.rechazarPCliente"><span class="btn-text">Rechazado</span></div>
+                                @* <div class="btn blue-bordered"><span class="btn-text">Adjuntar Archivo</span></div>*@
+                                <!-- /ko -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </person-registration>
+        </div>
+    </div>
+</div>
+
+<div class="popup-container hidden ficha-popup ficha-person" id="ficha-person_MD">
+    <div class="popup" style="width: 65%;">
+        <span class="cross"></span>
+        <div class="popup-content">
+            <person-registration>
+                <div class="register-auction-content" data-bind="with:$root.personaTmp">
+                    <div class="register-auction-body register-container">
+                        <div class="main-header-container">
+                            <div class="main-title">Ficha de Datos Persona</div>
+                        </div>
+                        <!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+                        <div class="register-container-block block-1-1">
+                            <fancy-input id="person-reg-document" class="selected" placeholder="Tipo de Documento">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Tipo de Documento</div>
+                                    <input data-bind="value:tipoDocumento" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-document" class="selected" placeholder="N° de Documento">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">N° de Documento</div>
+                                    <input data-bind="value:nroDocumento" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-name" class="selected" placeholder="Nombres">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Nombres</div>
+                                    <input data-bind="value:nombres" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-lastname" class="selected" placeholder="Apellido Paterno">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Apellido Paterno</div>
+                                    <input data-bind="value:apePaterno" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-lastname2" class="selected" placeholder="Apellido Materno">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Apellido Materno</div>
+                                    <input data-bind="value:apeMaterno" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-lastname2" class="selected" placeholder="Fecha de Nacimiento">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Fecha de Nacimiento</div>
+                                    <input data-bind="value:fechaNacimiento" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-email" class="selected" placeholder="E-mail">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">E-mail</div>
+                                    <input data-bind="value:email" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-birthdate" placeholder="Fecha de Nacimiento (DD/MM/AA)">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Teléfono Celular</div>
+                                    <input data-bind="value:celular" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                        </div>
+                        <!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+                        <div class="sub-title-normal" id="short">Dirección</div>
+                        <div class="block-1-1-2">
+                            <fancy-input id="person-reg-country" class="selected" placeholder="Nacionalidad">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Pa&iacute;s</div>
+                                    <input data-bind="value:pais" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-state" class="selected" placeholder="Departamento">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Departamento</div>
+                                    <input data-bind="value:departamento" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-address" class="selected" placeholder="Provincia">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Provincia</div>
+                                    <input data-bind="value:provincia" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-district" class="selected" placeholder="Distrito">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Distrito</div>
+                                    <input data-bind="value:distrito" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="person-reg-address" class="selected" placeholder="Dirección">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Dirección</div>
+                                    <input data-bind="value:direccion" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                        </div>
+                        <div class="block-1-2">
+                            <div class="sub-title-normal">Información Laboral</div>
+                            <div class="block-1-2-1">
+                                <fancy-input id="person-sit-lab" class="selected" placeholder="Situación Laboral">
+                                    <div class="fancy-input-content">
+                                        <div class="fake-placeholder">Situación Laboral</div>
+                                        <input data-bind="value:sictuacionLaboral" type="text" disabled>
+                                    </div>
+                                </fancy-input>
+                                <fancy-input id="person-origen-fond" class="selected" placeholder="Origen de Fondos">
+                                    <div class="fancy-input-content">
+                                        <div class="fake-placeholder">Origen de Fondos</div>
+                                        <input data-bind="value:origenFondos" type="text" disabled>
+                                    </div>
+                                </fancy-input>
+                                <fancy-input class="selected" placeholder="Entidad Pública">
+                                    <div class="fancy-input-content">
+                                        <div class="fake-placeholder">Es una persona políticamente expuesta</div>
+                                        <input data-bind="value:expuesto" type="text" disabled>
+                                    </div>
+                                </fancy-input>
+                               
+                            </div>
+                        </div>
+                       
+                        <div class=block-1-4>
+                            <div class="sub-title-normal">Observaciones</div>
+                            <bank-list>
+                                <div class="bank-list">
+
+                                    <table class="k-table k-thover k-trow-pointer">
+                                        <thead class="k-thead">
+                                            <tr class="k-throw">
+                                                <th>Nroº</th>
+                                                <th>Fecha Obs.</th>
+                                                <th>Mensaje</th>
+                                                <th>Observador</th>
+                                                <th>Nombre Obs.</th>
+                                                <th>Estado</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="k-tbody" data-bind="foreach:$data.observaciones">
+                                            <tr>
+                                                <td>
+                                                    <span data-bind="text:'N°'  + ($index() + 1)"></span>
+                                                </td>
+                                                <td>
+                                                    <span data-bind="text:$data.fechaOperador"></span>
+                                                </td>
+                                                <td>
+                                                    <span data-bind="text:$data.mensaje"></span>
+                                                </td>
+                                                <td>
+                                                    <span data-bind="text:$data.observador"></span>
+                                                </td>
+                                                <td>
+                                                    <span data-bind="text:$data.nombre"></span>
+                                                </td>
+                                                <td>
+                                                    <span data-bind="text:$data.nombreEstado"></span>
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </bank-list>
+                        </div>
+
+
+
+                        <div class="block-1-3">
+
+
+                            <div class="observations">
+                                <div class="observations-title">Comentario</div>
+                                <div class="observations-textarea">
+                                    <textarea data-bind="value:$root.comentario" rows="4" cols="50" spellcheck="true" style="z-index: auto; position: relative; line-height: normal; font-size: 13.3333px; transition: none 0s ease 0s; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="button-row">
+                                <!-- ko if:estadoValidacion() == 'P' || estadoValidacionFideicomiso() != 'P' -->
+                                <div class="btn btn-green" data-bind="click:$root.aprobarPCliente"><span class="btn-text">Aprobar</span></div>
+                                <div class="btn btn-orange" data-bind="click:$root.observarPCliente"><span class="btn-text">Observado</span></div>
+                                <div class="btn btn-red" data-bind="click:$root.rechazarPCliente"><span class="btn-text">Rechazado</span></div>
+                                @* <div class="btn blue-bordered"><span class="btn-text">Adjuntar Archivo</span></div>*@
+                                <!-- /ko -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </person-registration>
+        </div>
+    </div>
+</div>
+
+
+<div class="popup-container hidden ficha-popup ficha-company" id="ficha-company">
+    <div class="popup" style="width: 65%;">
+        <span class="cross"></span>
+        <div class="popup-content">
+            <person-registration>
+                <div class="register-auction-content" data-bind="with:$root.empreaTmp">
+                    <div class="register-auction-body register-container">
+                        <div class="main-header-container">
+                            <div class="main-title">Ficha de Datos Empresa</div>
+                        </div>
+                        <div class="register-container-block block-1-1">
+                            <fancy-input id="company-ruc" class="selected" placeholder="Número de Ruc">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Número de Ruc</div>
+                                    <input data-bind="value:ruc" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="company-name" class="selected" placeholder="Nombre">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Nombre</div>
+                                    <input data-bind="value:nombre" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="company-activity" class="selected" placeholder="Actividad Económica">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Actividad Económica</div>
+                                    <input data-bind="value:actividadEconomica" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="company-funds" class="selected" placeholder="Origen de Fondos">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Origen de Fondos</div>
+                                    <input data-bind="value:origenFondos" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="company-ficha-ruc" class="selected" placeholder="Ficha Ruc">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Ficha Ruc</div>
+                                   
+                                  
+                                    <span style="color:#004484;font-size:15px;margin-top:10px">Documento Adjunto:</span>
+                                    <a  data-bind="attr: { 'href': '@Url.Action("DescargarFicha")?ruc=' + $root.rucDescargar() }" target="_blank">
+
+                                        <span style="color:#004484;margin-top:5px;font-size:15px;" data-bind="text:$root.rucDescargar"></span>
+                                    </a>
+                             
+                                </div>
+                            </fancy-input>
+                        </div>
+                        <div class="sub-title-normal comp">Representante Legal</div>
+                        <div class="block-rep-legal" data-bind="with:$data.representanteLegal">
+                            <fancy-input id="company-rep-name" class="selected" placeholder="Nombre">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Nombre</div>
+                                    <input data-bind="value:nombres" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="company-rep-apepat" class="selected" placeholder="Apellido Paterno">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Apellido Paterno</div>
+                                    <input data-bind="value:apePaterno" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="company-rep-apemat" class="selected" placeholder="Apellido Materno">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Apellido Materno</div>
+                                    <input data-bind="value:apeMaterno" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="company-rep-doctype" class="selected" placeholder="Tipo de Documento">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Tipo de Documento</div>
+                                    <input data-bind="value:tipoDocumento" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="company-rep-doc" class="selected" placeholder="Número de Documento">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Número de Documento</div>
+                                    <input data-bind="value:nroDocumento" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                        </div>
+                        <div class="sub-title-normal comp">Accionistas +25%</div>
+                        <div data-bind="foreach:$data.accionsistas">
+                            <div class="block-rep-legal">
+                                <fancy-input id="company-rep-name" class="selected" placeholder="Nombre">
+                                    <div class="fancy-input-content">
+                                        <div class="fake-placeholder">Nombre</div>
+                                        <input data-bind="value:nombres" type="text" disabled>
+                                    </div>
+                                </fancy-input>
+                                <fancy-input id="company-rep-apepat" class="selected" placeholder="Apellido Paterno">
+                                    <div class="fancy-input-content">
+                                        <div class="fake-placeholder">Apellido Paterno</div>
+                                        <input data-bind="value:apePaterno" type="text" disabled>
+                                    </div>
+                                </fancy-input>
+                                <fancy-input id="company-rep-apemat" class="selected" placeholder="Apellido Materno">
+                                    <div class="fancy-input-content">
+                                        <div class="fake-placeholder">Apellido Materno</div>
+                                        <input data-bind="value:apeMaterno" type="text" disabled>
+                                    </div>
+                                </fancy-input>
+                                <fancy-input id="company-rep-doctype" class="selected" placeholder="Tipo de Documento">
+                                    <div class="fancy-input-content">
+                                        <div class="fake-placeholder">Tipo de Documento</div>
+                                        <input data-bind="value:tipoDocumento" type="text" disabled>
+                                    </div>
+                                </fancy-input>
+                                <fancy-input id="company-rep-doc" class="selected" placeholder="Número de Documento">
+                                    <div class="fancy-input-content">
+                                        <div class="fake-placeholder">Número de Documento</div>
+                                        <input data-bind="value:nroDocumento" type="text" disabled>
+                                    </div>
+                                </fancy-input>
+                            </div>
+                        </div>
+                        
+                        <!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+                        <div class="sub-title-normal" id="short">Personas Autorizadas</div>
+                        <!-- ko foreach:$data.personaAutorizada -->
+                        <div class="block-rep-legal" >
+                            <fancy-input id="company-aut-name" class="selected" placeholder="Nombre">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Nombre</div>
+                                    <input data-bind ="value:nombres" type="text" disabled/>
+                            </div>
+                            </fancy-input>
+                            <fancy-input id="company-aut-apepat" class="selected" placeholder="Apellido Paterno">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Apellido Paterno</div>
+                                    <input data-bind="value:apePaterno" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="company-aut-doc" class="selected" placeholder="Número de Documento">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Número de Documento</div>
+                                    <input data-bind="value:nroDocumento" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="company-aut-email" class="selected" placeholder="Email">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Email</div>
+                                    <input data-bind="value:email" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                            <fancy-input id="company-aut-tlf" class="selected" placeholder="Número Celular">
+                                <div class="fancy-input-content">
+                                    <div class="fake-placeholder">Número Celular</div>
+                                    <input data-bind="value:celular" type="text" disabled>
+                                </div>
+                            </fancy-input>
+                        </div>
+                        <!-- /ko -->
+                        <div class=block-1-4>
+                            <div class="sub-title-normal">Cuentas Bancarias</div>
+                            <bank-list>
+                                <div class="bank-list">
+
+                                    <table class="k-table k-thover k-trow-pointer">
+                                        <thead class="k-thead">
+                                            <tr class="k-throw">
+                                                <th>Cuenta</th>
+                                                <th>Banco</th>
+                                                <th>Moneda</th>
+                                                <th>Tipo de Cuenta</th>
+                                                <th>Nro de Cuenta</th>
+                                                <th>Estado</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="k-tbody" data-bind="foreach:$data.cuentasBancarias">
+                                            <tr>
+                                                <td>
+                                                    <span data-bind="text:'N°'  + ($index() + 1)"></span>
+                                                </td>
+                                                <td>
+                                                    <span data-bind=""></span>
+                                                    <img data-bind="attr:{'src': $data.logo}" width="80" height="18"/>
+                                                </td>
+                                                <td>
+                                                    <span data-bind="text:$data.monedatext"></span>
+                                                </td>
+                                                <td>
+                                                    <span data-bind="text:$data.tipoCuentaText"></span>
+                                                </td>
+                                                <td>
+                                                    <span data-bind="text:$data.nroCuenta"></span>
+                                                </td>
+                                                <td>
+                                                    <span data-bind="text:$data.nombreEstado"></span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                   
+                                </div>
+                            </bank-list>
+                        </div>
+
+                        <div class=block-1-4>
+                            <div class="sub-title-normal">Observaciones</div>
+                            <bank-list>
+                                <div class="bank-list">
+
+                                    <table class="k-table k-thover k-trow-pointer">
+                                        <thead class="k-thead">
+                                            <tr class="k-throw">
+                                                <th>Nroº</th>
+                                                <th>Fecha Obs.</th>
+                                                <th>Mensaje</th>
+                                                <th>Observador</th>
+                                                <th>Nombre Obs.</th>
+                                                <th>Estado</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="k-tbody" data-bind="foreach:$data.observaciones">
+                                            <tr>
+                                                <td>
+                                                    <span data-bind="text:'N°'  + ($index() + 1)"></span>
+                                                </td>
+                                                <td>
+                                                    <span data-bind="text:$data.fechaOperador"></span>
+                                                </td>
+                                                <td>
+                                                    <span data-bind="text:$data.mensaje"></span>
+                                                </td>
+                                                <td>
+                                                    <span data-bind="text:$data.observador"></span>
+                                                </td>
+                                                <td>
+                                                    <span data-bind="text:$data.nombre"></span>
+                                                </td>
+                                                <td>
+                                                    <span data-bind="text:$data.nombreEstado"></span>
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </bank-list>
+                        </div>
+
+                        <div class="block-1-3">
+                            <div class="observations">
+                                <div class="observations-title">Observaciones</div>
+                                <div class="observations-textarea">
+                                    <textarea data-bind="value:$root.comentario" rows="4" cols="50" spellcheck="true" style="z-index: auto; position: relative; line-height: normal; font-size: 13.3333px; transition: none 0s ease 0s; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);"></textarea>
+                                </div>
+                            </div>
+                            <div class="button-row">
+                                <!-- ko if:estadoValidacion() == 'P' || estadoValidacion_Fideicomiso() == 'O' || estadoValidacion_Fideicomiso() == 'R' -->
+                                <div class="btn btn-green" data-bind="click:$root.aprobarECliente"><span class="btn-text">Aprobar</span></div>
+                                <div class="btn btn-orange" data-bind="click:$root.observarECliente"><span class="btn-text">Observado</span></div>
+                                <div class="btn btn-red" data-bind="click:$root.rechazarECliente"><span class="btn-text">Rechazado</span></div>
+                                <!-- /ko -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </person-registration>
+        </div>
+    </div>
+</div>
+
+
+<div class="complex-dashboard-content">
+    @*<div class="dashboard-tabs" style="grid-template-columns: 1fr 1fr 1fr 2fr;">
+        <div class="active">Validación de Usuario</div>
+        <div><a href="@Url.Action("ListaClienteRegistrados", "Operador")">Cliente Registrados</a></div>
+        <div><a href="@Url.Action("ListaPartners", "Operador")">Partners</a></div>
+    </div>*@
+    <div class="list-container">
+        <div class="operations operations-c">
+           
+             
+            @*<select class="custom-select k-choseen" style="width:200px;height:35px;margin-bottom:10px;" data-bind="value:$root.estado">
+                <option class="custom-option" value="" selected="">Filtro de Estado</option>
+                <option class="custom-option" value="A">Aprobado</option>
+                <option class="custom-option" value="P">Pendiente</option>
+            </select>*@
+            <dashboard-list>
+               
+                <div>
+                 
+
+                    @*<select id="combo_moneda" class="custom-select k-choseen" data-bind="options:$root.lstMoneda,optionsText:'text',optionsValue:'value',optionsCaption:'Filtrar Tipo Moneda',value:$data.codigoMoneda"></select>*@
+                    <div class="table-responsive" data-bind="with:clientesGridModel">
+                        <table class="k-table k-thover k-trow-pointer">
+                            <thead class="k-thead">
+                                <tr class="k-throw">
+                                    <th>Fecha</th>
+                                    <th>Hora de Registro</th>
+                                    <th>Tipo Verif.</th>
+                                    <th>Tipo de Cliente</th>
+                                    <th>Nombre</th>
+                                    <th>Tipo de Doc.</th>
+                                    <th>N° de Documento</th>
+                                    <th>Fecha Val. LMD</th>
+                                    <th>Fecha Val. Fid.</th>
+                                    <th>Validación LMD</th>
+                                    <th>Val. Fideicomiso</th>
+                                </tr>
+                            </thead>
+                            <tbody class="k-tbody" data-bind="foreach:datasource">
+                                <tr data-bind="event:{dblclick:$root.openModal}">
+                                    <td>
+                                        <span data-bind="text:$data.fechaRegistroShort"></span>
+                                    </td>
+                                    <td>
+                                        <span data-bind="text:$data.horaRegistro"></span>
+                                    </td>
+                                    <td>
+                                        <span data-bind="text:$data.tipoValidacion"></span>
+                                    </td>
+                                    <td>
+                                        <span data-bind="text:tipoClienteText"></span>
+                                    </td>
+                                    <td>
+                                        <span data-bind="text:nombre"></span>
+                                    </td>
+                                    <td>
+                                        <span data-bind="text:tipoDocumento"></span>
+                                    </td>
+                                    <td>
+                                        <span data-bind="text:$data.nroDocumento"></span>
+                                    </td>
+                                    <td>
+                                        <span data-bind="text:$data.fechaOperador"></span>
+                                    </td>
+                                    <td>
+                                        <span data-bind="text:$data.fechaFideicomiso"></span>
+                                    </td>
+                                    <td>
+                                        <!-- ko if:$data.estadoValidacion_Operador() == 'P' -->
+                                        <span class="k-icon k-status k-default"></span>
+                                        <span>
+                                            Pendiente
+                                        </span>
+                                        <!-- /ko -->
+                                        <!-- ko if:$data.estadoValidacion_Operador() == 'A' -->
+                                        <span class="k-icon k-status k-success"></span>
+                                        <span data-bind="text:$data.operadorValidador"> </span>
+                                        <!-- /ko -->
+                                        <!-- ko if:$data.estadoValidacion_Operador() == 'O' -->
+                                        <span class="k-icon k-status k-warning"></span>
+                                        <span data-bind="text:$data.operadorValidador"> </span>
+                                        <!-- /ko -->
+                                        <!-- ko if:$data.estadoValidacion_Operador() == 'R' -->
+                                        <span class="k-icon k-status k-danger"></span>
+                                        <span data-bind="text:$data.operadorValidador"> </span>
+                                        <!-- /ko -->
+
+
+                                    </td>
+                                    <td>
+                                        <!-- ko if:$data.estadoValidacion_Fideicomiso() == 'P' -->
+                                        <span class="k-icon k-status k-default"></span>
+                                        <span>
+                                            Pendiente
+                                        </span>
+                                        <!-- /ko -->
+                                        <!-- ko if:$data.estadoValidacion_Fideicomiso() == 'A' -->
+                                        <span class="k-icon k-status k-success"></span>
+                                        <span data-bind="text:$data.fideicomisoValidador"> </span>
+                                        <!-- /ko -->
+                                        <!-- ko if:$data.estadoValidacion_Fideicomiso() == 'O' -->
+                                        <span class="k-icon k-status k-warning"></span>
+                                        <span data-bind="text:$data.fideicomisoValidador"> </span>
+                                        <!-- /ko -->
+                                        <!-- ko if:$data.estadoValidacion_Fideicomiso() == 'R' -->
+                                        <span class="k-icon k-status k-danger"></span>
+                                        <span data-bind="text:$data.fideicomisoValidador"> </span>
+                                        <!-- /ko -->
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        @Html.Partial("_Pagination")                        
+                    </div>
+
+                </div>
+            </dashboard-list>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+<script src="~/Content/js/close_popup.js"></script>
+<script src="~/Content/js/app/Operador.js"></script>
+}
+
+
+

@@ -1,0 +1,45 @@
+fifth-container {
+	border-bottom: 1px solid #c3c3c3;
+}
+fifth-container > .meta-content {
+	width: 100%;
+	height: 100%;
+	background-color: #f1f1f1;
+	display: grid;
+	grid-template-columns: 1fr 47% 1fr;
+	grid-template-rows: 6.304% 9% 1fr 75.217% 7.391%;
+	grid-template-areas:
+		". . ."
+		". text ."
+		". . ."
+		". map ."
+		". . .";
+}
+fifth-container .dev-border {
+	border: 1px dotted #000;
+}
+fifth-container > .meta-content > .text {
+	grid-area: text;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+fifth-container > .meta-content > .text > * {
+	text-align: center;
+}
+fifth-container > .meta-content > .text > .text-title {
+    font-family: 'Helvetica Neue Roman';
+    font-size: 2.1vw;
+    color: #000;
+}
+fifth-container > .meta-content > .text > .text-content {
+    color: var(--font-blue);
+    font-size: 1.55vw;
+}
+fifth-container > .meta-content > .map {
+	grid-area: map;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	background-image: url('../../images/fifth-container/map.svg');
+}

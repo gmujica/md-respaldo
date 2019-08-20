@@ -1,0 +1,31 @@
+main-container#quienes-somos > .meta-content {
+	height: 100%;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 7.32% 13.103% 5% 18.891% 1fr 40.409% 7.32%;
+	grid-template-rows: 12.220% 1fr;
+	grid-template-areas:
+		". logo . options options options ."
+		"content content content content content content content";
+}
+.quienes-somos {
+	grid-area: content;
+	background-color: #f3f3f3;
+}
+.quienes-somos > * {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.s-title:first-child {
+	margin-top: 20px;
+}
+.s-title {
+	font-size: 26px;
+	font-family: 'Helvetica Neue Roman';
+}
+.text {
+	font-size: 20px;
+}
+.blue {
+	color: var(--font-blue);
+}

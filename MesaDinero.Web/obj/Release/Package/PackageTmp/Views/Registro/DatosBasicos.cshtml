@@ -1,0 +1,114 @@
+﻿@model MesaDinero.Domain.Model.RegistroResponse
+
+@{
+    ViewBag.UserName = Model.userName;
+    ViewBag.Title = "Datos Basicos";
+    Layout = "~/Views/Shared/_LayoutRegistro.cshtml";
+    ViewData["MenuRegistro"] = Model.header;
+}
+
+@section Styles {
+    <link rel="stylesheet" type="text/css" href="~/Content/css/components/special-counter/special-counter.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/registration/register-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/registration/person-registration/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/containers/auction_confirmation_box_layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/containers/complex_container_layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/custom-checkbox.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/fancy-input.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/user-area-adjustments.css">
+    <link href="~/Content/css/chosen/chosen.min.css" rel="stylesheet" />
+}
+
+@if (Model.tipoCliente == 1)
+{
+    @Html.Partial("_PersonaDatosPartial", Model)
+}else{
+    @Html.Partial("_EmpresaDatosPartial",Model)
+}
+
+@section Scripts {
+
+
+        <script>
+            @if(Model.tipoCliente == 1)
+            {
+                <text>
+                    var w_nroDocumento = '@Html.Raw(Model.nroDocumento)';
+                    var w_nombres = '@Html.Raw(Model.nombres)';
+                    var w_apPaterno = '@Html.Raw(Model.apePaterno)';
+                    var w_apMaterno = '@Html.Raw(Model.apeMaterno)';
+                    var w_apEmail = '@Html.Raw(Model.email)';
+                    var w_celular = '@Html.Raw(Model.celular)';
+                    var sid = '@Html.Raw(Model.sid)';
+                </text>               
+            }
+            else
+            {
+                <text>
+                    var w_nroDocumento = '@Html.Raw(Model.nroDocumento)';
+                    var sid = '@Html.Raw(Model.sid)';
+                    var w_nomnreEmpresa = '@Html.Raw(Model.nombres)';
+                </text>
+            }
+
+
+            function closePreRegistro() {
+          
+                $("#title_popup").text("La Mesa de Dinero");
+                var htmlMsg = ' <p> Estas a medioo  registro de tu cuenta </p><span>¿Esta seguro de querer abandonar del proceso de registro?</span>';
+                $("#message_popup").html(htmlMsg);
+                var htmlFooter = '<a onclick="actionModal();" style="color: #fff; text-decoration: none;padding-top:6px;text-align:center;">Aceptar</a>';
+                $("#footer_popup").html(htmlFooter);
+                $("#popup_msm").removeClass("hidden");
+
+            };
+
+            function closeModal() {
+                $("#popup_msm").addClass('hidden');
+            };
+
+            function actionModal()
+            {
+                $("#popup_msm").addClass('hidden');
+                $(".loading-spiner-holder").show();
+                window.location.href = "@System.Configuration.ConfigurationManager.AppSettings["HostWeb"]/Registro/Operaciones/@Model.sid" ;
+            }
+
+
+
+        </script>
+    
+        @if(Model.tipoCliente == 1)
+        {
+            if (Model.header.estadoNavegacion == 1)
+            {
+                    <script src="~/Content/js/Registro/RegistroDatosPersona.js"></script>
+            }
+            else if (Model.header.estadoNavegacion > 1 && Model.header.estadoNavegacion <=3)
+            {
+                <script src="~/Content/js/Registro/RegistroDatosPersonaEdit.js"></script>
+            }
+            else if(Model.header.estadoNavegacion == 4)
+            {
+                <script src="~/Content/js/Registro/RegistroDatosPersonaReadOnly.js"></script>
+            }
+        }
+        else
+        {
+
+            if (Model.header.estadoNavegacion == 5)
+            {
+                <script src="~/Content/js/Registro/RegistroDatosEmpresa.ReadOnly.js"></script>
+            }
+            else
+            {
+                <script src="~/Content/js/Registro/RegistroDatosEmpresa.js"></script>         
+            }
+            
+            
+        }
+    
+}
+
+

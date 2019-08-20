@@ -1,0 +1,170 @@
+.auction-box-container {
+	width: 826px;
+	margin: 8vh auto;
+	display: grid;
+	grid-template-columns: minmax(250px, 1fr) minmax(270px, 1.1fr);
+	grid-column-gap: 3vw;
+}
+.auction-box-container .exchange-box-title {
+	color: var(--btn-blue);
+	font-size: 25px;
+	font-family: 'Helvetica Neue Roman';
+	margin-bottom: 4vh;
+	margin-top: 4vh;
+	position: relative;
+	top: -10px;
+	left: 28px;
+	font-weight: 600;
+}
+.auction-box-container .input-container {
+	display: grid;
+	grid-template-rows: auto auto auto;
+	/*grid-row-gap: 2vh;*/
+	margin-bottom: 2vh;
+}
+/*The left inputs*/
+.auction-box-container exchanger-input {
+	height: 59px;
+	display: block;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	/*grid-template-columns: .2fr 2.3fr .5fr 1.5fr;*/
+}
+.auction-box-container exchanger-input .label {
+	font-size: .7em;
+}
+.auction-box-container exchanger-input > div {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	grid-template-rows: auto auto;
+	grid-template-columns: .2fr auto minmax(40px, .5fr) minmax(auto, 100px) !important;
+	grid-template-areas:
+		". label icon flags"
+		". input icon flags";
+}
+.auction-box-container exchanger-input input {
+	font-size: .9em;
+}
+.auction-box-container exchanger-input .flags {
+	border-radius: 0;
+}
+.auction-box-container exchanger-input .flags .currency {
+	font-size: .8em;
+}
+.auction-box-container exchanger-input .flag {
+	background-size: 50%;
+}
+.auction-box-container exchanger-input:nth-child(2) .icon {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto 45%;
+	background-image: url('../../images/icons/lock.svg');
+}
+/*The  expandible marvel*/
+.expandible-thingy-container {
+	height: 2vh;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 5fr;
+}
+.expandible-thingy-container.active {
+	height: 18vh;
+}
+.expandible-thingy-container.active .expandible-auction-thingy {
+	background-repeat: no-repeat;
+	background-position: 2vh center;
+	background-size: contain;
+}
+.expandible-thingy-container.active .exchange-info {
+	display: grid;
+	justify-items: left;
+	align-items: center;
+}
+.expandible-thingy-container.active .exchange-info > div > div {
+	color: #b3b3b3;
+}
+.expandible-thingy-container.active .exchange-info > div > div:first-child {
+	/*exchange rate and partner.*/
+	color: var(--font-blue);
+	font-family: 'Helvetica Neue Roman';
+}
+.expandible-thingy-container.active .expandible-auction-thingy {
+	background-image: url('../../images/register-auction-container/expandible-thingy.svg?v=2');
+}
+/*The you saved X amount of money text.*/
+.you-saved.active {
+	margin-bottom: 2vh;
+	color: #b3b3b3;
+}
+.you-saved.active > span {
+	color: #000;
+}
+/*Buttons at the left*/
+.auction-box-container .echange-box-buttons {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	height: 6vh;
+	grid-column-gap: 2vw;
+	/*width: 52%;
+	margin-left: 27%;*/
+}
+.auction-box-container .echange-box-buttons.center {
+	display: grid;
+	grid-template-columns: 1fr;
+	height: 6vh;
+	grid-column-gap: 2vw;
+	width: 78%;
+	margin-left: 10%;
+}
+.auction-box-container special-counter {
+	width: 60%;
+	height: 6vh;
+	margin-left: 40%;
+	margin-bottom: 6vh;
+}
+.auction-box-container .partners-list-secondary-text {
+	color: var(--btn-blue);
+	font-family: 'Helvetica Neue Roman';
+	font-size: .9em;
+	margin-bottom: 6vh;
+	position: relative;
+	left: 26px;
+}
+.auction-box-container .partners-list > div {
+	display: grid;
+	grid-template-columns: 1fr 2.8fr 1.5fr;
+	border-radius: 4px;
+	grid-column-gap: 6%;
+	padding: 1.5vh 2vw 1.5vh 2vw;
+	margin-bottom: 1vh;
+}
+.auction-box-container .partners-list > div:first-child {
+	padding: 2.2vh .5vw 2.2vh .5vw;
+}
+.auction-box-container .partners-list div.list-title {
+	background-color: var(--btn-blue);
+	color: #fff;
+}
+.auction-box-container .partners-list > div:not(.list-title) {
+	border: 1px solid #999999;
+	cursor: pointer;
+	color: var(--btn-blue);
+	font-size: 1vw;
+}
+.auction-box-container .partners-list > div:not(.list-title):hover,
+.auction-box-container .partners-list > div.active {
+	background-color: #f1f4f5;
+	color: var(--font-blue);
+}
+.auction-box-container .partners-list > div div {
+	font-size: 12px;
+	font-family: 'Helvetica Neue Roman';
+}
+@media (max-width: 700px) {
+	.auction-box-container {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(2, minmax(255px, 1fr));
+		font-size: 12px;
+	}
+}

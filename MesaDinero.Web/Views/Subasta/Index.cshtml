@@ -1,0 +1,218 @@
+﻿@{
+    //ViewBag.MenuSubasta = "SM1";
+    ViewBag.Title = "Subasta";
+
+    //ViewData["MenuRegistro"] = null;
+    Layout = "~/Views/Shared/_LayoutSubasta.cshtml";
+
+}
+
+
+@section Styles {
+    <link href="~/Content/css/components/special-counter/special-counter.css" rel="stylesheet" />
+    <link href="~/Content/css/registration/register-container/layout.css" rel="stylesheet" />
+    <link href="~/Content/css/containers/auction_confirmation_box_layout.css" rel="stylesheet" />
+    <link href="~/Content/css/containers/basic_container_layout.css" rel="stylesheet" />
+    <link href="~/Content/css/containers/complex_container_layout.css" rel="stylesheet" />
+    <link href="~/Content/css/containers/dashboard_base_layout.css" rel="stylesheet" />
+    <link href="~/Content/css/register-auction-container/layout.css" rel="stylesheet" />
+    <link href="~/Content/css/register-auction-container/custom-checkbox.css" rel="stylesheet" />
+    <link href="~/Content/css/auction/auction-box/layout.css" rel="stylesheet" />
+    <link href="~/Content/css/counter-mods.css" rel="stylesheet" />
+    <link href="~/Content/css/home/main-container/exchanger-input.css" rel="stylesheet" />
+    <link href="~/Content/css/popup.css" rel="stylesheet" />
+}
+
+<style>
+    .user-area {
+        grid-template-columns: 175px 1fr 135px !important;
+    }
+
+    .dashboard-container-content > .user-area .bars-icon {
+        background-size: 20%;
+    }
+
+    .horizontal-progress-bar-content > div .little-circle {
+        height: 9px;
+        width: 9px;
+        top: -4.5px;
+        left: 50%;
+    }
+
+    .auction-box-container {
+        width: 1000px;
+        display: grid;
+        grid-template-columns: minmax(500px, 1.1fr) minmax(450px, 1.1fr);
+    }
+
+    .expandible-thingy-container {
+        height: 30px;
+    }
+
+    .auction-box-container exchanger-input .label {
+        font-size: 13px;
+    }
+
+    exchanger-input > div:not(.dropdown-menu) {
+        border-radius: 6px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .auction-box-container exchanger-input > div {
+        grid-template-columns: .1fr auto minmax(40px, .5fr) minmax(auto, 120px) !important;
+    }
+
+    .auction-box-container exchanger-input .flags {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        height: 59px;
+    }
+
+    .auction-box-container .partners-list > div {
+        padding: 1.5vh 2vw 1.5vh 2vw !important;
+    }
+
+    .auction-box-container .echange-box-buttons.center {
+        height: 50px;
+    }
+
+    .auction-box-container .input-container {
+        margin-bottom: 25px;
+    }
+
+    .auction-box-container .exchange-box-title {
+        margin-bottom: 8vh;
+        margin-top: 0;
+        top: 0;
+		text-align: center;
+    }
+
+    .auction-box-container exchanger-input input {
+        font-size: 20px;
+        display: block;
+        max-width: 160px;
+    }
+
+    .auction-box-container special-counter {
+        width: 70%;
+        margin: auto;
+    }
+
+    .auction-box-container .partners-list > div div:last-child {
+        text-align: center;
+    }
+
+    exchanger-input.selected {
+        border-color: var(--font-blue);
+    }
+
+    .auction-box-container .partners-list > div {
+        grid-template-columns: auto auto auto;
+    }
+
+        .auction-box-container .partners-list > div div {
+            font-size: 15px;
+        }
+
+        .auction-box-container .partners-list > div.list-title div {
+            font-size: 14px;
+        }
+
+    .popup-div-content {
+        font-size: 13px;
+        text-align: justify;
+    }
+
+        .popup-div-content > p {
+            padding: 0.5em;
+        }
+
+    .exclamation-circle-content {
+        text-align: -webkit-center;
+    }
+
+    .alert-title {
+        text-align: center;
+    }
+
+    .text-c {
+        padding: 4em;
+        font-family: 'Helvetica Neue Roman';
+        color: #ababab;
+        padding-top: 1.5em;
+        font-size: 15px;
+        text-align: center;
+    }
+
+        .text-c > .condiciones {
+            color: #00baff;
+        }
+
+            .text-c > .condiciones:hover {
+                border-bottom: #00baff solid 1px;
+                cursor: pointer;
+            }
+</style>
+
+
+
+@using (Html.BeginForm("GetViewProceso", "Subasta", FormMethod.Post, new { @class = "", id = "form_inicioSubasta", style = "display:none;" }))
+{
+    <input type="hidden" name="operacion" id="operacion" />
+    <input type="hidden" name="monto" id="monto" />
+    <input type="hidden" name="montotext" id="montotext" />
+    <input type="hidden" name="monedaEnvio" id="monedaEnvio" />
+    <input type="hidden" name="monedaRecibe" id="monedaRecibe" />
+}
+
+
+<div id="content_subasta">
+    @Html.Action("Inicio", "Subasta");
+</div>
+
+<div class="popup-container hidden" id="popup_msm">
+    <div class="popup">
+        <span onclick="closeModal();" class="cross"></span>
+        <div class="popup-content alert">
+            <div class="exclamation-circle">!</div>
+            <div class="alert-title" id="title_popup"></div>
+            <div class="alert-subtitle" id="message_popup"></div>
+            <div class="btn blue-style" id="footer_popup">
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/Content/js/custom_select.js"></script>
+    <script src="~/Content/js/close_popup.js"></script>
+    <script src="~/Content/js/Subasta/subasta.js"></script>
+
+    <script>
+        //$(document).ready(function () {
+
+        //    var items = $('.item-s-k');
+        //    var cnt = items.length;
+
+
+        //    window.setInterval(function () {
+
+        //        if (cnt >= 0) {
+
+        //            $(items[cnt]).show('slow');
+        //            $(".pre-load-partner").hide();
+        //            cnt = cnt - 1;
+
+        //        }
+
+        //    }, 900);
+
+        //});
+    </script>
+
+
+}
+

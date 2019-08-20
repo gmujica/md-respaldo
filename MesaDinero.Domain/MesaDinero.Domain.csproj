@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1A1EC5F9-B664-429D-9B95-9A34162F32FC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MesaDinero.Domain</RootNamespace>
+    <AssemblyName>MesaDinero.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="JWT">
+      <HintPath>..\packages\JWT.1.3.4\lib\3.5\JWT.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Twilio">
+      <HintPath>..\packages\Twilio.Signed.5.9.0\lib\net35\Twilio.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataAccess\Admin\Configuracion\AccesoDataAccess.cs" />
+    <Compile Include="DataAccess\Admin\Configuracion\ActividadEconomicaDataAccess.cs" />
+    <Compile Include="DataAccess\Admin\Configuracion\CargoDataAccess.cs" />
+    <Compile Include="DataAccess\Admin\Configuracion\CuentaBancariaDataAccess.cs" />
+    <Compile Include="DataAccess\Admin\Configuracion\DepartamentoDataAccess.cs" />
+    <Compile Include="DataAccess\Admin\Configuracion\DistritoDataAccess.cs" />
+    <Compile Include="DataAccess\Admin\Configuracion\EntidadesFinancierasDataAccess.cs" />
+    <Compile Include="DataAccess\Admin\Configuracion\OrigenFondoDataAccess.cs" />
+    <Compile Include="DataAccess\Admin\Configuracion\PaisDataAccess.cs" />
+    <Compile Include="DataAccess\Admin\Configuracion\ProvinciaDataAccess.cs" />
+    <Compile Include="DataAccess\Admin\Configuracion\TiempoDataAccess.cs" />
+    <Compile Include="DataAccess\Admin\Configuracion\TipoDocumentoDataAccess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataAccess\Admin\Configuracion\TipoMonedaDataAccess.cs" />
+    <Compile Include="DataAccess\Admin\Configuracion\UbigeoDataAccess.cs" />
+    <Compile Include="DataAccess\Admin\Operador\OperadorDataAccess.cs" />
+    <Compile Include="DataAccess\Admin\partner\PartnerDataAccess.cs" />
+    <Compile Include="DataAccess\CommonDataAccess.cs" />
+    <Compile Include="DataAccess\ConnectionInfo.cs" />
+    <Compile Include="DataAccess\Corfid\CorfidDataAccess.cs" />
+    <Compile Include="DataAccess\Operaciones\OperacionDataAccess.cs" />
+    <Compile Include="DataAccess\Registro\ClienteDataAccess.cs" />
+    <Compile Include="DataAccess\Registro\PerfilDataAccess.cs" />
+    <Compile Include="DataAccess\Registro\RegistroCliente.cs" />
+    <Compile Include="DataAccess\Registro\UsuarioDataAccess.cs" />
+    <Compile Include="DataAccess\SqlDataReaderExtensions.cs" />
+    <Compile Include="DataAccess\SqlSession.cs" />
+    <Compile Include="DataAccess\Subasta\SubastaClienteDataAccess.cs" />
+    <Compile Include="Helper\Common.cs" />
+    <Compile Include="Helper\CorreoHelper.cs" />
+    <Compile Include="Helper\Encrypt.cs" />
+    <Compile Include="Helper\Services.cs" />
+    <Compile Include="Model\Acceso.cs" />
+    <Compile Include="Model\Admin\Common.cs" />
+    <Compile Include="Model\Admin\Configuracion\ActividadEconomicaModel.cs" />
+    <Compile Include="Model\Admin\Configuracion\CargoModel.cs" />
+    <Compile Include="Model\Admin\Configuracion\CuentaBancariaModel.cs" />
+    <Compile Include="Model\Admin\Configuracion\DepartamentoModel.cs" />
+    <Compile Include="Model\Admin\Configuracion\DistritoModel.cs" />
+    <Compile Include="Model\Admin\Configuracion\EntidadFinancieraModel.cs" />
+    <Compile Include="Model\Admin\Configuracion\OrigenFondoModel.cs" />
+    <Compile Include="Model\Admin\Configuracion\PaisModel.cs" />
+    <Compile Include="Model\Admin\Configuracion\ProvinciaModel.cs" />
+    <Compile Include="Model\Admin\Configuracion\TiempoModel.cs" />
+    <Compile Include="Model\Admin\Configuracion\TipoDocumentoModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\Admin\Configuracion\TipoMonedaModel.cs" />
+    <Compile Include="Model\Admin\Configuracion\UbigeoModel.cs" />
+    <Compile Include="Model\Cliente.cs" />
+    <Compile Include="Model\Common.cs" />
+    <Compile Include="Model\Corfid\CorfidModel.cs" />
+    <Compile Include="Model\Operaciones\OperacionesModel.cs" />
+    <Compile Include="Model\Partner.cs" />
+    <Compile Include="Model\Registro.cs" />
+    <Compile Include="Model\SubastaCliente.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MesaDinero.Data\MesaDinero.Data.csproj">
+      <Project>{695c7699-34b3-4321-ad15-21ae44bfc4fc}</Project>
+      <Name>MesaDinero.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

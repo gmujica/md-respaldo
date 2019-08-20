@@ -1,0 +1,388 @@
+﻿@model MesaDinero.Domain.BaseResponse<MesaDinero.Domain.SubastaProceso_Response>
+@{
+    //ViewBag.MenuSubasta = "SM1";
+    ViewBag.Title = "Subasta Activa";
+
+    //ViewData["MenuRegistro"] = null;
+    Layout = "~/Views/Shared/_LayoutSubasta.cshtml";
+
+}
+
+@section Styles {
+    <link href="~/Content/css/components/special-counter/special-counter.css" rel="stylesheet" />
+    <link href="~/Content/css/registration/register-container/layout.css" rel="stylesheet" />
+
+    <link href="~/Content/css/containers/auction_confirmation_box_layout.css" rel="stylesheet" />
+    <link href="~/Content/css/containers/basic_container_layout.css" rel="stylesheet" />
+    <link href="~/Content/css/containers/complex_container_layout.css" rel="stylesheet" />
+    <link href="~/Content/css/containers/dashboard_base_layout.css" rel="stylesheet" />
+    <link href="~/Content/css/register-auction-container/layout.css" rel="stylesheet" />
+    <link href="~/Content/css/register-auction-container/custom-checkbox.css" rel="stylesheet" />
+    <link href="~/Content/css/auction/auction-box/layout.css" rel="stylesheet" />
+    <link href="~/Content/css/counter-mods.css" rel="stylesheet" />
+    <link href="~/Content/css/home/main-container/exchanger-input.css" rel="stylesheet" />
+    <link href="~/Content/css/popup.css" rel="stylesheet" />
+}
+
+<style>
+    .user-area {
+        grid-template-columns: 175px 1fr 135px !important;
+    }
+
+    .dashboard-container-content > .user-area .bars-icon {
+        background-size: 20%;
+    }
+
+    .horizontal-progress-bar-content > div .little-circle {
+        height: 9px;
+        width: 9px;
+        top: -4.5px;
+        left: 50%;
+    }
+
+    .auction-box-container {
+        width: 1000px;
+        display: grid;
+        grid-template-columns: minmax(500px, 1.1fr) minmax(450px, 1.1fr);
+    }
+
+    .expandible-thingy-container {
+        height: 30px;
+    }
+
+    .auction-box-container exchanger-input .label {
+        font-size: 13px;
+    }
+
+    exchanger-input > div:not(.dropdown-menu) {
+        border-radius: 6px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .auction-box-container exchanger-input > div {
+        grid-template-columns: .1fr auto minmax(40px, .5fr) minmax(auto, 120px) !important;
+    }
+
+    .auction-box-container exchanger-input .flags {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        height: 59px;
+    }
+
+    .auction-box-container .partners-list > div {
+        padding: 1.5vh 2vw 1.5vh 2vw !important;
+    }
+
+    .auction-box-container .echange-box-buttons.center {
+        height: 50px;
+    }
+
+    .auction-box-container .input-container {
+        margin-bottom: 25px;
+    }
+
+    .auction-box-container .exchange-box-title {
+        margin-bottom: 8vh;
+        margin-top: 0;
+        top: 0;
+    }
+
+    .auction-box-container exchanger-input input {
+        font-size: 20px;
+        display: block;
+        max-width: 160px;
+    }
+
+    .auction-box-container special-counter {
+        width: 70%;
+        margin: auto;
+    }
+
+    .auction-box-container .partners-list > div div:last-child {
+        text-align: center;
+    }
+
+    exchanger-input.selected {
+        border-color: var(--font-blue);
+    }
+
+    .auction-box-container .partners-list > div {
+        grid-template-columns: auto auto auto;
+    }
+
+        .auction-box-container .partners-list > div div {
+            font-size: 15px;
+        }
+
+        .auction-box-container .partners-list > div.list-title div {
+            font-size: 14px;
+        }
+
+    .popup-div-content {
+        font-size: 13px;
+        text-align: justify;
+    }
+
+        .popup-div-content > p {
+            padding: 0.5em;
+        }
+
+    .exclamation-circle-content {
+        text-align: -webkit-center;
+    }
+
+    .alert-title {
+        text-align: center;
+    }
+
+    .text-c {
+        padding: 4em;
+        font-family: 'Helvetica Neue Roman';
+        color: #ababab;
+        padding-top: 1.5em;
+        font-size: 15px;
+        text-align: center;
+    }
+
+        .text-c > .condiciones {
+            color: #00baff;
+        }
+
+            .text-c > .condiciones:hover {
+                border-bottom: #00baff solid 1px;
+                cursor: pointer;
+            }
+
+    .lmd {
+        background-image: url('../Content/css/images/logos/logo-blue.svg');
+        width: 80px;
+        height: 23px;
+    }
+</style>
+
+
+@using (Html.BeginForm("GetViewConfirmar", "Subasta", FormMethod.Post, new { @class = "", id = "form_confirmacion_subasta", style = "display:none;" }))
+{
+    <input type="hidden" name="subasta" id="subasta" />
+    <input type="hidden" name="partner" id="partner" />
+
+}
+
+<div class="popup-container hidden" id="mejorCambio">
+    <div class="popup">
+        <span class="cross"></span>
+        <div class="popup-content alert">
+            <div class="exclamation-circle">!</div>
+            <div class="alert-title" style="text-align:left">Tiene un mejor tipo de cambio garantizado</div>
+            <div class="alert-subtitle">¿Está seguro de continuar?</div>
+            <div class="btn blue-style close-popup-btn" data-bind="click:$root.aceptarContinuar"><span class="btn-text" style="font-size: 1vw;">Aceptar</span></div>
+        </div>
+    </div>
+</div>
+
+<div class="popup-container hidden" id="popup_concluir">
+    <div class="popup">
+        <span class="cross"></span>
+        <div class="popup-content alert">
+            <div class="exclamation-circle">!</div>
+            <div class="alert-title">Tiempo concluido</div>
+            <div class="alert-subtitle">¿Desea iniciar una nueva subasta?</div>
+            <div class="btn blue-style close-popup-btn" onclick="redirectTo('@Url.Action("Index", "subasta")')"><span class="btn-text" style="font-size: 1vw;"><a style="text-decoration:none;color:#FFF" href="@Url.Action("Index", "subasta")">Aceptar</a></span></div>
+            @*<div class="btn-text" style="font-size: 1vw"><a style="text-decoration:none;color:#FFF" href="@Url.Action("Index", "Inicio")">Aceptar</a></div>*@
+        </div>
+    </div>
+</div>
+
+
+<div class="popup-container hidden" id="compararPopup">
+    <div class="popup subasta-popup">
+        <span class="cross"></span>
+        <div class="popup-content">
+            <div class="board-text">Ahorras PEN <span class="board-text" data-bind="text:$root.montoAhorro"></span> sobre la segunda mejor tasa</div>
+            <div class="board-title" data-bind="text:$root.quiere"></div>
+           
+
+            <dashboard-list>
+                <div>
+                    <!-- table inicio -->
+                    <div class="table-responsive">
+                        <table class="k-table k-thover k-trow-pointer">
+                            <thead class="k-thead" style="background:#1072AA">
+                                <tr class="k-throw">
+                                    <th><span style="color:#fff;font-size:16px;font-weight:bold">Proveedor</span></th>
+                                    <th><span style="color:#fff;font-size:16px;font-weight:bold">Tipo de Cambio</span></th>
+                                    <th><span style="color:#fff;font-size:16px;font-weight:bold" data-bind="text:$root.accion"></span></th>
+                                </tr>
+                            </thead>
+                            <tbody class="k-tbody" data-bind="">
+                                <tr style="height:60px;">
+                                    <td>
+
+                                        <img width="105" height="33" data-bind="attr:{'src':'../../Content/css/images/logos/logo-blue.svg'}" />
+                                        @*<div class="lmd"></div>*@
+                                    </td>
+                                    <td>
+                                        @*<div class="circle green"></div>*@
+                                        @*<div style="width:10px;box-sizing:content-box;margin-left:35%;">
+                                            <div class="circle green"></div>
+                                        </div>*@
+                                        <div style="display:inline">
+                                            <div style="display:inline;font-size:7px;margin-right:8px;width:2px;height:2px;background-color:#8cc63f;border-radius:50%;color:#8cc63f">dd</div>
+                                            <span style="display:inline;padding:0px;font-size:14px;color:#1072aa;font-weight:500" data-bind="text:$root.tipoCambio"></span>
+                                        </div>
+                                      
+                                    </td>
+                                    <td>
+                                        <span style="padding:0px;font-size:14px;color:#1072aa;font-weight:500" data-bind="text:$root.montoLmd"></span>
+                                    </td>
+                                </tr>
+                                <!-- ko foreach:$root.listaComparar -->
+                                <tr style="height:60px;">
+                                    <td>
+                                        @*<span data-bind="text:$data.codBanco"></span>*@
+                                        <img width="105" height="33" data-bind="attr:{'src':$data.rutaLogo}" />
+                                    </td>
+                                    <td>
+                                        @*<div class="circle red"></div>*@
+                                        <div style="display:inline;font-size:7px;margin-right:8px;width:2px;height:2px;background-color:red;border-radius:50%;color:red">dd</div>
+                                        <span style="padding:0px;font-size:14px;color:#1072aa;font-weight:500" data-bind="text:$data.tipoCambioText"></span>
+                                    </td>
+                                    <td>
+                                        <span style="padding:0px;font-size:14px;color:#1072aa;font-weight:500" data-bind="text:$data.montoText"></span>
+                                    </td>
+                                </tr>
+                                <!-- /ko -->
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <!-- / table fin-->
+
+                </div>
+            </dashboard-list>
+
+            <div class="board-text long-text" style="margin-top:40px;">
+                <p>Esta informacion la recolectamos consultando a las plataformas digitales de los proveedores y consultando precios al igual</p>
+                <p>que lo hace un cliente. Estas tasas la puede consultar usted mismo en cada uno de los portales de cada proveedor, nosotros</p>
+                <p>simplemente le facilitamos el trabajo.</p>
+            </div>
+            <div class="board-last-text">Siempre vamos a ser transparentes, porque es lo justo</div>
+        </div>
+    </div>
+</div>
+
+<div class="content-area" style="grid-template-columns: 1fr; background-color: #fff;">
+
+    <div class="register-auction-body register-container auction-box-container">
+        <div>
+
+            <div class="exchange-box-title" style="margin: 0;" id="title-subasta">Subasta Activa...</div>
+            <div class="partners-list-secondary-text" id="sub-title-siubasta">Si ya elegiste continúa y confirma tu operación</div>
+
+            <div class="input-container">
+
+                <exchanger-input class="exch1" currency="USD" placeholder=" " label="Tú envías">
+                    <div>
+                        <div class="label" style="font-size: 17px;">Tú envías</div>
+                        <input class="input" data-bind="value:montoEnvio" id="valor_envio" autocomplete="off" readonly>
+
+                        <div class="icon"></div>
+                        <div class="flags" style="height: 75px; width: 125px;">
+                            <div class="flag @Model.data.monedaEnvio"></div>
+                            <div class="currency" style="font-size: 20px;">@Model.data.monedaEnvio</div>
+
+                        </div>
+                    </div>
+
+                </exchanger-input>
+
+
+                <div class="expandible-thingy-container active">
+                    <div class="expandible-auction-thingy"></div>
+                    <div class="exchange-info">
+                        <div>
+                            <div id="selected_exchange_rate"><span id="tipoCanbio" data-bind="text:tipoCambio"></span> <span id="nombrePartner" data-bind="text:partnerGanador"></span></div>
+                            <div>Tipo de cambio garantizado</div>
+                        </div>
+                    </div>
+                </div>
+
+                <exchanger-input class="exch2" currency="PEN" placeholder=" " label="Tú recibes" readonly="1">
+                    <div>
+                        <div class="label" style="font-size: 17px;">Tú recibes</div>
+                        @*<input data-bind="value:montoRecibe" class="input" id="valor_recibes" autocomplete="off" readonly>*@
+                        <input data-bind="value:montoRecibe" class="input" id="valor_recibes" autocomplete="off" readonly>
+                        <div class="icon">
+                        </div><div class="flags" style="height: 75px; width: 125px;">
+                            <div class="flag @Model.data.monedaRecive">
+                            </div>
+                            <div class="currency" style="font-size: 20px;">@Model.data.monedaRecive</div>
+
+                        </div>
+                    </div>
+
+                </exchanger-input>
+
+            </div><div class="you-saved"></div>
+            <div class="you-saved active hidden" id="texto-ahorro">Ganas hasta <span style="margin-left: 3px;">PEN</span> <span  data-bind="text:$root.montoAhorro"></span></div>
+            <div class="echange-box-buttons">
+                <div class="btn blue-bordered popup-opener btn-esp-1 hidden" id="comparar" target-popup="compararPopup" data-bind="click:$root.openModal">
+                    <span class="btn-text">Compara</span>
+                </div>
+                <div class="btn   " data-bind="click:$root.continuarSubasta, css:{'success' : showContinuar, 'disabled' : !showContinuar()}">
+                    <span class="btn-text">Continúa</span>
+                </div>
+            </div>
+
+        </div>
+        <div>
+
+            <special-counter style="margin-bottom: 40px !important;" value="Tiempo Restante" seconds="55 segundos">
+                <div>
+                    <div class="special-counter-label-text" id="text-tiempo-title">Tiempo de Subasta</div>
+                    <div class="time-container">
+                        <span class="clock-icon"></span>
+                        <div class="time-counter"><b data-bind="text:$root.tiempo"></b> segundos</div>
+                    </div>
+                </div>
+            </special-counter>
+            <div class="partners-list-secondary-text"></div>
+            <div class="partners-list">
+                <div class="list-title">
+                    <div>Ranking</div>
+                    <div>Participantes de Subasta</div>
+                    <div>Tipo de Cambio</div>
+                </div>
+                <div class="pre-load-partner">Buscando participantes...</div>
+            </div>
+            <div class="partners-list" id="partners-list-k" data-bind="foreach: $root.lstParnet" style="display:none;">
+
+                <div class="line-parner" data-bind="attr:{'class':$data.classCss, id: $data.codigo},click:$root.seleccionarPartnert">
+                    @*text:($index() + 1)*@
+                    <div data-bind="text:($index() + 1),attr:{id:'item_'+($index())}"></div>
+
+                    @*ko if:$index() == 1*@
+                    @*<div data-bind="attr:{id:'item_'+($index())}"></div>*@
+                    @*<!-- /ko -->*@
+                    <div data-bind="text:$data.nombre"></div>
+                    <div data-bind="text:$data.tipoCambioText"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@section Scripts {
+    <script>
+        debugger;
+        var wData = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model))
+    </script>
+    <script src="~/Content/js/open_popup.js"></script>
+    <script src="~/Content/js/close_popup.js"></script>
+    <script src="~/Content/js/Subasta/SubastaActiva.js"></script>
+
+}
+

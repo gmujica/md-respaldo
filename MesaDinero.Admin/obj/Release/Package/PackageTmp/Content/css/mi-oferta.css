@@ -1,0 +1,10 @@
+#mi_oferta, #mi_oferta::placeholder {
+	outline: none;
+	border: none;
+	color: var(--main-orange);
+	background-color: inherit;
+	text-align: center;
+	display: block;
+	width: 100%;
+	font-size: 15px;
+}

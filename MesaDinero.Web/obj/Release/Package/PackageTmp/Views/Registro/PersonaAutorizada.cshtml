@@ -1,0 +1,132 @@
+﻿@model MesaDinero.Domain.Model.RegistroResponse
+
+@{
+    ViewBag.UserName = Model.userName;
+    ViewData["MenuRegistro"] = Model.header;
+    ViewBag.Title = "Datos Bancarios";
+    Layout = "~/Views/Shared/_LayoutRegistro.cshtml";
+}
+
+@section Styles {
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/special-counter/special-counter.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/registration/register-container/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/registration/person-registration/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/containers/auction_confirmation_box_layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/containers/complex_container_layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/custom-checkbox.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/fancy-input.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/user-area-adjustments.css">
+<link href="~/Content/css/chosen/chosen.min.css" rel="stylesheet" />
+}
+
+
+<style>
+    .dashboard-container-content > .user-area .user-area-content.ex {
+        place-items: center;
+    }
+
+    .dashboard-container-content > .user-area .user-area-content .user-area-pipe {
+        justify-self: stretch;
+        align-self: stretch;
+    }
+
+    .user-area {
+        grid-template-columns: 175px 1fr 135px !important;
+    }
+</style>
+
+
+        <div class="content-area" style="grid-template-columns: auto;background-color: #fff;">
+            <person-registration>
+                <div class="register-auction-content">
+                    <div class="register-auction-body register-container">
+                        <div class="main-header-container short">
+                            <div class="main-title">Confirma tus datos personales</div>
+                            <div class="main-parragraph">
+                                Al ser titular de la cuenta empresa, es necesario tener tus datos
+                            </div>
+                        </div>
+                        <div style="diplay: grid;">
+                            <!-- ko foreach:$root.lstAutorizado -->
+                            
+                            <div class="register-container-block block-1-1 new-form">
+                                
+                                    @Html.Partial("_PersonaDatosSimplePartial","PA")
+                            </div>
+                            <!-- /ko -->
+    
+                            </div>
+                        @if (Model.editar) { 
+                        <div class="status green" style="margin: 15px auto 15px auto">
+                            <span class="status-marker"></span>
+                            <div class="status-content">
+                                <span class="status-icon"></span>
+                                <div class="status-text">
+                                    <div class="status-text-content">
+                                        Al hacer click en “Continuar” confirmas que eres un representante autorizado
+                                        de “ejemplo empresa” y que tienes autorización para hacer pagos en nombre
+                                        de “ejemplo de nombre
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-center" style="width:300px; margin:0 auto 10px auto; height:45px;" data-bind="click:$root.guardar">
+                            <div class="company-btn">
+                                <div class="btn regular">
+                                    <span class="btn-text">Continuar</span>
+                                </div>
+                            </div>
+                        </div>
+                        }
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+@section Scripts {
+
+<script>
+
+    if('@Model.editar' == 'False')
+    {
+        $(".kontrol").prop( "disabled", true );
+    }
+
+    var sid = '@Html.Raw(Model.sid)';
+    var w_nroDocumento = '@Html.Raw(Model.nroDocumento)';
+    var w_nombres = '@Html.Raw(Model.nombres)';
+    var w_apPaterno = '@Html.Raw(Model.apePaterno)';
+    var w_apMaterno = '@Html.Raw(Model.apeMaterno)';
+    var w_apEmail = '@Html.Raw(Model.email)';
+    var w_celular = '@Html.Raw(Model.celular)';
+
+    function closePreRegistro() {
+          
+        $("#title_popup").text("La Mesa de Dinero");
+        var htmlMsg = ' <p> Estas a medioo  registro de tu cuenta </p><span>¿Esta seguro de querer abandonar del proceso de registro?</span>';
+        $("#message_popup").html(htmlMsg);
+        var htmlFooter = '<a onclick="actionModal();" style="color: #fff; text-decoration: none;padding-top:6px;text-align:center;">Aceptar</a>';
+        $("#footer_popup").html(htmlFooter);
+        $("#popup_msm").removeClass("hidden");
+
+    };
+
+
+    function closeModal() {
+        $("#popup_msm").addClass('hidden');
+    };
+
+    function actionModal() {
+        $("#popup_msm").addClass('hidden');
+        $(".loading-spiner-holder").show();
+        window.location.href = "@System.Configuration.ConfigurationManager.AppSettings["HostWeb"]/Registro/Operaciones/@Model.sid" ;
+    }
+
+
+
+</script> 
+
+<script src="~/Content/js/Registro/RegistroPersonaAutorizada.js"></script>
+}

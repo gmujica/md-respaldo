@@ -1,0 +1,11 @@
+meta-logo {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr;
+}
+.logo-content {
+	background-image: url('../../images/icons/logo-01.svg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}

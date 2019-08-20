@@ -1,0 +1,63 @@
+base-input:first-child {
+	margin-top: 9%;
+}
+base-input {
+	justify-self: center;
+	align-self: center;
+	display: block;
+	width: 80%;
+}
+base-input {
+	margin-bottom: 3%;
+}
+base-input[type=password] > div {
+	display: grid;
+	grid-template-columns: 90% 10%;
+	grid-template-rows: 1fr;
+}
+base-input[type=search] > div {
+	display: grid;
+	grid-template-columns: 10% 85%;
+	column-gap: 5%;
+	grid-template-rows: 1fr;
+}
+base-input > div {
+	border: 1px solid #cccccc;
+	border-radius: .6vh;
+	padding: 1vh 1vw 1vh 1vw;
+}
+base-input .base-input-content.selected {
+	transition: border-color .1s;
+}
+base-input .base-input-content.selected {
+	border-color: var(--font-blue);
+}
+base-input[type=search] input {
+	grid-column: 2 / 3;
+}
+base-input[type=search] .view {
+	grid-column: 1 / 2;
+	place-self: stretch;
+	display: block;
+}
+/*Cambio*/
+base-input input {
+	width: 100%;
+	border: none;
+	outline: none;
+	font-size: 1.1em;
+    /*font-size:14px;*/
+}
+base-input .view {
+	background-image: url('../../../images/form-base-container/password-eye.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 80%;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+base-input[type=search] .view {
+	background-size: contain;
+	background-image: url('../../../images/icons/search-solid.svg');
+}

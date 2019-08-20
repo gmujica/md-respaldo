@@ -1,0 +1,106 @@
+﻿@{
+
+}
+
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/form-base-container/base-input/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/custom-checkbox.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/auction/auction-box/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/horizontal-progress-bar.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/dashboard-container/bank-form/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/components/dashboard-container/bank-list/layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/router/treasury_layout.css">
+<link rel="stylesheet" type="text/css" href="~/Content/css/user-area-adjustments.css">
+
+<div class="content-area">
+    <div class="complex-dashboard-content">
+        <div class="dashboard-tabs" style="grid-template-columns: 1fr 1fr 1fr 1fr 1fr;">
+            <div><a href="@Url.Action("Index", "OperacionController")">Operaciones Confirmadas</a></div>
+            <div><a href="@Url.Action("VerificacionPago", "OperacionController")">Verificación de Pago</a></div>
+            <div class="active"><a href="@Url.Action("GenerarPagos", "OperacionController")">Generar Pagos</a></div>
+            <div><a href="@Url.Action("Index", "APartners")">Adjudicación Partners</a></div>
+        </div>
+        <div class="list-container">
+            <div class="treasury treasury-c">
+                <select class="custom-select">
+                    <option class="custom-option">BCP</option>
+                    <option class="custom-option">Interbank</option>
+                    <option class="not-an-option" value="" disabled="" selected="">Filtrar Banco Destino</option>
+                </select>
+
+                <dashboard-list>
+                    <div style="text-align: center;" data-bind="with:$root.lstVerificarPagos">
+
+                        <table class="k-table k-thover k-trow-pointer">
+                            <thead class="k-thead">
+                                <tr class="k-throw">
+
+                                    <th>ID Transacción</th>
+                                    <th>Tipo Oper.</th>
+                                    <th>Cliente</th>
+                                    <th>Acción</th>
+                                    <th>Moneda</th>
+                                    <th>B. Destino</th>
+                                    <th>C. Destino</th>
+                                    <th>Monto</th>
+                                    <th>H. Envio Corfid</th>
+                                    <th></th>
+                                    <th>Est. Aprob. Corfid</th>
+                                    <th></th>
+                                </tr>
+
+                            </thead>
+                            <tbody class="k-tbody" data-bind="foreach:$data.datasource">
+                                <tr>
+                                    <td><span data-bind="text:$data.formatoTransaccion"></span></td>
+                                    <td><span data-bind="text:$data.tipoOperacion"></span></td>
+                                    <td><span data-bind="text:$data.usuario"></span></td>
+                                    <td><span data-bind="text:$data.accion"></span></td>
+                                    <td><span data-bind="text:$data.tipoMoneda"></span></td>
+                                    <td><span data-bind="text:$data.bancoDestino"></span></td>
+                                    <td><span data-bind="text:$data.cuentaDestino"></span></td>
+                                    <td><span data-bind="text:$data.monto"></span></td>
+                                    <td><span data-bind="text:$data.nroOperacionPago"></span></td>
+                                    <td>
+                                        <div data-bind="attr:{'class' : 'k-icon k-status status_subasta_' + $data.estadoSubastaCodigo() }">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div data-bind="attr:{'class':'status_'+$data.estadoSubastaCodigo()}">
+                                            <div data-bind="text:$data.estadoSubasta"></div>
+                                        </div>
+                                    </td>
+
+                                    <td>
+                                        <label class="k-content-radio">
+                                            <input type="checkbox" name="acepto_terminos" data-bind="checked:$data.checkPago" />
+                                            <div class="k-radioButtom-icon"></div>
+                                        </label>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        @Html.Partial("_Pagination")
+
+
+                    </div>
+                </dashboard-list>
+
+                @*<div class="button-row">
+
+                        <div class="btn regular" data-bind="click:$root.verificarOperacion"><span class="btn-text">Verificado</span></div>
+                        <div class="btn blue-bordered" data-bind="click:$root.observarOperacion"><span class="btn-text">No Encontrado</span></div>
+                    </div>*@
+                <div class="button-row">
+                    <div class="btn regular"><span class="btn-text">Enviar Solicitud de Pago</span></div>
+                    <div class="btn blue-bordered" data-bind="click:$root.exportarTxt"><span class="btn-text">Exportar txt</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+
+    <script src="~/Content/js/app/OperacionGenerarPago.js"></script>
+}

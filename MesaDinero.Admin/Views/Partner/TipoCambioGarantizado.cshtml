@@ -1,0 +1,139 @@
+﻿@{
+    ViewBag.Title = "Partner Tipo Cambio";
+}
+
+
+@section Styles{
+
+    <!-- Subasta -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/components/form-base-container/base-input/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/custom-checkbox.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/auction/auction-box/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/horizontal-progress-bar.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/register-auction-container/fancy-input.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/components/dashboard-container/bank-form/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/components/dashboard-container/dashboard-list/list.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/components/dashboard-container/bank-list/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/router/partner_layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/user-area-adjustments.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/mi-oferta.css">
+
+
+    @*<link href="~/Content/css/router/partner_layout.css" rel="stylesheet" />*@
+
+
+    <style>
+
+        .k-input {
+            outline: none;
+            border: none;
+            color: var(--main-orange);
+            background-color: inherit;
+            text-align: center;
+            display: block;
+            width: 100%;
+            font-size: 14px;
+        }
+
+        .update-tables {
+            padding: 1.5em;
+            text-align: right;
+            color: var(--btn-blue);
+        }
+
+        .back-icon {
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 40%;
+            background-image: url(/Content/css/images/icons/back-arrow-blue.gif);
+            height: 3.5em;
+            cursor: pointer;
+            padding: 1em;
+        }
+    </style>
+}
+
+
+
+<div class="complex-dashboard-content">
+    <div class="dashboard-tabs" style="grid-template-columns: 1fr 1fr 1fr 2fr;">
+        @*<div ><a href="@Url.Action("SubastasActivas", "Partner")">Subastas Activas</a></div>
+            <div class="active">Mis Tipos de Cambio</div>
+            <div>Mis Adjudicaciones</div>*@
+    </div>
+
+
+    <div class="list-container">
+        <div class="partner partner-b">
+
+            <div class="update-tables">
+                <span style="font-size:16px;" class="back-icon"></span>
+                <span data-bind="click:$root.init" style="font-family: 'Helvetica Neue Roman'; color: var(--font-blue);font-size:16px;cursor:pointer;"> Restaurar Listado</span>
+            </div>
+
+
+
+
+            <div class="table-responsive">
+                <table class="k-table k-thover k-trow-pointer">
+                    <thead class="k-thead">
+                        <tr class="k-throw">
+                            <th>Rango</th>
+                            <th>Monto Mínimo</th>
+                            <th>Monto Máximo</th>
+                            <th>Moneda</th>
+                            <th>TC. Compra</th>
+                            <th>TC. Venta</th>
+                            <th>Spread</th>
+                        </tr>
+                    </thead>
+                    <tbody class="k-tbody" data-bind="foreach:$root.lstTiposCambio">
+                        <tr>
+                            <td>
+                                <span data-bind="text:$data.rango"></span>
+                            </td>
+                            <td>
+                                <span data-bind="text:$data.montoMinimo"></span>
+                            </td>
+                            <td>
+                                <input class="k-input" type="text" data-bind="value:$data.montoMaximo, event:{keyup : $root.newTipoCambioGarantizado}" />
+                            </td>
+                            <td>
+                                <span data-bind="text:$data.moneda"></span>
+                            </td>
+                            <td>
+                                <input class="k-input" type="text" data-bind="value:$data.tcCompra" />
+                            </td>
+                            <td>
+                                <input class="k-input" type="text" data-bind="value:$data.tcVenta" />
+                            </td>
+                            <td>
+                                <span data-bind="text:$data.spread"></span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br />
+            <br />
+            <div class="button-row">
+                <div class="btn regular btn-guardar-tcg" data-bind="click:$root.save"><span class="btn-text" style="font-size:12.5px;">Guardar</span></div>
+                <div class="btn outline-blue" data-bind="click:$root.openFileExplorer"><span class="btn-text" style="font-size:12.5px;">Carga Masiva</span></div>
+                <div class="btn outline-blue"><a style="text-decoration:none;font-size:12.5px;" href="~/Content/Plantillas/Excel/Plantilla_TipoCambioGarantizado_Partner.xlsx" target="_blank" class="btn-text"><img src="~/Content/images/icon_excel.png" height="15" /> Descargar Plantilla Tipo de Cambio</a></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<input id="file" type="file" style="display:none" accept=".xlsx" />
+
+@section Scripts {
+
+
+    <script src="~/Content/js/app/Partner.js"></script>
+}
+
+
+
